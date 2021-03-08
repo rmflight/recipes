@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Flight Family Recipes</title>
+    <link>https://rmflight.github.io/recipes</link>
+    <atom:link href="https://rmflight.github.io/recipes/index.xml" rel="self" type="application/rss+xml"/>
+    <description>Personal Recipe Site
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Sun, 07 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Cheeseburger Soup</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2021-03-07-cheeseburger-soup</link>
+      <description>A hearty, meaty, cheesy soup with ground beef, potatoes, carrots and a lot of cheese.</description>
+      <category>soup</category>
+      <category>hamburger</category>
+      <category>beef</category>
+      <category>instant-pot</category>
+      <category>cheese</category>
+      <guid>https://rmflight.github.io/recipes/posts/2021-03-07-cheeseburger-soup</guid>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Crosby's Baked Beans</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2021-03-07-crosbys-baked-beans</link>
+      <description>Instant-Pot makes these molasses baked beans a snap.</description>
+      <category>instant-pot</category>
+      <category>beans</category>
+      <category>molasses</category>
+      <guid>https://rmflight.github.io/recipes/posts/2021-03-07-crosbys-baked-beans</guid>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Spaghetti Sauce</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2021-03-07-spaghetti-sauce</link>
+      <description>A sweet and savory tomato sauce that is great on top of pasta or as part of a lasagna.</description>
+      <category>sauce</category>
+      <category>tomato</category>
+      <category>tomatoes</category>
+      <category>pasta</category>
+      <guid>https://rmflight.github.io/recipes/posts/2021-03-07-spaghetti-sauce</guid>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welcome to Flight Family Recipes</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/welcome</link>
+      <description>Welcome to my personal recipe site.</description>
+      <guid>https://rmflight.github.io/recipes/posts/welcome</guid>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

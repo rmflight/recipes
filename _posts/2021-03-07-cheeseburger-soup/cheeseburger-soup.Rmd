@@ -1,0 +1,67 @@
+---
+title: "Cheeseburger Soup"
+description: |
+  A hearty, meaty, cheesy soup with ground beef, potatoes, carrots and a lot of cheese.
+author:
+  - name: Robert M Flight
+    url: {}
+date: 03-07-2021
+categories:
+  - soup
+  - hamburger
+  - beef
+  - instant-pot
+  - cheese
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+---
+
+## Full Ingredient List
+
+### Soup
+
+* 1 to 1.5 lb hamburger
+* 1 small onion, chopped or 1 Tbsp of dehydrated onion flakes
+* 1 clove garlic, minced
+* 1/4 cup red pepper, chopped
+* 2 cups of beef bullion
+* 4 cups potatoes, cubed
+* 1 cup of carrots, cubed
+
+### Cheese Sauce
+
+* 2 Tbsp butter
+* 2 Tbsp flour
+* 2.5 cups milk
+* 8 ounces of cheddar cheese by weight, shredded
+
+## Directions
+
+### Soup
+
+* Cook and rinse **1 lb** of hamburger
+* Cook **1 small** onion and **1/4 cup** of red pepper and **1 clove** of garlic in some of the leftover fat from hamburger
+* In pressure cooker, add
+  * cooked hamburger, 
+  * onion, pepper, potatoes
+  * beef bullion
+* Add enough liquid to cover hamburger and vegetables
+* Cook on high pressure for 30 minutes
+* Quick release of pressure
+
+### Cheese Sauce
+
+Over medium to medium-hight heat:
+
+* Melt **2 Tbsp** butter
+* Whisk in **2 Tbsp** flour
+* Slowly add **2.5 cups of** milk
+* Bring to a boil
+* Add **8 ounces** of cheese
+* Stir until thoroughly mixed
+
+Add sauce to soup, thoroughly mix, and server hot.
+
+*Source*: Modified from "Taste of Home Ultimate Soup Cookbook"

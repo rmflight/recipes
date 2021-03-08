@@ -1,0 +1,18 @@
+---
+title: "Welcome to Flight Family Recipes"
+description: |
+  Welcome to my personal recipe site.
+author:
+  - name: Robert M Flight 
+date: 03-07-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+This is my personal recipe site. 
+It's organized as a blog, because that was easy to set up.
+I definitely recommend using the **Categories** on the right to navigate, or using the search bar at the top.
+
+Some of the recipes are original, some have been modified from other sources. 
+I include the original source on every recipe.
