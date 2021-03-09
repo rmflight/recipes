@@ -7,7 +7,19 @@
     <description>Personal Recipe Site
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Sun, 07 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Chicken Pot Pie</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2021-03-08-chicken-pot-pie</link>
+      <description>Delicious chicken pot pie to warm and fill you up.</description>
+      <category>casserole</category>
+      <category>chicken</category>
+      <category>pie</category>
+      <category>pot-pie</category>
+      <guid>https://rmflight.github.io/recipes/posts/2021-03-08-chicken-pot-pie</guid>
+      <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Cheeseburger Soup</title>
       <dc:creator>Robert M Flight</dc:creator>
