@@ -21,6 +21,28 @@
     "input_file": {}
   },
   {
+    "path": "posts/2021-03-09-soy-sauce-marinade/",
+    "title": "Soy Sauce Marinade",
+    "description": "A meaty marinade great for pork chops or chicken.",
+    "author": [
+      {
+        "name": "Robert M Flight",
+        "url": {}
+      }
+    ],
+    "date": "2021-03-09",
+    "categories": [
+      "sauce",
+      "marinade",
+      "chicken",
+      "pork"
+    ],
+    "contents": "\n\nContents\nIngredients\nDirections\n\nIngredients\n3 Tbsp regular or dark soy sauce\n2.5 Tbsp rice vinegar (makes up to make 1/3 cup total liquid)\n1 tsp Dijon mustard\n2 Tbsp brown sugar\n2 tsp Worcestershire sauce\n2 garlic cloves, minced (or 2 tsp minced garlic)\nDirections\nMix it all up, dump it into a bag with your meat, let marinade for at least an hour.\nSource: Modified from https://www.recipetineats.com/a-great-marinade-for-pork-chops/\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-03-09T20:36:49-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-03-08-chicken-pot-pie/",
     "title": "Chicken Pot Pie",
     "description": "Delicious chicken pot pie to warm and fill you up.",
