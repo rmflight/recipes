@@ -43,6 +43,27 @@
     "input_file": {}
   },
   {
+    "path": "posts/2021-03-09-wraps-sauce/",
+    "title": "Wraps Sauce",
+    "description": "A sweet sauce for meat and veggies wrapped in tortillas.",
+    "author": [
+      {
+        "name": "Robert M Flight",
+        "url": {}
+      }
+    ],
+    "date": "2021-03-09",
+    "categories": [
+      "sauce",
+      "chicken",
+      "wraps"
+    ],
+    "contents": "\nv 0.0.2\n1 cup hot water\nHeaping tsp of chicken bouillon powder\nMix chicken bouillon into water to make a stock, divide into 2\nSoy sauce - 1 Tbsp\nBalsamic vinegar - 1 tsp\nBrown sugar - 3 Tbsp\nWhite sugar - 1 Tbsp\nCorn starch - 1 Tbsp\nCook meat in the first half chicken stock.\nMix the rest of the ingredients into the other half of chicken stock. When everything is cooked, put the sauce on, heat until thickened.\nSource: Sarah Flight\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-03-09T20:40:10-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-03-08-chicken-pot-pie/",
     "title": "Chicken Pot Pie",
     "description": "Delicious chicken pot pie to warm and fill you up.",
