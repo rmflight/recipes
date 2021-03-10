@@ -43,6 +43,28 @@
     "input_file": {}
   },
   {
+    "path": "posts/2021-03-09-sweet-sour-sauce/",
+    "title": "Sweet & Sour Sauce",
+    "description": "A sweet and sour sauce that goes great with meatballs and rice.",
+    "author": [
+      {
+        "name": "Robert M Flight",
+        "url": {}
+      }
+    ],
+    "date": "2021-03-09",
+    "categories": [
+      "sauce",
+      "sweet",
+      "sour",
+      "meatballs"
+    ],
+    "contents": "\n\nContents\nIngredients\nDirections\n\nIngredients\n10 oz of chicken bullion\n14 oz tin of pineapple chunks in juice\n1 cup chopped peppers (yellow, green, red, whatever)\n1 Tbsp soy sauce\n1/4 cup white sugar\n1/2 cup white vinegar\n3 Tbsp corn starch\nDirections\nDump juice from pineapple, and all other liquids and sugar into a saucepan.\nWhisk corn starch into liquids, and heat over medium until sauce darkens and starts to thicken, while continuously stirring.\nAdd pineapple and peppers, and then to whatever.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-03-09T20:55:28-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-03-09-wraps-sauce/",
     "title": "Wraps Sauce",
     "description": "A sweet sauce for meat and veggies wrapped in tortillas.",
