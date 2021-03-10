@@ -1,5 +1,26 @@
 [
   {
+    "path": "posts/2021-03-09-donair-sauce/",
+    "title": "Donair Sauce",
+    "description": "An Atlantic Candadian classic that is great on pizza, cheese sticks, and gyros.",
+    "author": [
+      {
+        "name": "Robert M Flight",
+        "url": {}
+      }
+    ],
+    "date": "2021-03-09",
+    "categories": [
+      "pizza",
+      "sauce",
+      "garlic"
+    ],
+    "contents": "\n\nContents\nIngredients\nDirections\n\nIngredients\n1 14oz tin of sweetened condensed milk\n1/2 tsp garlic powder\n1/4 cup vinegar\nDirections\nPut 14 oz tin of milk into a bowl.\nMix in 1/2 tsp of garlic powder.\nSlowly stir in 1/4 cup vinegar, making sure not to over mix.\nPour mixture into a container that can be sealed (old Mason jar works well), and refrigerate for at least one hour before serving.\nSource: Lord Byron’s Kitchen\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-03-09T20:34:12-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-03-08-chicken-pot-pie/",
     "title": "Chicken Pot Pie",
     "description": "Delicious chicken pot pie to warm and fill you up.",

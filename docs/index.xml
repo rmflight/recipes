@@ -7,7 +7,18 @@
     <description>Personal Recipe Site
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Mon, 08 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Donair Sauce</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2021-03-09-donair-sauce</link>
+      <description>An Atlantic Candadian classic that is great on pizza, cheese sticks, and gyros.</description>
+      <category>pizza</category>
+      <category>sauce</category>
+      <category>garlic</category>
+      <guid>https://rmflight.github.io/recipes/posts/2021-03-09-donair-sauce</guid>
+      <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Chicken Pot Pie</title>
       <dc:creator>Robert M Flight</dc:creator>
