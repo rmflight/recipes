@@ -15,11 +15,14 @@ categories:
   - tomato
   - tomatoes
   - pasta
+bibliography: refs.bib
 ---
 
 v 0.0.4
 
 The [full](#ingredients---full) recipe should serve 6 - 8 people, the [half](#ingredients---halved) serves 4 - 6. I know the half seems like very little sauce, but at least in our family we always have too much.
+
+Also used in our lasagna [@flight2021lasagna].
 
 ### Ingredients - Full
 
