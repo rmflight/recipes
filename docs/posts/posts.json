@@ -42,6 +42,26 @@
     "input_file": {}
   },
   {
+    "path": "posts/2021-03-14-simple-sloppy-joes/",
+    "title": "Simple Sloppy Joes",
+    "description": "A 4 ingredient sloppy joe, that tastes great.",
+    "author": [
+      {
+        "name": "Robert M Flight",
+        "url": {}
+      }
+    ],
+    "date": "2021-03-14",
+    "categories": [
+      "hamburger",
+      "casserole"
+    ],
+    "contents": "\n\nContents\nIngredients\nDirections\n\nv 0.0.1\nIngredients\n1.5 pounds of hamburger\n3/4 cup of ketchup\n3 Tbsp brown sugar\n1 tsp of mustard\n2 Tbsp of bbq sauce\nDirections\nCook hamburger\nMix condiments together\nThrow condiments in with hamburger, stir until heated through.\nServe on buns\nAdapted from https://www.eatingonadime.com/sloppy-joes-recipe/\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-03-14T21:53:54-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-03-09-donair-sauce/",
     "title": "Donair Sauce",
     "description": "An Atlantic Candadian classic that is great on pizza, cheese sticks, and gyros.",
