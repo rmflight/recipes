@@ -1,5 +1,5 @@
 ---
-title: "lasagna"
+title: "Lasagna"
 description: |
   Simple lasagna.
 author:
