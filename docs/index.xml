@@ -19,6 +19,18 @@
       <pubDate>Sun, 14 Mar 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Shepherds Pie</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2021-03-14-shepherds-pie</link>
+      <description>Meaty, potatoey goodness with an awesome gravy.</description>
+      <category>hamburger</category>
+      <category>casserole</category>
+      <category>potato</category>
+      <category>gravy</category>
+      <guid>https://rmflight.github.io/recipes/posts/2021-03-14-shepherds-pie</guid>
+      <pubDate>Sun, 14 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Donair Sauce</title>
       <dc:creator>Robert M Flight</dc:creator>
       <link>https://rmflight.github.io/recipes/posts/2021-03-09-donair-sauce</link>
@@ -75,6 +87,7 @@
       <category>pot-pie</category>
       <guid>https://rmflight.github.io/recipes/posts/2021-03-08-chicken-pot-pie</guid>
       <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rmflight.github.io/recipes/posts/2021-03-08-chicken-pot-pie/pot_pie_to_eat.jpg" medium="image" type="image/jpeg"/>
     </item>
     <item>
       <title>Cheeseburger Soup</title>
@@ -111,6 +124,7 @@
       <category>pasta</category>
       <guid>https://rmflight.github.io/recipes/posts/2021-03-07-spaghetti-sauce</guid>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rmflight.github.io/recipes/posts/2021-03-07-spaghetti-sauce/sauce_done.jpg" medium="image" type="image/jpeg"/>
     </item>
     <item>
       <title>Welcome to Flight Family Recipes</title>

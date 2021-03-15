@@ -24,6 +24,10 @@ The [full](#ingredients---full) recipe should serve 6 - 8 people, the [half](#in
 
 Also used in our lasagna [@flight2021lasagna].
 
+```{r show_sauce, echo = FALSE}
+knitr::include_graphics("sauce_done.jpg")
+```
+
 ### Ingredients - Full
 
 * 2 x 20oz crushed tomatoes

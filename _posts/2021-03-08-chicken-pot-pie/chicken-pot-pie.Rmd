@@ -17,6 +17,14 @@ categories:
   - pot-pie
 ---
 
+```{r setup}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r show_baked_together}
+knitr::include_graphics("pot_pie_to_eat.jpg")
+```
+
 ## Ingredients
 
 * 1 prepared pie crust, room temperature.
@@ -35,7 +43,16 @@ categories:
 
 ## Directions
 
-* Dice **2 large** carrots.
+* Dice **3 large** carrots.
+
+```{r show_carrots}
+knitr::include_graphics("carrots_peeled.jpg")
+```
+
+```{r show_diced}
+knitr::include_graphics("carrots_cubed.jpg")
+```
+
 * Heat **1 Tbsp** oil in a skillet over medium-high heat.
 * When oil is hot, add carrots, cook a couple of minutes.
 * Add **1 Tbsp** minced onion and **1 tsp** garlic, cook for a couple of minutes more.
@@ -49,7 +66,16 @@ categories:
 * Add salt and pepper to taste.
 
 * Lower heat a bit to keep sauce from burning, and add carrots/onion/garlic mix, **2 cups** shredded chicken, and **1/2 cup** peas. 
+
+```{r show_shredded_chicken}
+knitr::include_graphics("chicken_shredded.jpg")
+```
+
 * Mix to combine.
+
+```{r show_mixed}
+knitr::include_graphics("chicken_filling.jpg")
+```
 
 * Pour mixture into a greased pie pan.
 * Cover with a prepared pie crust.
@@ -60,6 +86,11 @@ categories:
 * Remove aluminum foil from pie crust edges.
 * Continue baking for another 10 - 20 minutes until crust is golden brown and mixture is heated through in the middle.
 
+```{r show_pie}
+knitr::include_graphics("pot_pie_baked.jpg")
+```
+
 * Allow to rest for 10 minutes before serving.
+
 
 Adapted from [Pillsbury chicken pot pie](https://www.pillsbury.com/recipes/classic-chicken-pot-pie/1401d418-ac0b-4b50-ad09-c6f1243fb992)

@@ -1,0 +1,81 @@
+---
+title: "Shepherds Pie"
+description: |
+  Meaty, potatoey goodness with an awesome gravy.
+author:
+  - name: Robert M Flight
+    url: {}
+date: 03-14-2021
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+categories:
+  - hamburger
+  - casserole
+  - potato
+  - gravy
+---
+
+## Ingredients
+
+### Potato Topping
+
+* 1 1/2 lbs russet potatoes
+* 1/4 cup milk
+* 2 ounces unsalted butter
+* 3/4 teaspoon kosher salt
+* 1/4 teaspoon freshly ground black pepper
+* 1 egg yolk
+
+### Meat Filling
+
+* 2 tablespoons canola oil
+* 2 Tbsp minced onion
+* 3 carrots, peeled and diced small
+* 2 cloves garlic, minced
+* 1 1/2 pounds ground chuck (80/20)
+* 1 tsp kosher salt
+* 1/2 tsp freshly ground black pepper
+* 2 Tbsp all-purpose flour
+* 2 tsp tomato paste
+* 1 1/2 cup chicken broth
+* 1 tsp Worcestershire sauce
+* 1 tsp freshly chopped rosemary leaves
+* 1 tsp freshly chopped thyme leaves
+* 1/2 cup fresh or frozen English peas
+
+## Directions
+
+Preheat oven to 400F.
+
+### Potato Topping
+
+* Peel the **1 1/2 lbs** potatoes and cut into 1/2-inch pieces. 
+* Place in a medium saucepan and cover with cold water. Set over high heat, cover and bring to a boil. 
+* Once boiling, uncover, decrease the heat to maintain a simmer and cook until tender and easily crushed with tongs, approximately 10 to 15 minutes. 
+* Place the half-and-half and butter into a microwave-safe container and heat in the microwave until warmed through, about 35 seconds. 
+* Drain the potatoes in a colander and then return to the saucepan. 
+* Mash the potatoes and then add the **1/4 cup** milk, **2 oz** butter, salt and pepper and continue to mash until smooth. 
+* Stir in the egg yolk until well combined.
+
+### Filling 
+
+* While the potatoes are cooking, prepare the filling. 
+* Place the **1 Tbsp** canola oil into a 12-inch saute pan and set over medium high heat. 
+* Once the oil shimmers, add the **2 Tbsp** minced onion and **3 cubed** carrots and saute just until they begin to take on color, approximately 3 to 4 minutes. 
+* Add the **2 cloves** garlic and stir to combine. 
+* Add the **1 1/2 lbs** hamburger, salt and pepper and cook until browned and cooked through. 
+* Sprinkle the meat with the **2 Tbsp** flour and toss to coat, continuing to cook for another minute. 
+* Add the **2 tsp** tomato paste, **1 1/2 cups** chicken broth, **1 tsp** Worcestershire, **1 tsp** rosemary, **1 tsp** thyme, and stir to combine. 
+* Bring to a boil, reduce the heat to low, cover and simmer slowly 10 to 12 minutes or until the sauce is thickened slightly.
+* Add **1/2 cup** peas to the hamburger mixture.
+
+### Combine Them
+
+* Spread meat filling into a greased baking dish.
+* Top with the mashed potatoes, starting around the edges to create a seal to prevent the mixture from bubbling up and smooth with a rubber spatula. 
+* Place on a parchment lined half sheet pan on the middle rack of the oven and bake at **400 F** for 25 minutes or just until the potatoes begin to brown. 
+* Remove to a cooling rack for at least 15 minutes before serving.
+
+Adapted from Alton Brown's Shepherds Pie: https://www.foodnetwork.com/recipes/alton-brown/shepherds-pie-recipe2-1942900
