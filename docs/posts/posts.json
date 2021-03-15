@@ -1,5 +1,25 @@
 [
   {
+    "path": "posts/2021-03-14-lasagna/",
+    "title": "lasagna",
+    "description": "Simple lasagna.",
+    "author": [
+      {
+        "name": "Robert M Flight",
+        "url": {}
+      }
+    ],
+    "date": "2021-03-14",
+    "categories": [
+      "pasta",
+      "spaghetti"
+    ],
+    "contents": "\n\nContents\nIngredients\nDirections\n\nBaking time: 1 hour, 20 minutes\nPrep time: 20 minutes\nIngredients\nPasta sauce (Flight 2021)\n2 cups cottage cheese\n1 cup sour cream\noven ready lasagna noodles\nBunch of shredded / grated mozzarella cheese\n1/2 cup grated Parmesan cheese\n1 cup water\nDirections\nPreheat oven to 350F.\nCombine 2 cups cottage cheese and 1 cup sour cream in a bowl.\nLayer:\nsauce\nnoodles\ncottage cheese & sour cream\nmozzarella cheese\nhowever many times you need to to fill your dish\n\nFinish with a layer of noodles and cheese.\nCover dish with foil.\nPut dish on baking sheet, and pour water around the outside of the pan.\nBake 1 hour.\nUncover, bake 20 minutes more until bubbly.\n\n\n\nFlight, Robert M. 2021. “Flight Family Recipes: Spaghetti Sauce.” https://rmflight.github.io/recipes/posts/2021-03-07-spaghetti-sauce/.\n\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-03-14T21:01:14-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-03-09-donair-sauce/",
     "title": "Donair Sauce",
     "description": "An Atlantic Candadian classic that is great on pizza, cheese sticks, and gyros.",

@@ -7,7 +7,17 @@
     <description>Personal Recipe Site
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 09 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>lasagna</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2021-03-14-lasagna</link>
+      <description>Simple lasagna.</description>
+      <category>pasta</category>
+      <category>spaghetti</category>
+      <guid>https://rmflight.github.io/recipes/posts/2021-03-14-lasagna</guid>
+      <pubDate>Sun, 14 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Donair Sauce</title>
       <dc:creator>Robert M Flight</dc:creator>
