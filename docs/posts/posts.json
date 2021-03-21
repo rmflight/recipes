@@ -66,6 +66,25 @@
     "input_file": {}
   },
   {
+    "path": "posts/2021-03-20-butternut-squash-sweet-potato-soup/",
+    "title": "Butternut Squash & Sweet Potato Soup",
+    "description": "Vegetarian, delightful soup that is delicious any time of year.",
+    "author": [
+      {
+        "name": "Robert M Flight",
+        "url": {}
+      }
+    ],
+    "date": "2021-03-20",
+    "categories": [
+      "soup"
+    ],
+    "contents": "\n\nContents\nIngredients\nDirections\n\nIngredients\n1 onion\n6 cups veggie broth\n2 1/2 cups butternut squash, peeled, seeded, and cubed\n2 cups sweet potato, peeled and diced\n3 carrots, peeled and sliced\n1 can cannellini beans\n1/4 teaspoon salt\nDirections\nAdd all ingredients to the slow cooker, and secure the lid, cook on low for 6 hours or high for 3.\nAlternatively, 30 minutes in the Instant Pot.\nBlend to make a smooth soup.\nModified from https://www.popsugar.com/fitness/Squash-Sweet-Potato-Carrot-White-Bean-Soup-36020648\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-03-20T21:19:32-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-03-20-cheesy-cottage-pie/",
     "title": "Cheesy Cottage Pie",
     "description": "A cheesy variation on Shepherds Pie.",
