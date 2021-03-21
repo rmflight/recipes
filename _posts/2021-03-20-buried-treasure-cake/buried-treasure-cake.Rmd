@@ -1,0 +1,37 @@
+---
+title: "Buried Treasure Cake"
+description: |
+  A hidden cream cheese and chocolate chip filling makes this a treasure.
+author:
+  - name: Robert M Flight
+    url: {}
+date: 03-20-2021
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+categories:
+  - baked
+  - cake
+  - dessert
+  - chocolate
+bibliography: refs.bib
+---
+
+## Ingredients
+
+* Chocolate cake batter
+
+## Directions
+
+*
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Distill is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.
+
+

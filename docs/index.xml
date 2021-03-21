@@ -25,6 +25,10 @@
       <dc:creator>Robert M Flight</dc:creator>
       <link>https://rmflight.github.io/recipes/posts/2021-03-20-apple-cinnamon-muffins</link>
       <description>Chunks of apple and the cinnamon make these delicious muffins with a great texture.</description>
+      <category>baked</category>
+      <category>muffin</category>
+      <category>apple</category>
+      <category>breakfast</category>
       <guid>https://rmflight.github.io/recipes/posts/2021-03-20-apple-cinnamon-muffins</guid>
       <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
     </item>
@@ -39,6 +43,18 @@
       <category>hamburger</category>
       <category>potato</category>
       <guid>https://rmflight.github.io/recipes/posts/2021-03-20-cheesy-cottage-pie</guid>
+      <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chocolate Cake</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2021-03-20-chocolate-cake</link>
+      <description>A rich chocolate cake, great for whenever you need some sweetness in your life.</description>
+      <category>baked</category>
+      <category>cake</category>
+      <category>chocolate</category>
+      <category>dessert</category>
+      <guid>https://rmflight.github.io/recipes/posts/2021-03-20-chocolate-cake</guid>
       <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
     </item>
     <item>

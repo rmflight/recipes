@@ -32,10 +32,15 @@
       }
     ],
     "date": "2021-03-20",
-    "categories": [],
+    "categories": [
+      "baked",
+      "muffin",
+      "apple",
+      "breakfast"
+    ],
     "contents": "\n\nContents\nIngredients\nDry\nWet\n\nDirections\n\nBake at 400F for 20 - 25 min. Makes 12 really big muffins, or 20 - 24 smaller muffins.\nIngredients\nDry\n3 cups all purpose flour\n1.5 cups white sugar\n4 tsp baking powder\n2 tsp ground cinnamon\nWet\n3/4 cup vegetable oil\n2 eggs\n3/4 cup milk\n3 or 4 apples, peeled, cored and chopped\nDirections\nMix dry ingredients, and then mix in wet. Fold in chopped apples. Prepare muffin tin with oil, butter, or liners. Spoon batter into muffin tin.\nBake at 400F for 20 - 25 minutes, turning at 10 minutes.\nSource: Allrecipes\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-03-20T20:25:48-04:00",
+    "last_modified": "2021-03-20T20:38:07-04:00",
     "input_file": {}
   },
   {
@@ -59,6 +64,28 @@
     "contents": "\n\nContents\nTopping\nFILLING\nDirections\n\nv 0.0.1\nBake at 350F for 30 minutes.\nTopping\n2.5 lbs. russet potatoes\n2 Tbsp butter\n1/2 cup milk\n6 oz. shredded cheddar\npinch of salt\nFILLING\n1 yellow onion\n3 cloves garlic\n2 cups diced carrots\n1.5 lb. ground beef\n4 Tbsp all-purpose flour\n1.5 cup beef broth\n3/4 Tbsp Worcestershire sauce\n1.5 tsp dried rosemary\n1/2 tsp dried thyme\nDirections\nBoil 2.5 lbs potatoes.\nAfter potatoes are cooked, drain and rinse.\nHeat 1/2 cup milk and 2 Tbsp butter, add back to the potatoes and whip them together.\nAdd the 6 oz shredded cheddar cheese and set aside.\nWhile potatoes are boiling, brown the 1.5 lbs ground beef. When it is thoroughly cooked, drain most of the fat off.\nReturn to heat, and add 1 onion and 3 cloves garlic. Allow onion and garlic to cook in remaining fat.\nAdd 2 cups diced carrots.\nAdd 4 Tbsp all purpose flour, stirring to coat the beef and vegetables. When coated and flour starts to stick to the bottom of the pan, add 1.5 cups beef broth and heat through, broth should start to thicken.\nAdd remaining spices and thoroughly mix, allowing to heat through.\n3/4 Tbsp Worcestershire sauce\n1.5 tsp dried rosemary\n1/2 tsp dried thyme\n\nIn a 9x13 pan, spread filling mixture over bottom of pan, and spread potato topping over top.\nBake at 350F for 30 minutes.\nAllow to rest for 5 minutes before serving.\nModified and adapted from: https://www.budgetbytes.com/cheesy-cottage-pie/\n\n\n\n",
     "preview": {},
     "last_modified": "2021-03-20T20:22:48-04:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2021-03-20-chocolate-cake/",
+    "title": "Chocolate Cake",
+    "description": "A rich chocolate cake, great for whenever you need some sweetness in your life.",
+    "author": [
+      {
+        "name": "Robert M Flight",
+        "url": {}
+      }
+    ],
+    "date": "2021-03-20",
+    "categories": [
+      "baked",
+      "cake",
+      "chocolate",
+      "dessert"
+    ],
+    "contents": "\n\nContents\nIngredients\nDirections\n\nBake one hour at 350F.\nIngredients\n2 1/2 cups white sugar\n1 cup cooking oil\n2 eggs\n1 tsp vanilla\n1 cup hot coffee\n1 cup sour milk (3/4 cup milk, 1/4 cup vinegar)\n3/4 cup cocoa\n2 tsp baking soda\n2 tsp baking powder\n1 1/2 tsp salt\n3 cups flour\nDirections\nIn a mixing bowl, combine\n2 1/2 cups white sugar\n1 cup cooking oil\n2 eggs\n1 tsp vanilla\n\nIf using a stand mixer, start mixing on low.\nAdd 1 cup hot coffee\nAdd 1 cup sour milk\nAdd 3/4 cup cocoa\nAdd remaining dry ingredients\n2 tsp baking soda\n2 tsp baking powder\n1 1/2 tsp salt\n3 cups flour\n\nPour into a greased baking dish.\nBake at 350F for an hour.\nCheck if done using a toothpick.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-03-20T20:46:24-04:00",
     "input_file": {}
   },
   {
