@@ -20,18 +20,21 @@ bibliography: refs.bib
 
 ## Ingredients
 
-* Chocolate cake batter
+* 1 8 oz pkg cream cheese (softened)
+* 1 egg
+* 1/4 cup sugar
+* 1/2 cup flaked coconut
+* 1 cup semi sweet chocolate chips
+
+* Chocolate cake batter [@flight2021chocolate]
 
 ## Directions
 
-*
+* Mix filling ingredients in a bowl, set aside. 
+* Make chocolate cake batter.
+* Pour 1/2 batter into cake pan. 
+* Add chunks of filling to batter, add the rest of the batter.
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+* Bake at 350F for an hour.
 
-Distill is a publication format for scientific and technical writing, native to the web.
-
-Learn more about using Distill at <https://rstudio.github.io/distill>.
-
-
+Source: Stella Trask

@@ -44,6 +44,28 @@
     "input_file": {}
   },
   {
+    "path": "posts/2021-03-20-buried-treasure-cake/",
+    "title": "Buried Treasure Cake",
+    "description": "A hidden cream cheese and chocolate chip filling makes this a treasure.",
+    "author": [
+      {
+        "name": "Robert M Flight",
+        "url": {}
+      }
+    ],
+    "date": "2021-03-20",
+    "categories": [
+      "baked",
+      "cake",
+      "dessert",
+      "chocolate"
+    ],
+    "contents": "\n\nContents\nIngredients\nDirections\n\nIngredients\n1 8 oz pkg cream cheese (softened)\n1 egg\n1/4 cup sugar\n1/2 cup flaked coconut\n1 cup semi sweet chocolate chips\nChocolate cake batter (Flight 2021)\nDirections\nMix filling ingredients in a bowl, set aside.\nMake chocolate cake batter.\nPour 1/2 batter into cake pan.\nAdd chunks of filling to batter, add the rest of the batter.\nBake at 350F for an hour.\nSource: Stella Trask\n\n\n\nFlight, Robert M. 2021. “Flight Family Recipes: Chocolate Cake.” https://rmflight.github.io/recipes/posts/2021-03-20-chocolate-cake/.\n\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-03-20T20:50:08-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-03-20-cheesy-cottage-pie/",
     "title": "Cheesy Cottage Pie",
     "description": "A cheesy variation on Shepherds Pie.",
