@@ -9,6 +9,7 @@ categories:
   - instant-pot
   - beans
   - molasses
+  - soup
 date: 03-07-2021
 output:
   distill::distill_article:

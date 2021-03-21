@@ -1,0 +1,33 @@
+---
+title: "3 Ingredient Peanut-Butter Cookies"
+description: |
+  Simple, mostly allergen free PB cookies.
+author:
+  - name: Robert M Flight
+    url: {}
+date: 03-20-2021
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+categories:
+  - cookies
+  - baked
+  - peanut-butter
+---
+
+## Ingredients
+
+* 1 cup peanut butter
+* 3/4 cup white sugar
+* 1 egg
+
+## Directions
+
+* Mix together ingredients.
+* Roll into balls on a baking sheet.
+* Flatten with a fork.
+
+* Bake at 350F for 10 minutes.
+
+Source: [Allrecipes](https://www.allrecipes.com/recipe/244614/3-ingredient-peanut-butter-cookies/)

@@ -58,6 +58,19 @@
       <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Chicken Stew</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2021-03-20-chicken-stew</link>
+      <description>Chicken, mushroom and potato stew.</description>
+      <category>stew</category>
+      <category>soup</category>
+      <category>chicken</category>
+      <category>potato</category>
+      <category>mushroom</category>
+      <guid>https://rmflight.github.io/recipes/posts/2021-03-20-chicken-stew</guid>
+      <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Chocolate Cake</title>
       <dc:creator>Robert M Flight</dc:creator>
       <link>https://rmflight.github.io/recipes/posts/2021-03-20-chocolate-cake</link>
@@ -79,6 +92,29 @@
       <category>breakfast</category>
       <category>bar</category>
       <guid>https://rmflight.github.io/recipes/posts/2021-03-20-easy-oatmeal-raisin-breakfast-bars</guid>
+      <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mac &amp; Cheese</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2021-03-20-mac-cheese</link>
+      <description>Hearty macaroni and cheese</description>
+      <category>pasta</category>
+      <category>cheese</category>
+      <category>casserole</category>
+      <guid>https://rmflight.github.io/recipes/posts/2021-03-20-mac-cheese</guid>
+      <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Punjabi Curry</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2021-03-20-punjabi-curry</link>
+      <description>A great base for various curries.</description>
+      <category>curry</category>
+      <category>soup</category>
+      <category>chicken</category>
+      <category>chickpea</category>
+      <guid>https://rmflight.github.io/recipes/posts/2021-03-20-punjabi-curry</guid>
       <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -193,6 +229,7 @@
       <category>instant-pot</category>
       <category>beans</category>
       <category>molasses</category>
+      <category>soup</category>
       <guid>https://rmflight.github.io/recipes/posts/2021-03-07-crosbys-baked-beans</guid>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
     </item>

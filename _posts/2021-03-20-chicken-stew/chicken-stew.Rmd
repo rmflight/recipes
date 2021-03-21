@@ -1,0 +1,38 @@
+---
+title: "Chicken Stew"
+description: |
+  Chicken, mushroom and potato stew.
+author:
+  - name: Robert M Flight
+    url: {}
+date: 03-20-2021
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+categories:
+  - stew
+  - soup
+  - chicken
+  - potato
+  - mushroom
+---
+
+## Ingredients
+
+* 1 lb chicken breast meat, cubed
+* 2 cans of cream of mushroom soup
+* 2 cups water
+* 2 tsp chicken stock powder
+* bunch of mushrooms
+* 5 or 6 potatoes, cubed
+* 4-5 carrots, chunked
+* 1/2 an onion
+* 2 cloves of garlic
+* 1 Tbsp corn starch
+
+## Directions
+
+* Throw all ingredients into a crock pot for 4 hours or instant pot for 20 minutes. 
+* All vegetables should be soft. 
+* Mix **1 Tbsp** corn starch into 1/3 cup water, add to stew, wait 5 minutes to thicken, serve.
