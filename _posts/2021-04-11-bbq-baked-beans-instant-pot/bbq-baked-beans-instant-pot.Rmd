@@ -1,0 +1,53 @@
+---
+title: "BBQ Baked Beans (Instant Pot)"
+description: |
+  Tangy sweet beans take very little time in the instant pot.
+author:
+  - name: Robert M Flight
+    url: {}
+date: 04-11-2021
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+categories:
+  - beans
+  - instant-pot
+  - side-dish
+  - soup
+---
+
+## Ingredients
+
+* 16 ounces dry navy or pinto beans
+* 8 cups water
+* 1 teaspoon salt
+* 8 slices bacon
+* 1/2 yellow onion , finely chopped (or 2 Tbsp dry mined onion)
+* 1/2 red or green bell pepper , cored, seeded, and finely chopped (optional)
+* 2/3 cup honey barbecue sauce store-bought or homemade
+* 1/2 cup ketchup
+* 1 Tbsp yellow mustard
+* 1/4 cup cider vinegar
+* 1 tsp liquid smoke
+* 1/2 cup light brown sugar
+* 1/2 cup water
+
+## Directions
+
+* Add **16 oz** beans, **8 cups** water and **1 tsp** salt to instant pot. 
+* Cook on high pressure for 20 minutes. Allow the pressure to naturally release for 20 minutes.
+* Remove lid and pour beans into a colander/strainer. Rinse with cold water. Set aside.
+* Set Instant Pot to saute setting. 
+* Add **8 slices** bacon and saute for a few minutes until it starts to get golden brown, tossing and scraping down the bottom of the pot often. 
+* Drain some of the grease. 
+* **2 Tbsp minced** onion and cook until tender (optional, add 1/2 of red pepper).
+* Turn IP off. 
+* Mix **2/3 cup** honey bbq sauce, **1/2 cup** ketchup, **1 Tbsp** mustard, **1/4 cup** vinegar,  **1 tsp** liquid smoke and **1/2 cup** brown sugar in a bowl or the IP.
+* Add to the pot and stir well to combine.
+* Add **1/2 cup** water and beans.
+* Secure IP lid, close steam valve and cook on high pressure for 15 minutes. Natural release the pressure.
+
+* If the sauce still seems thin, turn on Saute mode and boil some of the liquid off, stirring frequently until the sauce thickens.
+
+Modified from: https://tastesbetterfromscratch.com/instant-pot-baked-beans/ 
