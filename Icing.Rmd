@@ -1,0 +1,42 @@
+---
+title: "ButterCream Icing"
+description: |
+  Various flavored icing for cakes, etc.
+author:
+  - name: Robert M Flight
+    url: {}
+date: 09-19-2021
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+categories: 
+  - cake
+  - brownies
+  - icing
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Chocolate Icing
+
+### Ingredients
+
+* 1 cup icing sugar (also known as confectioners sugar)
+* 3 tbsp cocoa
+* 2 tbsp butter
+* 2 tsp vanilla
+* 1 - 3 tsp water
+
+### Lactose Free
+
+For a lactose free option, you can replace the **2 tbsp** butter with **2 tbsp** of margarine, and you will only need **1 tsp** of water.
+
+### Directions
+
+* Combine dry ingredients and butter into a bowl.
+* Mix using a hand-mixer on low speed.
+* Add water **1 tsp** at a time, adding it and then mixing.
+  * This is especially important when using margarine, as it has more water than the butter.

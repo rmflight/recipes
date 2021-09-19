@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
   <meta name="generator" content="distill" />
-  <link rel="alternate" type="application/rss+xml" href="https://rmflight.github.io/recipes/index.xml" />
 
   <style type="text/css">
   /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
@@ -87,21 +86,28 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Flight Family Recipes</title>
+  <title>Flight Family Recipes: Never Fail Brownies</title>
 
+  <meta property="description" itemprop="description" content="Delicious, chocolatey brownies."/>
 
   <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
 
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2021-09-19"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-09-19"/>
+  <meta name="article:author" content="Robert M Flight"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Flight Family Recipes"/>
+  <meta property="og:title" content="Flight Family Recipes: Never Fail Brownies"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Delicious, chocolatey brownies."/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Flight Family Recipes"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Flight Family Recipes"/>
+  <meta property="twitter:title" content="Flight Family Recipes: Never Fail Brownies"/>
+  <meta property="twitter:description" content="Delicious, chocolatey brownies."/>
   <meta property="twitter:site" content="@rmflight"/>
   <meta property="twitter:creator" content="@rmflight"/>
 
@@ -109,7 +115,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","listing"]}},"value":[{"type":"character","attributes":{},"value":["Flight Family Recipes"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["posts"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","categories"]}},"value":[{"type":"character","attributes":{},"value":["Never Fail Brownies"]},{"type":"character","attributes":{},"value":["Delicious, chocolatey brownies.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Robert M Flight"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":[]}},"value":[]}]}]},{"type":"character","attributes":{},"value":["09-19-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]}]}]},{"type":"character","attributes":{},"value":["cake","brownies","icing"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2077,12 +2083,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 </head>
 
-<body class="layout-listing">
+<body>
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Flight Family Recipes","authors":[]}
+{"title":"Never Fail Brownies","description":"Delicious, chocolatey brownies.","authors":[{"author":"Robert M Flight","authorURL":{},"affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-09-19T00:00:00.000-04:00","citationText":"Flight, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2110,947 +2116,62 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
-<!--radix_placeholder_article_listing-->
-
-
-<script type="application/javascript">
-
-function init_posts_list() {
-
-  function load_image(img) {
-    var src = $(img).attr('data-src');
-    if (src) {
-      $(img).attr('src', src);
-      $(img).load(function() {
-        img.removeAttribute('data-src');
-      });
-    }
-  }
-
-  function set_posts_visible(posts, visible) {
-    if (visible) {
-
-      // show bottom border by default
-      $(posts).removeClass('post-preview-last');
-
-      // apply limits if need be
-      var max_posts = 25;
-      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
-      if (apply_limits && posts.length > max_posts) {
-        posts = $(posts).slice(0, max_posts);
-      } else {
-        $('.posts-more a').addClass('hidden');
-      }
-
-      // apply last style
-      $(posts.slice(-1)[0]).addClass('post-preview-last');
-
-      $(posts).removeClass('hidden');
-      $(posts).find('img[data-src]').each(function(i, img) {
-        load_image(img);
-      });
-    } else {
-      $(posts).addClass('hidden');
-    }
-  }
-
-  function apply_hash_filter() {
-
-    // clear active state
-    $('.categories .active').removeClass('active');
-
-    // mark all posts invisible to start
-    set_posts_visible($('.posts-list').children('a'), false);
-
-    // if we have a hash filter
-    if (window.location.hash && window.location.hash.startsWith("#category:")) {
-
-      // mark posts that match the category visible
-      var page_category = window.location.hash.replace(/^#category:/, "");
-      var posts = $('.post-metadata').map(function(idx, script) {
-        var metadata = $.parseJSON($(script).html());
-        var post = null;
-        $.each(metadata.categories, function(idx, category) {
-          category = category.replace(/ /g,"_");
-          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
-            post = $(script).parent().get();
-            return false;
-          }
-        });
-        return post;
-      });
-      set_posts_visible(posts, true);
-
-      // mark the hash active
-      $('.categories li>a[href="' + window.location.hash + '"]').addClass('active');
-
-      // update the list_caption
-      var list_caption = $('.posts-list-caption');
-      var caption = (page_category || '').toLowerCase() === "articles"
-        ? list_caption.attr('data-caption')
-        : ('Category: ' + page_category.replace(/_/g," "));
-      list_caption.text(caption);
-
-    } else {
-
-      // no hash filter, make all posts visible (subject to max display)
-      set_posts_visible($('.posts-list').children(), true);
-
-      // reset list caption
-      var list_caption = $('.posts-list-caption');
-      list_caption.text(list_caption.attr('data-caption'));
-
-
-    }
-  }
-
-  // more articles
-  function apply_post_limits(apply) {
-    if (apply) {
-      $('.posts-container').addClass('posts-apply-limit');
-      $('.posts-more a').removeClass('hidden');
-    } else {
-      $('.posts-container').removeClass('posts-apply-limit');
-      $('.posts-more a').addClass('hidden');
-    }
-  }
-
-  // click handling for tags
-  $('.dt-tag').click(function(ev) {
-    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
-    return false;
-  })
-
-  // hash filter handling
-  apply_hash_filter();
-  $(window).on('hashchange',function() {
-    apply_post_limits(true);
-    apply_hash_filter();
-  });
-
-  // more articles link
-  $('.posts-more a').click(function(e) {
-    e.preventDefault();
-    apply_post_limits(false);
-    apply_hash_filter();
-    return false;
-  });
-
-}
-
-</script>
-
-
-
-<div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
-<div class="posts-list">
-<h1 class="posts-list-caption" data-caption="Flight Family Recipes">Flight Family Recipes</h1>
-<a href="posts/2021-04-11-3-ingredient-peanut-butter-cookies/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["dessert","cookies","baked","dairy-free","gluten-free"]}</script>
-<div class="metadata">
-<div class="publishedDate">April 11, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>3 Ingredient Peanut Butter Cookies</h2>
-<div class="dt-tags">
-<div class="dt-tag">dessert</div>
-<div class="dt-tag">cookies</div>
-<div class="dt-tag">baked</div>
-<div class="dt-tag">dairy-free</div>
-<div class="dt-tag">gluten-free</div>
-</div>
-<p>Very simple dairy-free / gluten free peanut butter cookies.</p>
-</div>
-</a>
-<a href="posts/2021-04-11-balsamic-chicken-mushrooms/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["meat","chicken","mushrooms","main-dish"]}</script>
-<div class="metadata">
-<div class="publishedDate">April 11, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Balsamic Chicken &amp; Mushrooms</h2>
-<div class="dt-tags">
-<div class="dt-tag">meat</div>
-<div class="dt-tag">chicken</div>
-<div class="dt-tag">mushrooms</div>
-<div class="dt-tag">main-dish</div>
-</div>
-<p>Tangy, flavor bombs of mushroom and chicken in Balsamic sauce.</p>
-</div>
-</a>
-<a href="posts/2021-04-11-bbq-baked-beans-instant-pot/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["beans","instant-pot","side-dish","soup"]}</script>
-<div class="metadata">
-<div class="publishedDate">April 11, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>BBQ Baked Beans (Instant Pot)</h2>
-<div class="dt-tags">
-<div class="dt-tag">beans</div>
-<div class="dt-tag">instant-pot</div>
-<div class="dt-tag">side-dish</div>
-<div class="dt-tag">soup</div>
-</div>
-<p>Tangy sweet beans take very little time in the instant pot.</p>
-</div>
-</a>
-<a href="posts/2021-04-11-pork-apples-instant-pot/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["instant-pot","pork","meat","main-dish"]}</script>
-<div class="metadata">
-<div class="publishedDate">April 11, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Pork &amp; Apples (Instant Pot)</h2>
-<div class="dt-tags">
-<div class="dt-tag">instant-pot</div>
-<div class="dt-tag">pork</div>
-<div class="dt-tag">meat</div>
-<div class="dt-tag">main-dish</div>
-</div>
-<p>Delicious pork chops in a sweet apple gravy.</p>
-</div>
-</a>
-<a href="posts/2021-04-11-pork-potatoes-instant-pot/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["meat","pork","potatoes","main-dish"]}</script>
-<div class="metadata">
-<div class="publishedDate">April 11, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Pork &amp; Potatoes (Instant Pot)</h2>
-<div class="dt-tags">
-<div class="dt-tag">meat</div>
-<div class="dt-tag">pork</div>
-<div class="dt-tag">potatoes</div>
-<div class="dt-tag">main-dish</div>
-</div>
-<p>Simple way to cook both meat and potatoes in the instant pot.</p>
-</div>
-</a>
-<a href="posts/2021-03-20-1-hour-cinnamon-rolls/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["baked","roll","cinnamon","breakfast"]}</script>
-<div class="metadata">
-<div class="publishedDate">March 20, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>1 Hour Cinnamon Rolls</h2>
-<div class="dt-tags">
-<div class="dt-tag">baked</div>
-<div class="dt-tag">roll</div>
-<div class="dt-tag">cinnamon</div>
-<div class="dt-tag">breakfast</div>
-</div>
-<p>A yummy treat for breakfast or a snack.</p>
-</div>
-</a>
-<a href="posts/2021-03-20-apple-cinnamon-muffins/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["baked","muffin","apple","breakfast"]}</script>
-<div class="metadata">
-<div class="publishedDate">March 20, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Apple Cinnamon Muffins</h2>
-<div class="dt-tags">
-<div class="dt-tag">baked</div>
-<div class="dt-tag">muffin</div>
-<div class="dt-tag">apple</div>
-<div class="dt-tag">breakfast</div>
-</div>
-<p>Chunks of apple and the cinnamon make these delicious muffins with a great texture.</p>
-</div>
-</a>
-<a href="posts/2021-03-20-buried-treasure-cake/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["baked","cake","dessert","chocolate"]}</script>
-<div class="metadata">
-<div class="publishedDate">March 20, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Buried Treasure Cake</h2>
-<div class="dt-tags">
-<div class="dt-tag">baked</div>
-<div class="dt-tag">cake</div>
-<div class="dt-tag">dessert</div>
-<div class="dt-tag">chocolate</div>
-</div>
-<p>A hidden cream cheese and chocolate chip filling makes this a treasure.</p>
-</div>
-</a>
-<a href="posts/2021-03-20-butternut-squash-sweet-potato-soup/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["soup"]}</script>
-<div class="metadata">
-<div class="publishedDate">March 20, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Butternut Squash &amp; Sweet Potato Soup</h2>
-<div class="dt-tags">
-<div class="dt-tag">soup</div>
-</div>
-<p>Vegetarian, delightful soup that is delicious any time of year.</p>
-</div>
-</a>
-<a href="posts/2021-03-20-cheesy-cottage-pie/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["casserole","pie","cheese","hamburger","potato"]}</script>
-<div class="metadata">
-<div class="publishedDate">March 20, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Cheesy Cottage Pie</h2>
-<div class="dt-tags">
-<div class="dt-tag">casserole</div>
-<div class="dt-tag">pie</div>
-<div class="dt-tag">cheese</div>
-<div class="dt-tag">hamburger</div>
-<div class="dt-tag">potato</div>
-</div>
-<p>A cheesy variation on Shepherds Pie.</p>
-</div>
-</a>
-<a href="posts/2021-03-20-chicken-stew/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["stew","soup","chicken","potato","mushroom"]}</script>
-<div class="metadata">
-<div class="publishedDate">March 20, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Chicken Stew</h2>
-<div class="dt-tags">
-<div class="dt-tag">stew</div>
-<div class="dt-tag">soup</div>
-<div class="dt-tag">chicken</div>
-<div class="dt-tag">potato</div>
-<div class="dt-tag">mushroom</div>
-</div>
-<p>Chicken, mushroom and potato stew.</p>
-</div>
-</a>
-<a href="posts/2021-03-20-chocolate-cake/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["baked","cake","chocolate","dessert"]}</script>
-<div class="metadata">
-<div class="publishedDate">March 20, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Chocolate Cake</h2>
-<div class="dt-tags">
-<div class="dt-tag">baked</div>
-<div class="dt-tag">cake</div>
-<div class="dt-tag">chocolate</div>
-<div class="dt-tag">dessert</div>
-</div>
-<p>A rich chocolate cake, great for whenever you need some sweetness in your life.</p>
-</div>
-</a>
-<a href="posts/2021-03-20-easy-oatmeal-raisin-breakfast-bars/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["baked","oatmeal","breakfast","bar"]}</script>
-<div class="metadata">
-<div class="publishedDate">March 20, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Easy Oatmeal Raisin Breakfast Bars</h2>
-<div class="dt-tags">
-<div class="dt-tag">baked</div>
-<div class="dt-tag">oatmeal</div>
-<div class="dt-tag">breakfast</div>
-<div class="dt-tag">bar</div>
-</div>
-<p>Oatmeal raisin or chocolate chip breakfast bars.</p>
-</div>
-</a>
-<a href="posts/2021-03-20-mac-cheese/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["pasta","cheese","casserole"]}</script>
-<div class="metadata">
-<div class="publishedDate">March 20, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Mac &amp; Cheese</h2>
-<div class="dt-tags">
-<div class="dt-tag">pasta</div>
-<div class="dt-tag">cheese</div>
-<div class="dt-tag">casserole</div>
-</div>
-<p>Hearty macaroni and cheese</p>
-</div>
-</a>
-<a href="posts/2021-03-20-punjabi-curry/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["curry","soup","chicken","chickpea"]}</script>
-<div class="metadata">
-<div class="publishedDate">March 20, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Punjabi Curry</h2>
-<div class="dt-tags">
-<div class="dt-tag">curry</div>
-<div class="dt-tag">soup</div>
-<div class="dt-tag">chicken</div>
-<div class="dt-tag">chickpea</div>
-</div>
-<p>A great base for various curries.</p>
-</div>
-</a>
-<a href="posts/2021-03-14-lasagna/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["pasta","spaghetti"]}</script>
-<div class="metadata">
-<div class="publishedDate">March 14, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Lasagna</h2>
-<div class="dt-tags">
-<div class="dt-tag">pasta</div>
-<div class="dt-tag">spaghetti</div>
-</div>
-<p>Simple lasagna.</p>
-</div>
-</a>
-<a href="posts/2021-03-14-shepherds-pie/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["hamburger","casserole","potato","gravy"]}</script>
-<div class="metadata">
-<div class="publishedDate">March 14, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Shepherds Pie</h2>
-<div class="dt-tags">
-<div class="dt-tag">hamburger</div>
-<div class="dt-tag">casserole</div>
-<div class="dt-tag">potato</div>
-<div class="dt-tag">gravy</div>
-</div>
-<p>Meaty, potatoey goodness with an awesome gravy.</p>
-</div>
-</a>
-<a href="posts/2021-03-14-simple-sloppy-joes/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["hamburger","casserole"]}</script>
-<div class="metadata">
-<div class="publishedDate">March 14, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Simple Sloppy Joes</h2>
-<div class="dt-tags">
-<div class="dt-tag">hamburger</div>
-<div class="dt-tag">casserole</div>
-</div>
-<p>A 4 ingredient sloppy joe, that tastes great.</p>
-</div>
-</a>
-<a href="posts/2021-03-09-donair-sauce/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["pizza","sauce","garlic"]}</script>
-<div class="metadata">
-<div class="publishedDate">March 9, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Donair Sauce</h2>
-<div class="dt-tags">
-<div class="dt-tag">pizza</div>
-<div class="dt-tag">sauce</div>
-<div class="dt-tag">garlic</div>
-</div>
-<p>An Atlantic Candadian classic that is great on pizza, cheese sticks, and gyros.</p>
-</div>
-</a>
-<a href="posts/2021-03-09-soy-sauce-marinade/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["sauce","marinade","chicken","pork"]}</script>
-<div class="metadata">
-<div class="publishedDate">March 9, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Soy Sauce Marinade</h2>
-<div class="dt-tags">
-<div class="dt-tag">sauce</div>
-<div class="dt-tag">marinade</div>
-<div class="dt-tag">chicken</div>
-<div class="dt-tag">pork</div>
-</div>
-<p>A meaty marinade great for pork chops or chicken.</p>
-</div>
-</a>
-<a href="posts/2021-03-09-sweet-sour-sauce/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["sauce","sweet","sour","meatballs"]}</script>
-<div class="metadata">
-<div class="publishedDate">March 9, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Sweet &amp; Sour Sauce</h2>
-<div class="dt-tags">
-<div class="dt-tag">sauce</div>
-<div class="dt-tag">sweet</div>
-<div class="dt-tag">sour</div>
-<div class="dt-tag">meatballs</div>
-</div>
-<p>A sweet and sour sauce that goes great with meatballs and rice.</p>
-</div>
-</a>
-<a href="posts/2021-03-09-wraps-sauce/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["sauce","chicken","wraps"]}</script>
-<div class="metadata">
-<div class="publishedDate">March 9, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Wraps Sauce</h2>
-<div class="dt-tags">
-<div class="dt-tag">sauce</div>
-<div class="dt-tag">chicken</div>
-<div class="dt-tag">wraps</div>
-</div>
-<p>A sweet sauce for meat and veggies wrapped in tortillas.</p>
-</div>
-</a>
-<a href="posts/2021-03-08-chicken-pot-pie/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["casserole","chicken","pie","pot-pie"]}</script>
-<div class="metadata">
-<div class="publishedDate">March 8, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img data-src="posts/2021-03-08-chicken-pot-pie/pot_pie_to_eat.jpg"/>
-</div>
-<div class="description">
-<h2>Chicken Pot Pie</h2>
-<div class="dt-tags">
-<div class="dt-tag">casserole</div>
-<div class="dt-tag">chicken</div>
-<div class="dt-tag">pie</div>
-<div class="dt-tag">pot-pie</div>
-</div>
-<p>Delicious chicken pot pie to warm and fill you up.</p>
-</div>
-</a>
-<a href="posts/2021-03-07-cheeseburger-soup/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["soup","hamburger","beef","instant-pot","cheese"]}</script>
-<div class="metadata">
-<div class="publishedDate">March 7, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Cheeseburger Soup</h2>
-<div class="dt-tags">
-<div class="dt-tag">soup</div>
-<div class="dt-tag">hamburger</div>
-<div class="dt-tag">beef</div>
-<div class="dt-tag">instant-pot</div>
-<div class="dt-tag">cheese</div>
-</div>
-<p>A hearty, meaty, cheesy soup with ground beef, potatoes, carrots and a lot of cheese.</p>
-</div>
-</a>
-<a href="posts/2021-03-07-crosbys-baked-beans/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["instant-pot","beans","molasses","soup"]}</script>
-<div class="metadata">
-<div class="publishedDate">March 7, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Crosby's Baked Beans</h2>
-<div class="dt-tags">
-<div class="dt-tag">instant-pot</div>
-<div class="dt-tag">beans</div>
-<div class="dt-tag">molasses</div>
-<div class="dt-tag">soup</div>
-</div>
-<p>Instant-Pot makes these molasses baked beans a snap.</p>
-</div>
-</a>
-<a href="posts/2021-03-07-spaghetti-sauce/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["sauce","tomato","tomatoes","pasta"]}</script>
-<div class="metadata">
-<div class="publishedDate">March 7, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img data-src="posts/2021-03-07-spaghetti-sauce/sauce_done.jpg"/>
-</div>
-<div class="description">
-<h2>Spaghetti Sauce</h2>
-<div class="dt-tags">
-<div class="dt-tag">sauce</div>
-<div class="dt-tag">tomato</div>
-<div class="dt-tag">tomatoes</div>
-<div class="dt-tag">pasta</div>
-</div>
-<p>A sweet and savory tomato sauce that is great on top of pasta or as part of a lasagna.</p>
-</div>
-</a>
-<a href="posts/welcome/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">March 7, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Robert M Flight</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Welcome to Flight Family Recipes</h2>
-<div class="dt-tags"></div>
-<p>Welcome to my personal recipe site.</p>
-</div>
-</a>
-</div>
-<div class="posts-sidebar">
-<div class="sidebar-section categories">
-<h3>Categories</h3>
-<ul>
-<li>
-<a href="#category:articles">articles</a>
-<span class="category-count">(27)</span>
-</li>
-<li>
-<a href="#category:apple">apple</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:baked">baked</a>
-<span class="category-count">(6)</span>
-</li>
-<li>
-<a href="#category:bar">bar</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:beans">beans</a>
-<span class="category-count">(2)</span>
-</li>
-<li>
-<a href="#category:beef">beef</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:breakfast">breakfast</a>
-<span class="category-count">(3)</span>
-</li>
-<li>
-<a href="#category:cake">cake</a>
-<span class="category-count">(2)</span>
-</li>
-<li>
-<a href="#category:casserole">casserole</a>
-<span class="category-count">(5)</span>
-</li>
-<li>
-<a href="#category:cheese">cheese</a>
-<span class="category-count">(3)</span>
-</li>
-<li>
-<a href="#category:chicken">chicken</a>
-<span class="category-count">(6)</span>
-</li>
-<li>
-<a href="#category:chickpea">chickpea</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:chocolate">chocolate</a>
-<span class="category-count">(2)</span>
-</li>
-<li>
-<a href="#category:cinnamon">cinnamon</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:cookies">cookies</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:curry">curry</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:dairy-free">dairy-free</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:dessert">dessert</a>
-<span class="category-count">(3)</span>
-</li>
-<li>
-<a href="#category:garlic">garlic</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:gluten-free">gluten-free</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:gravy">gravy</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:hamburger">hamburger</a>
-<span class="category-count">(4)</span>
-</li>
-<li>
-<a href="#category:instant-pot">instant-pot</a>
-<span class="category-count">(4)</span>
-</li>
-<li>
-<a href="#category:main-dish">main-dish</a>
-<span class="category-count">(3)</span>
-</li>
-<li>
-<a href="#category:marinade">marinade</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:meat">meat</a>
-<span class="category-count">(3)</span>
-</li>
-<li>
-<a href="#category:meatballs">meatballs</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:molasses">molasses</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:muffin">muffin</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:mushroom">mushroom</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:mushrooms">mushrooms</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:oatmeal">oatmeal</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:pasta">pasta</a>
-<span class="category-count">(3)</span>
-</li>
-<li>
-<a href="#category:pie">pie</a>
-<span class="category-count">(2)</span>
-</li>
-<li>
-<a href="#category:pizza">pizza</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:pork">pork</a>
-<span class="category-count">(3)</span>
-</li>
-<li>
-<a href="#category:pot-pie">pot-pie</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:potato">potato</a>
-<span class="category-count">(3)</span>
-</li>
-<li>
-<a href="#category:potatoes">potatoes</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:roll">roll</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:sauce">sauce</a>
-<span class="category-count">(5)</span>
-</li>
-<li>
-<a href="#category:side-dish">side-dish</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:soup">soup</a>
-<span class="category-count">(6)</span>
-</li>
-<li>
-<a href="#category:sour">sour</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:spaghetti">spaghetti</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:stew">stew</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:sweet">sweet</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:tomato">tomato</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:tomatoes">tomatoes</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:wraps">wraps</a>
-<span class="category-count">(1)</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="posts-more">
-<a href="#">More articles &raquo;</a>
-</div>
-</div>
-<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>Flight Family Recipes</h1>
+<h1>Never Fail Brownies</h1>
 <!--radix_placeholder_categories-->
+<div class="dt-tags">
+<div class="dt=tag">cake</div>
+<div class="dt=tag">brownies</div>
+<div class="dt=tag">icing</div>
+</div>
 <!--/radix_placeholder_categories-->
-
+<p><p>Delicious, chocolatey brownies.</p></p>
 </div>
 
+<div class="d-byline">
+  Robert M Flight true 
+  
+<br/>09-19-2021
+</div>
 
 <div class="d-article">
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#ingredients">Ingredients</a></li>
+<li><a href="#directions">Directions</a></li>
+</ul>
+</nav>
+</div>
+<p>Pre-heat oven to 350F</p>
+<p>Uses a 9x9 baking dish. Doubled will fill a 9x13 baking dish.</p>
+<h2 id="ingredients">Ingredients</h2>
+<ul>
+<li>6 tbsp canola or vegetable oil</li>
+<li>1 cup white sugar</li>
+<li>2 eggs</li>
+<li>1/4 tsp salt</li>
+<li>1/2 tsp vanilla</li>
+<li>1 cup flour</li>
+<li>1/2 cup cocoa</li>
+</ul>
+<h2 id="directions">Directions</h2>
+<ul>
+<li><p>Combine <strong>6 tbsp</strong> oil, <strong>1 cup</strong> white sugar, <strong>2 eggs</strong>, <strong>1/4 tsp</strong> salt, <strong>1/2 tsp</strong> vanilla in a bowl.</p></li>
+<li><p>Mix together.</p></li>
+<li><p>Add <strong>1 cup</strong> flour, and mix in.</p></li>
+<li><p>Mix <strong>1/2 cup</strong> cocoa with enough hot water to make a paste or slurry.</p></li>
+<li><p>Pour cocoa mix into other ingredients.</p></li>
+<li><p>Mix until cocoa is completely incorporated into the other ingredients.</p></li>
+<li><p>Pour mixture into a greased baking dish.</p></li>
+<li><p>Bake at 350F for 20 - 30 minutes, or until a toothpick comes out <em>mostly</em> clean.</p>
+<ul>
+<li>If after 20 minutes it is still very gooey in the middle, check again in 5 minutes. Leaving it until 30 might result in dry brownies.</li>
+</ul></li>
+</ul>
+<p>Source: Heather Raymond, family friend of Sarah Flight.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
