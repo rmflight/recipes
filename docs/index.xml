@@ -7,7 +7,29 @@
     <description>Personal Recipe Site
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Sun, 11 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>ButterCream Icing</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2021-09-19-icing</link>
+      <description>Various flavored icing for cakes, etc.</description>
+      <category>cake</category>
+      <category>brownies</category>
+      <category>icing</category>
+      <guid>https://rmflight.github.io/recipes/posts/2021-09-19-icing</guid>
+      <pubDate>Sun, 19 Sep 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Never Fail Brownies</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2021-09-19-never-fail-brownies</link>
+      <description>Delicious, chocolatey brownies.</description>
+      <category>cake</category>
+      <category>brownies</category>
+      <category>icing</category>
+      <guid>https://rmflight.github.io/recipes/posts/2021-09-19-never-fail-brownies</guid>
+      <pubDate>Sun, 19 Sep 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>3 Ingredient Peanut Butter Cookies</title>
       <dc:creator>Robert M Flight</dc:creator>
