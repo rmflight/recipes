@@ -7,7 +7,17 @@
     <description>Personal Recipe Site
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Sun, 19 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Pancakes! (No Milk)</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2021-10-24-pancakes-no-milk</link>
+      <description>Easy, tasty pancakes with no milk.</description>
+      <category>breakfast</category>
+      <category>lactose-free</category>
+      <guid>https://rmflight.github.io/recipes/posts/2021-10-24-pancakes-no-milk</guid>
+      <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>ButterCream Icing</title>
       <dc:creator>Robert M Flight</dc:creator>

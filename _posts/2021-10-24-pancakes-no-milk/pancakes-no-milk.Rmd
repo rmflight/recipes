@@ -1,0 +1,50 @@
+---
+title: "Pancakes! (No Milk)"
+description: |
+  Easy, tasty pancakes with no milk.
+author:
+  - name: Robert M Flight
+    url: {}
+date: 10-24-2021
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+categories:
+  - breakfast
+  - lactose-free
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+We have a kid that is lactose free, so we are always looking for ways to either make things without milk at all, or using a lactose free substitute.
+
+Makes 15 - 20 pancakes, depending on how thin you make the batter.
+We like ours thicker, I got 16 pancakes, which meant for the 5 of us, we had 2 pancakes left over.
+
+## Ingredients
+
+* 3 cups all-purpose flour
+* 7 tsp baking powder
+* 1 tsp salt (or just a shake)
+* 3 Tbsp sugar
+* 2 eggs
+* 6 Tbsp margarine, melted
+* 2 tsp vanilla
+* 2 ½ cups water
+
+## Directions
+
+* In a large bowl, sift together the **3 cups** of flour, **7 tsp** of baking powder, salt, and **3 Tbsp** of sugar.
+* Make a well in the middle, and pour in **2** eggs, **6 Tbsp** melted margarine, and **2 tsp** vanilla.
+* Pour in **1 cup** of water and begin stirring together with a whisk.
+* Slowly add more water while whisking until you have all the lumps out of it, and add water to your desired consistency.
+* If you have addins like mashed bananas and chocolate chips, now is the time to add them. I've easily added 2 mashed bananas to this recipe without issue.
+
+* Lightly grease a frying pan (neutral oil spread with paper towel will work), and heat to medium high.
+* Pour a large spoonful of batter on, and wait for bubbles to form before flipping.
+
+Adapted from [Laura Fuentes](https://www.laurafuentes.com/pancakes-without-milk/).
