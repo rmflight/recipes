@@ -7,7 +7,17 @@
     <description>Personal Recipe Site
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Sun, 24 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Poached Chicken Breast (Instant Pot)</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2021-11-06-poached-chicken-breast-instant-pot</link>
+      <description>Poached chicken breast that shreds nicely for other recipes.</description>
+      <category>chicken</category>
+      <category>instant-pot</category>
+      <guid>https://rmflight.github.io/recipes/posts/2021-11-06-poached-chicken-breast-instant-pot</guid>
+      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Pancakes! (No Milk)</title>
       <dc:creator>Robert M Flight</dc:creator>

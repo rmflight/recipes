@@ -38,7 +38,7 @@ knitr::include_graphics("pot_pie_to_eat.jpg")
 * 1/2 cup milk
 * salt and pepper to taste
 * 2 cups of shredded chicken breast
-  * I like [this method](https://www.pressurecookrecipes.com/instant-pot-chicken-breast/) of cooking chicken breast for this.
+  * I like [this method](https://rmflight.github.io/recipes/posts/2021-11-06-poached-chicken-breast-instant-pot) of cooking chicken breast for this.
 * 1/2 cup frozen peas
 
 ## Directions
