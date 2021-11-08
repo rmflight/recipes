@@ -1,5 +1,25 @@
 [
   {
+    "path": "posts/2021-11-07-chicken-soup/",
+    "title": "Chicken Soup",
+    "description": "This chicken soup is yummy, and you know exactly what's in it.",
+    "author": [
+      {
+        "name": "Robert M Flight",
+        "url": {}
+      }
+    ],
+    "date": "2021-11-07",
+    "categories": [
+      "soup",
+      "chicken"
+    ],
+    "contents": "\n\nContents\nIngredients\nDirections\nNotes:\n\nIngredients\n2 tbsp butter\n2 cups diced carrots\n1/2 onion diced\n2 garlic cloves (or 2 tsp minced garlic)\n8 cups vegetable broth (two 32 oz boxes)\n1/2 tsp dried basil\n1/2 tsp dried oregano\ndash of sage\nsalt and pepper to taste\n3 cups egg noodles\n2 cups cooked and shredded chicken breasts (see here)\nDirections\nIn large pot over medium heat, melt 2 tbsp butter.\nCook 1/2 minced onion and 2 cups diced carrot in butter until tender (~ 5 min).\nAdd garlic and cook an additional minute.\nPour in vegetable broth and stir in 3 cups egg noodles; 1/2 tsp oregano, 1/2 tsp basil, dash of sage, salt and pepper.\nBring to a boil, reduce heat and simmer 15 - 20 minutes.\nStir in 2 cups shredded chicken and cook until heated through (~ 2 minutes if it’s nicely shredded).\nFrom The Girl Who Ate Everything.\nNotes:\nYes, I use vegetable broth. My digestive system does not seem to do well with the dried broth when you add enough powder to make it taste chickeny enough, and the same for “Better than Boullion”. If you really want chicken broth, go for it. In my experience, the vegetable broth tasted great.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-11-07T20:17:03-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-11-06-poached-chicken-breast-instant-pot/",
     "title": "Poached Chicken Breast (Instant Pot)",
     "description": "Poached chicken breast that shreds nicely for other recipes.",
@@ -34,9 +54,9 @@
       "breakfast",
       "lactose-free"
     ],
-    "contents": "\n\nContents\nIngredients\nDirections\n\nWe have a kid that is lactose free, so we are always looking for ways to either make things without milk at all, or using a lactose free substitute.\nMakes 15 - 20 pancakes, depending on how thin you make the batter. We like ours thicker, I got 16 pancakes, which meant for the 5 of us, we had 2 pancakes left over.\nIngredients\n3 cups all-purpose flour\n7 tsp baking powder\n1 tsp salt (or just a shake)\n3 Tbsp sugar\n2 eggs\n6 Tbsp margarine, melted\n2 tsp vanilla\n2 ½ cups water\nDirections\nIn a large bowl, sift together the 3 cups of flour, 7 tsp of baking powder, salt, and 3 Tbsp of sugar.\nMake a well in the middle, and pour in 2 eggs, 6 Tbsp melted margarine, and 2 tsp vanilla.\nPour in 1 cup of water and begin stirring together with a whisk.\nSlowly add more water while whisking until you have all the lumps out of it, and add water to your desired consistency.\nIf you have addins like mashed bananas and chocolate chips, now is the time to add them. I’ve easily added 2 mashed bananas to this recipe without issue.\nLightly grease a frying pan (neutral oil spread with paper towel will work), and heat to medium high.\nPour a large spoonful of batter on, and wait for bubbles to form before flipping.\nAdapted from Laura Fuentes.\n\n\n\n",
+    "contents": "\n\nContents\nIngredients\nDirections\n\nWe have a kid that is lactose free, so we are always looking for ways to either make things without milk at all, or using a lactose free substitute.\nMakes 15 - 20 pancakes, depending on how thin you make the batter. We like ours thicker, I got 16 pancakes, which meant for the 5 of us, we had 2 pancakes left over.\nIngredients\n3 cups all-purpose flour\n7 tsp baking powder\n1 tsp salt (or just a shake)\n4 Tbsp sugar\n2 eggs\n6 Tbsp margarine, melted\n3 tsp vanilla\n2 ½ cups water\nDirections\nIn a large bowl, sift together the 3 cups of flour, 7 tsp of baking powder, salt, and 3 Tbsp of sugar.\nMake a well in the middle, and pour in 2 eggs, 6 Tbsp melted margarine, and 2 tsp vanilla.\nPour in 1 cup of water and begin stirring together with a whisk.\nSlowly add more water while whisking until you have all the lumps out of it, and add water to your desired consistency.\nIf you have addins like mashed bananas and chocolate chips, now is the time to add them. I’ve easily added 2 mashed bananas to this recipe without issue.\nLightly grease a frying pan (neutral oil spread with paper towel will work), and heat to medium high.\nPour a large spoonful of batter on, and wait for bubbles to form before flipping.\nAdapted from Laura Fuentes.\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-10-24T21:00:42-04:00",
+    "last_modified": "2021-11-06T20:08:15-04:00",
     "input_file": {}
   },
   {
