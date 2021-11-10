@@ -1,5 +1,25 @@
 [
   {
+    "path": "posts/2021-11-09-skinny-fettuccine-alfredo/",
+    "title": "Skinny Fettuccine Alfredo",
+    "description": "Delicious Alfredo sauce that's lower fat and can be lactose free too.",
+    "author": [
+      {
+        "name": "Robert M Flight",
+        "url": {}
+      }
+    ],
+    "date": "2021-11-09",
+    "categories": [
+      "lactose-free",
+      "pasta"
+    ],
+    "contents": "\n\nContents\nIngredients\nDirections\n\nIngredients\n1.5 tbsp butter / margarine\n1.5 tsp minced garlic\n3 tbsp flour\n1.5 cups chicken broth\n1.5 cups milk\n1/4 tsp salt\n12 oz Fettuccine noodles\nDirections\nIn skillet over medium heat, add 1.5 tbsp butter / margarine and let it melt.\nAdd garlic and let it sizzle for just a minute.\nStir in 3 tbsp flour.\nStir in 1.5 cups chicken broth and use whisk to remove lumps.\nStir in 1.5 cups milk.\nLet simmer for 6 - 8 min or until it starts to thicken.\nFor lactose free, leave out shredded parmesan cheese.\nMix into cooked Fettuccine noodles.\nAdd parmesan cheese to individual servings if desired.\nModified from Modern Honey Skinny Fettucine Alfredo.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-11-09T21:12:25-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-11-07-chicken-soup/",
     "title": "Chicken Soup",
     "description": "This chicken soup is yummy, and you know exactly what's in it.",

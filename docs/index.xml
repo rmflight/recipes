@@ -7,7 +7,17 @@
     <description>Personal Recipe Site
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Skinny Fettuccine Alfredo</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2021-11-09-skinny-fettuccine-alfredo</link>
+      <description>Delicious Alfredo sauce that's lower fat and can be lactose free too.</description>
+      <category>lactose-free</category>
+      <category>pasta</category>
+      <guid>https://rmflight.github.io/recipes/posts/2021-11-09-skinny-fettuccine-alfredo</guid>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Chicken Soup</title>
       <dc:creator>Robert M Flight</dc:creator>
