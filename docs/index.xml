@@ -7,7 +7,28 @@
     <description>Personal Recipe Site
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 09 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Carrot Cake</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2021-11-14-carrot-cake</link>
+      <description>A decadent carrot cake appropriate for any occasion.</description>
+      <category>cake</category>
+      <category>carrot</category>
+      <category>lactose-free</category>
+      <guid>https://rmflight.github.io/recipes/posts/2021-11-14-carrot-cake</guid>
+      <pubDate>Sun, 14 Nov 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cream Cheese Icing</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2021-11-14-cream-cheese-icing</link>
+      <description>Cream cheese icing. It's good. Goes well with carrot cake.</description>
+      <category>icing</category>
+      <category>cake</category>
+      <guid>https://rmflight.github.io/recipes/posts/2021-11-14-cream-cheese-icing</guid>
+      <pubDate>Sun, 14 Nov 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Skinny Fettuccine Alfredo</title>
       <dc:creator>Robert M Flight</dc:creator>

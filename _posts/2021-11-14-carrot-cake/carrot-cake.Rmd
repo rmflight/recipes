@@ -1,0 +1,49 @@
+---
+title: "Carrot Cake"
+description: |
+  A decadent carrot cake appropriate for any occasion.
+author:
+  - name: Robert M Flight
+    url: {}
+date: 2021-11-14
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+categories:
+  - cake
+  - carrot
+  - lactose-free
+---
+
+## Ingredients
+
+* 3 eggs
+* 1 1/2 cups white sugar
+* 1 1/4 cup oil (canola or vegetable)
+
+* 3 cups flour
+* 2 tsp baking soda
+* 2 tsp cinnamon
+* 1 tsp salt
+* 1 tsp nutmeg
+
+* 2 cups grated carrot
+* 1 cup crushed pineapple (not drained!)
+
+## Directions
+
+* Preheat oven to 350 F.
+
+* Cream together **3 eggs**, **1 1/2 cups** white sugar, **1 1/4 cup** oil.
+* Mix together **3 cups** flour, **2 tsp** baking soda, **2 tsp** cinnamon, **1 tsp** salt, **1 tsp** nutmeg.
+* Add dry mix to the previously creamed eggs, sugar and oil and mix well.
+* Add **2 cups** grated carrot and **1 cup** crushed pineapple and mix well.
+
+* Grease large tube pan **very well**!
+* Add cake mix, and bake at **350 F** for **1 hour**.
+
+This makes a large cake.
+[Cream cheese icing](https://rmflight.github.io/recipes/posts/2021-11-14-cream-cheese-icing) goes great, I recommend doubling that recipe to cover this cake.
+
+Original source is Stella Trask.

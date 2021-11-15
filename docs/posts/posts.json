@@ -1,5 +1,46 @@
 [
   {
+    "path": "posts/2021-11-14-carrot-cake/",
+    "title": "Carrot Cake",
+    "description": "A decadent carrot cake appropriate for any occasion.",
+    "author": [
+      {
+        "name": "Robert M Flight",
+        "url": {}
+      }
+    ],
+    "date": "2021-11-14",
+    "categories": [
+      "cake",
+      "carrot",
+      "lactose-free"
+    ],
+    "contents": "\n\nContents\nIngredients\nDirections\n\nIngredients\n3 eggs\n1 1/2 cups white sugar\n1 1/4 cup oil (canola or vegetable)\n3 cups flour\n2 tsp baking soda\n2 tsp cinnamon\n1 tsp salt\n1 tsp nutmeg\n2 cups grated carrot\n1 cup crushed pineapple (not drained!)\nDirections\nPreheat oven to 350 F.\nCream together 3 eggs, 1 1/2 cups white sugar, 1 1/4 cup oil.\nMix together 3 cups flour, 2 tsp baking soda, 2 tsp cinnamon, 1 tsp salt, 1 tsp nutmeg.\nAdd dry mix to the previously creamed eggs, sugar and oil and mix well.\nAdd 2 cups grated carrot and 1 cup crushed pineapple and mix well.\nGrease large tube pan very well!\nAdd cake mix, and bake at 350 F for 1 hour.\nThis makes a large cake. Cream cheese icing goes great, I recommend doubling that recipe to cover this cake.\nOriginal source is Stella Trask.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-11-14T20:32:14-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2021-11-14-cream-cheese-icing/",
+    "title": "Cream Cheese Icing",
+    "description": "Cream cheese icing. It's good. Goes well with carrot cake.",
+    "author": [
+      {
+        "name": "Robert M Flight",
+        "url": {}
+      }
+    ],
+    "date": "2021-11-14",
+    "categories": [
+      "icing",
+      "cake"
+    ],
+    "contents": "\n\nContents\nIngredients\nDirections\n\nIngredients\n8 oz cream cheese at room temp (1 pkg)\n1/4 cup butter (softened) (1/2 stick)\n1 tsp vanilla\n2 cups icing sugar\nDirections\nBlend together 8 oz cream cheese, 1/4 cup butter and 1 tsp vanilall.\nAdd 2 cups icing sugar 1 cup at a time, mixing thoroughly.\nGoes well on carrot cake.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-11-14T20:32:19-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-11-09-skinny-fettuccine-alfredo/",
     "title": "Skinny Fettuccine Alfredo",
     "description": "Delicious Alfredo sauce that's lower fat and can be lactose free too.",
