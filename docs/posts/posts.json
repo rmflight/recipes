@@ -1,5 +1,46 @@
 [
   {
+    "path": "posts/2021-12-11-cherry-pound-cake/",
+    "title": "Cherry Pound Cake",
+    "description": "Seasonal favorite with red and green glaced cherries.",
+    "author": [
+      {
+        "name": "Robert M Flight",
+        "url": {}
+      }
+    ],
+    "date": "2021-12-11",
+    "categories": [
+      "cake",
+      "seasonal",
+      "cherry"
+    ],
+    "contents": "\n\nContents\nIngredients\nDirections\n\nIngredients\n1 cup butter\n1 cup white sugar\n3 eggs\n1/2 tsp salt\n1 tsp vanilla\n1 tsp almond flavor\n1 tsp lemon flavor\n1 cup green glaced cherries\n1 cup red glaced cherries\n2 tsp lemon rind\nDirections\nCombine and beat together 1 cup butter, 1 cup white sugar, and 3 eggs. Add eggs slowly and beat together one at a time.\nContinue beating until mixture becomes fluffy.\nAdd 1/2 tsp salt, 1 tsp vanilla, 1 tsp almond and 1 tsp lemon flavoring and mix.\nFold in the 1 cup each of red and green glaced cherries.\nBake at 300 degrees for 1 hour in a 10x5 loaf pan.\nAfter baking, coat top with 2 tsp grated lemon rind.\nSource: Cheryl Denton\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-12-11T17:07:18-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2021-12-11-gum-drop-cake/",
+    "title": "Gum Drop Cake",
+    "description": "A christmas time favorite, cake and gum-drop candies!",
+    "author": [
+      {
+        "name": "Robert M Flight",
+        "url": {}
+      }
+    ],
+    "date": "2021-12-11",
+    "categories": [
+      "cake",
+      "seasonal"
+    ],
+    "contents": "\n\nContents\nIngredients\nDirections\n\nIngredients\n1 1/2 cups sugar\n1/2 cup flour\n1.5 cups flour\n4 eggs\n1 1/2 tsp baking powder\n8 oz (1 package) cream cheese\n1 cup margarine or butter\n1/4 tsp salt\n1 tsp vanilla\n2 cups gum drops\nDirections\nCut up gum drops and flour them with 1/2 cup of the flour. I cut them into 3 pieces and make sure each piece is floured. Refrigerate while preparing the cake batter.\nCream 1 cup butter / margarine & 8 oz cream cheese until fluffy.\nAdd 1 1/2 cups sugar, 1 tsp vanilla and 4 eggs 1 at a time beating well after adding each egg.\nCombine remaining 1 1/2 cup flour, 1 1/2 tsp baking powder and 1/4 tsp salt.\nAdd dry ingredients to creamed mixture.\nLastly add the floured gumdrops and combine well.\nGrease and flour a loaf pan or use parchment paper.\nBake 1 hour at 350 degrees.\nSource: June Whitman\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-12-11T17:07:53-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-11-14-carrot-cake/",
     "title": "Carrot Cake",
     "description": "A decadent carrot cake appropriate for any occasion.",

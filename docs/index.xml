@@ -7,7 +7,28 @@
     <description>Personal Recipe Site
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Sun, 14 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Cherry Pound Cake</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2021-12-11-cherry-pound-cake</link>
+      <description>Seasonal favorite with red and green glaced cherries.</description>
+      <category>cake</category>
+      <category>seasonal</category>
+      <category>cherry</category>
+      <guid>https://rmflight.github.io/recipes/posts/2021-12-11-cherry-pound-cake</guid>
+      <pubDate>Sat, 11 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gum Drop Cake</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2021-12-11-gum-drop-cake</link>
+      <description>A christmas time favorite, cake and gum-drop candies!</description>
+      <category>cake</category>
+      <category>seasonal</category>
+      <guid>https://rmflight.github.io/recipes/posts/2021-12-11-gum-drop-cake</guid>
+      <pubDate>Sat, 11 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Carrot Cake</title>
       <dc:creator>Robert M Flight</dc:creator>

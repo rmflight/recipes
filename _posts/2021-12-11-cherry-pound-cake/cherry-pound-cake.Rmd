@@ -1,0 +1,48 @@
+---
+title: "Cherry Pound Cake"
+description: |
+  Seasonal favorite with red and green glaced cherries.
+author:
+  - name: Robert M Flight
+    url: {}
+date: 2021-12-11
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+categories:
+  - cake
+  - seasonal
+  - cherry
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Ingredients
+
+* 1 cup butter
+* 1 cup white sugar
+* 3 eggs
+* 1/2 tsp salt
+* 1 tsp vanilla
+* 1 tsp almond flavor
+* 1 tsp lemon flavor
+* 1 cup green glaced cherries
+* 1 cup red glaced cherries
+* 2 tsp lemon rind
+
+## Directions
+
+* Combine and beat together **1 cup** butter, **1 cup** white sugar, and **3 eggs**. Add eggs slowly and beat together one at a time. 
+* Continue beating until mixture becomes fluffy.
+* Add **1/2 tsp** salt, **1 tsp** vanilla, **1 tsp** almond and **1 tsp** lemon flavoring and mix.
+* Fold in the **1 cup** each of red and green glaced cherries.
+
+Bake at 300 degrees for 1 hour in a 10x5 loaf pan.
+
+After baking, coat top with **2 tsp** grated lemon rind.
+
+Source: Cheryl Denton

@@ -1,0 +1,48 @@
+---
+title: "Gum Drop Cake"
+description: |
+  A christmas time favorite, cake and gum-drop candies!
+author:
+  - name: Robert M Flight
+    url: {}
+date: 2021-12-11
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+categories:
+  - cake
+  - seasonal
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Ingredients
+
+* 1 1/2 cups sugar
+* 1/2 cup flour 
+* 1.5 cups flour
+* 4 eggs
+* 1 1/2 tsp baking powder
+* 8 oz (1 package) cream cheese
+* 1 cup margarine or butter
+* 1/4 tsp salt 
+* 1 tsp vanilla
+* 2 cups gum drops
+
+## Directions
+
+* Cut up gum drops and flour them with **1/2 cup** of the flour. I cut them into 3 pieces and make sure each piece is floured. **Refrigerate** while preparing the cake batter. 
+* Cream **1 cup** butter / margarine & **8 oz** cream cheese until fluffy. 
+* Add **1 1/2 cups** sugar, **1 tsp** vanilla and **4** eggs 1 at a time beating well after adding each egg. 
+* Combine remaining **1 1/2 cup** flour, **1 1/2 tsp** baking powder and **1/4 tsp** salt.
+* Add dry ingredients to creamed mixture.
+* Lastly add the floured gumdrops and combine well.
+* Grease and flour a loaf pan or use parchment paper.
+
+Bake 1 hour at 350 degrees. 
+
+Source: June Whitman
