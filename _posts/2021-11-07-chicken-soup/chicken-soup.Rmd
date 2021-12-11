@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 * 2 tbsp butter
 * 2 cups diced carrots
-* 1/2 onion diced
+* 1 tbsp minced onion
 * 2 garlic cloves (or 2 tsp minced garlic)
 * 8 cups vegetable broth (two 32 oz boxes)
 * 1/2 tsp dried basil
@@ -40,8 +40,9 @@ knitr::opts_chunk$set(echo = FALSE)
 * Cook **1/2 minced** onion and **2 cups** diced carrot in butter until tender (~ 5 min).
 * Add garlic and cook an additional minute.
 * Pour in vegetable broth and stir in **3 cups** egg noodles; **1/2 tsp** oregano, **1/2 tsp** basil, dash of sage, salt and pepper.
+* Check the taste now and add any more seasoning you think it needs.
+* Stir in **2 cups** shredded chicken (putting it in now means the chicken flavor will well permeate the soup, a plus if you are using vegetable broth, if using chicken broth, add it after simmering).
 * Bring to a boil, reduce heat and simmer 15 - 20 minutes.
-* Stir in **2 cups** shredded chicken and cook until heated through (~ 2 minutes if it's nicely shredded).
 
 From [The Girl Who Ate Everything](https://www.the-girl-who-ate-everything.com/homemade-chicken-noodle-soup/).
 
@@ -50,4 +51,4 @@ From [The Girl Who Ate Everything](https://www.the-girl-who-ate-everything.com/h
 Yes, I use vegetable broth.
 My digestive system does not seem to do well with the dried broth when you add enough powder to make it taste chickeny enough, and the same for "Better than Boullion".
 If you really want chicken broth, go for it.
-In my experience, the vegetable broth tasted great.
+In my experience, the vegetable broth tasted great, **especially** if you add the chicken before letting it simmer.
