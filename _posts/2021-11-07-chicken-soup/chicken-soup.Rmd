@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 * 2 tbsp butter
 * 2 cups diced carrots
-* 1 tbsp minced onion
+* 1 tbsp minced & dried onion (add water to rehydrate for frying)
 * 2 garlic cloves (or 2 tsp minced garlic)
 * 8 cups vegetable broth (two 32 oz boxes)
 * 1/2 tsp dried basil
@@ -37,7 +37,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Directions
 
 * In large pot over medium heat, melt **2 tbsp** butter.
-* Cook **1/2 minced** onion and **2 cups** diced carrot in butter until tender (~ 5 min).
+* Cook **1 tbsp minced** onion and **2 cups** diced carrot in butter until tender (~ 5 min).
 * Add garlic and cook an additional minute.
 * Pour in vegetable broth and stir in **3 cups** egg noodles; **1/2 tsp** oregano, **1/2 tsp** basil, dash of sage, salt and pepper.
 * Check the taste now and add any more seasoning you think it needs.
