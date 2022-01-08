@@ -1,5 +1,26 @@
 [
   {
+    "path": "posts/2022-01-07-poutine-gravy/",
+    "title": "Poutine Gravy",
+    "description": "Nice tasting gravy to go on your french fries and cheese.",
+    "author": [
+      {
+        "name": "Robert M Flight",
+        "url": {}
+      }
+    ],
+    "date": "2022-01-07",
+    "categories": [
+      "cheese",
+      "gravy",
+      "side-dish"
+    ],
+    "contents": "\n\nContents\nIngredients\nDirections\n\nPrep time: 10 minutes\nCook time: 20 minutes\nTotal: 30 minutes\nIngredients\n1/2 tbsp oil\n1 small clove minced garlic\n2 cups chicken stock\n2 cups beef stock\n2 tbsp ketchup\n1 tbsp apple cider vinegar\n1/2 tsp Worcestershire sauce\n3 tbsp butter\n3 tbsp flour\nDirections\nHeat 1/2 tbsp oil in a saucepan over medium heat.\nAdd 1 small clove garlic and saute until browned.\nAdd:\n2 cups chicken stock\n2 cups beef stock.\n2 tbsp ketchup.\n1 tbsp apple cider vinegar.\n1/2 tsp Worcestershire sauce\n\nBring to a boil.\nWhile that is heating, in a separate saucepan melt 3 tbsp butter and stir in 3 tbsp flour to make a roux.\nWhisk stock mixture into the roux and simmer until reduced by half about 20 minutes.\nSpoon over french fries and cheese, and enjoy!\nSource: Chuck Hughes at Food Network.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-01-07T20:51:22-05:00",
+    "input_file": "poutine-gravy.knit.md"
+  },
+  {
     "path": "posts/2021-12-11-cherry-pound-cake/",
     "title": "Cherry Pound Cake",
     "description": "Seasonal favorite with red and green glaced cherries.",

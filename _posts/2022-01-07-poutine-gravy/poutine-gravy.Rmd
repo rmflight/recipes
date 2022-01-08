@@ -1,0 +1,51 @@
+---
+title: "Poutine Gravy"
+description: |
+  Nice tasting gravy to go on your french fries and cheese.
+author:
+  - name: Robert M Flight
+    url: {}
+date: 2022-01-07
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+categories:
+  - cheese
+  - gravy
+  - side-dish
+---
+
+* Prep time: 10 minutes
+* Cook time: 20 minutes
+* Total: 30 minutes
+
+## Ingredients
+
+* 1/2 tbsp oil
+* 1 small clove minced garlic
+* 2 cups chicken stock
+* 2 cups beef stock
+* 2 tbsp ketchup
+* 1 tbsp apple cider vinegar
+* 1/2 tsp Worcestershire sauce
+* 3 tbsp butter
+* 3 tbsp flour
+
+## Directions
+
+* Heat **1/2 tbsp** oil in a saucepan over medium heat.
+* Add **1 small clove** garlic and saute until browned.
+* Add:
+  * **2 cups** chicken stock
+  * **2 cups** beef stock.
+  * **2 tbsp** ketchup.
+  * **1 tbsp** apple cider vinegar.
+  * **1/2 tsp** Worcestershire sauce
+* Bring to a boil.
+* **While** that is heating, **in a separate saucepan** melt **3 tbsp** butter and stir in **3 tbsp** flour to make a roux.
+* Whisk stock mixture into the roux and simmer until reduced by half about 20 minutes.
+
+Spoon over french fries and cheese, and enjoy!
+
+Source: Chuck Hughes at [Food Network](https://www.foodnetwork.com/recipes/poutine-recipe-1973715).
