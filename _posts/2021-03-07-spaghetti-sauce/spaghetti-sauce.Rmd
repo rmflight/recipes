@@ -46,7 +46,7 @@ knitr::include_graphics("sauce_done.jpg")
 ### Ingredients - Halved
 
 * 20 oz crushed tomatoes
-* 1/4 red wine
+* 1/4 cup red wine
 * 1/3 cup white sugar
 * 1 Tbsp minced garlic
 * 1 Tbsp minced onion
@@ -67,3 +67,9 @@ Alternatively, drop 1 Tbsp of vegetable oil in pot, and over medium-high heat co
 Combine rest of ingredients as above.
 
 If desired, 1lb of browned ground beef can be added before serving over noodles or using in other pasta recipes.
+
+### Nutritional Info
+
+780 kcal (full) or 390 kcal (half), over 16 or 8 servings, is **50** kcal / serving.
+
+With 80/20 ground beef added, (1 or 0.5 lb), you add another **70** kcal / serving.
