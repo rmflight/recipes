@@ -7,7 +7,16 @@
     <description>Personal Recipe Site
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Fri, 07 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Quiche</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2022-01-16-quiche</link>
+      <description>Eggs, milk, spices and some ham makes a delicious lunch or dinner.</description>
+      <category>eggs</category>
+      <guid>https://rmflight.github.io/recipes/posts/2022-01-16-quiche</guid>
+      <pubDate>Sun, 16 Jan 2022 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Poutine Gravy</title>
       <dc:creator>Robert M Flight</dc:creator>
