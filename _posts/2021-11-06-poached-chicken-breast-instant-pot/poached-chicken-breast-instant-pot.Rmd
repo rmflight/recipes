@@ -47,6 +47,11 @@ knitr::opts_chunk$set(echo = FALSE)
 * Check temperature with a meat thermometer.
 Supposedly 165F is safe, but I still prefer 180F.
 
+## Frozen
+
+* For frozen chicken breasts:
+  * 2 chicken breasts - 3 minutes at pressure, 18 - 20 minute rest.
+
 ## Wait, why?
 
 As far as I can understand, we are using the heat necessary to get the mass of water + chicken to a boiling point to actually cook the chicken (poaching).
