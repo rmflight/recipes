@@ -1,5 +1,28 @@
 [
   {
+    "path": "posts/2022-04-05-vegetable-barley-soup/",
+    "title": "Vegetable Barley Soup",
+    "description": "Quick and Easy Vegetable Barley Soup in the Instant Pot",
+    "author": [
+      {
+        "name": "Robert M Flight",
+        "url": {}
+      }
+    ],
+    "date": "2022-04-05",
+    "categories": [
+      "vegetarian",
+      "soup",
+      "main-dish",
+      "barley",
+      "edamame"
+    ],
+    "contents": "\n\nContents\nAbout\nIngredients\nDirections\nNutrition\nNotes\n\nAbout\nPrep time 30 - 40 minutes.\nServes: 4 - 8\nIngredients\n3/4 cup pearl barley\n1 tbsp cooking oil\n1 tbsp minced onion rehydrated\n2 tsp minced garlic\n2 carrots peeled and diced\n1/2 red pepper diced (or more)\n1 1/2 cup edamame beans.\n1 tsp thyme\nsalt and pepper\n8 cups vegetable stock (or chicken stock)\nDirections\nPut instant pot on saute and add 1 tbsp oil.\nWhen hot, add 1 tbsp rehydrated minced onion, cook for a few minutes to brown.\nAdd 2 tsp minced garlic and cook for just a minute.\nTurn off saute mode.\nAdd rest of ingredients.\n2 carrots\n1/2 sweet pepper\n1 1/2 cup edamame beans\n1 tsp thyme\nsalt and pepper\n8 cups vegetable stock\n\nSet pressure cook for 20 - 25 minutes depending on how well done you like your barley. I found it was still chewy after 20 minutes and quick release, 20 minutes and 5 - 10 minute natural release might be fine too.\nNutrition\n220 Kcal.\nNotes\nthe original recipe called for 4 cups vegetable stock + 2 cups of water, I used 6 of vegetable broth, and while tasty, it could have been thinner, hence I’ve upped it to 8.\nIf you like a wider variety of vegetables, you could definitely replace a carrot with a stick of celery.\nThe original recipe said 4 servings, but we got closer to 6 and could definitely do 8 especially with any bread.\nOriginally from WachWhatYouEat.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-04-05T20:05:51-04:00",
+    "input_file": "vegetable-barley-soup.knit.md"
+  },
+  {
     "path": "posts/2022-02-12-chocolate-chip-muffins/",
     "title": "Chocolate Chip Muffins",
     "description": "Tasty chocolate chip muffins.",

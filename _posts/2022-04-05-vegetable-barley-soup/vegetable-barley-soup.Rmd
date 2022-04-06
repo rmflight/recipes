@@ -1,0 +1,65 @@
+---
+title: "Vegetable Barley Soup"
+description: |
+  Quick and Easy Vegetable Barley Soup in the Instant Pot
+author:
+  - name: Robert M Flight
+    url: {}
+date: 2022-04-05
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+categories:
+  - vegetarian
+  - soup
+  - main-dish
+  - barley
+  - edamame
+---
+
+## About
+
+* Prep time 30 - 40 minutes.
+* Serves: 4 - 8
+
+## Ingredients 
+
+* 3/4 cup pearl barley
+* 1 tbsp  cooking oil
+* 1 tbsp minced onion rehydrated
+* 2 tsp minced garlic
+* 2 carrots peeled and diced
+* 1/2 red pepper diced (or more)
+* 1 1/2 cup edamame beans.
+* 1 tsp  thyme
+* salt and pepper
+* 8 cups vegetable stock (or chicken stock)
+
+## Directions
+
+* Put instant pot on saute and add **1 tbsp oil**.
+* When hot, add **1 tbsp** rehydrated minced onion, cook for a few minutes to brown.
+* Add **2 tsp** minced garlic and cook for just a minute.
+* Turn off saute mode.
+* Add rest of ingredients.
+  * **2** carrots
+  * **1/2** sweet pepper
+  * **1 1/2 cup** edamame beans
+  * **1 tsp** thyme
+  * salt and pepper
+  * **8 cups** vegetable stock
+
+* Set pressure cook for **20 - 25** minutes depending on how well done you like your barley. I found it was still chewy after 20 minutes and quick release, 20 minutes and 5 - 10 minute natural release might be fine too.
+
+## Nutrition
+
+220 Kcal.
+
+## Notes 
+
+* the original recipe called for 4 cups vegetable stock + 2 cups of water, I used 6 of vegetable broth, and while tasty, it could have been thinner, hence I've upped it to 8. 
+* If you like a wider variety of vegetables, you could definitely replace a carrot with a stick of celery.
+* The original recipe said 4 servings, but we got closer to 6 and could definitely do 8 especially with any bread.
+
+Originally from [WachWhatYouEat](https://www.watchwhatueat.com/instant-pot-vegetable-barley-soup/#recipe).
