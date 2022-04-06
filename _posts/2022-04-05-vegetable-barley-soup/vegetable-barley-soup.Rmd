@@ -16,6 +16,7 @@ categories:
   - main-dish
   - barley
   - edamame
+  - instant-pot
 ---
 
 ## About
@@ -34,7 +35,7 @@ categories:
 * 1 1/2 cup edamame beans.
 * 1 tsp  thyme
 * salt and pepper
-* 8 cups vegetable stock (or chicken stock)
+* 8 cups vegetable stock
 
 ## Directions
 
