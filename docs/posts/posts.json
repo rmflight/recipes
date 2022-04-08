@@ -1,5 +1,25 @@
 [
   {
+    "path": "posts/2022-04-07-roasted-sweet-potatoes/",
+    "title": "Roasted Sweet Potatoes",
+    "description": "Deliciously tart sweet potatoes.",
+    "author": [
+      {
+        "name": "Robert M Flight",
+        "url": {}
+      }
+    ],
+    "date": "2022-04-07",
+    "categories": [
+      "side-dish",
+      "baked"
+    ],
+    "contents": "\n\nContents\nTime\nIngredients\nDirections\nNutrition\n\nTime\nPrep: 10 minutes\nCook: 30 - 35 minutes\nIngredients\n4 cups chopped peeled sweet potato\n1 sweet onions (such as Vidalia®), cut into wedges\n2 cloves garlic, sliced\n3 tbsp olive oil\n1 tbsp balsamic vinegar, or more to taste\n1 pinch salt and ground black pepper to taste\nDirections\nPreheat oven to 425F\nMix 4 cups sweet potatoes, 1 sweet onion, and 2 cloves garlic in a bowl. Drizzle 3 tbps olive oil over the mixture and toss to coat; pour into a shallow roasting pan.\nRoast sweet potato mixture in preheated oven, turning frequently, until the vegetables are soft and golden brown, 30 to 35 minutes.\nDrizzle balsamic vinegar over the vegetables; season with salt and pepper.\nNutrition\n220 Kcal / serving\nOriginal source: Allrecipes\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-04-07T20:01:04-04:00",
+    "input_file": "roasted-sweet-potatoes.knit.md"
+  },
+  {
     "path": "posts/2022-04-05-vegetable-barley-soup/",
     "title": "Vegetable Barley Soup",
     "description": "Quick and Easy Vegetable Barley Soup in the Instant Pot",

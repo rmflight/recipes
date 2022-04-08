@@ -7,7 +7,17 @@
     <description>Personal Recipe Site
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 05 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Roasted Sweet Potatoes</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2022-04-07-roasted-sweet-potatoes</link>
+      <description>Deliciously tart sweet potatoes.</description>
+      <category>side-dish</category>
+      <category>baked</category>
+      <guid>https://rmflight.github.io/recipes/posts/2022-04-07-roasted-sweet-potatoes</guid>
+      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Vegetable Barley Soup</title>
       <dc:creator>Robert M Flight</dc:creator>
