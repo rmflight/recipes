@@ -1,5 +1,5 @@
 ---
-title: "Wraps Sauce"
+title: "Chicken Wraps"
 description: |
   A sweet sauce for meat and veggies wrapped in tortillas.
 author:
@@ -16,21 +16,36 @@ categories:
   - wraps
 ---
 
-v 0.0.2
+v 0.0.3
 
+## Ingredients
+
+* 2 - 3 chicken breasts cubed
+* 1 tbsp cooking oil
+* 1 sweet peper sliced
+* 4 large carrots sliced
+* 1 onion in pieces
 * 1 cup hot water
 * Heaping tsp of chicken bouillon powder
 
-Mix chicken bouillon into water to make a stock, divide into 2
 
-* Soy sauce - 1 Tbsp
-* Balsamic vinegar - 1 tsp
-* Brown sugar - 3 Tbsp 
-* White sugar - 1 Tbsp 
-* Corn starch - 1 Tbsp 
+* 1 tbsp Soy sauce 
+* 1 tsp Balsamic vinegar
+* 3 tbsp Brown sugar
+* 1 tbsp White sugar
+* 1 tbsp Corn starch
 
-Cook meat in the first half chicken stock.
 
-Mix the rest of the ingredients into the other half of chicken stock. When everything is cooked, put the sauce on, heat until thickened.
+## Directions
+
+* Add **heaping tsp** of chicken stock to **1 cup** hot water. Set aside for later.
+* Heat **1 tbsp** oil over high heat in large saucepan
+* When hot, add cubed pieces of chicken. Season lightly with pepper and salt.
+* Continue cooking until brown and cooked through (no pink in pieces broken apart)
+* Add sliced veggies to the saucepan with chicken, and **1/2 cup** of chicken stock. 
+* Reduce heat, cover, and steam veggies and chicken for 5 - 10 min, until veggies are cooked.
+* While veggies are cooking, add to the **1/2 cup** chicken stock:
+  * **1 tbsp** soy sauce, **1 tsp** balsamic vinegar, **3 tbsp** brown sugar, **1 tbsp** white sugar, **1 tbsp** corn starch.
+* When veggies are cooked, uncover, add sauce mix, and stir until sauce is thickened.
 
 Source: Sarah Flight

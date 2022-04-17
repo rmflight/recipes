@@ -23,6 +23,7 @@
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
@@ -55,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -76,7 +77,7 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
@@ -84,8 +85,9 @@ code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
+
   <!--radix_placeholder_meta_tags-->
-  <title>Wraps Sauce</title>
+  <title>Chicken Wraps</title>
 
   <meta property="description" itemprop="description" content="A sweet sauce for meat and veggies wrapped in tortillas."/>
 
@@ -96,26 +98,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <meta name="article:author" content="Robert M Flight"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Wraps Sauce"/>
+  <meta property="og:title" content="Chicken Wraps"/>
   <meta property="og:type" content="article"/>
   <meta property="og:description" content="A sweet sauce for meat and veggies wrapped in tortillas."/>
   <meta property="og:locale" content="en_US"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Wraps Sauce"/>
+  <meta property="twitter:title" content="Chicken Wraps"/>
   <meta property="twitter:description" content="A sweet sauce for meat and veggies wrapped in tortillas."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","categories"]}},"value":[{"type":"character","attributes":{},"value":["Wraps Sauce"]},{"type":"character","attributes":{},"value":["A sweet sauce for meat and veggies wrapped in tortillas.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Robert M Flight"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":[]}},"value":[]}]}]},{"type":"character","attributes":{},"value":["03-09-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]}]}]},{"type":"character","attributes":{},"value":["sauce","chicken","wraps"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","categories"]}},"value":[{"type":"character","attributes":{},"value":["Chicken Wraps"]},{"type":"character","attributes":{},"value":["A sweet sauce for meat and veggies wrapped in tortillas.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Robert M Flight"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":[]}},"value":[]}]}]},{"type":"character","attributes":{},"value":["03-09-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]}]}]},{"type":"character","attributes":{},"value":["sauce","chicken","wraps"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"NULL"}
+  {"type":"character","attributes":{},"value":["wraps-sauce_files/anchor-4.2.2/anchor.min.js","wraps-sauce_files/bowser-1.9.3/bowser.min.js","wraps-sauce_files/distill-2.2.21/template.v2.js","wraps-sauce_files/header-attrs-2.7/header-attrs.js","wraps-sauce_files/jquery-1.11.3/jquery.min.js","wraps-sauce_files/popper-2.6.0/popper.min.js","wraps-sauce_files/tippy-6.2.7/tippy-bundle.umd.min.js","wraps-sauce_files/tippy-6.2.7/tippy-light-border.css","wraps-sauce_files/tippy-6.2.7/tippy.css","wraps-sauce_files/tippy-6.2.7/tippy.umd.min.js","wraps-sauce_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
@@ -1262,7 +1264,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -1433,8 +1438,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="wraps-sauce_files/header-attrs-2.7/header-attrs.js"></script>
-  <script src="wraps-sauce_files/jquery-1.11.3/jquery.min.js"></script>
+  <script src="wraps-sauce_files/header-attrs-2.13/header-attrs.js"></script>
+  <script src="wraps-sauce_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <script src="wraps-sauce_files/popper-2.6.0/popper.min.js"></script>
   <link href="wraps-sauce_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="wraps-sauce_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -1454,7 +1459,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Wraps Sauce","description":"A sweet sauce for meat and veggies wrapped in tortillas.","authors":[{"author":"Robert M Flight","authorURL":{},"affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-03-09T00:00:00.000-05:00","citationText":"Flight, 2021"}
+{"title":"Chicken Wraps","description":"A sweet sauce for meat and veggies wrapped in tortillas.","authors":[{"author":"Robert M Flight","authorURL":{},"affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-03-09T00:00:00.000-05:00","citationText":"Flight, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1464,7 +1469,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Wraps Sauce</h1>
+<h1>Chicken Wraps</h1>
 <!--radix_placeholder_categories-->
 <div class="dt-tags">
 <div class="dt=tag">sauce</div>
@@ -1482,21 +1487,45 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 
 <div class="d-article">
-<p>v 0.0.2</p>
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
 <ul>
-<li>1 cup hot water</li>
-<li>Heaping tsp of chicken bouillon powder</li>
+<li><a href="#ingredients">Ingredients</a></li>
+<li><a href="#directions">Directions</a></li>
 </ul>
-<p>Mix chicken bouillon into water to make a stock, divide into 2</p>
+</nav>
+</div>
+<p>v 0.0.3</p>
+<h2 id="ingredients">Ingredients</h2>
 <ul>
-<li>Soy sauce - 1 Tbsp</li>
-<li>Balsamic vinegar - 1 tsp</li>
-<li>Brown sugar - 3 Tbsp</li>
-<li>White sugar - 1 Tbsp</li>
-<li>Corn starch - 1 Tbsp</li>
+<li><p>2 - 3 chicken breasts cubed</p></li>
+<li><p>1 tbsp cooking oil</p></li>
+<li><p>1 sweet peper sliced</p></li>
+<li><p>4 large carrots sliced</p></li>
+<li><p>1 onion in pieces</p></li>
+<li><p>1 cup hot water</p></li>
+<li><p>Heaping tsp of chicken bouillon powder</p></li>
+<li><p>1 tbsp Soy sauce</p></li>
+<li><p>1 tsp Balsamic vinegar</p></li>
+<li><p>3 tbsp Brown sugar</p></li>
+<li><p>1 tbsp White sugar</p></li>
+<li><p>1 tbsp Corn starch</p></li>
 </ul>
-<p>Cook meat in the first half chicken stock.</p>
-<p>Mix the rest of the ingredients into the other half of chicken stock. When everything is cooked, put the sauce on, heat until thickened.</p>
+<h2 id="directions">Directions</h2>
+<ul>
+<li>Add <strong>heaping tsp</strong> of chicken stock to <strong>1 cup</strong> hot water. Set aside for later.</li>
+<li>Heat <strong>1 tbsp</strong> oil over high heat in large saucepan</li>
+<li>When hot, add cubed pieces of chicken. Season lightly with pepper and salt.</li>
+<li>Continue cooking until brown and cooked through (no pink in pieces broken apart)</li>
+<li>Add sliced veggies to the saucepan with chicken, and <strong>1/2 cup</strong> of chicken stock.</li>
+<li>Reduce heat, cover, and steam veggies and chicken for 5 - 10 min, until veggies are cooked.</li>
+<li>While veggies are cooking, add to the <strong>1/2 cup</strong> chicken stock:
+<ul>
+<li><strong>1 tbsp</strong> soy sauce, <strong>1 tsp</strong> balsamic vinegar, <strong>3 tbsp</strong> brown sugar, <strong>1 tbsp</strong> white sugar, <strong>1 tbsp</strong> corn starch.</li>
+</ul></li>
+<li>When veggies are cooked, uncover, add sauce mix, and stir until sauce is thickened.</li>
+</ul>
 <p>Source: Sarah Flight</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->

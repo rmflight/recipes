@@ -766,7 +766,7 @@
   },
   {
     "path": "posts/2021-03-09-wraps-sauce/",
-    "title": "Wraps Sauce",
+    "title": "Chicken Wraps",
     "description": "A sweet sauce for meat and veggies wrapped in tortillas.",
     "author": [
       {
@@ -780,10 +780,10 @@
       "chicken",
       "wraps"
     ],
-    "contents": "\nv 0.0.2\n1 cup hot water\nHeaping tsp of chicken bouillon powder\nMix chicken bouillon into water to make a stock, divide into 2\nSoy sauce - 1 Tbsp\nBalsamic vinegar - 1 tsp\nBrown sugar - 3 Tbsp\nWhite sugar - 1 Tbsp\nCorn starch - 1 Tbsp\nCook meat in the first half chicken stock.\nMix the rest of the ingredients into the other half of chicken stock. When everything is cooked, put the sauce on, heat until thickened.\nSource: Sarah Flight\n\n\n\n",
+    "contents": "\n\nContents\nIngredients\nDirections\n\nv 0.0.3\nIngredients\n2 - 3 chicken breasts cubed\n1 tbsp cooking oil\n1 sweet peper sliced\n4 large carrots sliced\n1 onion in pieces\n1 cup hot water\nHeaping tsp of chicken bouillon powder\n1 tbsp Soy sauce\n1 tsp Balsamic vinegar\n3 tbsp Brown sugar\n1 tbsp White sugar\n1 tbsp Corn starch\nDirections\nAdd heaping tsp of chicken stock to 1 cup hot water. Set aside for later.\nHeat 1 tbsp oil over high heat in large saucepan\nWhen hot, add cubed pieces of chicken. Season lightly with pepper and salt.\nContinue cooking until brown and cooked through (no pink in pieces broken apart)\nAdd sliced veggies to the saucepan with chicken, and 1/2 cup of chicken stock.\nReduce heat, cover, and steam veggies and chicken for 5 - 10 min, until veggies are cooked.\nWhile veggies are cooking, add to the 1/2 cup chicken stock:\n1 tbsp soy sauce, 1 tsp balsamic vinegar, 3 tbsp brown sugar, 1 tbsp white sugar, 1 tbsp corn starch.\n\nWhen veggies are cooked, uncover, add sauce mix, and stir until sauce is thickened.\nSource: Sarah Flight\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-03-09T20:40:10-05:00",
-    "input_file": {}
+    "last_modified": "2022-04-17T11:06:55-04:00",
+    "input_file": "wraps-sauce.knit.md"
   },
   {
     "path": "posts/2021-03-08-chicken-pot-pie/",
