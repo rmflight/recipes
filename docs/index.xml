@@ -7,7 +7,17 @@
     <description>Personal Recipe Site
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Thu, 07 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Chili</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2022-07-03-chili</link>
+      <description>Ground beef, kidney beans, tomatos and some spice!</description>
+      <category>hamburger</category>
+      <category>tomato</category>
+      <guid>https://rmflight.github.io/recipes/posts/2022-07-03-chili</guid>
+      <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Roasted Sweet Potatoes</title>
       <dc:creator>Robert M Flight</dc:creator>
@@ -469,7 +479,6 @@
       <description>A sweet and savory tomato sauce that is great on top of pasta or as part of a lasagna.</description>
       <category>sauce</category>
       <category>tomato</category>
-      <category>tomatoes</category>
       <category>pasta</category>
       <guid>https://rmflight.github.io/recipes/posts/2021-03-07-spaghetti-sauce</guid>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>

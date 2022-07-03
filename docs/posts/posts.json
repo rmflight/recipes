@@ -1,5 +1,25 @@
 [
   {
+    "path": "posts/2022-07-03-chili/",
+    "title": "Chili",
+    "description": "Ground beef, kidney beans, tomatos and some spice!",
+    "author": [
+      {
+        "name": "Robert M Flight",
+        "url": {}
+      }
+    ],
+    "date": "2022-07-03",
+    "categories": [
+      "hamburger",
+      "tomato"
+    ],
+    "contents": "\n\nContents\nIngredients\nToppings\nDirections\n\nIngredients\n1 tbsp. cooking oil\n1 tbsp minced onion, rehydrated\n3 cloves minced garlic / 3 tsp minced garlic\n2 tbsp. tomato paste\n1 - 1 1/2 lb. ground beef\n1 1/2 tbsp. chili powder\n1 tsp. ground cumin\n1 tsp. dried oregano\n1 (15-oz) can kidney beans, drained\n1 (28-oz) can crushed tomatoes\nToppings\nShredded cheddar\nSour cream\nThinly sliced green onions\nDirections\nIn a large pot over medium heat, heat 1 tbsp\noil.\nAdd 1 tbsp minced onion and cook until soft, about\n5 minutes.\nStir in 3 tsp minced garlic and cook until\nfragrant, about 1 minute more, then add 2 tbsp tomato\npaste, stirring to combine.\nAdd 1 - 1 1/2 lbs ground beef and cook until no\nlonger pink. Drain fat and return to heat.\nAdd 1 1/2 tbsp chili powder, 1 tsp\ncumin, 1 tsp oregano, and season generously with salt\nand pepper.\nPour in 1 can (15 oz) of drained and rinsed kidney\nbeans, and 1 can (28 oz) of crushed tomatoes and bring\nchili to a boil.\nReduce heat and simmer 20 minutes.\nSeason with more salt and pepper, if necessary\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-07-03T11:21:15-04:00",
+    "input_file": "chili.knit.md"
+  },
+  {
     "path": "posts/2022-04-07-roasted-sweet-potatoes/",
     "title": "Roasted Sweet Potatoes",
     "description": "Deliciously tart sweet potatoes.",
@@ -866,13 +886,12 @@
     "categories": [
       "sauce",
       "tomato",
-      "tomatoes",
       "pasta"
     ],
-    "contents": "\n\nContents\nIngredients - Full\nIngredients - Halved\nDirections\nNutritional Info\n\nv 0.0.4\nThe full recipe should serve 6 - 8 people, the half serves 4 - 6. I know the half seems like very little sauce, but at least in our family we always have too much.\nAlso used in our lasagna (Flight 2021).\n\n\n\nIngredients - Full\n2 x 20oz crushed tomatoes\n1/2 cup red wine\n2/3 cup White sugar\n2 Tbsp minced garlic\n2 Tbsp minced onion\n3 Tbsp basil leaves\n2 Tbsp oregano flakes\n2 tsp rosemary\n2 tsp thyme\n2 Tbsp worcestershire sauce\n2 bay leaves\n2 Tbsp tomato paste\nIngredients - Halved\n20 oz crushed tomatoes\n1/4 cup red wine\n1/3 cup white sugar\n1 Tbsp minced garlic\n1 Tbsp minced onion\n1 Tbsp basil leaves\n1 Tbsp oregano flakes\n1 tsp rosemary\n1 tsp thyme\n1 Tbsp Worcestershire sauce\n1 Tbsp tomato paste\n1 bay leaf\nDirections\nCombine all ingredients in a large pot, bring to a gentle simmer, reduce heat and allow to simmer for 2 hours.\nAlternatively, drop 1 Tbsp of vegetable oil in pot, and over medium-high heat cook onion and garlic for 2 - 3 minutes until fragrant and browned. Combine rest of ingredients as above.\nIf desired, 1lb of browned ground beef can be added before serving over noodles or using in other pasta recipes.\nNutritional Info\n780 kcal (full) or 390 kcal (half), over 16 or 8 servings, is 50 kcal / serving.\nWith 80/20 ground beef added, (1 or 0.5 lb), you add another 70 kcal / serving.\n\n\n\nFlight, Robert M. 2021. “Flight Family Recipes: Lasagna.” https://rmflight.github.io/recipes/posts/2021-03-14-lasagna/.\n\n\n\n\n",
+    "contents": "\n\nContents\nIngredients - Full\nIngredients - Halved\nDirections\nNutritional\nInfo\n\nv 0.0.4\nThe full recipe should serve 6 - 8\npeople, the half serves 4 - 6. I\nknow the half seems like very little sauce, but at least in our family\nwe always have too much.\nAlso used in our lasagna (Flight 2021).\n\n\n\nIngredients - Full\n2 x 20oz crushed tomatoes\n1/2 cup red wine\n2/3 cup White sugar\n2 Tbsp minced garlic\n2 Tbsp minced onion\n3 Tbsp basil leaves\n2 Tbsp oregano flakes\n2 tsp rosemary\n2 tsp thyme\n2 Tbsp worcestershire sauce\n2 bay leaves\n2 Tbsp tomato paste\nIngredients - Halved\n20 oz crushed tomatoes\n1/4 cup red wine\n1/3 cup white sugar\n1 Tbsp minced garlic\n1 Tbsp minced onion\n1 Tbsp basil leaves\n1 Tbsp oregano flakes\n1 tsp rosemary\n1 tsp thyme\n1 Tbsp Worcestershire sauce\n1 Tbsp tomato paste\n1 bay leaf\nDirections\nCombine all ingredients in a large pot, bring to a gentle simmer,\nreduce heat and allow to simmer for 2 hours.\nAlternatively, drop 1 Tbsp of vegetable oil in pot, and over\nmedium-high heat cook onion and garlic for 2 - 3 minutes until fragrant\nand browned. Combine rest of ingredients as above.\nIf desired, 1lb of browned ground beef can be added before serving\nover noodles or using in other pasta recipes.\nNutritional Info\n780 kcal (full) or 390 kcal (half), over 16 or 8 servings, is\n50 kcal / serving.\nWith 80/20 ground beef added, (1 or 0.5 lb), you add another\n70 kcal / serving.\n\n\n\nFlight, Robert M. 2021. “Flight Family Recipes: Lasagna.”\nhttps://rmflight.github.io/recipes/posts/2021-03-14-lasagna/.\n\n\n\n\n",
     "preview": "posts/2021-03-07-spaghetti-sauce/sauce_done.jpg",
-    "last_modified": "2022-01-12T21:33:59-05:00",
-    "input_file": {}
+    "last_modified": "2022-07-03T11:21:01-04:00",
+    "input_file": "spaghetti-sauce.knit.md"
   },
   {
     "path": "posts/welcome/",

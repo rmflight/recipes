@@ -13,7 +13,6 @@ output:
 categories:
   - sauce
   - tomato
-  - tomatoes
   - pasta
 bibliography: refs.bib
 ---
