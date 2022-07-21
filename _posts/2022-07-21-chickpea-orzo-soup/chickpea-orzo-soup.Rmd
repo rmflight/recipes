@@ -15,6 +15,10 @@ categories:
   - vegetarian
 ---
 
+```{r include_image, echo = FALSE}
+knitr::include_graphics("chickpea_soup.jpg")
+```
+
 ## Ingredients
 
 * 1 Tbsp vegetable oil
@@ -27,7 +31,7 @@ categories:
 * 1 can fire roasted diced tomatoes (15.5 oz can)
 * 6 - 8 cups vegetable broth
 * 1 Tbsp Italian Seasoning
-  * 2 tsp basic, 1 tsp oregano, 1/2 tsp thyme, some rosemary
+  * 2 tsp basil, 1 tsp oregano, 1/2 tsp thyme, some rosemary
 * Salt and Pepper per taste
 * 1 Tbsp lemon juice
 
