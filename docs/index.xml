@@ -7,7 +7,17 @@
     <description>Personal Recipe Site
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Sun, 03 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Chickpea Orzo Soup</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2022-07-21-chickpea-orzo-soup</link>
+      <description>Filling vegetarian soup.</description>
+      <category>soup</category>
+      <category>vegetarian</category>
+      <guid>https://rmflight.github.io/recipes/posts/2022-07-21-chickpea-orzo-soup</guid>
+      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Chili</title>
       <dc:creator>Robert M Flight</dc:creator>

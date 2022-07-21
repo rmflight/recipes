@@ -1,0 +1,51 @@
+---
+title: "Chickpea Orzo Soup"
+description: |
+  Filling vegetarian soup.
+author:
+  - name: Robert M Flight
+    url: {}
+date: 2022-07-21
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+categories:
+  - soup
+  - vegetarian
+---
+
+## Ingredients
+
+* 1 Tbsp vegetable oil
+* 1 Tbsp minced onion rehydrated
+* 1 cup diced carrots
+* 3-4 tsp minced garlic
+* 1 cup dry orzo pasta
+* 1/2 yellow pepper, diced
+* 1 can garbanzo beans (chickpeas, 15.5 oz)- drain and rinse
+* 1 can fire roasted diced tomatoes (15.5 oz can)
+* 6 - 8 cups vegetable broth
+* 1 Tbsp Italian Seasoning
+  * 2 tsp basic, 1 tsp oregano, 1/2 tsp thyme, some rosemary
+* Salt and Pepper per taste
+* 1 Tbsp lemon juice
+
+## Directions
+
+* Warm **1 Tbsp** vegetable oil in large pot.
+* Add **1 Tbsp** minced onion, and **1 cup** diced carrots
+* Cook for 4 - 5 minutes until the carrots are starting to get a little tender.
+* Add **3 - 4 tsp** minced garlic and **1 cup** dry orzo pasta.
+* Stir frequently over medium heat to toast the orzo until garlic is fragrant.
+* Add **1/2 yellow pepper**, **1 can** drained and rinsed garbanzo beans, **1 can** fire roasted tomatoes, **1 Tbsp** italian seasoning
+* Stir together with everything else.
+* Add **6 - 8 cups** vegetable broth and **1 Tbsp** lemon juice.
+* Bring to a boil, reduce heat and simmer for **15 minutes**.
+* Serve in a bowl.
+
+## Nutritional Information
+
+* 1 cup (or small bowl) is ~ 210 Kcal.
+
+Sourced and modified from [Profusion Curry Chickpea Orzo Soup](https://profusioncurry.com/wprm_print/7381).
