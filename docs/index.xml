@@ -7,7 +7,16 @@
     <description>Personal Recipe Site
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Thu, 21 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Butter and Butter Substitutes</title>
+      <dc:creator>Robert M Flight</dc:creator>
+      <link>https://rmflight.github.io/recipes/posts/2022-08-07-butter</link>
+      <description>What types of butter we typically use, and how we substitute different
+things in depending on the recipe.</description>
+      <guid>https://rmflight.github.io/recipes/posts/2022-08-07-butter</guid>
+      <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Chickpea Orzo Soup</title>
       <dc:creator>Robert M Flight</dc:creator>

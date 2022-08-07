@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2022-08-07-butter/",
+    "title": "Butter and Butter Substitutes",
+    "description": "What types of butter we typically use, and how we substitute different\nthings in depending on the recipe.",
+    "author": [
+      {
+        "name": "Robert M Flight",
+        "url": {}
+      }
+    ],
+    "date": "2022-08-07",
+    "categories": [],
+    "contents": "\n\nContents\nButter\nUnsalted\nvs Salted\nButter\nSubstitutes\n\nButter\nIf you look at the recipes on this site, you will notice that a bunch\nof them use butter, or butter substitutes (technically margarine).\nUnsalted vs Salted\nI know most baking recommends using unsalted butter, and then add\nspecific amount of salt to the recipe for flavor enhancement.\nHistorically, our family doesn’t add very much salt to their food, so\nwe find that adding any amount of salt, especially baked goods, makes\nthem much too salty.\nTherefore, in our baking, we typically use salted butter, or a butter\nsubstitute that contains salt, and then don’t add any extra salt to the\nrecipe.\nButter Substitutes\nWe have one child who is rather severely lactose intolerant, as in\nthey can’t consume regular milk, yogurt or cheese. Even the brand of\nlactose free milk can make a difference, as it seems some are better at\nadding enough lactase enzyme over others. Pro-tip, Lactaid brand seems\nfine, as does the Aldi and Walmart brand lactose free milks. Kroger\nbrand is not fine, at least in our family.\nTherefore, we use plant based butter substitutes in\nalmost all of our recipes, unless the recipe also\nincludes cheese, in which case we don’t bother.\nHowever, depending on what exactly is being cooked, in my experience\nit seems that different butter substitutes are more appropriate,\nfactoring in taste, extra water added, etc.\nI shop at our local WalMart, so this is all based on what I can buy\nthere.\nGreat\nValue Unsalted Butter: goes in my coffee (yes, I like butter in my\ncoffee), and also used in the cheese sauce for my Mac\n& Cheese.\nCountry\nCrock Plant Butter: In cookies, cakes and muffins, this is a\nstraight substitute. However, this does not work for buttercream icing,\nroux, or bread dough based recipes like cinnamon buns. In the case of a\nroux, the butter taste is too strong. Buttercream icing\nends up with a weird consistency. Bread dough doesn’t seem to rise\nproperly.\nSmart\nBalance Buttery Spread: This one I use when I’m making a dairy free\nor lactose free roux, like for our Chicken Pot Pie, and we also use in\nbread doughs and buttercream icing.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-08-07T16:18:38-04:00",
+    "input_file": "butter.knit.md"
+  },
+  {
     "path": "posts/2022-07-21-chickpea-orzo-soup/",
     "title": "Chickpea Orzo Soup",
     "description": "Filling vegetarian soup.",
@@ -16,8 +33,8 @@
     ],
     "contents": "\n\nContents\nIngredients\nDirections\nNutritional Information\n\n\n\n\nIngredients\n1 Tbsp vegetable oil\n1 Tbsp minced onion rehydrated\n1 cup diced carrots\n3-4 tsp minced garlic\n1 cup dry orzo pasta\n1/2 yellow pepper, diced\n1 can garbanzo beans (chickpeas, 15.5 oz)- drain and rinse\n1 can fire roasted diced tomatoes (15.5 oz can)\n6 - 8 cups vegetable broth\n1 Tbsp Italian Seasoning\n2 tsp basil, 1 tsp oregano, 1/2 tsp thyme, some rosemary\n\nSalt and Pepper per taste\n1 Tbsp lemon juice\nDirections\nWarm 1 Tbsp vegetable oil in large pot.\nAdd 1 Tbsp minced onion, and 1 cup\ndiced carrots\nCook for 4 - 5 minutes until the carrots are starting to get a\nlittle tender.\nAdd 3 - 4 tsp minced garlic and 1\ncup dry orzo pasta.\nStir frequently over medium heat to toast the orzo until garlic is\nfragrant.\nAdd 1/2 yellow pepper, 1 can\ndrained and rinsed garbanzo beans, 1 can fire roasted\ntomatoes, 1 Tbsp italian seasoning\nStir together with everything else.\nAdd 6 - 8 cups vegetable broth and 1\nTbsp lemon juice.\nBring to a boil, reduce heat and simmer for 15\nminutes.\nServe in a bowl.\nNutritional Information\n1 cup (or small bowl) is ~ 210 Kcal.\nSourced and modified from Profusion Curry\nChickpea Orzo Soup.\n\n\n\n",
     "preview": "posts/2022-07-21-chickpea-orzo-soup/chickpea_soup.jpg",
-    "last_modified": "2022-07-21T18:27:57-04:00",
-    "input_file": "chickpea-orzo-soup.knit.md"
+    "last_modified": "2022-07-21T18:27:58-04:00",
+    "input_file": {}
   },
   {
     "path": "posts/2022-07-03-chili/",
