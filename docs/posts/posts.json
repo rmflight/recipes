@@ -751,10 +751,10 @@
       "hamburger",
       "casserole"
     ],
-    "contents": "\n\nContents\nIngredients\nDirections\n\nv 0.0.2\nIngredients\n1.5 pounds of hamburger\n3/4 cup of ketchup\n3 Tbsp brown sugar\n1 tsp of mustard\n2 Tbsp of bbq sauce\nDirections\nCook hamburger\nMix condiments together\nThrow condiments in with hamburger, stir until heated through.\nServe on buns\nAdapted from https://www.eatingonadime.com/sloppy-joes-recipe/\n\n\n\n",
+    "contents": "\n\nContents\nIngredients\nDirections\n\nv 0.0.3\nIngredients\n1 pounds of hamburger\n1/2 cup of ketchup\n2 Tbsp brown sugar\n0.5 tsp of mustard\n2 Tbsp of bbq sauce\nDirections\nCook hamburger\nMix condiments together\nThrow condiments in with hamburger, stir until heated through.\nServe on buns\nAdapted from https://www.eatingonadime.com/sloppy-joes-recipe/\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-03-14T22:09:15-04:00",
-    "input_file": {}
+    "last_modified": "2022-10-27T11:12:18-04:00",
+    "input_file": "simple-sloppy-joes.knit.md"
   },
   {
     "path": "posts/2021-03-09-donair-sauce/",

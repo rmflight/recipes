@@ -15,14 +15,14 @@ categories:
   - casserole
 ---
 
-v 0.0.2
+v 0.0.3
 
 ## Ingredients
 
-* 1.5 pounds of hamburger
-* 3/4 cup of ketchup
-* 3 Tbsp brown sugar
-* 1 tsp of mustard
+* 1 pounds of hamburger
+* 1/2 cup of ketchup
+* 2 Tbsp brown sugar
+* 0.5 tsp of mustard
 * 2 Tbsp of bbq sauce
 
 ## Directions
