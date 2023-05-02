@@ -1,0 +1,49 @@
+---
+title: "Chocolate Cake"
+description: |
+  A rich chocolate cake, great for whenever you need some sweetness in your life.
+date: 03-20-2021
+categories:
+  - baked
+  - cake
+  - chocolate
+  - dessert
+---
+
+Bake one hour at 350F. 
+
+## Ingredients
+
+* 2 1/2 cups white sugar
+* 1 cup cooking oil
+* 2 eggs
+* 1 tsp vanilla
+* 1 cup hot coffee
+* 1 cup sour milk (3/4 cup milk, 1/4 cup vinegar)
+* 3/4 cup cocoa
+* 2 tsp baking soda
+* 2 tsp baking powder
+* 1 1/2 tsp salt
+* 3 cups flour
+
+## Directions
+
+* In a mixing bowl, combine
+  * 2 1/2 cups white sugar
+  * 1 cup cooking oil
+  * 2 eggs
+  * 1 tsp vanilla
+* If using a stand mixer, start mixing on low.
+* Add **1 cup** hot coffee
+* Add **1 cup** sour milk
+* Add **3/4 cup** cocoa
+* Add remaining dry ingredients
+  * 2 tsp baking soda
+  * 2 tsp baking powder
+  * 1 1/2 tsp salt
+  * 3 cups flour
+
+* Pour into a greased baking dish.
+* Bake at 350F for an hour.
+* Check if done using a toothpick.
+

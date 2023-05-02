@@ -1,516 +1,1035 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
-  <channel>
-    <title>Flight Family Recipes</title>
-    <link>https://rmflight.github.io/recipes</link>
-    <atom:link href="https://rmflight.github.io/recipes/index.xml" rel="self" type="application/rss+xml"/>
-    <description>Personal Recipe Site
-</description>
-    <generator>Distill</generator>
-    <lastBuildDate>Sun, 07 Aug 2022 00:00:00 +0000</lastBuildDate>
-    <item>
-      <title>Butter and Butter Substitutes</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2022-08-07-butter</link>
-      <description>What types of butter we typically use, and how we substitute different
-things in depending on the recipe.</description>
-      <guid>https://rmflight.github.io/recipes/posts/2022-08-07-butter</guid>
-      <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chickpea Orzo Soup</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2022-07-21-chickpea-orzo-soup</link>
-      <description>Filling vegetarian soup.</description>
-      <category>soup</category>
-      <category>vegetarian</category>
-      <guid>https://rmflight.github.io/recipes/posts/2022-07-21-chickpea-orzo-soup</guid>
-      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
-      <media:content url="https://rmflight.github.io/recipes/posts/2022-07-21-chickpea-orzo-soup/chickpea_soup.jpg" medium="image" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Chili</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2022-07-03-chili</link>
-      <description>Ground beef, kidney beans, tomatos and some spice!</description>
-      <category>hamburger</category>
-      <category>tomato</category>
-      <guid>https://rmflight.github.io/recipes/posts/2022-07-03-chili</guid>
-      <pubDate>Sun, 03 Jul 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Roasted Sweet Potatoes</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2022-04-07-roasted-sweet-potatoes</link>
-      <description>Deliciously tart sweet potatoes.</description>
-      <category>side-dish</category>
-      <category>baked</category>
-      <guid>https://rmflight.github.io/recipes/posts/2022-04-07-roasted-sweet-potatoes</guid>
-      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Vegetable Barley Soup</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2022-04-05-vegetable-barley-soup</link>
-      <description>Quick and Easy Vegetable Barley Soup in the Instant Pot</description>
-      <category>vegetarian</category>
-      <category>soup</category>
-      <category>main-dish</category>
-      <category>barley</category>
-      <category>edamame</category>
-      <category>instant-pot</category>
-      <guid>https://rmflight.github.io/recipes/posts/2022-04-05-vegetable-barley-soup</guid>
-      <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chocolate Chip Muffins</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2022-02-12-chocolate-chip-muffins</link>
-      <description>Tasty chocolate chip muffins.</description>
-      <category>muffin</category>
-      <category>chocolate-chip</category>
-      <category>breakfast</category>
-      <guid>https://rmflight.github.io/recipes/posts/2022-02-12-chocolate-chip-muffins</guid>
-      <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Quiche</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2022-01-16-quiche</link>
-      <description>Eggs, milk, spices and some ham makes a delicious lunch or dinner.</description>
-      <category>eggs</category>
-      <guid>https://rmflight.github.io/recipes/posts/2022-01-16-quiche</guid>
-      <pubDate>Sun, 16 Jan 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Poutine Gravy</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2022-01-07-poutine-gravy</link>
-      <description>Nice tasting gravy to go on your french fries and cheese.</description>
-      <category>cheese</category>
-      <category>gravy</category>
-      <category>side-dish</category>
-      <guid>https://rmflight.github.io/recipes/posts/2022-01-07-poutine-gravy</guid>
-      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cherry Pound Cake</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-12-11-cherry-pound-cake</link>
-      <description>Seasonal favorite with red and green glaced cherries.</description>
-      <category>cake</category>
-      <category>seasonal</category>
-      <category>cherry</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-12-11-cherry-pound-cake</guid>
-      <pubDate>Sat, 11 Dec 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Gum Drop Cake</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-12-11-gum-drop-cake</link>
-      <description>A christmas time favorite, cake and gum-drop candies!</description>
-      <category>cake</category>
-      <category>seasonal</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-12-11-gum-drop-cake</guid>
-      <pubDate>Sat, 11 Dec 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Carrot Cake</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-11-14-carrot-cake</link>
-      <description>A decadent carrot cake appropriate for any occasion.</description>
-      <category>cake</category>
-      <category>carrot</category>
-      <category>lactose-free</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-11-14-carrot-cake</guid>
-      <pubDate>Sun, 14 Nov 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cream Cheese Icing</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-11-14-cream-cheese-icing</link>
-      <description>Cream cheese icing. It's good. Goes well with carrot cake.</description>
-      <category>icing</category>
-      <category>cake</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-11-14-cream-cheese-icing</guid>
-      <pubDate>Sun, 14 Nov 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Skinny Fettuccine Alfredo</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-11-09-skinny-fettuccine-alfredo</link>
-      <description>Delicious Alfredo sauce that's lower fat and can be lactose free too.</description>
-      <category>lactose-free</category>
-      <category>pasta</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-11-09-skinny-fettuccine-alfredo</guid>
-      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chicken Soup</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-11-07-chicken-soup</link>
-      <description>This chicken soup is yummy, and you know exactly what's in it.</description>
-      <category>soup</category>
-      <category>chicken</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-11-07-chicken-soup</guid>
-      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Poached Chicken Breast (Instant Pot)</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-11-06-poached-chicken-breast-instant-pot</link>
-      <description>Poached chicken breast that shreds nicely for other recipes.</description>
-      <category>chicken</category>
-      <category>instant-pot</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-11-06-poached-chicken-breast-instant-pot</guid>
-      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pancakes! (No Milk)</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-10-24-pancakes-no-milk</link>
-      <description>Easy, tasty pancakes with no milk.</description>
-      <category>breakfast</category>
-      <category>lactose-free</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-10-24-pancakes-no-milk</guid>
-      <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ButterCream Icing</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-09-19-icing</link>
-      <description>Various flavored icing for cakes, etc.</description>
-      <category>cake</category>
-      <category>brownies</category>
-      <category>icing</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-09-19-icing</guid>
-      <pubDate>Sun, 19 Sep 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Never Fail Brownies</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-09-19-never-fail-brownies</link>
-      <description>Delicious, chocolatey brownies.</description>
-      <category>cake</category>
-      <category>brownies</category>
-      <category>icing</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-09-19-never-fail-brownies</guid>
-      <pubDate>Sun, 19 Sep 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>3 Ingredient Peanut Butter Cookies</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-04-11-3-ingredient-peanut-butter-cookies</link>
-      <description>Very simple dairy-free / gluten free peanut butter cookies.</description>
-      <category>dessert</category>
-      <category>cookies</category>
-      <category>baked</category>
-      <category>dairy-free</category>
-      <category>gluten-free</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-04-11-3-ingredient-peanut-butter-cookies</guid>
-      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Balsamic Chicken &amp; Mushrooms</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-04-11-balsamic-chicken-mushrooms</link>
-      <description>Tangy, flavor bombs of mushroom and chicken in Balsamic sauce.</description>
-      <category>meat</category>
-      <category>chicken</category>
-      <category>mushrooms</category>
-      <category>main-dish</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-04-11-balsamic-chicken-mushrooms</guid>
-      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>BBQ Baked Beans (Instant Pot)</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-04-11-bbq-baked-beans-instant-pot</link>
-      <description>Tangy sweet beans take very little time in the instant pot.</description>
-      <category>beans</category>
-      <category>instant-pot</category>
-      <category>side-dish</category>
-      <category>soup</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-04-11-bbq-baked-beans-instant-pot</guid>
-      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pork &amp; Apples (Instant Pot)</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-04-11-pork-apples-instant-pot</link>
-      <description>Delicious pork chops in a sweet apple gravy.</description>
-      <category>instant-pot</category>
-      <category>pork</category>
-      <category>meat</category>
-      <category>main-dish</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-04-11-pork-apples-instant-pot</guid>
-      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pork &amp; Potatoes (Instant Pot)</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-04-11-pork-potatoes-instant-pot</link>
-      <description>Simple way to cook both meat and potatoes in the instant pot.</description>
-      <category>meat</category>
-      <category>pork</category>
-      <category>potatoes</category>
-      <category>main-dish</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-04-11-pork-potatoes-instant-pot</guid>
-      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>1 Hour Cinnamon Rolls</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-03-20-1-hour-cinnamon-rolls</link>
-      <description>A yummy treat for breakfast or a snack.</description>
-      <category>baked</category>
-      <category>roll</category>
-      <category>cinnamon</category>
-      <category>breakfast</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-03-20-1-hour-cinnamon-rolls</guid>
-      <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Apple Cinnamon Muffins</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-03-20-apple-cinnamon-muffins</link>
-      <description>Chunks of apple and the cinnamon make these delicious muffins with a great texture.</description>
-      <category>baked</category>
-      <category>muffin</category>
-      <category>apple</category>
-      <category>breakfast</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-03-20-apple-cinnamon-muffins</guid>
-      <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Buried Treasure Cake</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-03-20-buried-treasure-cake</link>
-      <description>A hidden cream cheese and chocolate chip filling makes this a treasure.</description>
-      <category>baked</category>
-      <category>cake</category>
-      <category>dessert</category>
-      <category>chocolate</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-03-20-buried-treasure-cake</guid>
-      <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Butternut Squash &amp; Sweet Potato Soup</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-03-20-butternut-squash-sweet-potato-soup</link>
-      <description>Vegetarian, delightful soup that is delicious any time of year.</description>
-      <category>soup</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-03-20-butternut-squash-sweet-potato-soup</guid>
-      <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cheesy Cottage Pie</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-03-20-cheesy-cottage-pie</link>
-      <description>A cheesy variation on Shepherds Pie.</description>
-      <category>casserole</category>
-      <category>pie</category>
-      <category>cheese</category>
-      <category>hamburger</category>
-      <category>potato</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-03-20-cheesy-cottage-pie</guid>
-      <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chicken Stew</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-03-20-chicken-stew</link>
-      <description>Chicken, mushroom and potato stew.</description>
-      <category>stew</category>
-      <category>soup</category>
-      <category>chicken</category>
-      <category>potato</category>
-      <category>mushroom</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-03-20-chicken-stew</guid>
-      <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chocolate Cake</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-03-20-chocolate-cake</link>
-      <description>A rich chocolate cake, great for whenever you need some sweetness in your life.</description>
-      <category>baked</category>
-      <category>cake</category>
-      <category>chocolate</category>
-      <category>dessert</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-03-20-chocolate-cake</guid>
-      <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Easy Oatmeal Raisin Breakfast Bars</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-03-20-easy-oatmeal-raisin-breakfast-bars</link>
-      <description>Oatmeal raisin or chocolate chip breakfast bars.</description>
-      <category>baked</category>
-      <category>oatmeal</category>
-      <category>breakfast</category>
-      <category>bar</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-03-20-easy-oatmeal-raisin-breakfast-bars</guid>
-      <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mac &amp; Cheese</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-03-20-mac-cheese</link>
-      <description>Hearty macaroni and cheese</description>
-      <category>pasta</category>
-      <category>cheese</category>
-      <category>casserole</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-03-20-mac-cheese</guid>
-      <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Punjabi Curry</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-03-20-punjabi-curry</link>
-      <description>A great base for various curries.</description>
-      <category>curry</category>
-      <category>soup</category>
-      <category>chicken</category>
-      <category>chickpea</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-03-20-punjabi-curry</guid>
-      <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lasagna</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-03-14-lasagna</link>
-      <description>Simple lasagna.</description>
-      <category>pasta</category>
-      <category>spaghetti</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-03-14-lasagna</guid>
-      <pubDate>Sun, 14 Mar 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Shepherds Pie</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-03-14-shepherds-pie</link>
-      <description>Meaty, potatoey goodness with an awesome gravy.</description>
-      <category>hamburger</category>
-      <category>casserole</category>
-      <category>potato</category>
-      <category>gravy</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-03-14-shepherds-pie</guid>
-      <pubDate>Sun, 14 Mar 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Simple Sloppy Joes</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-03-14-simple-sloppy-joes</link>
-      <description>A 4 ingredient sloppy joe, that tastes great.</description>
-      <category>hamburger</category>
-      <category>casserole</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-03-14-simple-sloppy-joes</guid>
-      <pubDate>Sun, 14 Mar 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Donair Sauce</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-03-09-donair-sauce</link>
-      <description>An Atlantic Candadian classic that is great on pizza, cheese sticks, and gyros.</description>
-      <category>pizza</category>
-      <category>sauce</category>
-      <category>garlic</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-03-09-donair-sauce</guid>
-      <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Soy Sauce Marinade</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-03-09-soy-sauce-marinade</link>
-      <description>A meaty marinade great for pork chops or chicken.</description>
-      <category>sauce</category>
-      <category>marinade</category>
-      <category>chicken</category>
-      <category>pork</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-03-09-soy-sauce-marinade</guid>
-      <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sweet &amp; Sour Sauce</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-03-09-sweet-sour-sauce</link>
-      <description>A sweet and sour sauce that goes great with meatballs and rice.</description>
-      <category>sauce</category>
-      <category>sweet</category>
-      <category>sour</category>
-      <category>meatballs</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-03-09-sweet-sour-sauce</guid>
-      <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chicken Wraps</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-03-09-wraps-sauce</link>
-      <description>A sweet sauce for meat and veggies wrapped in tortillas.</description>
-      <category>sauce</category>
-      <category>chicken</category>
-      <category>wraps</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-03-09-wraps-sauce</guid>
-      <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chicken Pot Pie</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-03-08-chicken-pot-pie</link>
-      <description>Delicious chicken pot pie to warm and fill you up.</description>
-      <category>casserole</category>
-      <category>chicken</category>
-      <category>pie</category>
-      <category>pot-pie</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-03-08-chicken-pot-pie</guid>
-      <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
-      <media:content url="https://rmflight.github.io/recipes/posts/2021-03-08-chicken-pot-pie/pot_pie_to_eat.jpg" medium="image" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Cheeseburger Soup</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-03-07-cheeseburger-soup</link>
-      <description>A hearty, meaty, cheesy soup with ground beef, potatoes, carrots and a lot of cheese.</description>
-      <category>soup</category>
-      <category>hamburger</category>
-      <category>beef</category>
-      <category>instant-pot</category>
-      <category>cheese</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-03-07-cheeseburger-soup</guid>
-      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Crosby's Baked Beans</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-03-07-crosbys-baked-beans</link>
-      <description>Instant-Pot makes these molasses baked beans a snap.</description>
-      <category>instant-pot</category>
-      <category>beans</category>
-      <category>molasses</category>
-      <category>soup</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-03-07-crosbys-baked-beans</guid>
-      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Spaghetti Sauce</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/2021-03-07-spaghetti-sauce</link>
-      <description>A sweet and savory tomato sauce that is great on top of pasta or as part of a lasagna.</description>
-      <category>sauce</category>
-      <category>tomato</category>
-      <category>pasta</category>
-      <guid>https://rmflight.github.io/recipes/posts/2021-03-07-spaghetti-sauce</guid>
-      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
-      <media:content url="https://rmflight.github.io/recipes/posts/2021-03-07-spaghetti-sauce/sauce_done.jpg" medium="image" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Welcome to Flight Family Recipes</title>
-      <dc:creator>Robert M Flight</dc:creator>
-      <link>https://rmflight.github.io/recipes/posts/welcome</link>
-      <description>Welcome to my personal recipe site.</description>
-      <guid>https://rmflight.github.io/recipes/posts/welcome</guid>
-      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
-    </item>
-  </channel>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Flight Family Recipes</title>
+<link>https://rmflight.github.io/recipes/index.html</link>
+<atom:link href="https://rmflight.github.io/recipes/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.2.269</generator>
+<lastBuildDate>Sun, 07 Aug 2022 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Butter and Butter Substitutes</title>
+  <link>https://rmflight.github.io/recipes/posts/2022-08-07-butter/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="butter" class="level2">
+<h2 class="anchored" data-anchor-id="butter">Butter</h2>
+<p>If you look at the recipes on this site, you will notice that a bunch of them use butter, or butter substitutes (technically margarine).</p>
+</section>
+<section id="unsalted-vs-salted" class="level2">
+<h2 class="anchored" data-anchor-id="unsalted-vs-salted">Unsalted vs Salted</h2>
+<p>I know most baking recommends using unsalted butter, and then add specific amount of salt to the recipe for flavor enhancement.</p>
+<p>Historically, our family doesn’t add very much salt to their food, so we find that adding any amount of salt, especially baked goods, makes them much too salty.</p>
+<p>Therefore, in our baking, we typically use salted butter, or a butter substitute that contains salt, and then don’t add any extra salt to the recipe.</p>
+</section>
+<section id="butter-substitutes" class="level2">
+<h2 class="anchored" data-anchor-id="butter-substitutes">Butter Substitutes</h2>
+<p>We have one child who is rather severely lactose intolerant, as in they can’t consume regular milk, yogurt or cheese. Even the brand of lactose free milk can make a difference, as it seems some are better at adding enough lactase enzyme over others. Pro-tip, Lactaid brand seems fine, as does the Aldi and Walmart brand lactose free milks. Kroger brand is <strong>not</strong> fine, at least in our family.</p>
+<p>Therefore, we use plant based butter substitutes in <strong>almost</strong> all of our recipes, unless the recipe also includes cheese, in which case we don’t bother.</p>
+<p>However, depending on what exactly is being cooked, in my experience it seems that different butter substitutes are more appropriate, factoring in taste, extra water added, etc.</p>
+<p>I shop at our local WalMart, so this is all based on what I can buy there.</p>
+<ul>
+<li><a href="https://www.walmart.com/ip/Great-Value-Unsalted-Sweet-Cream-Butter-16-oz-4-Sticks/10315054?athbdg=L1100">Great Value Unsalted Butter</a>: goes in my coffee (yes, I like butter in my coffee), and also used in the cheese sauce for my <a href="https://rmflight.github.io/recipes/posts/2021-03-20-mac-cheese/">Mac &amp; Cheese</a>.</li>
+<li><a href="https://www.walmart.com/ip/Country-Crock-Dairy-Free-Plant-Butter-with-Olive-Oil-Sticks-16-oz/409121348?athbdg=L1100">Country Crock Plant Butter</a>: In cookies, cakes and muffins, this is a straight substitute. However, this does not work for buttercream icing, roux, or bread dough based recipes like cinnamon buns. In the case of a roux, the butter taste is <strong>too</strong> strong. Buttercream icing ends up with a weird consistency. Bread dough doesn’t seem to rise properly.</li>
+<li><a href="https://www.walmart.com/ip/Smart-Balance-Original-Buttery-Spread-45-OZ/10411892">Smart Balance Buttery Spread</a>: This one I use when I’m making a dairy free or lactose free roux, like for our Chicken Pot Pie, and we also use in bread doughs and buttercream icing.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://rmflight.github.io/recipes/posts/2022-08-07-butter/index.html</guid>
+  <pubDate>Sun, 07 Aug 2022 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Chickpea Orzo Soup</title>
+  <link>https://rmflight.github.io/recipes/posts/2022-07-21-chickpea-orzo-soup/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="https://rmflight.github.io/recipes/posts/2022-07-21-chickpea-orzo-soup/chickpea_soup.jpg" class="img-fluid"></p>
+</div>
+</div>
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<ul>
+<li>1 Tbsp vegetable oil</li>
+<li>1 Tbsp minced onion rehydrated</li>
+<li>1 cup diced carrots</li>
+<li>3-4 tsp minced garlic</li>
+<li>1 cup dry orzo pasta</li>
+<li>1/2 yellow pepper, diced</li>
+<li>1 can garbanzo beans (chickpeas, 15.5 oz)- drain and rinse</li>
+<li>1 can fire roasted diced tomatoes (15.5 oz can)</li>
+<li>6 - 8 cups vegetable broth</li>
+<li>1 Tbsp Italian Seasoning
+<ul>
+<li>2 tsp basil, 1 tsp oregano, 1/2 tsp thyme, some rosemary</li>
+</ul></li>
+<li>Salt and Pepper per taste</li>
+<li>1 Tbsp lemon juice</li>
+</ul>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li>Warm <strong>1 Tbsp</strong> vegetable oil in large pot.</li>
+<li>Add <strong>1 Tbsp</strong> minced onion, and <strong>1 cup</strong> diced carrots</li>
+<li>Cook for 4 - 5 minutes until the carrots are starting to get a little tender.</li>
+<li>Add <strong>3 - 4 tsp</strong> minced garlic and <strong>1 cup</strong> dry orzo pasta.</li>
+<li>Stir frequently over medium heat to toast the orzo until garlic is fragrant.</li>
+<li>Add <strong>1/2 yellow pepper</strong>, <strong>1 can</strong> drained and rinsed garbanzo beans, <strong>1 can</strong> fire roasted tomatoes, <strong>1 Tbsp</strong> italian seasoning</li>
+<li>Stir together with everything else.</li>
+<li>Add <strong>6 - 8 cups</strong> vegetable broth and <strong>1 Tbsp</strong> lemon juice.</li>
+<li>Bring to a boil, reduce heat and simmer for <strong>15 minutes</strong>.</li>
+<li>Serve in a bowl.</li>
+</ul>
+</section>
+<section id="nutritional-information" class="level2">
+<h2 class="anchored" data-anchor-id="nutritional-information">Nutritional Information</h2>
+<ul>
+<li>1 cup (or small bowl) is ~ 210 Kcal.</li>
+</ul>
+<p>Sourced and modified from <a href="https://profusioncurry.com/wprm_print/7381">Profusion Curry Chickpea Orzo Soup</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>soup</category>
+  <category>vegetarian</category>
+  <guid>https://rmflight.github.io/recipes/posts/2022-07-21-chickpea-orzo-soup/index.html</guid>
+  <pubDate>Thu, 21 Jul 2022 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Chili</title>
+  <link>https://rmflight.github.io/recipes/posts/2022-07-03-chili/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<ul>
+<li>1 tbsp. cooking oil</li>
+<li>1 tbsp minced onion, rehydrated</li>
+<li>3 cloves minced garlic / 3 tsp minced garlic</li>
+<li>2 tbsp. tomato paste</li>
+<li>1 - 1 1/2 lb. ground beef</li>
+<li>1 1/2 tbsp. chili powder</li>
+<li>1 tsp. ground cumin</li>
+<li>1 tsp. dried oregano</li>
+<li>1 (15-oz) can kidney beans, drained</li>
+<li>1 (28-oz) can crushed tomatoes</li>
+</ul>
+</section>
+<section id="toppings" class="level2">
+<h2 class="anchored" data-anchor-id="toppings">Toppings</h2>
+<ul>
+<li>Shredded cheddar</li>
+<li>Sour cream</li>
+<li>Thinly sliced green onions</li>
+</ul>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li>In a large pot over medium heat, heat <strong>1 tbsp</strong> oil.</li>
+<li>Add <strong>1 tbsp</strong> minced onion and cook until soft, about 5 minutes.</li>
+<li>Stir in <strong>3 tsp</strong> minced garlic and cook until fragrant, about 1 minute more, then add <strong>2 tbsp</strong> tomato paste, stirring to combine.</li>
+<li>Add <strong>1 - 1 1/2 lbs</strong> ground beef and cook until no longer pink. Drain fat and return to heat.</li>
+<li>Add <strong>1 1/2 tbsp</strong> chili powder, <strong>1 tsp</strong> cumin, <strong>1 tsp</strong> oregano, and season generously with salt and pepper.</li>
+<li>Pour in <strong>1 can (15 oz)</strong> of drained and rinsed kidney beans, and <strong>1 can (28 oz)</strong> of crushed tomatoes and bring chili to a boil.</li>
+<li>Reduce heat and simmer 20 minutes.</li>
+<li>Season with more salt and pepper, if necessary</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>hamburger</category>
+  <category>tomato</category>
+  <guid>https://rmflight.github.io/recipes/posts/2022-07-03-chili/index.html</guid>
+  <pubDate>Sun, 03 Jul 2022 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Roasted Sweet Potatoes</title>
+  <link>https://rmflight.github.io/recipes/posts/2022-04-07-roasted-sweet-potatoes/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="time" class="level2">
+<h2 class="anchored" data-anchor-id="time">Time</h2>
+<ul>
+<li>Prep: 10 minutes</li>
+<li>Cook: 30 - 35 minutes</li>
+</ul>
+</section>
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<ul>
+<li>4 cups chopped peeled sweet potato</li>
+<li>1 sweet onions (such as Vidalia®), cut into wedges</li>
+<li>2 cloves garlic, sliced</li>
+<li>3 tbsp olive oil</li>
+<li>1 tbsp balsamic vinegar, or more to taste</li>
+<li>1 pinch salt and ground black pepper to taste</li>
+</ul>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li>Preheat oven to 425F</li>
+<li>Mix <strong>4 cups</strong> sweet potatoes, <strong>1</strong> sweet onion, and <strong>2 cloves</strong> garlic in a bowl. Drizzle <strong>3 tbps</strong> olive oil over the mixture and toss to coat; pour into a shallow roasting pan.</li>
+<li>Roast sweet potato mixture in preheated oven, turning frequently, until the vegetables are soft and golden brown, 30 to 35 minutes.</li>
+<li>Drizzle balsamic vinegar over the vegetables; season with salt and pepper.</li>
+</ul>
+</section>
+<section id="nutrition" class="level2">
+<h2 class="anchored" data-anchor-id="nutrition">Nutrition</h2>
+<ul>
+<li>220 Kcal / serving</li>
+</ul>
+<p>Original source: <a href="https://www.allrecipes.com/recipe/241834/oven-roasted-sweet-potatoes/">Allrecipes</a></p>
+
+
+</section>
+
+ ]]></description>
+  <category>side-dish</category>
+  <category>baked</category>
+  <guid>https://rmflight.github.io/recipes/posts/2022-04-07-roasted-sweet-potatoes/index.html</guid>
+  <pubDate>Thu, 07 Apr 2022 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Vegetable Barley Soup</title>
+  <link>https://rmflight.github.io/recipes/posts/2022-04-05-vegetable-barley-soup/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="about" class="level2">
+<h2 class="anchored" data-anchor-id="about">About</h2>
+<ul>
+<li>Prep time 30 - 40 minutes.</li>
+<li>Serves: 4 - 8</li>
+</ul>
+</section>
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<ul>
+<li>3/4 cup pearl barley</li>
+<li>1 tbsp cooking oil</li>
+<li>1 tbsp minced onion rehydrated</li>
+<li>2 tsp minced garlic</li>
+<li>2 carrots peeled and diced</li>
+<li>1/2 red pepper diced (or more)</li>
+<li>1 1/2 cup edamame beans.</li>
+<li>1 tsp thyme</li>
+<li>salt and pepper</li>
+<li>8 cups vegetable stock</li>
+</ul>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li>Put instant pot on saute and add <strong>1 tbsp oil</strong>.</li>
+<li>When hot, add <strong>1 tbsp</strong> rehydrated minced onion, cook for a few minutes to brown.</li>
+<li>Add <strong>2 tsp</strong> minced garlic and cook for just a minute.</li>
+<li>Turn off saute mode.</li>
+<li>Add rest of ingredients.
+<ul>
+<li><strong>2</strong> carrots</li>
+<li><strong>1/2</strong> sweet pepper</li>
+<li><strong>1 1/2 cup</strong> edamame beans</li>
+<li><strong>1 tsp</strong> thyme</li>
+<li>salt and pepper</li>
+<li><strong>8 cups</strong> vegetable stock</li>
+</ul></li>
+<li>Set pressure cook for <strong>20 - 25</strong> minutes depending on how well done you like your barley. I found it was still chewy after 20 minutes and quick release, 20 minutes and 5 - 10 minute natural release might be fine too.</li>
+</ul>
+</section>
+<section id="nutrition" class="level2">
+<h2 class="anchored" data-anchor-id="nutrition">Nutrition</h2>
+<p>220 Kcal.</p>
+</section>
+<section id="notes" class="level2">
+<h2 class="anchored" data-anchor-id="notes">Notes</h2>
+<ul>
+<li>the original recipe called for 4 cups vegetable stock + 2 cups of water, I used 6 of vegetable broth, and while tasty, it could have been thinner, hence I’ve upped it to 8.</li>
+<li>If you like a wider variety of vegetables, you could definitely replace a carrot with a stick of celery.</li>
+<li>The original recipe said 4 servings, but we got closer to 6 and could definitely do 8 especially with any bread.</li>
+</ul>
+<p>Originally from <a href="https://www.watchwhatueat.com/instant-pot-vegetable-barley-soup/#recipe">WachWhatYouEat</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>vegetarian</category>
+  <category>soup</category>
+  <category>main-dish</category>
+  <category>barley</category>
+  <category>edamame</category>
+  <category>instant-pot</category>
+  <guid>https://rmflight.github.io/recipes/posts/2022-04-05-vegetable-barley-soup/index.html</guid>
+  <pubDate>Tue, 05 Apr 2022 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Chocolate Chip Muffins</title>
+  <link>https://rmflight.github.io/recipes/posts/2022-02-12-chocolate-chip-muffins/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<ul>
+<li>2 cups flour</li>
+<li>1/3 cup brown sugar</li>
+<li>1/3 cup white sugar</li>
+<li>2 tsp baking powder</li>
+<li>3/4 cup milk</li>
+<li>1/2 cup butter, melted and cooled</li>
+<li>2 eggs, lightly beaten</li>
+<li>1 tsp vanilla</li>
+<li>1 package semi-sweet chocolate chips (11 1/2 oz)</li>
+</ul>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li>Preheat oven to 400F</li>
+<li>Grease 12 muffin cups</li>
+<li>In a large bowl, mix together:
+<ul>
+<li><strong>2 cups</strong> flour</li>
+<li><strong>1/3 cup</strong> brown sugar</li>
+<li><strong>1/3 cup</strong> white sugar</li>
+<li><strong>2 tsp</strong> baking powder</li>
+</ul></li>
+<li>In another bowl, stir together:
+<ul>
+<li><strong>2/3 cup</strong> milk</li>
+<li><strong>1/2 cup</strong> melted &amp; cooled butter</li>
+<li><strong>2 eggs</strong> beaten</li>
+<li><strong>1 tsp</strong> vanilla</li>
+</ul></li>
+<li>Make a well in the center of the dry ingredients, add the wet ingredients and stir until just combined.</li>
+<li>Stir in chocolate chips.</li>
+<li>Spoon batter into prepared muffin cups.</li>
+<li>Bake for 15-20 minutes at 400F until center seems done or tops bounce when lightly touched.</li>
+</ul>
+</section>
+<section id="nutritional-information" class="level2">
+<h2 class="anchored" data-anchor-id="nutritional-information">Nutritional Information</h2>
+<ul>
+<li>Total Calories: 3810 kCal</li>
+<li>12 Muffins: 318 kCal each</li>
+</ul>
+<p>Sourced from <a href="https://www.food.com/recipe/chocolate-chip-muffins-9326">Charishma Ramchanda</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>muffin</category>
+  <category>chocolate-chip</category>
+  <category>breakfast</category>
+  <guid>https://rmflight.github.io/recipes/posts/2022-02-12-chocolate-chip-muffins/index.html</guid>
+  <pubDate>Sat, 12 Feb 2022 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Quiche</title>
+  <link>https://rmflight.github.io/recipes/posts/2022-01-16-quiche/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<ul>
+<li>1 pie crust, warmed to room temperature</li>
+<li>6 large eggs</li>
+<li>3/4 cup of milk</li>
+<li>dash of dried dill</li>
+<li>pepper</li>
+<li>3/4 cup shredded cheddar cheese</li>
+<li>1/2 of a ham steak, cubed</li>
+</ul>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li><p>Preheat oven to 375F.</p></li>
+<li><p>Break <strong>6</strong> large eggs into a large bowl and scramble well.</p></li>
+<li><p>Add <strong>3/4 cup</strong> milk to eggs and mix thoroughly.</p></li>
+<li><p>Add <strong>dashes</strong> of dried dill and ground black pepper.</p></li>
+<li><p>Shred <strong>3/4</strong> cup of cheddar cheese and add to egg mixture.</p></li>
+<li><p>Cube <strong>1/2</strong> of a ham steak and add to mixture.</p></li>
+<li><p>Put pie crust into a 9” pie dish, pour egg mixture in.</p></li>
+<li><p>Wrap edges of pie crust with aluminum foil to avoid burning.</p></li>
+<li><p>Bake at 375F for 35 - 45 minutes.</p></li>
+<li><p>Quiche is done when middle is set and stops jiggling.</p></li>
+</ul>
+</section>
+<section id="nutritional-information" class="level2">
+<h2 class="anchored" data-anchor-id="nutritional-information">Nutritional Information</h2>
+<p>2440 kCal for the whole quiche, and we get 10 slices out of it, so 250 kCal / serving.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>eggs</category>
+  <guid>https://rmflight.github.io/recipes/posts/2022-01-16-quiche/index.html</guid>
+  <pubDate>Sun, 16 Jan 2022 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Poutine Gravy</title>
+  <link>https://rmflight.github.io/recipes/posts/2022-01-07-poutine-gravy/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<ul>
+<li>Prep time: 10 minutes</li>
+<li>Cook time: 20 minutes</li>
+<li>Total: 30 minutes</li>
+</ul>
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<ul>
+<li>1/2 tbsp oil</li>
+<li>1 small clove minced garlic</li>
+<li>2 cups chicken stock</li>
+<li>2 cups beef stock</li>
+<li>2 tbsp ketchup</li>
+<li>1 tbsp apple cider vinegar</li>
+<li>1/2 tsp Worcestershire sauce</li>
+<li>3 tbsp butter</li>
+<li>3 tbsp flour</li>
+</ul>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li>Heat <strong>1/2 tbsp</strong> oil in a saucepan over medium heat.</li>
+<li>Add <strong>1 small clove</strong> garlic and saute until browned.</li>
+<li>Add:
+<ul>
+<li><strong>2 cups</strong> chicken stock</li>
+<li><strong>2 cups</strong> beef stock.</li>
+<li><strong>2 tbsp</strong> ketchup.</li>
+<li><strong>1 tbsp</strong> apple cider vinegar.</li>
+<li><strong>1/2 tsp</strong> Worcestershire sauce</li>
+</ul></li>
+<li>Bring to a boil.</li>
+<li><strong>While</strong> that is heating, <strong>in a separate saucepan</strong> melt <strong>3 tbsp</strong> butter and stir in <strong>3 tbsp</strong> flour to make a roux.</li>
+<li>Whisk stock mixture into the roux and simmer until reduced by half about 20 minutes.</li>
+</ul>
+<p>Spoon over french fries and cheese, and enjoy!</p>
+<p>Source: Chuck Hughes at <a href="https://www.foodnetwork.com/recipes/poutine-recipe-1973715">Food Network</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>cheese</category>
+  <category>gravy</category>
+  <category>side-dish</category>
+  <guid>https://rmflight.github.io/recipes/posts/2022-01-07-poutine-gravy/index.html</guid>
+  <pubDate>Fri, 07 Jan 2022 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Cherry Pound Cake</title>
+  <link>https://rmflight.github.io/recipes/posts/2021-12-11-cherry-pound-cake/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<ul>
+<li>1 cup butter</li>
+<li>1 cup white sugar</li>
+<li>3 eggs</li>
+<li>1/2 tsp salt</li>
+<li>1 tsp vanilla</li>
+<li>1 tsp almond flavor</li>
+<li>1 tsp lemon flavor</li>
+<li>1 cup green glaced cherries</li>
+<li>1 cup red glaced cherries</li>
+<li>2 tsp lemon rind</li>
+</ul>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li>Combine and beat together <strong>1 cup</strong> butter, <strong>1 cup</strong> white sugar, and <strong>3 eggs</strong>. Add eggs slowly and beat together one at a time.</li>
+<li>Continue beating until mixture becomes fluffy.</li>
+<li>Add <strong>1/2 tsp</strong> salt, <strong>1 tsp</strong> vanilla, <strong>1 tsp</strong> almond and <strong>1 tsp</strong> lemon flavoring and mix.</li>
+<li>Fold in the <strong>1 cup</strong> each of red and green glaced cherries.</li>
+</ul>
+<p>Bake at 300 degrees for 1 hour in a 10x5 loaf pan.</p>
+<p>After baking, coat top with <strong>2 tsp</strong> grated lemon rind.</p>
+<p>Source: Cheryl Denton</p>
+
+
+</section>
+
+ ]]></description>
+  <category>cake</category>
+  <category>seasonal</category>
+  <category>cherry</category>
+  <guid>https://rmflight.github.io/recipes/posts/2021-12-11-cherry-pound-cake/index.html</guid>
+  <pubDate>Sat, 11 Dec 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Gum Drop Cake</title>
+  <link>https://rmflight.github.io/recipes/posts/2021-12-11-gum-drop-cake/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<ul>
+<li>1 1/2 cups sugar</li>
+<li>1/2 cup flour</li>
+<li>1.5 cups flour</li>
+<li>4 eggs</li>
+<li>1 1/2 tsp baking powder</li>
+<li>8 oz (1 package) cream cheese</li>
+<li>1 cup margarine or butter</li>
+<li>1/4 tsp salt</li>
+<li>1 tsp vanilla</li>
+<li>2 cups gum drops</li>
+</ul>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li>Cut up gum drops and flour them with <strong>1/2 cup</strong> of the flour. I cut them into 3 pieces and make sure each piece is floured. <strong>Refrigerate</strong> while preparing the cake batter.</li>
+<li>Cream <strong>1 cup</strong> butter / margarine &amp; <strong>8 oz</strong> cream cheese until fluffy.</li>
+<li>Add <strong>1 1/2 cups</strong> sugar, <strong>1 tsp</strong> vanilla and <strong>4</strong> eggs 1 at a time beating well after adding each egg.</li>
+<li>Combine remaining <strong>1 1/2 cup</strong> flour, <strong>1 1/2 tsp</strong> baking powder and <strong>1/4 tsp</strong> salt.</li>
+<li>Add dry ingredients to creamed mixture.</li>
+<li>Lastly add the floured gumdrops and combine well.</li>
+<li>Grease and flour a loaf pan or use parchment paper.</li>
+</ul>
+<p>Bake 1 hour at 350 degrees.</p>
+<p>Source: June Whitman</p>
+
+
+</section>
+
+ ]]></description>
+  <category>cake</category>
+  <category>seasonal</category>
+  <guid>https://rmflight.github.io/recipes/posts/2021-12-11-gum-drop-cake/index.html</guid>
+  <pubDate>Sat, 11 Dec 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Cream Cheese Icing</title>
+  <link>https://rmflight.github.io/recipes/posts/2021-11-14-cream-cheese-icing/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<ul>
+<li>8 oz cream cheese at room temp (1 pkg)</li>
+<li>1/4 cup butter (softened) (1/2 stick)</li>
+<li>1 tsp vanilla</li>
+<li>2 cups icing sugar</li>
+</ul>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li>Blend together <strong>8 oz</strong> cream cheese, <strong>1/4 cup</strong> butter and <strong>1 tsp</strong> vanilall.</li>
+<li>Add <strong>2 cups</strong> icing sugar 1 cup at a time, mixing thoroughly.</li>
+</ul>
+<p>Goes well on <a href="https://rmflight.github.io/recipes/posts/2021-11-14-carrot-cake">carrot cake</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>icing</category>
+  <category>cake</category>
+  <guid>https://rmflight.github.io/recipes/posts/2021-11-14-cream-cheese-icing/index.html</guid>
+  <pubDate>Sun, 14 Nov 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Carrot Cake</title>
+  <link>https://rmflight.github.io/recipes/posts/2021-11-14-carrot-cake/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<ul>
+<li><p>3 eggs</p></li>
+<li><p>1 1/2 cups white sugar</p></li>
+<li><p>1 1/4 cup oil (canola or vegetable)</p></li>
+<li><p>3 cups flour</p></li>
+<li><p>2 tsp baking soda</p></li>
+<li><p>2 tsp cinnamon</p></li>
+<li><p>1 tsp salt</p></li>
+<li><p>1 tsp nutmeg</p></li>
+<li><p>2 cups grated carrot</p></li>
+<li><p>1 cup crushed pineapple (not drained!)</p></li>
+</ul>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li><p>Preheat oven to 350 F.</p></li>
+<li><p>Cream together <strong>3 eggs</strong>, <strong>1 1/2 cups</strong> white sugar, <strong>1 1/4 cup</strong> oil.</p></li>
+<li><p>Mix together <strong>3 cups</strong> flour, <strong>2 tsp</strong> baking soda, <strong>2 tsp</strong> cinnamon, <strong>1 tsp</strong> salt, <strong>1 tsp</strong> nutmeg.</p></li>
+<li><p>Add dry mix to the previously creamed eggs, sugar and oil and mix well.</p></li>
+<li><p>Add <strong>2 cups</strong> grated carrot and <strong>1 cup</strong> crushed pineapple and mix well.</p></li>
+<li><p>Grease large tube pan <strong>very well</strong>!</p></li>
+<li><p>Add cake mix, and bake at <strong>350 F</strong> for <strong>1 hour</strong>.</p></li>
+</ul>
+<p>This makes a large cake. <a href="https://rmflight.github.io/recipes/posts/2021-11-14-cream-cheese-icing">Cream cheese icing</a> goes great, I recommend doubling that recipe to cover this cake.</p>
+<p>Original source is Stella Trask.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>cake</category>
+  <category>carrot</category>
+  <category>lactose-free</category>
+  <guid>https://rmflight.github.io/recipes/posts/2021-11-14-carrot-cake/index.html</guid>
+  <pubDate>Sun, 14 Nov 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Skinny Fettuccine Alfredo</title>
+  <link>https://rmflight.github.io/recipes/posts/2021-11-09-skinny-fettuccine-alfredo/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<ul>
+<li>1.5 tbsp butter / margarine</li>
+<li>1.5 tsp minced garlic</li>
+<li>3 tbsp flour</li>
+<li>1.5 cups chicken broth</li>
+<li>1.5 cups milk</li>
+<li>1/4 tsp salt</li>
+<li>12 oz Fettuccine noodles</li>
+</ul>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li>In skillet over medium heat, add <strong>1.5 tbsp</strong> butter / margarine and let it melt.</li>
+<li>Add garlic and let it sizzle for just a minute.</li>
+<li>Stir in <strong>3 tbsp</strong> flour.</li>
+<li>Stir in <strong>1.5 cups</strong> chicken broth and use whisk to remove lumps.</li>
+<li>Stir in <strong>1.5 cups</strong> milk.</li>
+<li>Let simmer for 6 - 8 min or until it starts to thicken.</li>
+<li>For lactose free, leave out shredded parmesan cheese.</li>
+<li>Mix into cooked Fettuccine noodles.</li>
+<li>Add parmesan cheese to individual servings if desired.</li>
+</ul>
+<p>Modified from Modern Honey <a href="https://www.modernhoney.com/skinny-fettuccine-alfredo/">Skinny Fettucine Alfredo</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>lactose-free</category>
+  <category>pasta</category>
+  <guid>https://rmflight.github.io/recipes/posts/2021-11-09-skinny-fettuccine-alfredo/index.html</guid>
+  <pubDate>Tue, 09 Nov 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Chicken Soup</title>
+  <link>https://rmflight.github.io/recipes/posts/2021-11-07-chicken-soup/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<ul>
+<li>2 tbsp butter</li>
+<li>2 cups diced carrots</li>
+<li>1 tbsp minced &amp; dried onion (add water to rehydrate for frying)</li>
+<li>2 garlic cloves (or 2 tsp minced garlic)</li>
+<li>8 cups vegetable broth (two 32 oz boxes)</li>
+<li>1/2 tsp dried basil</li>
+<li>1/2 tsp dried oregano</li>
+<li>dash of sage</li>
+<li>salt and pepper to taste</li>
+<li>3 cups egg noodles</li>
+<li>2 cups cooked and shredded chicken breasts (<a href="https://rmflight.github.io/recipes/posts/2021-11-06-poached-chicken-breast-instant-pot/">see here</a>)</li>
+</ul>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li>In large pot over medium heat, melt <strong>2 tbsp</strong> butter.</li>
+<li>Cook <strong>1 tbsp minced</strong> onion and <strong>2 cups</strong> diced carrot in butter until tender (~ 5 min).</li>
+<li>Add garlic and cook an additional minute.</li>
+<li>Pour in vegetable broth and stir in <strong>3 cups</strong> egg noodles; <strong>1/2 tsp</strong> oregano, <strong>1/2 tsp</strong> basil, dash of sage, salt and pepper.</li>
+<li>Check the taste now and add any more seasoning you think it needs.</li>
+<li>Stir in <strong>2 cups</strong> shredded chicken (putting it in now means the chicken flavor will well permeate the soup, a plus if you are using vegetable broth, if using chicken broth, add it after simmering).</li>
+<li>Bring to a boil, reduce heat and simmer 15 - 20 minutes.</li>
+</ul>
+<p>From <a href="https://www.the-girl-who-ate-everything.com/homemade-chicken-noodle-soup/">The Girl Who Ate Everything</a>.</p>
+</section>
+<section id="notes" class="level2">
+<h2 class="anchored" data-anchor-id="notes">Notes:</h2>
+<p>Yes, I use vegetable broth. My digestive system does not seem to do well with the dried broth when you add enough powder to make it taste chickeny enough, and the same for “Better than Boullion”. If you really want chicken broth, go for it. In my experience, the vegetable broth tasted great, <strong>especially</strong> if you add the chicken before letting it simmer.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>soup</category>
+  <category>chicken</category>
+  <guid>https://rmflight.github.io/recipes/posts/2021-11-07-chicken-soup/index.html</guid>
+  <pubDate>Sun, 07 Nov 2021 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Poached Chicken Breast (Instant Pot)</title>
+  <link>https://rmflight.github.io/recipes/posts/2021-11-06-poached-chicken-breast-instant-pot/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<ul>
+<li>5 tsp salt (or just a couple, really)</li>
+<li>2 bay leaves</li>
+<li>1 tsp dried thyme</li>
+<li>1 tsp rosemary</li>
+<li>1 tsp oregano</li>
+<li>4 cups water</li>
+<li>2 chicken breasts</li>
+</ul>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li><p>Add dried herbs to instant pot insert.</p></li>
+<li><p>Add <strong>4 cups</strong> water.</p></li>
+<li><p>Add 2 chicken breasts (either whole or in chunks).</p></li>
+<li><p>Set timer for 0 (yes, really) minutes, or if not possible, 1 minute.</p></li>
+<li><p>When pressure is reached, if you had to set 1 minute, get up and turn the instant pot off.</p></li>
+<li><p>Hit “keep warm” to at least keep it warm but naturally release</p></li>
+<li><p>For</p>
+<ul>
+<li>1 chicken breast - 12 min</li>
+<li>2 chicken breasts - 11 min</li>
+<li>4 chicken breasts - 9 min</li>
+</ul></li>
+<li><p>Release pressure.</p></li>
+<li><p>Check temperature with a meat thermometer. Supposedly 165F is safe, but I still prefer 180F.</p></li>
+</ul>
+</section>
+<section id="frozen" class="level2">
+<h2 class="anchored" data-anchor-id="frozen">Frozen</h2>
+<ul>
+<li>For frozen chicken breasts:
+<ul>
+<li>2 chicken breasts - 3 minutes at pressure, 18 - 20 minute rest.</li>
+</ul></li>
+</ul>
+</section>
+<section id="wait-why" class="level2">
+<h2 class="anchored" data-anchor-id="wait-why">Wait, why?</h2>
+<p>As far as I can understand, we are using the heat necessary to get the mass of water + chicken to a boiling point to actually cook the chicken (poaching). This means that the more <em>cold</em> chicken breast you put in, the more heat it will take to get it to pressure, and therefore you need <em>less</em> time to naturally release. However, we are talking changes of 1 - 2 minutes, in salty water.</p>
+<p>I use this to make shredded chicken breast for soup, chicken pot pie, etc.</p>
+<p>Original guidelines are from <a href="https://www.pressurecookrecipes.com/instant-pot-chicken-breast/">Amy &amp; Jacky Pressure Cook Recipes</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>chicken</category>
+  <category>instant-pot</category>
+  <guid>https://rmflight.github.io/recipes/posts/2021-11-06-poached-chicken-breast-instant-pot/index.html</guid>
+  <pubDate>Sat, 06 Nov 2021 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Pancakes! (No Milk)</title>
+  <link>https://rmflight.github.io/recipes/posts/2021-10-24-pancakes-no-milk/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>We have a kid that is lactose free, so we are always looking for ways to either make things without milk at all, or using a lactose free substitute.</p>
+<p>Makes 15 - 20 pancakes, depending on how thin you make the batter. We like ours thicker, I got 16 pancakes, which meant for the 5 of us, we had 2 pancakes left over.</p>
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<ul>
+<li>3 cups all-purpose flour</li>
+<li>7 tsp baking powder</li>
+<li>1 tsp salt (or just a shake)</li>
+<li>4 Tbsp sugar</li>
+<li>2 eggs</li>
+<li>6 Tbsp margarine, melted</li>
+<li>3 tsp vanilla</li>
+<li>2 ½ cups water</li>
+</ul>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li><p>In a large bowl, sift together the <strong>3 cups</strong> of flour, <strong>7 tsp</strong> of baking powder, salt, and <strong>3 Tbsp</strong> of sugar.</p></li>
+<li><p>Make a well in the middle, and pour in <strong>2</strong> eggs, <strong>6 Tbsp</strong> melted margarine, and <strong>2 tsp</strong> vanilla.</p></li>
+<li><p>Pour in <strong>1 cup</strong> of water and begin stirring together with a whisk.</p></li>
+<li><p>Slowly add more water while whisking until you have all the lumps out of it, and add water to your desired consistency.</p></li>
+<li><p>If you have addins like mashed bananas and chocolate chips, now is the time to add them. I’ve easily added 2 mashed bananas to this recipe without issue.</p></li>
+<li><p>Lightly grease a frying pan (neutral oil spread with paper towel will work), and heat to medium high.</p></li>
+<li><p>Pour a large spoonful of batter on, and wait for bubbles to form before flipping.</p></li>
+</ul>
+<p>Adapted from <a href="https://www.laurafuentes.com/pancakes-without-milk/">Laura Fuentes</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>breakfast</category>
+  <category>lactose-free</category>
+  <guid>https://rmflight.github.io/recipes/posts/2021-10-24-pancakes-no-milk/index.html</guid>
+  <pubDate>Sun, 24 Oct 2021 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>ButterCream Icing</title>
+  <link>https://rmflight.github.io/recipes/posts/2021-09-19-icing/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="chocolate-icing" class="level2">
+<h2 class="anchored" data-anchor-id="chocolate-icing">Chocolate Icing</h2>
+<section id="ingredients" class="level3">
+<h3 class="anchored" data-anchor-id="ingredients">Ingredients</h3>
+<ul>
+<li>1 cup icing sugar (also known as confectioners sugar)</li>
+<li>3 tbsp cocoa</li>
+<li>2 tbsp butter</li>
+<li>2 tsp vanilla</li>
+<li>1 - 3 tsp water</li>
+</ul>
+</section>
+<section id="lactose-free" class="level3">
+<h3 class="anchored" data-anchor-id="lactose-free">Lactose Free</h3>
+<p>For a lactose free option, you can replace the <strong>2 tbsp</strong> butter with <strong>2 tbsp</strong> of margarine, and you will only need <strong>1 tsp</strong> of water.</p>
+</section>
+<section id="directions" class="level3">
+<h3 class="anchored" data-anchor-id="directions">Directions</h3>
+<ul>
+<li>Combine dry ingredients and butter into a bowl.</li>
+<li>Mix using a hand-mixer on low speed.</li>
+<li>Add water <strong>1 tsp</strong> at a time, adding it and then mixing.
+<ul>
+<li>This is especially important when using margarine, as it has more water than the butter.</li>
+</ul></li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>cake</category>
+  <category>brownies</category>
+  <category>icing</category>
+  <guid>https://rmflight.github.io/recipes/posts/2021-09-19-icing/index.html</guid>
+  <pubDate>Sun, 19 Sep 2021 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Never Fail Brownies</title>
+  <link>https://rmflight.github.io/recipes/posts/2021-09-19-never-fail-brownies/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Pre-heat oven to 350F</p>
+<p>Uses a 9x9 baking dish. Doubled will fill a 9x13 baking dish.</p>
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<ul>
+<li>6 tbsp canola or vegetable oil</li>
+<li>1 cup white sugar</li>
+<li>2 eggs</li>
+<li>1/4 tsp salt</li>
+<li>1/2 tsp vanilla</li>
+<li>1 cup flour</li>
+<li>1/2 cup cocoa</li>
+</ul>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li><p>Combine <strong>6 tbsp</strong> oil, <strong>1 cup</strong> white sugar, <strong>2 eggs</strong>, <strong>1/4 tsp</strong> salt, <strong>1/2 tsp</strong> vanilla in a bowl.</p></li>
+<li><p>Mix together.</p></li>
+<li><p>Add <strong>1 cup</strong> flour, and mix in.</p></li>
+<li><p>Mix <strong>1/2 cup</strong> cocoa with enough hot water to make a paste or slurry.</p></li>
+<li><p>Pour cocoa mix into other ingredients.</p></li>
+<li><p>Mix until cocoa is completely incorporated into the other ingredients.</p></li>
+<li><p>Pour mixture into a greased baking dish.</p></li>
+<li><p>Bake at 350F for 20 - 30 minutes, or until a toothpick comes out <em>mostly</em> clean.</p>
+<ul>
+<li>If after 20 minutes it is still very gooey in the middle, check again in 5 minutes. Leaving it until 30 might result in dry brownies.</li>
+</ul></li>
+</ul>
+<p>Source: Heather Raymond, family friend of Sarah Flight.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>cake</category>
+  <category>brownies</category>
+  <category>icing</category>
+  <guid>https://rmflight.github.io/recipes/posts/2021-09-19-never-fail-brownies/index.html</guid>
+  <pubDate>Sun, 19 Sep 2021 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Pork &amp; Apples (Instant Pot)</title>
+  <link>https://rmflight.github.io/recipes/posts/2021-04-11-pork-apples-instant-pot/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<ul>
+<li>3 Apples sliced about 1/4” thick</li>
+<li>1 Small Sweet Onion (Walla Walla, Vidalia, etc) cut in half and thinly sliced.</li>
+<li>2-4 Pork Chops</li>
+<li>Salt</li>
+<li>Pepper</li>
+<li>1 Tbsp Vegetable Oil</li>
+<li>1/4 cup Plus 1 Tbsp Water (divided)</li>
+<li>4 Tbsp Butter (unsalted)</li>
+<li>4 Tbsp Brown Sugar</li>
+<li>1/4 tsp Cinnamon</li>
+<li>1/4 tsp Nutmeg</li>
+<li>Pinch of Salt</li>
+<li>2 Tbsp Corn Starch</li>
+<li>3 Tbsp Cold Water</li>
+</ul>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li>Prepare <strong>3</strong> apples by peeling, coring, and slicing. Set aside.</li>
+<li>Remove the outer skin of <strong>1 small sweet</strong> onion. Cut in half and slice thinly (You will have half circles). Set aside.</li>
+<li>Season <strong>2 - 4</strong> pork chops with a sprinkling of salt and pepper on each side. Go lightly on the pepper. Set aside while pot warms up.</li>
+<li>Turn the IP to Sauté mode (Normal heat). When the display reads “Hot” add <strong>1 Tbsp</strong> oil to the pot.</li>
+<li>Add the pork chops, two at a time, and brown on each side for about 4 minutes per side (less if thin). Remove to a plate and set aside.</li>
+<li>Add the onion and <strong>1 Tbsp</strong> water. Cook the onion, stirring frequently and scraping to deglaze the pot (get all of the brown bits off the bottom). I like to use a wooden spoon.</li>
+<li>When the onions are translucent and tender, add the <strong>4 Tbsp</strong> butter and stir until melted.</li>
+<li>Add the apples and <strong>1/4 cup</strong> water. Stir well.</li>
+<li>Add the pork chops (and any juices on the plate) back in and just set them on top of the apples. Don’t stir.</li>
+<li>Put the lid on the pot and set the steam release knob to the Sealing position. Cancel the Sauté mode.</li>
+<li>Press the Manual (or Pressure Cook) button and then the + or - button to select 10 (8 minutes for thinner chops) minutes.</li>
+</ul>
+<p>Yes, the pot will come to pressure with only 1/4 cup of water in it. This is because the apples will release water as the pot is heating up and building pressure, so you will be okay. It’s the same for making applesauce!</p>
+<ul>
+<li><p>While the pork chops are cooking, mix together the <strong>4 Tbsp</strong> brown sugar, <strong>1/4 tsp</strong> cinnamon, <strong>1/4 tsp</strong> nutmeg, and a pinch of salt. Set aside.</p></li>
+<li><p>When the cook cycle ends and the pot beeps, don’t do anything to it, just let it naturally release pressure for 10 minutes (the counter will begin counting up).</p></li>
+<li><p>After the 10 minutes is up, turn the steam release knob to manually release the remaining pressure. When the pin in the lid drops, open the lid. Remove the pork chops to a plate and cover with foil or a lid to keep warm.</p></li>
+<li><p>Turn the Sauté mode back on.</p></li>
+<li><p>Add the brown sugar mixture to the apple mixture and stir.</p></li>
+<li><p>Mix the <strong>2 Tbsp</strong> corn starch with <strong>3 Tbsp</strong> cold water. Stir the corn starch slurry into the apple mixture, stirring constantly.</p></li>
+<li><p>When the mixture thickens, turn off the pot. Remove apple gravy to a serving bowl immediately.</p></li>
+<li><p>Serve the pork chops smothered in the warm apple gravy. Yum!</p></li>
+</ul>
+<p>From https://www.simplyhappyfoodie.com/instant-pot-autumn-apple-pork-chops/</p>
+
+
+</section>
+
+ ]]></description>
+  <category>instant-pot</category>
+  <category>pork</category>
+  <category>meat</category>
+  <category>main-dish</category>
+  <guid>https://rmflight.github.io/recipes/posts/2021-04-11-pork-apples-instant-pot/index.html</guid>
+  <pubDate>Sun, 11 Apr 2021 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Balsamic Chicken &amp; Mushrooms</title>
+  <link>https://rmflight.github.io/recipes/posts/2021-04-11-balsamic-chicken-mushrooms/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<ul>
+<li>4 Tbsp Balsamic vinegar</li>
+<li>2 Tbsp Rice vinegar</li>
+<li>1.5 Tbsp soy sauce</li>
+<li>1 Tbsp brown sugar</li>
+<li>2 cloves garlic, minced</li>
+<li>1/4 tsp dried thyme</li>
+<li>1 1/4 lbs boneless, skinless chicken breast cut into small pieces</li>
+<li>1 pinch salt and pepper</li>
+<li>1 Tbsp olive oil</li>
+<li>16 oz or 1 lb white mushrooms</li>
+<li>2 Tbsp butter</li>
+</ul>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li><p>Prepare the balsamic sauce first.</p></li>
+<li><p>In a small bowl, stir together <strong>4 Tbsp</strong> balsamic vinegar, <strong>2 Tbsp</strong> rice vinegar, <strong>1.5 Tbsp</strong> soy sauce, <strong>1 Tbsp</strong> brown sugar, <strong>2 cloves</strong> (or 2 tsp) minced garlic, and <strong>1/4 tsp</strong> dried thyme.</p></li>
+<li><p>Set the sauce aside.</p></li>
+<li><p>Heat a large skillet over medium.</p></li>
+<li><p>Once hot, add the olive oil and swirl to coat the surface.</p></li>
+<li><p>Add the pieces of chicken breast to the skillet and cook browned and cooked through.</p></li>
+<li><p>Remove the chicken to a clean plate and cover to keep warm.</p></li>
+<li><p>While the chicken is cooking, clean <strong>16 oz</strong> of white mushrooms and then slice the bigger ones in half.</p></li>
+<li><p>After removing the chicken from the skillet, add the mushrooms in their place, and sauté in the remaining oil and fat until the mushrooms are slightly tender and browned on the outside (5-7 minutes).</p></li>
+<li><p>Turn the heat down to medium-low.</p></li>
+<li><p>Add the prepared balsamic sauce to the skillet and stir to dissolve any browned bits from the bottom of the skillet.</p></li>
+<li><p>Add chicken back to the skillet.</p></li>
+<li><p>Allow the sauce to come up to a simmer.</p></li>
+<li><p>Simmer the balsamic sauce with the chicken &amp; mushrooms, stirring occasionally, for about 5 minutes, or until the sauce has reduced by half.</p></li>
+<li><p>Add the butter to the skillet and stir until it is melted into the sauce.</p></li>
+</ul>
+<p>Originally from https://www.budgetbytes.com/balsamic-chicken-and-mushrooms/</p>
+
+
+</section>
+
+ ]]></description>
+  <category>meat</category>
+  <category>chicken</category>
+  <category>mushrooms</category>
+  <category>main-dish</category>
+  <guid>https://rmflight.github.io/recipes/posts/2021-04-11-balsamic-chicken-mushrooms/index.html</guid>
+  <pubDate>Sun, 11 Apr 2021 04:00:00 GMT</pubDate>
+</item>
+</channel>
 </rss>

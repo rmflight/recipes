@@ -1,0 +1,23 @@
+---
+title: "Cream Cheese Icing"
+description: |
+  Cream cheese icing. It's good. Goes well with carrot cake.
+date: 2021-11-14
+categories:
+  - icing
+  - cake
+---
+
+## Ingredients
+
+* 8 oz cream cheese at room temp (1 pkg)
+* 1/4 cup butter (softened) (1/2 stick)
+* 1 tsp vanilla
+* 2 cups icing sugar
+
+## Directions
+
+* Blend together **8 oz** cream cheese, **1/4 cup** butter and **1 tsp** vanilall.
+* Add **2 cups** icing sugar 1 cup at a time, mixing thoroughly.
+
+Goes well on [carrot cake](https://rmflight.github.io/recipes/posts/2021-11-14-carrot-cake).

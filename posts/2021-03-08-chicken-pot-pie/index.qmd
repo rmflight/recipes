@@ -1,0 +1,106 @@
+---
+title: "Chicken Pot Pie"
+description: |
+  Delicious chicken pot pie to warm and fill you up.
+date: 03-08-2021
+categories:
+  - casserole
+  - chicken
+  - pie
+  - pot-pie
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r show_baked_together}
+knitr::include_graphics("pot_pie_to_eat.jpg")
+```
+
+## Preparation Time
+
+* Prep time: 15 - 20 min to prep the filling (outside of the shredded chicken breast).
+* Bake time: 30 - 40 min.
+* Resting: 10 min.
+
+## Ingredients
+
+* 2 cups of shredded chicken breast
+  * I like [this method](https://rmflight.github.io/recipes/posts/2021-11-06-poached-chicken-breast-instant-pot) of cooking chicken breast for this.
+* 2 prepared pie crusts, room temperature
+* 1 Tbsp oil
+* 3 large carrots, chopped (2 cups)
+* 1 Tbsp minced onion
+* 1 tsp minced garlic
+* 1/3 cup butter
+* 1/3 cup flour
+* 1 3/4 cup chicken stock
+  * I'll be honest, I take 2 heaping teaspoons (teaspoon from my cutlery drawer) of dried chicken stock mix into 1 3/4 water for this.
+* 1/2 cup milk
+* salt and pepper to taste
+* 1 tsp rubbed or dried sage / summer savory
+* 1/2 cup frozen peas
+
+## Directions
+
+* Make sure your pie crust is at room temperature.
+
+* Dice **3 large** carrots (2 cups).
+
+```{r show_carrots}
+knitr::include_graphics("carrots_peeled.jpg")
+```
+
+```{r show_diced}
+knitr::include_graphics("carrots_cubed.jpg")
+```
+
+* Cook carrots, onion and garlic
+  * Heat **1 Tbsp** oil in a skillet over medium-high heat.
+  * When oil is hot, add carrots, cook for 5 minutes, until they take on color and start to soften.
+  * Add **1 Tbsp** minced onion and **1 tsp** garlic, cook for just a little longer.
+* While veggies are cooking, in another pot make the sauce 
+  * Melt **1/3 cup** butter over medium heat.
+  * Add **1/3 cup** flour and mix into the butter, heating through.
+  * Add **1 3/4 cup** chicken stock and **1/2 cup** milk, stirring with a whisk.
+  * Continue heating and stirring until sauce begins to thicken.
+  * Add **1 tsp** sage / summer savory, salt and pepper to taste.
+* Combine sauce, vegetables, **2 cups** of chicken, and **1/2 cup** of peas.
+
+```{r show_shredded_chicken}
+knitr::include_graphics("chicken_shredded.jpg")
+```
+
+```{r show_mixed}
+knitr::include_graphics("chicken_filling.jpg")
+```
+
+* Grease or spray a pie pan and put one pie crust in.
+* Pour mixture into the pie pan over the first pie crust.
+* Cover with the second pie crust.
+* Poke holes in the second pie crust.
+* Cover edges of pie crust with aluminum foil all around the pan.
+* Bake at 425 for 20 minutes.
+* Remove aluminum foil from pie crust edges.
+* Continue baking for another 10 minutes until crust is golden brown and mixture is heated through in the middle.
+
+```{r show_pie}
+knitr::include_graphics("pot_pie_baked.jpg")
+```
+
+* Allow to rest for 10 minutes before serving.
+
+
+Adapted from [Pillsbury chicken pot pie](https://www.pillsbury.com/recipes/classic-chicken-pot-pie/1401d418-ac0b-4b50-ad09-c6f1243fb992)
+
+
+## Recipe History
+
+* Originally written 2021-03-08
+* Updated 2021-12-06 to use two pie crusts, correct number of carrots, and using rubbed or dried sage, as well as preparation time.
+* Updated 2023-03-01 for updated carrots, and using two pots to prepare it.
+
+## Nutrition Info
+
+2960 kCal for the pie, 8 servings, 370 kCal / serving.

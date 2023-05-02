@@ -1,0 +1,33 @@
+---
+title: "Buried Treasure Cake"
+description: |
+  A hidden cream cheese and chocolate chip filling makes this a treasure.
+date: 03-20-2021
+categories:
+  - baked
+  - cake
+  - dessert
+  - chocolate
+bibliography: refs.bib
+---
+
+## Ingredients
+
+* 1 8 oz pkg cream cheese (softened)
+* 1 egg
+* 1/4 cup sugar
+* 1/2 cup flaked coconut
+* 1 cup semi sweet chocolate chips
+
+* Chocolate cake batter [@flight2021chocolate]
+
+## Directions
+
+* Mix filling ingredients in a bowl, set aside. 
+* Make chocolate cake batter.
+* Pour 1/2 batter into cake pan. 
+* Add chunks of filling to batter, add the rest of the batter.
+
+* Bake at 350F for an hour.
+
+Source: Stella Trask

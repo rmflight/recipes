@@ -1,0 +1,45 @@
+---
+title: "Punjabi Curry"
+description: |
+  A great base for various curries.
+date: 03-20-2021
+categories:
+  - curry
+  - soup
+  - chicken
+  - chickpea
+---
+
+## Ingredients
+
+* 1 medium yellow onion, chopped
+* 3 - 4 Tbsp vegetable oil
+* 6 - 8 cloves of garlic, chopped or sliced
+* 1 1/2 tsp ground tumeric
+* 1 1/2 tsp ground coriander
+* 1 1/2 tsp ground cumin
+* 1/4 - 1 tsp chili pepper (optional)
+* 2 - 3 tsp chopped ginger
+* 1 1/2 tsp tomato paste
+* 1 1/2 lb chicken breast (pieces)
+* 1 1/2 Tbsp whole plain yogurt
+
+## Directions
+
+* Saute onion in oil on medium heat until soft and lightly browned
+* Add garlic, cooking briefly until you can smell it
+* Add tumeric and mix
+* Add coriander, cumin, ginger and chili pepper if desired
+* Mix in tomato paste. Cook until oil separting from paste mix (3 - 5 min)
+* Add chicken pieces. Cook until chicken is mostly cooked through (10 - 15 min)
+* Add yogurt and mix. Add water to thin to desired thickness.
+* Serve with rice or yogurt or naan.
+
+## Variations
+
+* Add a diced potato and let simmer until potato is cooked through
+* Not add water, add chopped frozen spinach
+* chickpea curry: cut spices by 1/2, no yogurt, add 2 cans of chickpeas, add water to thin, add chopped tomato
+* redbean curry: same as above, substitute two cans of red beans
+
+*Source*: https://twitter.com/NeedhiBhalla/status/1115071947878961152

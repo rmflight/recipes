@@ -1,20 +1,856 @@
-{
-  "articles": [
-    {
-      "path": "about.html",
-      "title": "About this blog",
-      "description": "Some additional details about the blog",
-      "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2022-08-07T16:17:03-04:00"
-    },
-    {
-      "path": "index.html",
-      "title": "Flight Family Recipes",
-      "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2022-08-07T16:17:05-04:00"
-    }
-  ],
-  "collections": ["posts/posts.json"]
-}
+[
+  {
+    "objectID": "posts/2021-03-07-cheeseburger-soup/index.html",
+    "href": "posts/2021-03-07-cheeseburger-soup/index.html",
+    "title": "Cheeseburger Soup",
+    "section": "",
+    "text": "1 to 1.5 lb hamburger\n1 small onion, chopped or 1 Tbsp of dehydrated onion flakes\n1 clove garlic, minced\n1/4 cup red pepper, chopped\n2 cups of beef bullion\n4 cups potatoes, cubed\n1 cup of carrots, cubed\n\n\n\n\n\n2 Tbsp butter\n2 Tbsp flour\n2.5 cups milk\n8 ounces of cheddar cheese by weight, shredded"
+  },
+  {
+    "objectID": "posts/2021-03-07-cheeseburger-soup/index.html#directions",
+    "href": "posts/2021-03-07-cheeseburger-soup/index.html#directions",
+    "title": "Cheeseburger Soup",
+    "section": "Directions",
+    "text": "Directions\n\nSoup\n\nCook and rinse 1 lb of hamburger\nCook 1 small onion and 1/4 cup of red pepper and 1 clove of garlic in some of the leftover fat from hamburger\nIn pressure cooker, add\n\ncooked hamburger,\nonion, pepper, potatoes\nbeef bullion\n\nAdd enough liquid to cover hamburger and vegetables\nCook on high pressure for 30 minutes\nQuick release of pressure\n\n\n\nCheese Sauce\nOver medium to medium-hight heat:\n\nMelt 2 Tbsp butter\nWhisk in 2 Tbsp flour\nSlowly add 2.5 cups of milk\nBring to a boil\nAdd 8 ounces of cheese\nStir until thoroughly mixed\n\nAdd sauce to soup, thoroughly mix, and server hot.\nSource: Modified from “Taste of Home Ultimate Soup Cookbook”"
+  },
+  {
+    "objectID": "posts/2021-03-07-spaghetti-sauce/index.html",
+    "href": "posts/2021-03-07-spaghetti-sauce/index.html",
+    "title": "Spaghetti Sauce",
+    "section": "",
+    "text": "v 0.0.4\nThe full recipe should serve 6 - 8 people, the half serves 4 - 6. I know the half seems like very little sauce, but at least in our family we always have too much.\nAlso used in our lasagna (Flight 2021).\n\n\n\n\n\n\nIngredients - Full\n\n2 x 20oz crushed tomatoes\n1/2 cup red wine\n2/3 cup White sugar\n2 Tbsp minced garlic\n2 Tbsp minced onion\n3 Tbsp basil leaves\n2 Tbsp oregano flakes\n2 tsp rosemary\n2 tsp thyme\n2 Tbsp worcestershire sauce\n2 bay leaves\n2 Tbsp tomato paste\n\n\n\nIngredients - Halved\n\n20 oz crushed tomatoes\n1/4 cup red wine\n1/3 cup white sugar\n1 Tbsp minced garlic\n1 Tbsp minced onion\n1 Tbsp basil leaves\n1 Tbsp oregano flakes\n1 tsp rosemary\n1 tsp thyme\n1 Tbsp Worcestershire sauce\n1 Tbsp tomato paste\n1 bay leaf\n\n\n\nDirections\nCombine all ingredients in a large pot, bring to a gentle simmer, reduce heat and allow to simmer for 2 hours.\nAlternatively, drop 1 Tbsp of vegetable oil in pot, and over medium-high heat cook onion and garlic for 2 - 3 minutes until fragrant and browned. Combine rest of ingredients as above.\nIf desired, 1lb of browned ground beef can be added before serving over noodles or using in other pasta recipes.\n\n\nNutritional Info\n780 kcal (full) or 390 kcal (half), over 16 or 8 servings, is 50 kcal / serving.\nWith 80/20 ground beef added, (1 or 0.5 lb), you add another 70 kcal / serving.\n\n\n\n\n\nReferences\n\nFlight, Robert M. 2021. “Flight Family Recipes: Lasagna.” https://rmflight.github.io/recipes/posts/2021-03-14-lasagna/."
+  },
+  {
+    "objectID": "posts/2021-03-08-chicken-pot-pie/index.html#preparation-time",
+    "href": "posts/2021-03-08-chicken-pot-pie/index.html#preparation-time",
+    "title": "Chicken Pot Pie",
+    "section": "Preparation Time",
+    "text": "Preparation Time\n\nPrep time: 15 - 20 min to prep the filling (outside of the shredded chicken breast).\nBake time: 30 - 40 min.\nResting: 10 min."
+  },
+  {
+    "objectID": "posts/2021-03-08-chicken-pot-pie/index.html#ingredients",
+    "href": "posts/2021-03-08-chicken-pot-pie/index.html#ingredients",
+    "title": "Chicken Pot Pie",
+    "section": "Ingredients",
+    "text": "Ingredients\n\n2 cups of shredded chicken breast\n\nI like this method of cooking chicken breast for this.\n\n2 prepared pie crusts, room temperature\n1 Tbsp oil\n3 large carrots, chopped (2 cups)\n1 Tbsp minced onion\n1 tsp minced garlic\n1/3 cup butter\n1/3 cup flour\n1 3/4 cup chicken stock\n\nI’ll be honest, I take 2 heaping teaspoons (teaspoon from my cutlery drawer) of dried chicken stock mix into 1 3/4 water for this.\n\n1/2 cup milk\nsalt and pepper to taste\n1 tsp rubbed or dried sage / summer savory\n1/2 cup frozen peas"
+  },
+  {
+    "objectID": "posts/2021-03-08-chicken-pot-pie/index.html#directions",
+    "href": "posts/2021-03-08-chicken-pot-pie/index.html#directions",
+    "title": "Chicken Pot Pie",
+    "section": "Directions",
+    "text": "Directions\n\nMake sure your pie crust is at room temperature.\nDice 3 large carrots (2 cups).\n\n\n\n\n\n\n\n\n\n\n\n\nCook carrots, onion and garlic\n\nHeat 1 Tbsp oil in a skillet over medium-high heat.\nWhen oil is hot, add carrots, cook for 5 minutes, until they take on color and start to soften.\nAdd 1 Tbsp minced onion and 1 tsp garlic, cook for just a little longer.\n\nWhile veggies are cooking, in another pot make the sauce\n\nMelt 1/3 cup butter over medium heat.\nAdd 1/3 cup flour and mix into the butter, heating through.\nAdd 1 3/4 cup chicken stock and 1/2 cup milk, stirring with a whisk.\nContinue heating and stirring until sauce begins to thicken.\nAdd 1 tsp sage / summer savory, salt and pepper to taste.\n\nCombine sauce, vegetables, 2 cups of chicken, and 1/2 cup of peas.\n\n\n\n\n\n\n\n\n\n\n\n\nGrease or spray a pie pan and put one pie crust in.\nPour mixture into the pie pan over the first pie crust.\nCover with the second pie crust.\nPoke holes in the second pie crust.\nCover edges of pie crust with aluminum foil all around the pan.\nBake at 425 for 20 minutes.\nRemove aluminum foil from pie crust edges.\nContinue baking for another 10 minutes until crust is golden brown and mixture is heated through in the middle.\n\n\n\n\n\n\n\nAllow to rest for 10 minutes before serving.\n\nAdapted from Pillsbury chicken pot pie"
+  },
+  {
+    "objectID": "posts/2021-03-08-chicken-pot-pie/index.html#recipe-history",
+    "href": "posts/2021-03-08-chicken-pot-pie/index.html#recipe-history",
+    "title": "Chicken Pot Pie",
+    "section": "Recipe History",
+    "text": "Recipe History\n\nOriginally written 2021-03-08\nUpdated 2021-12-06 to use two pie crusts, correct number of carrots, and using rubbed or dried sage, as well as preparation time.\nUpdated 2023-03-01 for updated carrots, and using two pots to prepare it."
+  },
+  {
+    "objectID": "posts/2021-03-08-chicken-pot-pie/index.html#nutrition-info",
+    "href": "posts/2021-03-08-chicken-pot-pie/index.html#nutrition-info",
+    "title": "Chicken Pot Pie",
+    "section": "Nutrition Info",
+    "text": "Nutrition Info\n2960 kCal for the pie, 8 servings, 370 kCal / serving."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome to Flight Family Recipes",
+    "section": "",
+    "text": "This is my personal recipe site. It’s organized as a blog, because that was easy to set up. I definitely recommend using the Categories on the right to navigate, or using the search bar at the top.\nSome of the recipes are original, some have been modified from other sources. I include the original source on every recipe."
+  },
+  {
+    "objectID": "posts/2021-03-20-butternut-squash-sweet-potato-soup/index.html",
+    "href": "posts/2021-03-20-butternut-squash-sweet-potato-soup/index.html",
+    "title": "Butternut Squash & Sweet Potato Soup",
+    "section": "",
+    "text": "1 onion\n6 cups veggie broth\n2 1/2 cups butternut squash, peeled, seeded, and cubed\n2 cups sweet potato, peeled and diced\n3 carrots, peeled and sliced\n1 can cannellini beans\n1/4 teaspoon salt"
+  },
+  {
+    "objectID": "posts/2021-03-20-butternut-squash-sweet-potato-soup/index.html#directions",
+    "href": "posts/2021-03-20-butternut-squash-sweet-potato-soup/index.html#directions",
+    "title": "Butternut Squash & Sweet Potato Soup",
+    "section": "Directions",
+    "text": "Directions\n\nAdd all ingredients to the slow cooker, and secure the lid, cook on low for 6 hours or high for 3.\nAlternatively, 30 minutes in the Instant Pot.\nBlend to make a smooth soup.\n\nModified from https://www.popsugar.com/fitness/Squash-Sweet-Potato-Carrot-White-Bean-Soup-36020648"
+  },
+  {
+    "objectID": "posts/2021-12-11-cherry-pound-cake/index.html",
+    "href": "posts/2021-12-11-cherry-pound-cake/index.html",
+    "title": "Cherry Pound Cake",
+    "section": "",
+    "text": "1 cup butter\n1 cup white sugar\n3 eggs\n1/2 tsp salt\n1 tsp vanilla\n1 tsp almond flavor\n1 tsp lemon flavor\n1 cup green glaced cherries\n1 cup red glaced cherries\n2 tsp lemon rind"
+  },
+  {
+    "objectID": "posts/2021-12-11-cherry-pound-cake/index.html#directions",
+    "href": "posts/2021-12-11-cherry-pound-cake/index.html#directions",
+    "title": "Cherry Pound Cake",
+    "section": "Directions",
+    "text": "Directions\n\nCombine and beat together 1 cup butter, 1 cup white sugar, and 3 eggs. Add eggs slowly and beat together one at a time.\nContinue beating until mixture becomes fluffy.\nAdd 1/2 tsp salt, 1 tsp vanilla, 1 tsp almond and 1 tsp lemon flavoring and mix.\nFold in the 1 cup each of red and green glaced cherries.\n\nBake at 300 degrees for 1 hour in a 10x5 loaf pan.\nAfter baking, coat top with 2 tsp grated lemon rind.\nSource: Cheryl Denton"
+  },
+  {
+    "objectID": "posts/2021-12-11-gum-drop-cake/index.html",
+    "href": "posts/2021-12-11-gum-drop-cake/index.html",
+    "title": "Gum Drop Cake",
+    "section": "",
+    "text": "1 1/2 cups sugar\n1/2 cup flour\n1.5 cups flour\n4 eggs\n1 1/2 tsp baking powder\n8 oz (1 package) cream cheese\n1 cup margarine or butter\n1/4 tsp salt\n1 tsp vanilla\n2 cups gum drops"
+  },
+  {
+    "objectID": "posts/2021-12-11-gum-drop-cake/index.html#directions",
+    "href": "posts/2021-12-11-gum-drop-cake/index.html#directions",
+    "title": "Gum Drop Cake",
+    "section": "Directions",
+    "text": "Directions\n\nCut up gum drops and flour them with 1/2 cup of the flour. I cut them into 3 pieces and make sure each piece is floured. Refrigerate while preparing the cake batter.\nCream 1 cup butter / margarine & 8 oz cream cheese until fluffy.\nAdd 1 1/2 cups sugar, 1 tsp vanilla and 4 eggs 1 at a time beating well after adding each egg.\nCombine remaining 1 1/2 cup flour, 1 1/2 tsp baking powder and 1/4 tsp salt.\nAdd dry ingredients to creamed mixture.\nLastly add the floured gumdrops and combine well.\nGrease and flour a loaf pan or use parchment paper.\n\nBake 1 hour at 350 degrees.\nSource: June Whitman"
+  },
+  {
+    "objectID": "posts/2021-03-20-buried-treasure-cake/index.html",
+    "href": "posts/2021-03-20-buried-treasure-cake/index.html",
+    "title": "Buried Treasure Cake",
+    "section": "",
+    "text": "1 8 oz pkg cream cheese (softened)\n1 egg\n1/4 cup sugar\n1/2 cup flaked coconut\n1 cup semi sweet chocolate chips\nChocolate cake batter (Flight 2021)"
+  },
+  {
+    "objectID": "posts/2021-03-20-buried-treasure-cake/index.html#directions",
+    "href": "posts/2021-03-20-buried-treasure-cake/index.html#directions",
+    "title": "Buried Treasure Cake",
+    "section": "Directions",
+    "text": "Directions\n\nMix filling ingredients in a bowl, set aside.\nMake chocolate cake batter.\nPour 1/2 batter into cake pan.\nAdd chunks of filling to batter, add the rest of the batter.\nBake at 350F for an hour.\n\nSource: Stella Trask"
+  },
+  {
+    "objectID": "posts/2021-11-14-cream-cheese-icing/index.html",
+    "href": "posts/2021-11-14-cream-cheese-icing/index.html",
+    "title": "Cream Cheese Icing",
+    "section": "",
+    "text": "8 oz cream cheese at room temp (1 pkg)\n1/4 cup butter (softened) (1/2 stick)\n1 tsp vanilla\n2 cups icing sugar"
+  },
+  {
+    "objectID": "posts/2021-11-14-cream-cheese-icing/index.html#directions",
+    "href": "posts/2021-11-14-cream-cheese-icing/index.html#directions",
+    "title": "Cream Cheese Icing",
+    "section": "Directions",
+    "text": "Directions\n\nBlend together 8 oz cream cheese, 1/4 cup butter and 1 tsp vanilall.\nAdd 2 cups icing sugar 1 cup at a time, mixing thoroughly.\n\nGoes well on carrot cake."
+  },
+  {
+    "objectID": "posts/2021-03-20-easy-oatmeal-raisin-breakfast-bars/index.html",
+    "href": "posts/2021-03-20-easy-oatmeal-raisin-breakfast-bars/index.html",
+    "title": "Easy Oatmeal Raisin Breakfast Bars",
+    "section": "",
+    "text": "Bake at 350F."
+  },
+  {
+    "objectID": "posts/2021-03-20-easy-oatmeal-raisin-breakfast-bars/index.html#ingredients",
+    "href": "posts/2021-03-20-easy-oatmeal-raisin-breakfast-bars/index.html#ingredients",
+    "title": "Easy Oatmeal Raisin Breakfast Bars",
+    "section": "Ingredients",
+    "text": "Ingredients\n\n2 1/4 cups oats\n1/2 cup all-purpose flour\n1/2 tsp baking powder\n1/2 tsp cinnamon\n1 cup ripe mashed banana\n1/2 cup honey\n1 cup raisins or chocolate chips"
+  },
+  {
+    "objectID": "posts/2021-03-20-easy-oatmeal-raisin-breakfast-bars/index.html#directions",
+    "href": "posts/2021-03-20-easy-oatmeal-raisin-breakfast-bars/index.html#directions",
+    "title": "Easy Oatmeal Raisin Breakfast Bars",
+    "section": "Directions",
+    "text": "Directions\n\nPreheat oven to 350 F.\nGrease a 8x11 or 9x9 baking pan.\nWhisk together 2 1/4 cups oats, 1/2 cup flour, 1/2 tsp baking powder and 1/2 tsp cinnamon.\nAdd 1 cup mashed banana and 1/2 cup honey to oat mixture and stir until combined, stir in the 1 cup chocolate chips or raisins.\nScoop into the pan, and compress, smoothing out the top.\nBake 25-30 minutes, or until top of the bars are firm and golden brown.\nLet cool, cut into squares. Store in the fridge or freezer.\n\nOriginal sourced from Nibble and Dine Easy Oatmeal Raisin Breakfast Bars"
+  },
+  {
+    "objectID": "posts/2021-03-20-easy-oatmeal-raisin-breakfast-bars/index.html#nutritional-information",
+    "href": "posts/2021-03-20-easy-oatmeal-raisin-breakfast-bars/index.html#nutritional-information",
+    "title": "Easy Oatmeal Raisin Breakfast Bars",
+    "section": "Nutritional Information",
+    "text": "Nutritional Information\n3000 kCal for ingredients, and then 15 servings / pan is 200 kCal / serving."
+  },
+  {
+    "objectID": "posts/2021-03-20-mac-cheese/index.html",
+    "href": "posts/2021-03-20-mac-cheese/index.html",
+    "title": "Mac & Cheese",
+    "section": "",
+    "text": "v 0.0.1"
+  },
+  {
+    "objectID": "posts/2021-03-20-mac-cheese/index.html#ingredients",
+    "href": "posts/2021-03-20-mac-cheese/index.html#ingredients",
+    "title": "Mac & Cheese",
+    "section": "Ingredients",
+    "text": "Ingredients\n\nmacaroni noodles - 8 ounces cooked just al-dente\n4 Tbsp butter\n4 Tbsp flour\n1 cup milk\n1 1/2 cup shredded cheddar cheese\nOptional:\n\nCubed ham (1 cup) + 1 tsp of yellow mustard"
+  },
+  {
+    "objectID": "posts/2021-03-20-mac-cheese/index.html#instructions",
+    "href": "posts/2021-03-20-mac-cheese/index.html#instructions",
+    "title": "Mac & Cheese",
+    "section": "Instructions",
+    "text": "Instructions\n\nCook 8 oz macaroni.\nIn a large saucepan, melt 4 Tbsp butter.\nAdd 4 Tbsp flour, mixing until all butter is in the flour and “smooth”.\nGradually add 1 cup milk, making sure that all of the flour/butter mix is getting mixed into the milk.\nHeat slowly until thickened.\nRemove from heat, stir in cheese until melted.\nAdd cheese sauce to drained macaroni.\n\nIf desired, bake in the oven at 350F for 30-45 minutes. Serve hot."
+  },
+  {
+    "objectID": "posts/2021-03-20-mac-cheese/index.html#notes",
+    "href": "posts/2021-03-20-mac-cheese/index.html#notes",
+    "title": "Mac & Cheese",
+    "section": "Notes",
+    "text": "Notes\n\nDon’t overcook the macaroni, or this will get really, really mushy while in the oven.\n\nSource: Modified from “taste of home, the Ultimate Comfort Food Cookbook”, copyright 2012"
+  },
+  {
+    "objectID": "posts/2021-03-14-lasagna/index.html",
+    "href": "posts/2021-03-14-lasagna/index.html",
+    "title": "Lasagna",
+    "section": "",
+    "text": "Baking time: 1 hour, 20 minutes\nPrep time: 20 minutes"
+  },
+  {
+    "objectID": "posts/2021-03-14-lasagna/index.html#ingredients",
+    "href": "posts/2021-03-14-lasagna/index.html#ingredients",
+    "title": "Lasagna",
+    "section": "Ingredients",
+    "text": "Ingredients\n\nPasta sauce (Flight 2021)\n2 cups cottage cheese\n1 cup sour cream\noven ready lasagna noodles\nBunch of shredded / grated mozzarella cheese\n1/2 cup grated Parmesan cheese\n1 cup water"
+  },
+  {
+    "objectID": "posts/2021-03-14-lasagna/index.html#directions",
+    "href": "posts/2021-03-14-lasagna/index.html#directions",
+    "title": "Lasagna",
+    "section": "Directions",
+    "text": "Directions\n\nPreheat oven to 350F.\nCombine 2 cups cottage cheese and 1 cup sour cream in a bowl.\nLayer:\n\nsauce\nnoodles\ncottage cheese & sour cream\nmozzarella cheese\nhowever many times you need to to fill your dish\n\nFinish with a layer of noodles and cheese.\nCover dish with foil.\nPut dish on baking sheet, and pour water around the outside of the pan.\nBake 1 hour.\nUncover, bake 20 minutes more until bubbly."
+  },
+  {
+    "objectID": "posts/2021-04-11-pork-apples-instant-pot/index.html",
+    "href": "posts/2021-04-11-pork-apples-instant-pot/index.html",
+    "title": "Pork & Apples (Instant Pot)",
+    "section": "",
+    "text": "3 Apples sliced about 1/4” thick\n1 Small Sweet Onion (Walla Walla, Vidalia, etc) cut in half and thinly sliced.\n2-4 Pork Chops\nSalt\nPepper\n1 Tbsp Vegetable Oil\n1/4 cup Plus 1 Tbsp Water (divided)\n4 Tbsp Butter (unsalted)\n4 Tbsp Brown Sugar\n1/4 tsp Cinnamon\n1/4 tsp Nutmeg\nPinch of Salt\n2 Tbsp Corn Starch\n3 Tbsp Cold Water"
+  },
+  {
+    "objectID": "posts/2021-04-11-pork-apples-instant-pot/index.html#directions",
+    "href": "posts/2021-04-11-pork-apples-instant-pot/index.html#directions",
+    "title": "Pork & Apples (Instant Pot)",
+    "section": "Directions",
+    "text": "Directions\n\nPrepare 3 apples by peeling, coring, and slicing. Set aside.\nRemove the outer skin of 1 small sweet onion. Cut in half and slice thinly (You will have half circles). Set aside.\nSeason 2 - 4 pork chops with a sprinkling of salt and pepper on each side. Go lightly on the pepper. Set aside while pot warms up.\nTurn the IP to Sauté mode (Normal heat). When the display reads “Hot” add 1 Tbsp oil to the pot.\nAdd the pork chops, two at a time, and brown on each side for about 4 minutes per side (less if thin). Remove to a plate and set aside.\nAdd the onion and 1 Tbsp water. Cook the onion, stirring frequently and scraping to deglaze the pot (get all of the brown bits off the bottom). I like to use a wooden spoon.\nWhen the onions are translucent and tender, add the 4 Tbsp butter and stir until melted.\nAdd the apples and 1/4 cup water. Stir well.\nAdd the pork chops (and any juices on the plate) back in and just set them on top of the apples. Don’t stir.\nPut the lid on the pot and set the steam release knob to the Sealing position. Cancel the Sauté mode.\nPress the Manual (or Pressure Cook) button and then the + or - button to select 10 (8 minutes for thinner chops) minutes.\n\nYes, the pot will come to pressure with only 1/4 cup of water in it. This is because the apples will release water as the pot is heating up and building pressure, so you will be okay. It’s the same for making applesauce!\n\nWhile the pork chops are cooking, mix together the 4 Tbsp brown sugar, 1/4 tsp cinnamon, 1/4 tsp nutmeg, and a pinch of salt. Set aside.\nWhen the cook cycle ends and the pot beeps, don’t do anything to it, just let it naturally release pressure for 10 minutes (the counter will begin counting up).\nAfter the 10 minutes is up, turn the steam release knob to manually release the remaining pressure. When the pin in the lid drops, open the lid. Remove the pork chops to a plate and cover with foil or a lid to keep warm.\nTurn the Sauté mode back on.\nAdd the brown sugar mixture to the apple mixture and stir.\nMix the 2 Tbsp corn starch with 3 Tbsp cold water. Stir the corn starch slurry into the apple mixture, stirring constantly.\nWhen the mixture thickens, turn off the pot. Remove apple gravy to a serving bowl immediately.\nServe the pork chops smothered in the warm apple gravy. Yum!\n\nFrom https://www.simplyhappyfoodie.com/instant-pot-autumn-apple-pork-chops/"
+  },
+  {
+    "objectID": "posts/2022-04-05-vegetable-barley-soup/index.html",
+    "href": "posts/2022-04-05-vegetable-barley-soup/index.html",
+    "title": "Vegetable Barley Soup",
+    "section": "",
+    "text": "Prep time 30 - 40 minutes.\nServes: 4 - 8"
+  },
+  {
+    "objectID": "posts/2022-04-05-vegetable-barley-soup/index.html#ingredients",
+    "href": "posts/2022-04-05-vegetable-barley-soup/index.html#ingredients",
+    "title": "Vegetable Barley Soup",
+    "section": "Ingredients",
+    "text": "Ingredients\n\n3/4 cup pearl barley\n1 tbsp cooking oil\n1 tbsp minced onion rehydrated\n2 tsp minced garlic\n2 carrots peeled and diced\n1/2 red pepper diced (or more)\n1 1/2 cup edamame beans.\n1 tsp thyme\nsalt and pepper\n8 cups vegetable stock"
+  },
+  {
+    "objectID": "posts/2022-04-05-vegetable-barley-soup/index.html#directions",
+    "href": "posts/2022-04-05-vegetable-barley-soup/index.html#directions",
+    "title": "Vegetable Barley Soup",
+    "section": "Directions",
+    "text": "Directions\n\nPut instant pot on saute and add 1 tbsp oil.\nWhen hot, add 1 tbsp rehydrated minced onion, cook for a few minutes to brown.\nAdd 2 tsp minced garlic and cook for just a minute.\nTurn off saute mode.\nAdd rest of ingredients.\n\n2 carrots\n1/2 sweet pepper\n1 1/2 cup edamame beans\n1 tsp thyme\nsalt and pepper\n8 cups vegetable stock\n\nSet pressure cook for 20 - 25 minutes depending on how well done you like your barley. I found it was still chewy after 20 minutes and quick release, 20 minutes and 5 - 10 minute natural release might be fine too."
+  },
+  {
+    "objectID": "posts/2022-04-05-vegetable-barley-soup/index.html#nutrition",
+    "href": "posts/2022-04-05-vegetable-barley-soup/index.html#nutrition",
+    "title": "Vegetable Barley Soup",
+    "section": "Nutrition",
+    "text": "Nutrition\n220 Kcal."
+  },
+  {
+    "objectID": "posts/2022-04-05-vegetable-barley-soup/index.html#notes",
+    "href": "posts/2022-04-05-vegetable-barley-soup/index.html#notes",
+    "title": "Vegetable Barley Soup",
+    "section": "Notes",
+    "text": "Notes\n\nthe original recipe called for 4 cups vegetable stock + 2 cups of water, I used 6 of vegetable broth, and while tasty, it could have been thinner, hence I’ve upped it to 8.\nIf you like a wider variety of vegetables, you could definitely replace a carrot with a stick of celery.\nThe original recipe said 4 servings, but we got closer to 6 and could definitely do 8 especially with any bread.\n\nOriginally from WachWhatYouEat."
+  },
+  {
+    "objectID": "posts/2021-10-24-pancakes-no-milk/index.html",
+    "href": "posts/2021-10-24-pancakes-no-milk/index.html",
+    "title": "Pancakes! (No Milk)",
+    "section": "",
+    "text": "We have a kid that is lactose free, so we are always looking for ways to either make things without milk at all, or using a lactose free substitute.\nMakes 15 - 20 pancakes, depending on how thin you make the batter. We like ours thicker, I got 16 pancakes, which meant for the 5 of us, we had 2 pancakes left over."
+  },
+  {
+    "objectID": "posts/2021-10-24-pancakes-no-milk/index.html#ingredients",
+    "href": "posts/2021-10-24-pancakes-no-milk/index.html#ingredients",
+    "title": "Pancakes! (No Milk)",
+    "section": "Ingredients",
+    "text": "Ingredients\n\n3 cups all-purpose flour\n7 tsp baking powder\n1 tsp salt (or just a shake)\n4 Tbsp sugar\n2 eggs\n6 Tbsp margarine, melted\n3 tsp vanilla\n2 ½ cups water"
+  },
+  {
+    "objectID": "posts/2021-10-24-pancakes-no-milk/index.html#directions",
+    "href": "posts/2021-10-24-pancakes-no-milk/index.html#directions",
+    "title": "Pancakes! (No Milk)",
+    "section": "Directions",
+    "text": "Directions\n\nIn a large bowl, sift together the 3 cups of flour, 7 tsp of baking powder, salt, and 3 Tbsp of sugar.\nMake a well in the middle, and pour in 2 eggs, 6 Tbsp melted margarine, and 2 tsp vanilla.\nPour in 1 cup of water and begin stirring together with a whisk.\nSlowly add more water while whisking until you have all the lumps out of it, and add water to your desired consistency.\nIf you have addins like mashed bananas and chocolate chips, now is the time to add them. I’ve easily added 2 mashed bananas to this recipe without issue.\nLightly grease a frying pan (neutral oil spread with paper towel will work), and heat to medium high.\nPour a large spoonful of batter on, and wait for bubbles to form before flipping.\n\nAdapted from Laura Fuentes."
+  },
+  {
+    "objectID": "posts/2021-11-06-poached-chicken-breast-instant-pot/index.html",
+    "href": "posts/2021-11-06-poached-chicken-breast-instant-pot/index.html",
+    "title": "Poached Chicken Breast (Instant Pot)",
+    "section": "",
+    "text": "5 tsp salt (or just a couple, really)\n2 bay leaves\n1 tsp dried thyme\n1 tsp rosemary\n1 tsp oregano\n4 cups water\n2 chicken breasts"
+  },
+  {
+    "objectID": "posts/2021-11-06-poached-chicken-breast-instant-pot/index.html#directions",
+    "href": "posts/2021-11-06-poached-chicken-breast-instant-pot/index.html#directions",
+    "title": "Poached Chicken Breast (Instant Pot)",
+    "section": "Directions",
+    "text": "Directions\n\nAdd dried herbs to instant pot insert.\nAdd 4 cups water.\nAdd 2 chicken breasts (either whole or in chunks).\nSet timer for 0 (yes, really) minutes, or if not possible, 1 minute.\nWhen pressure is reached, if you had to set 1 minute, get up and turn the instant pot off.\nHit “keep warm” to at least keep it warm but naturally release\nFor\n\n1 chicken breast - 12 min\n2 chicken breasts - 11 min\n4 chicken breasts - 9 min\n\nRelease pressure.\nCheck temperature with a meat thermometer. Supposedly 165F is safe, but I still prefer 180F."
+  },
+  {
+    "objectID": "posts/2021-11-06-poached-chicken-breast-instant-pot/index.html#frozen",
+    "href": "posts/2021-11-06-poached-chicken-breast-instant-pot/index.html#frozen",
+    "title": "Poached Chicken Breast (Instant Pot)",
+    "section": "Frozen",
+    "text": "Frozen\n\nFor frozen chicken breasts:\n\n2 chicken breasts - 3 minutes at pressure, 18 - 20 minute rest."
+  },
+  {
+    "objectID": "posts/2021-11-06-poached-chicken-breast-instant-pot/index.html#wait-why",
+    "href": "posts/2021-11-06-poached-chicken-breast-instant-pot/index.html#wait-why",
+    "title": "Poached Chicken Breast (Instant Pot)",
+    "section": "Wait, why?",
+    "text": "Wait, why?\nAs far as I can understand, we are using the heat necessary to get the mass of water + chicken to a boiling point to actually cook the chicken (poaching). This means that the more cold chicken breast you put in, the more heat it will take to get it to pressure, and therefore you need less time to naturally release. However, we are talking changes of 1 - 2 minutes, in salty water.\nI use this to make shredded chicken breast for soup, chicken pot pie, etc.\nOriginal guidelines are from Amy & Jacky Pressure Cook Recipes."
+  },
+  {
+    "objectID": "posts/2022-02-12-chocolate-chip-muffins/index.html",
+    "href": "posts/2022-02-12-chocolate-chip-muffins/index.html",
+    "title": "Chocolate Chip Muffins",
+    "section": "",
+    "text": "2 cups flour\n1/3 cup brown sugar\n1/3 cup white sugar\n2 tsp baking powder\n3/4 cup milk\n1/2 cup butter, melted and cooled\n2 eggs, lightly beaten\n1 tsp vanilla\n1 package semi-sweet chocolate chips (11 1/2 oz)"
+  },
+  {
+    "objectID": "posts/2022-02-12-chocolate-chip-muffins/index.html#directions",
+    "href": "posts/2022-02-12-chocolate-chip-muffins/index.html#directions",
+    "title": "Chocolate Chip Muffins",
+    "section": "Directions",
+    "text": "Directions\n\nPreheat oven to 400F\nGrease 12 muffin cups\nIn a large bowl, mix together:\n\n2 cups flour\n1/3 cup brown sugar\n1/3 cup white sugar\n2 tsp baking powder\n\nIn another bowl, stir together:\n\n2/3 cup milk\n1/2 cup melted & cooled butter\n2 eggs beaten\n1 tsp vanilla\n\nMake a well in the center of the dry ingredients, add the wet ingredients and stir until just combined.\nStir in chocolate chips.\nSpoon batter into prepared muffin cups.\nBake for 15-20 minutes at 400F until center seems done or tops bounce when lightly touched."
+  },
+  {
+    "objectID": "posts/2022-02-12-chocolate-chip-muffins/index.html#nutritional-information",
+    "href": "posts/2022-02-12-chocolate-chip-muffins/index.html#nutritional-information",
+    "title": "Chocolate Chip Muffins",
+    "section": "Nutritional Information",
+    "text": "Nutritional Information\n\nTotal Calories: 3810 kCal\n12 Muffins: 318 kCal each\n\nSourced from Charishma Ramchanda."
+  },
+  {
+    "objectID": "posts/2021-03-20-chocolate-cake/index.html",
+    "href": "posts/2021-03-20-chocolate-cake/index.html",
+    "title": "Chocolate Cake",
+    "section": "",
+    "text": "Bake one hour at 350F."
+  },
+  {
+    "objectID": "posts/2021-03-20-chocolate-cake/index.html#ingredients",
+    "href": "posts/2021-03-20-chocolate-cake/index.html#ingredients",
+    "title": "Chocolate Cake",
+    "section": "Ingredients",
+    "text": "Ingredients\n\n2 1/2 cups white sugar\n1 cup cooking oil\n2 eggs\n1 tsp vanilla\n1 cup hot coffee\n1 cup sour milk (3/4 cup milk, 1/4 cup vinegar)\n3/4 cup cocoa\n2 tsp baking soda\n2 tsp baking powder\n1 1/2 tsp salt\n3 cups flour"
+  },
+  {
+    "objectID": "posts/2021-03-20-chocolate-cake/index.html#directions",
+    "href": "posts/2021-03-20-chocolate-cake/index.html#directions",
+    "title": "Chocolate Cake",
+    "section": "Directions",
+    "text": "Directions\n\nIn a mixing bowl, combine\n\n2 1/2 cups white sugar\n1 cup cooking oil\n2 eggs\n1 tsp vanilla\n\nIf using a stand mixer, start mixing on low.\nAdd 1 cup hot coffee\nAdd 1 cup sour milk\nAdd 3/4 cup cocoa\nAdd remaining dry ingredients\n\n2 tsp baking soda\n2 tsp baking powder\n1 1/2 tsp salt\n3 cups flour\n\nPour into a greased baking dish.\nBake at 350F for an hour.\nCheck if done using a toothpick."
+  },
+  {
+    "objectID": "posts/2021-03-20-apple-cinnamon-muffins/index.html",
+    "href": "posts/2021-03-20-apple-cinnamon-muffins/index.html",
+    "title": "Apple Cinnamon Muffins",
+    "section": "",
+    "text": "Bake at 400F for 20 - 25 min. Makes 12 really big muffins, or 20 - 24 smaller muffins."
+  },
+  {
+    "objectID": "posts/2021-03-20-apple-cinnamon-muffins/index.html#ingredients",
+    "href": "posts/2021-03-20-apple-cinnamon-muffins/index.html#ingredients",
+    "title": "Apple Cinnamon Muffins",
+    "section": "Ingredients",
+    "text": "Ingredients\n\nDry\n\n3 cups all purpose flour\n1.5 cups white sugar\n4 tsp baking powder\n2 tsp ground cinnamon\n\n\n\nWet\n\n3/4 cup vegetable oil\n2 eggs\n3/4 cup milk\n3 or 4 apples, peeled, cored and chopped"
+  },
+  {
+    "objectID": "posts/2021-03-20-apple-cinnamon-muffins/index.html#directions",
+    "href": "posts/2021-03-20-apple-cinnamon-muffins/index.html#directions",
+    "title": "Apple Cinnamon Muffins",
+    "section": "Directions",
+    "text": "Directions\nMix dry ingredients, and then mix in wet. Fold in chopped apples. Prepare muffin tin with oil, butter, or liners. Spoon batter into muffin tin.\nBake at 400F for 20 - 25 minutes, turning at 10 minutes.\nSource: Allrecipes"
+  },
+  {
+    "objectID": "posts/2021-03-09-soy-sauce-marinade/index.html",
+    "href": "posts/2021-03-09-soy-sauce-marinade/index.html",
+    "title": "Soy Sauce Marinade",
+    "section": "",
+    "text": "3 Tbsp regular or dark soy sauce\n2.5 Tbsp rice vinegar (makes up to make 1/3 cup total liquid)\n1 tsp Dijon mustard\n2 Tbsp brown sugar\n2 tsp Worcestershire sauce\n2 garlic cloves, minced (or 2 tsp minced garlic)"
+  },
+  {
+    "objectID": "posts/2021-03-09-soy-sauce-marinade/index.html#directions",
+    "href": "posts/2021-03-09-soy-sauce-marinade/index.html#directions",
+    "title": "Soy Sauce Marinade",
+    "section": "Directions",
+    "text": "Directions\nMix it all up, dump it into a bag with your meat, let marinade for at least an hour.\nSource: Modified from https://www.recipetineats.com/a-great-marinade-for-pork-chops/"
+  },
+  {
+    "objectID": "posts/2021-04-11-balsamic-chicken-mushrooms/index.html",
+    "href": "posts/2021-04-11-balsamic-chicken-mushrooms/index.html",
+    "title": "Balsamic Chicken & Mushrooms",
+    "section": "",
+    "text": "4 Tbsp Balsamic vinegar\n2 Tbsp Rice vinegar\n1.5 Tbsp soy sauce\n1 Tbsp brown sugar\n2 cloves garlic, minced\n1/4 tsp dried thyme\n1 1/4 lbs boneless, skinless chicken breast cut into small pieces\n1 pinch salt and pepper\n1 Tbsp olive oil\n16 oz or 1 lb white mushrooms\n2 Tbsp butter"
+  },
+  {
+    "objectID": "posts/2021-04-11-balsamic-chicken-mushrooms/index.html#directions",
+    "href": "posts/2021-04-11-balsamic-chicken-mushrooms/index.html#directions",
+    "title": "Balsamic Chicken & Mushrooms",
+    "section": "Directions",
+    "text": "Directions\n\nPrepare the balsamic sauce first.\nIn a small bowl, stir together 4 Tbsp balsamic vinegar, 2 Tbsp rice vinegar, 1.5 Tbsp soy sauce, 1 Tbsp brown sugar, 2 cloves (or 2 tsp) minced garlic, and 1/4 tsp dried thyme.\nSet the sauce aside.\nHeat a large skillet over medium.\nOnce hot, add the olive oil and swirl to coat the surface.\nAdd the pieces of chicken breast to the skillet and cook browned and cooked through.\nRemove the chicken to a clean plate and cover to keep warm.\nWhile the chicken is cooking, clean 16 oz of white mushrooms and then slice the bigger ones in half.\nAfter removing the chicken from the skillet, add the mushrooms in their place, and sauté in the remaining oil and fat until the mushrooms are slightly tender and browned on the outside (5-7 minutes).\nTurn the heat down to medium-low.\nAdd the prepared balsamic sauce to the skillet and stir to dissolve any browned bits from the bottom of the skillet.\nAdd chicken back to the skillet.\nAllow the sauce to come up to a simmer.\nSimmer the balsamic sauce with the chicken & mushrooms, stirring occasionally, for about 5 minutes, or until the sauce has reduced by half.\nAdd the butter to the skillet and stir until it is melted into the sauce.\n\nOriginally from https://www.budgetbytes.com/balsamic-chicken-and-mushrooms/"
+  },
+  {
+    "objectID": "posts/2021-03-09-donair-sauce/index.html",
+    "href": "posts/2021-03-09-donair-sauce/index.html",
+    "title": "Donair Sauce",
+    "section": "",
+    "text": "1 14oz tin of sweetened condensed milk\n1/2 tsp garlic powder\n1/4 cup vinegar"
+  },
+  {
+    "objectID": "posts/2021-03-09-donair-sauce/index.html#directions",
+    "href": "posts/2021-03-09-donair-sauce/index.html#directions",
+    "title": "Donair Sauce",
+    "section": "Directions",
+    "text": "Directions\n\nPut 14 oz tin of milk into a bowl.\nMix in 1/2 tsp of garlic powder.\nSlowly stir in 1/4 cup vinegar, making sure not to over mix.\nPour mixture into a container that can be sealed (old Mason jar works well), and refrigerate for at least one hour before serving.\n\nSource: Lord Byron’s Kitchen"
+  },
+  {
+    "objectID": "posts/2021-03-09-sweet-sour-sauce/index.html",
+    "href": "posts/2021-03-09-sweet-sour-sauce/index.html",
+    "title": "Sweet & Sour Sauce",
+    "section": "",
+    "text": "10 oz of chicken bullion\n14 oz tin of pineapple chunks in juice\n1 cup chopped peppers (yellow, green, red, whatever)\n1 Tbsp soy sauce\n1/4 cup white sugar\n1/2 cup white vinegar\n3 Tbsp corn starch"
+  },
+  {
+    "objectID": "posts/2021-03-09-sweet-sour-sauce/index.html#directions",
+    "href": "posts/2021-03-09-sweet-sour-sauce/index.html#directions",
+    "title": "Sweet & Sour Sauce",
+    "section": "Directions",
+    "text": "Directions\n\nDump juice from pineapple, and all other liquids and sugar into a saucepan.\nWhisk corn starch into liquids, and heat over medium until sauce darkens and starts to thicken, while continuously stirring.\nAdd pineapple and peppers, and then to whatever."
+  },
+  {
+    "objectID": "posts/2021-09-19-icing/index.html",
+    "href": "posts/2021-09-19-icing/index.html",
+    "title": "ButterCream Icing",
+    "section": "",
+    "text": "1 cup icing sugar (also known as confectioners sugar)\n3 tbsp cocoa\n2 tbsp butter\n2 tsp vanilla\n1 - 3 tsp water\n\n\n\n\nFor a lactose free option, you can replace the 2 tbsp butter with 2 tbsp of margarine, and you will only need 1 tsp of water.\n\n\n\n\nCombine dry ingredients and butter into a bowl.\nMix using a hand-mixer on low speed.\nAdd water 1 tsp at a time, adding it and then mixing.\n\nThis is especially important when using margarine, as it has more water than the butter."
+  },
+  {
+    "objectID": "posts/2021-03-14-simple-sloppy-joes/index.html",
+    "href": "posts/2021-03-14-simple-sloppy-joes/index.html",
+    "title": "Simple Sloppy Joes",
+    "section": "",
+    "text": "v 0.0.3"
+  },
+  {
+    "objectID": "posts/2021-03-14-simple-sloppy-joes/index.html#ingredients",
+    "href": "posts/2021-03-14-simple-sloppy-joes/index.html#ingredients",
+    "title": "Simple Sloppy Joes",
+    "section": "Ingredients",
+    "text": "Ingredients\n\n1 pounds of hamburger\n1/2 cup of ketchup\n2 Tbsp brown sugar\n0.5 tsp of mustard\n2 - 3 Tbsp of bbq sauce"
+  },
+  {
+    "objectID": "posts/2021-03-14-simple-sloppy-joes/index.html#directions",
+    "href": "posts/2021-03-14-simple-sloppy-joes/index.html#directions",
+    "title": "Simple Sloppy Joes",
+    "section": "Directions",
+    "text": "Directions\n\nCook hamburger\nMix condiments together\nThrow condiments in with hamburger, stir until heated through.\nServe on buns\n\nAdapted from https://www.eatingonadime.com/sloppy-joes-recipe/"
+  },
+  {
+    "objectID": "posts/2021-11-14-carrot-cake/index.html",
+    "href": "posts/2021-11-14-carrot-cake/index.html",
+    "title": "Carrot Cake",
+    "section": "",
+    "text": "3 eggs\n1 1/2 cups white sugar\n1 1/4 cup oil (canola or vegetable)\n3 cups flour\n2 tsp baking soda\n2 tsp cinnamon\n1 tsp salt\n1 tsp nutmeg\n2 cups grated carrot\n1 cup crushed pineapple (not drained!)"
+  },
+  {
+    "objectID": "posts/2021-11-14-carrot-cake/index.html#directions",
+    "href": "posts/2021-11-14-carrot-cake/index.html#directions",
+    "title": "Carrot Cake",
+    "section": "Directions",
+    "text": "Directions\n\nPreheat oven to 350 F.\nCream together 3 eggs, 1 1/2 cups white sugar, 1 1/4 cup oil.\nMix together 3 cups flour, 2 tsp baking soda, 2 tsp cinnamon, 1 tsp salt, 1 tsp nutmeg.\nAdd dry mix to the previously creamed eggs, sugar and oil and mix well.\nAdd 2 cups grated carrot and 1 cup crushed pineapple and mix well.\nGrease large tube pan very well!\nAdd cake mix, and bake at 350 F for 1 hour.\n\nThis makes a large cake. Cream cheese icing goes great, I recommend doubling that recipe to cover this cake.\nOriginal source is Stella Trask."
+  },
+  {
+    "objectID": "posts/2021-03-09-wraps-sauce/index.html",
+    "href": "posts/2021-03-09-wraps-sauce/index.html",
+    "title": "Chicken Wraps",
+    "section": "",
+    "text": "v 0.0.3"
+  },
+  {
+    "objectID": "posts/2021-03-09-wraps-sauce/index.html#ingredients",
+    "href": "posts/2021-03-09-wraps-sauce/index.html#ingredients",
+    "title": "Chicken Wraps",
+    "section": "Ingredients",
+    "text": "Ingredients\n\n2 - 3 chicken breasts cubed\n1 tbsp cooking oil\n1 sweet peper sliced\n4 large carrots sliced\n1 onion in pieces\n1 cup hot water\nHeaping tsp of chicken bouillon powder\n1 tbsp Soy sauce\n1 tsp Balsamic vinegar\n3 tbsp Brown sugar\n1 tbsp White sugar\n1 tbsp Corn starch"
+  },
+  {
+    "objectID": "posts/2021-03-09-wraps-sauce/index.html#directions",
+    "href": "posts/2021-03-09-wraps-sauce/index.html#directions",
+    "title": "Chicken Wraps",
+    "section": "Directions",
+    "text": "Directions\n\nAdd heaping tsp of chicken stock to 1 cup hot water. Set aside for later.\nHeat 1 tbsp oil over high heat in large saucepan\nWhen hot, add cubed pieces of chicken. Season lightly with pepper and salt.\nContinue cooking until brown and cooked through (no pink in pieces broken apart)\nAdd sliced veggies to the saucepan with chicken, and 1/2 cup of chicken stock.\nReduce heat, cover, and steam veggies and chicken for 5 - 10 min, until veggies are cooked.\nWhile veggies are cooking, add to the 1/2 cup chicken stock:\n\n1 tbsp soy sauce, 1 tsp balsamic vinegar, 3 tbsp brown sugar, 1 tbsp white sugar, 1 tbsp corn starch.\n\nWhen veggies are cooked, uncover, add sauce mix, and stir until sauce is thickened.\n\nSource: Sarah Flight"
+  },
+  {
+    "objectID": "posts/2022-08-07-butter/index.html",
+    "href": "posts/2022-08-07-butter/index.html",
+    "title": "Butter and Butter Substitutes",
+    "section": "",
+    "text": "If you look at the recipes on this site, you will notice that a bunch of them use butter, or butter substitutes (technically margarine)."
+  },
+  {
+    "objectID": "posts/2022-08-07-butter/index.html#unsalted-vs-salted",
+    "href": "posts/2022-08-07-butter/index.html#unsalted-vs-salted",
+    "title": "Butter and Butter Substitutes",
+    "section": "Unsalted vs Salted",
+    "text": "Unsalted vs Salted\nI know most baking recommends using unsalted butter, and then add specific amount of salt to the recipe for flavor enhancement.\nHistorically, our family doesn’t add very much salt to their food, so we find that adding any amount of salt, especially baked goods, makes them much too salty.\nTherefore, in our baking, we typically use salted butter, or a butter substitute that contains salt, and then don’t add any extra salt to the recipe."
+  },
+  {
+    "objectID": "posts/2022-08-07-butter/index.html#butter-substitutes",
+    "href": "posts/2022-08-07-butter/index.html#butter-substitutes",
+    "title": "Butter and Butter Substitutes",
+    "section": "Butter Substitutes",
+    "text": "Butter Substitutes\nWe have one child who is rather severely lactose intolerant, as in they can’t consume regular milk, yogurt or cheese. Even the brand of lactose free milk can make a difference, as it seems some are better at adding enough lactase enzyme over others. Pro-tip, Lactaid brand seems fine, as does the Aldi and Walmart brand lactose free milks. Kroger brand is not fine, at least in our family.\nTherefore, we use plant based butter substitutes in almost all of our recipes, unless the recipe also includes cheese, in which case we don’t bother.\nHowever, depending on what exactly is being cooked, in my experience it seems that different butter substitutes are more appropriate, factoring in taste, extra water added, etc.\nI shop at our local WalMart, so this is all based on what I can buy there.\n\nGreat Value Unsalted Butter: goes in my coffee (yes, I like butter in my coffee), and also used in the cheese sauce for my Mac & Cheese.\nCountry Crock Plant Butter: In cookies, cakes and muffins, this is a straight substitute. However, this does not work for buttercream icing, roux, or bread dough based recipes like cinnamon buns. In the case of a roux, the butter taste is too strong. Buttercream icing ends up with a weird consistency. Bread dough doesn’t seem to rise properly.\nSmart Balance Buttery Spread: This one I use when I’m making a dairy free or lactose free roux, like for our Chicken Pot Pie, and we also use in bread doughs and buttercream icing."
+  },
+  {
+    "objectID": "posts/2022-01-16-quiche/index.html",
+    "href": "posts/2022-01-16-quiche/index.html",
+    "title": "Quiche",
+    "section": "",
+    "text": "1 pie crust, warmed to room temperature\n6 large eggs\n3/4 cup of milk\ndash of dried dill\npepper\n3/4 cup shredded cheddar cheese\n1/2 of a ham steak, cubed"
+  },
+  {
+    "objectID": "posts/2022-01-16-quiche/index.html#directions",
+    "href": "posts/2022-01-16-quiche/index.html#directions",
+    "title": "Quiche",
+    "section": "Directions",
+    "text": "Directions\n\nPreheat oven to 375F.\nBreak 6 large eggs into a large bowl and scramble well.\nAdd 3/4 cup milk to eggs and mix thoroughly.\nAdd dashes of dried dill and ground black pepper.\nShred 3/4 cup of cheddar cheese and add to egg mixture.\nCube 1/2 of a ham steak and add to mixture.\nPut pie crust into a 9” pie dish, pour egg mixture in.\nWrap edges of pie crust with aluminum foil to avoid burning.\nBake at 375F for 35 - 45 minutes.\nQuiche is done when middle is set and stops jiggling."
+  },
+  {
+    "objectID": "posts/2022-01-16-quiche/index.html#nutritional-information",
+    "href": "posts/2022-01-16-quiche/index.html#nutritional-information",
+    "title": "Quiche",
+    "section": "Nutritional Information",
+    "text": "Nutritional Information\n2440 kCal for the whole quiche, and we get 10 slices out of it, so 250 kCal / serving."
+  },
+  {
+    "objectID": "posts/2021-03-20-1-hour-cinnamon-rolls/index.html",
+    "href": "posts/2021-03-20-1-hour-cinnamon-rolls/index.html",
+    "title": "1 Hour Cinnamon Rolls",
+    "section": "",
+    "text": "1 cup milk\n1/4 cup butter (margarine)\n3 cups flour\n1/2 cup flour\n1/4 cup white sugar\n1/2 tsp salt\n1 egg\n1 package rapid rise or instant yeast\nCombine 1 cup milk and 1/4 cup butter in a microwave-safe bowl.\nHeat on high for 1 minute, then remove and stir.\nContinue heating in 20 second intervals, pausing after each to stir, until the butter is melted and the milk is warm to the touch but not hot. (It should be around 110°F — I recommend measuring the temperature with a cooking thermometer.)\nIf the mixture is too hot, just wait a few minutes for it to cool.\nIn a separate bowl, whisk together 3 cups flour, 1/4 cup granulated sugar and 1/2 tsp salt until combined.\nIn the bowl of a stand mixer fitted with the dough-hook attachment, add the warm milk mixture and sprinkle the 1 package yeast on top, then give the mixture a brief stir.\n\nAdd the flour mixture and 1 egg, and beat on medium-low speed until combined.\nIf the dough is sticking to the sides of the bowl, add the 1/2 cup of flour, 1/4 cup at a time, until the dough begins to form a ball and pulls away from the sides of the bowl. (Use no more than 3 1/2 cups of flour total.)\nContinue beating for 5 minutes on medium-low speed.\nRemove dough and form it into a ball with your hands.\nPlace it in a greased bowl and cover with a damp towel.\n\nLet rest for 20 minutes or doubled in size."
+  },
+  {
+    "objectID": "posts/2021-03-20-1-hour-cinnamon-rolls/index.html#filling",
+    "href": "posts/2021-03-20-1-hour-cinnamon-rolls/index.html#filling",
+    "title": "1 Hour Cinnamon Rolls",
+    "section": "Filling",
+    "text": "Filling\n\n1/4 cup packed brown sugar\n1/4 cup white sugar\n2 Tbsp ground cinnamon\nWhile the dough rests, make your filling by whisking together 1/4 cup white sugar, 1/4 cup brown sugar and 2 Tbsp ground cinnamon together in a small mixing bowl until combined."
+  },
+  {
+    "objectID": "posts/2021-03-20-1-hour-cinnamon-rolls/index.html#roll-out-dough",
+    "href": "posts/2021-03-20-1-hour-cinnamon-rolls/index.html#roll-out-dough",
+    "title": "1 Hour Cinnamon Rolls",
+    "section": "Roll Out Dough",
+    "text": "Roll Out Dough\n\n1/4 cup butter (sofened)\nOnce the dough is ready, turn it out onto a floured work surface.\nUse a floured rolling pin to roll the dough out into a large rectangle, about 9 x 14 inches in size. (If you want all of the edges to be even, you can use a pizza slicer to cut the dough into an even rectangle.)\nUse a knife or an offset spatula to spread the remaining 1/4 cup of softened butter out evenly over the entire surface of the dough.\nThen sprinkle the dough evenly with the cinnamon and sugar mixture.\nBeginning at the 14-inch edge, tightly roll up the dough and give the final seam a little pinch so that it seals.\nUse a piece of dental floss or a knife to slice off the two ends of the roll (just 1/2-inch or so on each end, which you can discard) so that the ends are even.\nCut the remaining dough into 11 or 12 equal pieces. (11 rolls fit well in a pie plate, whereas 12 rolls fit in a rectangular pan.)\nPlace each of the cut cinnamon rolls into a greased 9-inch pie plate or 9 x 13-inch baking dish.\nCover the dish with a damp towel, and leave it in a warm place to rise for 25 minutes.\n\nHeat the oven to 350°F.\n\nOnce the rolls have risen, uncover the dish.\nPlace on the center rack of the oven and bake for 15-20 minutes, or until the rolls are golden and cooked through.\nRemove and let cool on a wire rack for at least 5 minutes.\n\n\nNutritional Info\n2700 kCal total, assuming 13 / 14 servings, 200 kCal / bun."
+  },
+  {
+    "objectID": "posts/2021-03-20-1-hour-cinnamon-rolls/index.html#cream-cheese-icing",
+    "href": "posts/2021-03-20-1-hour-cinnamon-rolls/index.html#cream-cheese-icing",
+    "title": "1 Hour Cinnamon Rolls",
+    "section": "Cream Cheese Icing",
+    "text": "Cream Cheese Icing\n\n4 ounces (1/2 cup) cream cheese, softened\n3 Tbsp butter, softened\n1 tsp vanilla extract\n1 1/2 cups powdered sugar\n1–2 Tbsp milk (if needed)\n\nWhisk ingredients together in a mixing bowl. Drizzle on cinnamon rolls while still warm.\n\nNutritional Info\n1200 kCal, assuming 13 / 14 servings, 90 kCal / bun"
+  },
+  {
+    "objectID": "posts/2021-03-20-1-hour-cinnamon-rolls/index.html#traditional-icing",
+    "href": "posts/2021-03-20-1-hour-cinnamon-rolls/index.html#traditional-icing",
+    "title": "1 Hour Cinnamon Rolls",
+    "section": "Traditional Icing",
+    "text": "Traditional Icing\n\n1/4 cup butter, melted\n1 tsp vanilla extract\n1 1/2 cup powdered sugar\n1–2 tablespoons milk\n\nWhisk ingredients together in a mixing bowl. Drizzle on cinnamon rolls while still warm.\n\nNutritional Info\n1000 kCal, assuming 13 / 14 servings, 70 kCal / bun\nOriginally sourced from Gimme Some Oven 1 hour Cinnamon Rolls"
+  },
+  {
+    "objectID": "posts/2021-03-20-cheesy-cottage-pie/index.html",
+    "href": "posts/2021-03-20-cheesy-cottage-pie/index.html",
+    "title": "Cheesy Cottage Pie",
+    "section": "",
+    "text": "v 0.0.1\nBake at 350F for 30 minutes."
+  },
+  {
+    "objectID": "posts/2021-03-20-cheesy-cottage-pie/index.html#topping",
+    "href": "posts/2021-03-20-cheesy-cottage-pie/index.html#topping",
+    "title": "Cheesy Cottage Pie",
+    "section": "Topping",
+    "text": "Topping\n\n2.5 lbs. russet potatoes\n2 Tbsp butter\n1/2 cup milk\n6 oz. shredded cheddar\npinch of salt"
+  },
+  {
+    "objectID": "posts/2021-03-20-cheesy-cottage-pie/index.html#filling",
+    "href": "posts/2021-03-20-cheesy-cottage-pie/index.html#filling",
+    "title": "Cheesy Cottage Pie",
+    "section": "FILLING",
+    "text": "FILLING\n\n1 yellow onion\n3 cloves garlic\n2 cups diced carrots\n1.5 lb. ground beef\n4 Tbsp all-purpose flour\n1.5 cup beef broth\n3/4 Tbsp Worcestershire sauce\n1.5 tsp dried rosemary\n1/2 tsp dried thyme"
+  },
+  {
+    "objectID": "posts/2021-03-20-cheesy-cottage-pie/index.html#directions",
+    "href": "posts/2021-03-20-cheesy-cottage-pie/index.html#directions",
+    "title": "Cheesy Cottage Pie",
+    "section": "Directions",
+    "text": "Directions\n\nBoil 2.5 lbs potatoes.\nAfter potatoes are cooked, drain and rinse.\nHeat 1/2 cup milk and 2 Tbsp butter, add back to the potatoes and whip them together.\nAdd the 6 oz shredded cheddar cheese and set aside.\nWhile potatoes are boiling, brown the 1.5 lbs ground beef. When it is thoroughly cooked, drain most of the fat off.\nReturn to heat, and add 1 onion and 3 cloves garlic. Allow onion and garlic to cook in remaining fat.\nAdd 2 cups diced carrots.\nAdd 4 Tbsp all purpose flour, stirring to coat the beef and vegetables. When coated and flour starts to stick to the bottom of the pan, add 1.5 cups beef broth and heat through, broth should start to thicken.\nAdd remaining spices and thoroughly mix, allowing to heat through.\n\n3/4 Tbsp Worcestershire sauce\n1.5 tsp dried rosemary\n1/2 tsp dried thyme\n\nIn a 9x13 pan, spread filling mixture over bottom of pan, and spread potato topping over top.\nBake at 350F for 30 minutes.\nAllow to rest for 5 minutes before serving.\n\nModified and adapted from: https://www.budgetbytes.com/cheesy-cottage-pie/"
+  },
+  {
+    "objectID": "posts/2022-07-21-chickpea-orzo-soup/index.html#ingredients",
+    "href": "posts/2022-07-21-chickpea-orzo-soup/index.html#ingredients",
+    "title": "Chickpea Orzo Soup",
+    "section": "Ingredients",
+    "text": "Ingredients\n\n1 Tbsp vegetable oil\n1 Tbsp minced onion rehydrated\n1 cup diced carrots\n3-4 tsp minced garlic\n1 cup dry orzo pasta\n1/2 yellow pepper, diced\n1 can garbanzo beans (chickpeas, 15.5 oz)- drain and rinse\n1 can fire roasted diced tomatoes (15.5 oz can)\n6 - 8 cups vegetable broth\n1 Tbsp Italian Seasoning\n\n2 tsp basil, 1 tsp oregano, 1/2 tsp thyme, some rosemary\n\nSalt and Pepper per taste\n1 Tbsp lemon juice"
+  },
+  {
+    "objectID": "posts/2022-07-21-chickpea-orzo-soup/index.html#directions",
+    "href": "posts/2022-07-21-chickpea-orzo-soup/index.html#directions",
+    "title": "Chickpea Orzo Soup",
+    "section": "Directions",
+    "text": "Directions\n\nWarm 1 Tbsp vegetable oil in large pot.\nAdd 1 Tbsp minced onion, and 1 cup diced carrots\nCook for 4 - 5 minutes until the carrots are starting to get a little tender.\nAdd 3 - 4 tsp minced garlic and 1 cup dry orzo pasta.\nStir frequently over medium heat to toast the orzo until garlic is fragrant.\nAdd 1/2 yellow pepper, 1 can drained and rinsed garbanzo beans, 1 can fire roasted tomatoes, 1 Tbsp italian seasoning\nStir together with everything else.\nAdd 6 - 8 cups vegetable broth and 1 Tbsp lemon juice.\nBring to a boil, reduce heat and simmer for 15 minutes.\nServe in a bowl."
+  },
+  {
+    "objectID": "posts/2022-07-21-chickpea-orzo-soup/index.html#nutritional-information",
+    "href": "posts/2022-07-21-chickpea-orzo-soup/index.html#nutritional-information",
+    "title": "Chickpea Orzo Soup",
+    "section": "Nutritional Information",
+    "text": "Nutritional Information\n\n1 cup (or small bowl) is ~ 210 Kcal.\n\nSourced and modified from Profusion Curry Chickpea Orzo Soup."
+  },
+  {
+    "objectID": "posts/2021-03-14-shepherds-pie/index.html",
+    "href": "posts/2021-03-14-shepherds-pie/index.html",
+    "title": "Shepherds Pie",
+    "section": "",
+    "text": "1 1/2 lbs russet potatoes\n1/4 cup milk\n2 ounces unsalted butter\n3/4 teaspoon kosher salt\n1/4 teaspoon freshly ground black pepper\n1 egg yolk\n\n\n\n\n\n2 tablespoons canola oil\n2 Tbsp minced onion\n3 carrots, peeled and diced small\n2 cloves garlic, minced\n1 1/2 pounds ground chuck (80/20)\n1 tsp kosher salt\n1/2 tsp freshly ground black pepper\n2 Tbsp all-purpose flour\n2 tsp tomato paste\n1 1/2 cup chicken broth\n1 tsp Worcestershire sauce\n1 tsp freshly chopped rosemary leaves\n1 tsp freshly chopped thyme leaves\n1/2 cup fresh or frozen English peas"
+  },
+  {
+    "objectID": "posts/2021-03-14-shepherds-pie/index.html#directions",
+    "href": "posts/2021-03-14-shepherds-pie/index.html#directions",
+    "title": "Shepherds Pie",
+    "section": "Directions",
+    "text": "Directions\nPreheat oven to 400F.\n\nPotato Topping\n\nPeel the 1 1/2 lbs potatoes and cut into 1/2-inch pieces.\nPlace in a medium saucepan and cover with cold water. Set over high heat, cover and bring to a boil.\nOnce boiling, uncover, decrease the heat to maintain a simmer and cook until tender and easily crushed with tongs, approximately 10 to 15 minutes.\nPlace the half-and-half and butter into a microwave-safe container and heat in the microwave until warmed through, about 35 seconds.\nDrain the potatoes in a colander and then return to the saucepan.\nMash the potatoes and then add the 1/4 cup milk, 2 oz butter, salt and pepper and continue to mash until smooth.\nStir in the egg yolk until well combined.\n\n\n\nFilling\n\nWhile the potatoes are cooking, prepare the filling.\nPlace the 1 Tbsp canola oil into a 12-inch saute pan and set over medium high heat.\nOnce the oil shimmers, add the 2 Tbsp minced onion and 3 cubed carrots and saute just until they begin to take on color, approximately 3 to 4 minutes.\nAdd the 2 cloves garlic and stir to combine.\nAdd the 1 1/2 lbs hamburger, salt and pepper and cook until browned and cooked through.\nSprinkle the meat with the 2 Tbsp flour and toss to coat, continuing to cook for another minute.\nAdd the 2 tsp tomato paste, 1 1/2 cups chicken broth, 1 tsp Worcestershire, 1 tsp rosemary, 1 tsp thyme, and stir to combine.\nBring to a boil, reduce the heat to low, cover and simmer slowly 10 to 12 minutes or until the sauce is thickened slightly.\nAdd 1/2 cup peas to the hamburger mixture.\n\n\n\nCombine Them\n\nSpread meat filling into a greased baking dish.\nTop with the mashed potatoes, starting around the edges to create a seal to prevent the mixture from bubbling up and smooth with a rubber spatula.\nPlace on a parchment lined half sheet pan on the middle rack of the oven and bake at 400 F for 25 minutes or just until the potatoes begin to brown.\nRemove to a cooling rack for at least 15 minutes before serving.\n\nAdapted from Alton Brown’s Shepherds Pie: https://www.foodnetwork.com/recipes/alton-brown/shepherds-pie-recipe2-1942900"
+  },
+  {
+    "objectID": "posts/2022-07-03-chili/index.html",
+    "href": "posts/2022-07-03-chili/index.html",
+    "title": "Chili",
+    "section": "",
+    "text": "1 tbsp. cooking oil\n1 tbsp minced onion, rehydrated\n3 cloves minced garlic / 3 tsp minced garlic\n2 tbsp. tomato paste\n1 - 1 1/2 lb. ground beef\n1 1/2 tbsp. chili powder\n1 tsp. ground cumin\n1 tsp. dried oregano\n1 (15-oz) can kidney beans, drained\n1 (28-oz) can crushed tomatoes"
+  },
+  {
+    "objectID": "posts/2022-07-03-chili/index.html#toppings",
+    "href": "posts/2022-07-03-chili/index.html#toppings",
+    "title": "Chili",
+    "section": "Toppings",
+    "text": "Toppings\n\nShredded cheddar\nSour cream\nThinly sliced green onions"
+  },
+  {
+    "objectID": "posts/2022-07-03-chili/index.html#directions",
+    "href": "posts/2022-07-03-chili/index.html#directions",
+    "title": "Chili",
+    "section": "Directions",
+    "text": "Directions\n\nIn a large pot over medium heat, heat 1 tbsp oil.\nAdd 1 tbsp minced onion and cook until soft, about 5 minutes.\nStir in 3 tsp minced garlic and cook until fragrant, about 1 minute more, then add 2 tbsp tomato paste, stirring to combine.\nAdd 1 - 1 1/2 lbs ground beef and cook until no longer pink. Drain fat and return to heat.\nAdd 1 1/2 tbsp chili powder, 1 tsp cumin, 1 tsp oregano, and season generously with salt and pepper.\nPour in 1 can (15 oz) of drained and rinsed kidney beans, and 1 can (28 oz) of crushed tomatoes and bring chili to a boil.\nReduce heat and simmer 20 minutes.\nSeason with more salt and pepper, if necessary"
+  },
+  {
+    "objectID": "posts/2021-03-07-crosbys-baked-beans/index.html",
+    "href": "posts/2021-03-07-crosbys-baked-beans/index.html",
+    "title": "Crosby’s Baked Beans",
+    "section": "",
+    "text": "2 cups dried navy or pea beans\n1 small onion, peeled\nOne small apple, peeled and cored\n1/3 cup brown sugar\n½ cup Crosby’s Fancy Molasses\n1 tsp. salt\n1 ½ tsp. dried mustard\n½ Tbsp. Worcestershire sauce\n½ tsp. freshly ground black pepper\nBoiling water"
+  },
+  {
+    "objectID": "posts/2021-03-07-crosbys-baked-beans/index.html#directions",
+    "href": "posts/2021-03-07-crosbys-baked-beans/index.html#directions",
+    "title": "Crosby’s Baked Beans",
+    "section": "Directions",
+    "text": "Directions\n\nPlace 2 cups dried beans in the instant pot and cover with an inch of water (about 4 cups).\nSecure the lid, turn the pot’s steam vent to close. On manual mode, set the timer for 20 minutes.\nWhile the beans are cooking, combine 1/3 cup brown sugar, 1/2 cup molasses, 1 tsp salt, 1 1/2 tsp dried mustard, 1/2 Tbsp Worcestershire, and 1/2 tsp black pepper in a bowl.\nAdd two cups of boiling water and stir to combine.\nWhen the timer beeps, allow the pot to depressurize for about 20 minutes, press “cancel” and then carefully turn the steam vent to open and remove the lid.\nDrain the beans well and return them to the pot.\nBury 1 small onion and 1 apple in the beans and pour molasses mixture over the beans.\nSecure the lid, turn the steam vent to close, and set the timer for 16 minutes.\nWhen the 16 minutes are up (timer beeps), allow your pot to depressurize another 20 minutes, turn steam vent to open and remove lid.\nIf your beans are too runny, turn unit to saute mode and saute for 5-7 minutes, stirring from time to time.\n\nFrom Crosby’s site: https://www.crosbys.com/instant-pot-molasses-baked-beans/"
+  },
+  {
+    "objectID": "posts/2021-03-20-chicken-stew/index.html",
+    "href": "posts/2021-03-20-chicken-stew/index.html",
+    "title": "Chicken Stew",
+    "section": "",
+    "text": "1 lb chicken breast meat, cubed\n2 cans of cream of mushroom soup\n2 cups water\n2 tsp chicken stock powder\nbunch of mushrooms\n5 or 6 potatoes, cubed\n4-5 carrots, chunked\n1/2 an onion\n2 cloves of garlic\n1 Tbsp corn starch"
+  },
+  {
+    "objectID": "posts/2021-03-20-chicken-stew/index.html#directions",
+    "href": "posts/2021-03-20-chicken-stew/index.html#directions",
+    "title": "Chicken Stew",
+    "section": "Directions",
+    "text": "Directions\n\nThrow all ingredients into a crock pot for 4 hours or instant pot for 20 minutes.\nAll vegetables should be soft.\nMix 1 Tbsp corn starch into 1/3 cup water, add to stew, wait 5 minutes to thicken, serve."
+  },
+  {
+    "objectID": "posts/2021-11-07-chicken-soup/index.html",
+    "href": "posts/2021-11-07-chicken-soup/index.html",
+    "title": "Chicken Soup",
+    "section": "",
+    "text": "2 tbsp butter\n2 cups diced carrots\n1 tbsp minced & dried onion (add water to rehydrate for frying)\n2 garlic cloves (or 2 tsp minced garlic)\n8 cups vegetable broth (two 32 oz boxes)\n1/2 tsp dried basil\n1/2 tsp dried oregano\ndash of sage\nsalt and pepper to taste\n3 cups egg noodles\n2 cups cooked and shredded chicken breasts (see here)"
+  },
+  {
+    "objectID": "posts/2021-11-07-chicken-soup/index.html#directions",
+    "href": "posts/2021-11-07-chicken-soup/index.html#directions",
+    "title": "Chicken Soup",
+    "section": "Directions",
+    "text": "Directions\n\nIn large pot over medium heat, melt 2 tbsp butter.\nCook 1 tbsp minced onion and 2 cups diced carrot in butter until tender (~ 5 min).\nAdd garlic and cook an additional minute.\nPour in vegetable broth and stir in 3 cups egg noodles; 1/2 tsp oregano, 1/2 tsp basil, dash of sage, salt and pepper.\nCheck the taste now and add any more seasoning you think it needs.\nStir in 2 cups shredded chicken (putting it in now means the chicken flavor will well permeate the soup, a plus if you are using vegetable broth, if using chicken broth, add it after simmering).\nBring to a boil, reduce heat and simmer 15 - 20 minutes.\n\nFrom The Girl Who Ate Everything."
+  },
+  {
+    "objectID": "posts/2021-11-07-chicken-soup/index.html#notes",
+    "href": "posts/2021-11-07-chicken-soup/index.html#notes",
+    "title": "Chicken Soup",
+    "section": "Notes:",
+    "text": "Notes:\nYes, I use vegetable broth. My digestive system does not seem to do well with the dried broth when you add enough powder to make it taste chickeny enough, and the same for “Better than Boullion”. If you really want chicken broth, go for it. In my experience, the vegetable broth tasted great, especially if you add the chicken before letting it simmer."
+  },
+  {
+    "objectID": "posts/2021-03-20-3-ingredient-peanut-butter-cookies/index.html",
+    "href": "posts/2021-03-20-3-ingredient-peanut-butter-cookies/index.html",
+    "title": "3 Ingredient Peanut-Butter Cookies",
+    "section": "",
+    "text": "1 cup peanut butter\n3/4 cup white sugar\n1 egg"
+  },
+  {
+    "objectID": "posts/2021-03-20-3-ingredient-peanut-butter-cookies/index.html#directions",
+    "href": "posts/2021-03-20-3-ingredient-peanut-butter-cookies/index.html#directions",
+    "title": "3 Ingredient Peanut-Butter Cookies",
+    "section": "Directions",
+    "text": "Directions\n\nMix together ingredients.\nRoll into balls on a baking sheet.\nFlatten with a fork.\nBake at 350F for 10 minutes.\n\nSource: Allrecipes"
+  },
+  {
+    "objectID": "posts/2021-03-20-punjabi-curry/index.html",
+    "href": "posts/2021-03-20-punjabi-curry/index.html",
+    "title": "Punjabi Curry",
+    "section": "",
+    "text": "1 medium yellow onion, chopped\n3 - 4 Tbsp vegetable oil\n6 - 8 cloves of garlic, chopped or sliced\n1 1/2 tsp ground tumeric\n1 1/2 tsp ground coriander\n1 1/2 tsp ground cumin\n1/4 - 1 tsp chili pepper (optional)\n2 - 3 tsp chopped ginger\n1 1/2 tsp tomato paste\n1 1/2 lb chicken breast (pieces)\n1 1/2 Tbsp whole plain yogurt"
+  },
+  {
+    "objectID": "posts/2021-03-20-punjabi-curry/index.html#directions",
+    "href": "posts/2021-03-20-punjabi-curry/index.html#directions",
+    "title": "Punjabi Curry",
+    "section": "Directions",
+    "text": "Directions\n\nSaute onion in oil on medium heat until soft and lightly browned\nAdd garlic, cooking briefly until you can smell it\nAdd tumeric and mix\nAdd coriander, cumin, ginger and chili pepper if desired\nMix in tomato paste. Cook until oil separting from paste mix (3 - 5 min)\nAdd chicken pieces. Cook until chicken is mostly cooked through (10 - 15 min)\nAdd yogurt and mix. Add water to thin to desired thickness.\nServe with rice or yogurt or naan."
+  },
+  {
+    "objectID": "posts/2021-03-20-punjabi-curry/index.html#variations",
+    "href": "posts/2021-03-20-punjabi-curry/index.html#variations",
+    "title": "Punjabi Curry",
+    "section": "Variations",
+    "text": "Variations\n\nAdd a diced potato and let simmer until potato is cooked through\nNot add water, add chopped frozen spinach\nchickpea curry: cut spices by 1/2, no yogurt, add 2 cans of chickpeas, add water to thin, add chopped tomato\nredbean curry: same as above, substitute two cans of red beans\n\nSource: https://twitter.com/NeedhiBhalla/status/1115071947878961152"
+  },
+  {
+    "objectID": "posts/2021-09-19-never-fail-brownies/index.html",
+    "href": "posts/2021-09-19-never-fail-brownies/index.html",
+    "title": "Never Fail Brownies",
+    "section": "",
+    "text": "Pre-heat oven to 350F\nUses a 9x9 baking dish. Doubled will fill a 9x13 baking dish."
+  },
+  {
+    "objectID": "posts/2021-09-19-never-fail-brownies/index.html#ingredients",
+    "href": "posts/2021-09-19-never-fail-brownies/index.html#ingredients",
+    "title": "Never Fail Brownies",
+    "section": "Ingredients",
+    "text": "Ingredients\n\n6 tbsp canola or vegetable oil\n1 cup white sugar\n2 eggs\n1/4 tsp salt\n1/2 tsp vanilla\n1 cup flour\n1/2 cup cocoa"
+  },
+  {
+    "objectID": "posts/2021-09-19-never-fail-brownies/index.html#directions",
+    "href": "posts/2021-09-19-never-fail-brownies/index.html#directions",
+    "title": "Never Fail Brownies",
+    "section": "Directions",
+    "text": "Directions\n\nCombine 6 tbsp oil, 1 cup white sugar, 2 eggs, 1/4 tsp salt, 1/2 tsp vanilla in a bowl.\nMix together.\nAdd 1 cup flour, and mix in.\nMix 1/2 cup cocoa with enough hot water to make a paste or slurry.\nPour cocoa mix into other ingredients.\nMix until cocoa is completely incorporated into the other ingredients.\nPour mixture into a greased baking dish.\nBake at 350F for 20 - 30 minutes, or until a toothpick comes out mostly clean.\n\nIf after 20 minutes it is still very gooey in the middle, check again in 5 minutes. Leaving it until 30 might result in dry brownies.\n\n\nSource: Heather Raymond, family friend of Sarah Flight."
+  },
+  {
+    "objectID": "posts/2022-04-07-roasted-sweet-potatoes/index.html",
+    "href": "posts/2022-04-07-roasted-sweet-potatoes/index.html",
+    "title": "Roasted Sweet Potatoes",
+    "section": "",
+    "text": "Prep: 10 minutes\nCook: 30 - 35 minutes"
+  },
+  {
+    "objectID": "posts/2022-04-07-roasted-sweet-potatoes/index.html#ingredients",
+    "href": "posts/2022-04-07-roasted-sweet-potatoes/index.html#ingredients",
+    "title": "Roasted Sweet Potatoes",
+    "section": "Ingredients",
+    "text": "Ingredients\n\n4 cups chopped peeled sweet potato\n1 sweet onions (such as Vidalia®), cut into wedges\n2 cloves garlic, sliced\n3 tbsp olive oil\n1 tbsp balsamic vinegar, or more to taste\n1 pinch salt and ground black pepper to taste"
+  },
+  {
+    "objectID": "posts/2022-04-07-roasted-sweet-potatoes/index.html#directions",
+    "href": "posts/2022-04-07-roasted-sweet-potatoes/index.html#directions",
+    "title": "Roasted Sweet Potatoes",
+    "section": "Directions",
+    "text": "Directions\n\nPreheat oven to 425F\nMix 4 cups sweet potatoes, 1 sweet onion, and 2 cloves garlic in a bowl. Drizzle 3 tbps olive oil over the mixture and toss to coat; pour into a shallow roasting pan.\nRoast sweet potato mixture in preheated oven, turning frequently, until the vegetables are soft and golden brown, 30 to 35 minutes.\nDrizzle balsamic vinegar over the vegetables; season with salt and pepper."
+  },
+  {
+    "objectID": "posts/2022-04-07-roasted-sweet-potatoes/index.html#nutrition",
+    "href": "posts/2022-04-07-roasted-sweet-potatoes/index.html#nutrition",
+    "title": "Roasted Sweet Potatoes",
+    "section": "Nutrition",
+    "text": "Nutrition\n\n220 Kcal / serving\n\nOriginal source: Allrecipes"
+  },
+  {
+    "objectID": "posts/2021-11-09-skinny-fettuccine-alfredo/index.html",
+    "href": "posts/2021-11-09-skinny-fettuccine-alfredo/index.html",
+    "title": "Skinny Fettuccine Alfredo",
+    "section": "",
+    "text": "1.5 tbsp butter / margarine\n1.5 tsp minced garlic\n3 tbsp flour\n1.5 cups chicken broth\n1.5 cups milk\n1/4 tsp salt\n12 oz Fettuccine noodles"
+  },
+  {
+    "objectID": "posts/2021-11-09-skinny-fettuccine-alfredo/index.html#directions",
+    "href": "posts/2021-11-09-skinny-fettuccine-alfredo/index.html#directions",
+    "title": "Skinny Fettuccine Alfredo",
+    "section": "Directions",
+    "text": "Directions\n\nIn skillet over medium heat, add 1.5 tbsp butter / margarine and let it melt.\nAdd garlic and let it sizzle for just a minute.\nStir in 3 tbsp flour.\nStir in 1.5 cups chicken broth and use whisk to remove lumps.\nStir in 1.5 cups milk.\nLet simmer for 6 - 8 min or until it starts to thicken.\nFor lactose free, leave out shredded parmesan cheese.\nMix into cooked Fettuccine noodles.\nAdd parmesan cheese to individual servings if desired.\n\nModified from Modern Honey Skinny Fettucine Alfredo."
+  },
+  {
+    "objectID": "posts/2021-04-11-pork-potatoes-instant-pot/index.html",
+    "href": "posts/2021-04-11-pork-potatoes-instant-pot/index.html",
+    "title": "Pork & Potatoes (Instant Pot)",
+    "section": "",
+    "text": "2 tablespoons olive oil\n5 (1-inch to 1 1/2-inch thick) boneless pork chops\n1/2 teaspoon black pepper (divided)\n1 1/2 teaspoons garlic powder (divided)\n1 teaspoon Kosher salt\n1 cup onion (chopped)\n1 1/2 cups chicken broth\n1 1/2 pounds potatoes (cut into 1 1/2-inch pieces)\n1 1/2 teaspoons rosemary (chopped, or about 1/2 teaspoon dried chopped)\n1 1/2 teaspoons thyme leaves (or about 1/2 teaspoon dried thyme)"
+  },
+  {
+    "objectID": "posts/2021-04-11-pork-potatoes-instant-pot/index.html#directions",
+    "href": "posts/2021-04-11-pork-potatoes-instant-pot/index.html#directions",
+    "title": "Pork & Potatoes (Instant Pot)",
+    "section": "Directions",
+    "text": "Directions\n\nChoose the Instant Pot sauté setting (normal) and add the olive oil. * When the pot display reads “hot,” rub the chops with half of the pepper, 1/2 teaspoon of the garlic powder, and about 1/2 teaspoon of kosher salt.\nCook the pork chops for about 3 minutes on each side.\nIf your pork chops are large, you may have to do this in two batches.\nRemove the chops to a plate and set aside.\nAdd the 1 cup chopped onion to the pot.\nCook the onion for about 2 minutes and then add 1 1/2 cups chicken broth; stir to loosen any browned bits.\nReturn chops to pot.\nPlace a steaming basket or foil-lined trivet on top of the pork chops;\ntoss the potatoes with the remaining black pepper and garlic powder along with the rosemary, thyme and 1/2 teaspoon of the kosher salt, and add potatoes on top.\nIf using a foil lined trivet, make sure you have lots of holes in the foil so the potatoes will cook.\nSecure the Instant Pot lid and make sure the valve is in the sealing position.\nChoose pressure cook or manual (high pressure) and set the timer for 5 minutes.\nWhen the time is up, let the pressure come down naturally for 10 minutes and then move the valve to the venting position to release the remaining pressure.\n\nModified from https://www.thespruceeats.com/instant-pot-pork-chops-and-potatoes-4780913"
+  },
+  {
+    "objectID": "posts/2021-04-11-bbq-baked-beans-instant-pot/index.html",
+    "href": "posts/2021-04-11-bbq-baked-beans-instant-pot/index.html",
+    "title": "BBQ Baked Beans (Instant Pot)",
+    "section": "",
+    "text": "16 ounces dry navy or pinto beans\n8 cups water\n1 teaspoon salt\n8 slices bacon\n1/2 yellow onion , finely chopped (or 2 Tbsp dry mined onion)\n1/2 red or green bell pepper , cored, seeded, and finely chopped (optional)\n2/3 cup honey barbecue sauce store-bought or homemade\n1/2 cup ketchup\n1 Tbsp yellow mustard\n1/4 cup cider vinegar\n1 tsp liquid smoke\n1/2 cup light brown sugar\n1/2 cup water"
+  },
+  {
+    "objectID": "posts/2021-04-11-bbq-baked-beans-instant-pot/index.html#directions",
+    "href": "posts/2021-04-11-bbq-baked-beans-instant-pot/index.html#directions",
+    "title": "BBQ Baked Beans (Instant Pot)",
+    "section": "Directions",
+    "text": "Directions\n\nAdd 16 oz beans, 8 cups water and 1 tsp salt to instant pot.\nCook on high pressure for 20 minutes. Allow the pressure to naturally release for 20 minutes.\nRemove lid and pour beans into a colander/strainer. Rinse with cold water. Set aside.\nSet Instant Pot to saute setting.\nAdd 8 slices bacon and saute for a few minutes until it starts to get golden brown, tossing and scraping down the bottom of the pot often.\nDrain some of the grease.\n2 Tbsp minced onion and cook until tender (optional, add 1/2 of red pepper).\nTurn IP off.\nMix 2/3 cup honey bbq sauce, 1/2 cup ketchup, 1 Tbsp mustard, 1/4 cup vinegar, 1 tsp liquid smoke and 1/2 cup brown sugar in a bowl or the IP.\nAdd to the pot and stir well to combine.\nAdd 1/2 cup water and beans.\nSecure IP lid, close steam valve and cook on high pressure for 15 minutes. Natural release the pressure.\nIf the sauce still seems thin, turn on Saute mode and boil some of the liquid off, stirring frequently until the sauce thickens.\n\nModified from: https://tastesbetterfromscratch.com/instant-pot-baked-beans/"
+  },
+  {
+    "objectID": "posts/2022-01-07-poutine-gravy/index.html",
+    "href": "posts/2022-01-07-poutine-gravy/index.html",
+    "title": "Poutine Gravy",
+    "section": "",
+    "text": "Prep time: 10 minutes\nCook time: 20 minutes\nTotal: 30 minutes"
+  },
+  {
+    "objectID": "posts/2022-01-07-poutine-gravy/index.html#ingredients",
+    "href": "posts/2022-01-07-poutine-gravy/index.html#ingredients",
+    "title": "Poutine Gravy",
+    "section": "Ingredients",
+    "text": "Ingredients\n\n1/2 tbsp oil\n1 small clove minced garlic\n2 cups chicken stock\n2 cups beef stock\n2 tbsp ketchup\n1 tbsp apple cider vinegar\n1/2 tsp Worcestershire sauce\n3 tbsp butter\n3 tbsp flour"
+  },
+  {
+    "objectID": "posts/2022-01-07-poutine-gravy/index.html#directions",
+    "href": "posts/2022-01-07-poutine-gravy/index.html#directions",
+    "title": "Poutine Gravy",
+    "section": "Directions",
+    "text": "Directions\n\nHeat 1/2 tbsp oil in a saucepan over medium heat.\nAdd 1 small clove garlic and saute until browned.\nAdd:\n\n2 cups chicken stock\n2 cups beef stock.\n2 tbsp ketchup.\n1 tbsp apple cider vinegar.\n1/2 tsp Worcestershire sauce\n\nBring to a boil.\nWhile that is heating, in a separate saucepan melt 3 tbsp butter and stir in 3 tbsp flour to make a roux.\nWhisk stock mixture into the roux and simmer until reduced by half about 20 minutes.\n\nSpoon over french fries and cheese, and enjoy!\nSource: Chuck Hughes at Food Network."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Flight Family Recipes",
+    "section": "",
+    "text": "Butter and Butter Substitutes\n\n\n\n\n\nWhat types of butter we typically use, and how we substitute different things in depending on the recipe.\n\n\n\n\n\n\nAug 7, 2022\n\n\n\n\n\n\n\n\nChickpea Orzo Soup\n\n\n\n\n\n\n\nsoup\n\n\nvegetarian\n\n\n\n\nFilling vegetarian soup.\n\n\n\n\n\n\nJul 21, 2022\n\n\n\n\n\n\n\n\nChili\n\n\n\n\n\n\n\nhamburger\n\n\ntomato\n\n\n\n\nGround beef, kidney beans, tomatos and some spice!\n\n\n\n\n\n\nJul 3, 2022\n\n\n\n\n\n\n\n\nRoasted Sweet Potatoes\n\n\n\n\n\n\n\nside-dish\n\n\nbaked\n\n\n\n\nDeliciously tart sweet potatoes.\n\n\n\n\n\n\nApr 7, 2022\n\n\n\n\n\n\n\n\nVegetable Barley Soup\n\n\n\n\n\n\n\nvegetarian\n\n\nsoup\n\n\nmain-dish\n\n\nbarley\n\n\nedamame\n\n\ninstant-pot\n\n\n\n\nQuick and Easy Vegetable Barley Soup in the Instant Pot\n\n\n\n\n\n\nApr 5, 2022\n\n\n\n\n\n\n\n\nChocolate Chip Muffins\n\n\n\n\n\n\n\nmuffin\n\n\nchocolate-chip\n\n\nbreakfast\n\n\n\n\nTasty chocolate chip muffins.\n\n\n\n\n\n\nFeb 12, 2022\n\n\n\n\n\n\n\n\nQuiche\n\n\n\n\n\n\n\neggs\n\n\n\n\nEggs, milk, spices and some ham makes a delicious lunch or dinner.\n\n\n\n\n\n\nJan 16, 2022\n\n\n\n\n\n\n\n\nPoutine Gravy\n\n\n\n\n\n\n\ncheese\n\n\ngravy\n\n\nside-dish\n\n\n\n\nNice tasting gravy to go on your french fries and cheese.\n\n\n\n\n\n\nJan 7, 2022\n\n\n\n\n\n\n\n\nCherry Pound Cake\n\n\n\n\n\n\n\ncake\n\n\nseasonal\n\n\ncherry\n\n\n\n\nSeasonal favorite with red and green glaced cherries.\n\n\n\n\n\n\nDec 11, 2021\n\n\n\n\n\n\n\n\nGum Drop Cake\n\n\n\n\n\n\n\ncake\n\n\nseasonal\n\n\n\n\nA christmas time favorite, cake and gum-drop candies!\n\n\n\n\n\n\nDec 11, 2021\n\n\n\n\n\n\n\n\nCream Cheese Icing\n\n\n\n\n\n\n\nicing\n\n\ncake\n\n\n\n\nCream cheese icing. It’s good. Goes well with carrot cake.\n\n\n\n\n\n\nNov 14, 2021\n\n\n\n\n\n\n\n\nCarrot Cake\n\n\n\n\n\n\n\ncake\n\n\ncarrot\n\n\nlactose-free\n\n\n\n\nA decadent carrot cake appropriate for any occasion.\n\n\n\n\n\n\nNov 14, 2021\n\n\n\n\n\n\n\n\nSkinny Fettuccine Alfredo\n\n\n\n\n\n\n\nlactose-free\n\n\npasta\n\n\n\n\nDelicious Alfredo sauce that’s lower fat and can be lactose free too.\n\n\n\n\n\n\nNov 9, 2021\n\n\n\n\n\n\n\n\nChicken Soup\n\n\n\n\n\n\n\nsoup\n\n\nchicken\n\n\n\n\nThis chicken soup is yummy, and you know exactly what’s in it.\n\n\n\n\n\n\nNov 7, 2021\n\n\n\n\n\n\n\n\nPoached Chicken Breast (Instant Pot)\n\n\n\n\n\n\n\nchicken\n\n\ninstant-pot\n\n\n\n\nPoached chicken breast that shreds nicely for other recipes.\n\n\n\n\n\n\nNov 6, 2021\n\n\n\n\n\n\n\n\nPancakes! (No Milk)\n\n\n\n\n\n\n\nbreakfast\n\n\nlactose-free\n\n\n\n\nEasy, tasty pancakes with no milk.\n\n\n\n\n\n\nOct 24, 2021\n\n\n\n\n\n\n\n\nButterCream Icing\n\n\n\n\n\n\n\ncake\n\n\nbrownies\n\n\nicing\n\n\n\n\nVarious flavored icing for cakes, etc.\n\n\n\n\n\n\nSep 19, 2021\n\n\n\n\n\n\n\n\nNever Fail Brownies\n\n\n\n\n\n\n\ncake\n\n\nbrownies\n\n\nicing\n\n\n\n\nDelicious, chocolatey brownies.\n\n\n\n\n\n\nSep 19, 2021\n\n\n\n\n\n\n\n\nPork & Apples (Instant Pot)\n\n\n\n\n\n\n\ninstant-pot\n\n\npork\n\n\nmeat\n\n\nmain-dish\n\n\n\n\nDelicious pork chops in a sweet apple gravy.\n\n\n\n\n\n\nApr 11, 2021\n\n\n\n\n\n\n\n\nBalsamic Chicken & Mushrooms\n\n\n\n\n\n\n\nmeat\n\n\nchicken\n\n\nmushrooms\n\n\nmain-dish\n\n\n\n\nTangy, flavor bombs of mushroom and chicken in Balsamic sauce.\n\n\n\n\n\n\nApr 11, 2021\n\n\n\n\n\n\n\n\nPork & Potatoes (Instant Pot)\n\n\n\n\n\n\n\nmeat\n\n\npork\n\n\npotatoes\n\n\nmain-dish\n\n\n\n\nSimple way to cook both meat and potatoes in the instant pot.\n\n\n\n\n\n\nApr 11, 2021\n\n\n\n\n\n\n\n\nBBQ Baked Beans (Instant Pot)\n\n\n\n\n\n\n\nbeans\n\n\ninstant-pot\n\n\nside-dish\n\n\nsoup\n\n\n\n\nTangy sweet beans take very little time in the instant pot.\n\n\n\n\n\n\nApr 11, 2021\n\n\n\n\n\n\n\n\nButternut Squash & Sweet Potato Soup\n\n\n\n\n\n\n\nsoup\n\n\nvegetarian\n\n\n\n\nVegetarian, delightful soup that is delicious any time of year.\n\n\n\n\n\n\nMar 20, 2021\n\n\n\n\n\n\n\n\nBuried Treasure Cake\n\n\n\n\n\n\n\nbaked\n\n\ncake\n\n\ndessert\n\n\nchocolate\n\n\n\n\nA hidden cream cheese and chocolate chip filling makes this a treasure.\n\n\n\n\n\n\nMar 20, 2021\n\n\n\n\n\n\n\n\nEasy Oatmeal Raisin Breakfast Bars\n\n\n\n\n\n\n\nbaked\n\n\noatmeal\n\n\nbreakfast\n\n\nbar\n\n\n\n\nOatmeal raisin or chocolate chip breakfast bars.\n\n\n\n\n\n\nMar 20, 2021\n\n\n\n\n\n\n\n\nMac & Cheese\n\n\n\n\n\n\n\npasta\n\n\ncheese\n\n\ncasserole\n\n\n\n\nHearty macaroni and cheese\n\n\n\n\n\n\nMar 20, 2021\n\n\n\n\n\n\n\n\nChocolate Cake\n\n\n\n\n\n\n\nbaked\n\n\ncake\n\n\nchocolate\n\n\ndessert\n\n\n\n\nA rich chocolate cake, great for whenever you need some sweetness in your life.\n\n\n\n\n\n\nMar 20, 2021\n\n\n\n\n\n\n\n\nApple Cinnamon Muffins\n\n\n\n\n\n\n\nbaked\n\n\nmuffin\n\n\napple\n\n\nbreakfast\n\n\n\n\nChunks of apple and the cinnamon make these delicious muffins with a great texture.\n\n\n\n\n\n\nMar 20, 2021\n\n\n\n\n\n\n\n\n1 Hour Cinnamon Rolls\n\n\n\n\n\n\n\nbaked\n\n\nroll\n\n\ncinnamon\n\n\nbreakfast\n\n\n\n\nA yummy treat for breakfast or a snack.\n\n\n\n\n\n\nMar 20, 2021\n\n\n\n\n\n\n\n\nCheesy Cottage Pie\n\n\n\n\n\n\n\ncasserole\n\n\npie\n\n\ncheese\n\n\nhamburger\n\n\npotato\n\n\n\n\nA cheesy variation on Shepherds Pie.\n\n\n\n\n\n\nMar 20, 2021\n\n\n\n\n\n\n\n\nChicken Stew\n\n\n\n\n\n\n\nstew\n\n\nsoup\n\n\nchicken\n\n\npotato\n\n\nmushroom\n\n\n\n\nChicken, mushroom and potato stew.\n\n\n\n\n\n\nMar 20, 2021\n\n\n\n\n\n\n\n\n3 Ingredient Peanut-Butter Cookies\n\n\n\n\n\n\n\ncookies\n\n\nbaked\n\n\npeanut-butter\n\n\n\n\nSimple, mostly allergen free PB cookies.\n\n\n\n\n\n\nMar 20, 2021\n\n\n\n\n\n\n\n\nPunjabi Curry\n\n\n\n\n\n\n\ncurry\n\n\nsoup\n\n\nchicken\n\n\nchickpea\n\n\n\n\nA great base for various curries.\n\n\n\n\n\n\nMar 20, 2021\n\n\n\n\n\n\n\n\nLasagna\n\n\n\n\n\n\n\npasta\n\n\nspaghetti\n\n\n\n\nSimple lasagna.\n\n\n\n\n\n\nMar 14, 2021\n\n\n\n\n\n\n\n\nSimple Sloppy Joes\n\n\n\n\n\n\n\nhamburger\n\n\ncasserole\n\n\n\n\nA 4 ingredient sloppy joe, that tastes great.\n\n\n\n\n\n\nMar 14, 2021\n\n\n\n\n\n\n\n\nShepherds Pie\n\n\n\n\n\n\n\nhamburger\n\n\ncasserole\n\n\npotato\n\n\ngravy\n\n\n\n\nMeaty, potatoey goodness with an awesome gravy.\n\n\n\n\n\n\nMar 14, 2021\n\n\n\n\n\n\n\n\nSoy Sauce Marinade\n\n\n\n\n\n\n\nsauce\n\n\nmarinade\n\n\nchicken\n\n\npork\n\n\n\n\nA meaty marinade great for pork chops or chicken.\n\n\n\n\n\n\nMar 9, 2021\n\n\n\n\n\n\n\n\nDonair Sauce\n\n\n\n\n\n\n\npizza\n\n\nsauce\n\n\ngarlic\n\n\n\n\nAn Atlantic Candadian classic that is great on pizza, cheese sticks, and gyros.\n\n\n\n\n\n\nMar 9, 2021\n\n\n\n\n\n\n\n\nSweet & Sour Sauce\n\n\n\n\n\n\n\nsauce\n\n\nsweet\n\n\nsour\n\n\nmeatballs\n\n\n\n\nA sweet and sour sauce that goes great with meatballs and rice.\n\n\n\n\n\n\nMar 9, 2021\n\n\n\n\n\n\n\n\nChicken Wraps\n\n\n\n\n\n\n\nsauce\n\n\nchicken\n\n\nwraps\n\n\n\n\nA sweet sauce for meat and veggies wrapped in tortillas.\n\n\n\n\n\n\nMar 9, 2021\n\n\n\n\n\n\n\n\nChicken Pot Pie\n\n\n\n\n\n\n\ncasserole\n\n\nchicken\n\n\npie\n\n\npot-pie\n\n\n\n\nDelicious chicken pot pie to warm and fill you up.\n\n\n\n\n\n\nMar 8, 2021\n\n\n\n\n\n\n\n\nWelcome to Flight Family Recipes\n\n\n\n\n\nWelcome to my personal recipe site.\n\n\n\n\n\n\nMar 7, 2021\n\n\n\n\n\n\n\n\nCheeseburger Soup\n\n\nA hearty, meaty, cheesy soup with ground beef, potatoes, carrots and a lot of cheese.\n\n\n\n\nsoup\n\n\nhamburger\n\n\nbeef\n\n\ninstant-pot\n\n\ncheese\n\n\n\n\n\n\n\n\n\n\n\nMar 7, 2021\n\n\n\n\n\n\n\n\nSpaghetti Sauce\n\n\n\n\n\n\n\nsauce\n\n\ntomato\n\n\npasta\n\n\n\n\nA sweet and savory tomato sauce that is great on top of pasta or as part of a lasagna.\n\n\n\n\n\n\nMar 7, 2021\n\n\n\n\n\n\n\n\nCrosby’s Baked Beans\n\n\n\n\n\n\n\ninstant-pot\n\n\nbeans\n\n\nmolasses\n\n\nsoup\n\n\n\n\nInstant-Pot makes these molasses baked beans a snap.\n\n\n\n\n\n\nMar 7, 2021\n\n\n\n\n\n\nNo matching items\n\n\n  \n\nReusehttps://creativecommons.org/licenses/by/4.0/CitationBibTeX citation:@online{mflight,\n  author = {Robert M Flight},\n  title = {Flight {Family} {Recipes}},\n  url = {https://rmflight.github.io/recipes/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nRobert M Flight. n.d. “Flight Family Recipes.” https://rmflight.github.io/recipes/."
+  }
+]

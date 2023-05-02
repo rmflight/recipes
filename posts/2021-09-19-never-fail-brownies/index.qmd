@@ -1,0 +1,44 @@
+---
+title: "Never Fail Brownies"
+description: |
+  Delicious, chocolatey brownies.
+date: 09-19-2021
+categories: 
+  - cake
+  - brownies
+  - icing
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Pre-heat oven to 350F
+
+Uses a 9x9 baking dish.
+Doubled will fill a 9x13 baking dish.
+
+## Ingredients
+
+* 6 tbsp canola or vegetable oil
+* 1 cup white sugar
+* 2 eggs
+* 1/4 tsp salt
+* 1/2 tsp vanilla
+* 1 cup flour
+* 1/2 cup cocoa
+
+## Directions
+
+* Combine **6 tbsp** oil, **1 cup** white sugar, **2 eggs**, **1/4 tsp** salt, **1/2 tsp** vanilla in a bowl.
+* Mix together.
+* Add **1 cup** flour, and mix in.
+* Mix **1/2 cup** cocoa with enough hot water to make a paste or slurry.
+* Pour cocoa mix into other ingredients.
+* Mix until cocoa is completely incorporated into the other ingredients.
+
+* Pour mixture into a greased baking dish.
+* Bake at 350F for 20 - 30 minutes, or until a toothpick comes out *mostly* clean.
+  * If after 20 minutes it is still very gooey in the middle, check again in 5 minutes. Leaving it until 30 might result in dry brownies.
+  
+Source: Heather Raymond, family friend of Sarah Flight.

@@ -1,0 +1,13 @@
+---
+title: "Welcome to Flight Family Recipes"
+description: |
+  Welcome to my personal recipe site.
+date: 03-07-2021
+---
+
+This is my personal recipe site. 
+It's organized as a blog, because that was easy to set up.
+I definitely recommend using the **Categories** on the right to navigate, or using the search bar at the top.
+
+Some of the recipes are original, some have been modified from other sources. 
+I include the original source on every recipe.

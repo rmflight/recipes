@@ -1,0 +1,62 @@
+---
+title: "Cheesy Cottage Pie"
+description: |
+  A cheesy variation on Shepherds Pie.
+date: 03-20-2021
+categories:
+  - casserole
+  - pie
+  - cheese
+  - hamburger
+  - potato
+---
+
+v 0.0.1
+
+Bake at 350F for 30 minutes.
+
+## Topping
+
+* 2.5 lbs. russet potatoes
+* 2 Tbsp butter
+* 1/2 cup milk
+* 6 oz. shredded cheddar
+* pinch of salt
+
+## FILLING
+
+* 1 yellow onion
+* 3 cloves garlic 
+* 2 cups diced carrots
+* 1.5 lb. ground beef 
+* 4 Tbsp all-purpose flour
+* 1.5 cup beef broth
+* 3/4 Tbsp Worcestershire sauce
+* 1.5 tsp dried rosemary
+* 1/2 tsp dried thyme
+
+## Directions
+
+* Boil **2.5 lbs** potatoes. 
+* After potatoes are cooked, drain and rinse. 
+* Heat **1/2 cup** milk and **2 Tbsp** butter, add back to the potatoes and whip them together. 
+* Add the **6 oz** shredded cheddar cheese and set aside.
+
+* While potatoes are boiling, brown the **1.5 lbs** ground beef. 
+When it is thoroughly cooked, drain **most** of the fat off. 
+* Return to heat, and add **1** onion and **3 cloves** garlic. 
+Allow onion and garlic to cook in remaining fat. 
+* Add **2 cups** diced carrots. 
+
+* Add **4 Tbsp** all purpose flour, stirring to coat the beef and vegetables. 
+When coated and flour starts to stick to the bottom of the pan, add **1.5 cups** beef broth and heat through, broth should start to thicken. 
+* Add remaining spices and thoroughly mix, allowing to heat through. 
+  * 3/4 Tbsp Worcestershire sauce
+  * 1.5 tsp dried rosemary
+  * 1/2 tsp dried thyme
+
+* In a 9x13 pan, spread filling mixture over bottom of pan, and spread potato topping over top. 
+* Bake at 350F for 30 minutes. 
+* Allow to rest for 5 minutes before serving.
+
+Modified and adapted from: https://www.budgetbytes.com/cheesy-cottage-pie/

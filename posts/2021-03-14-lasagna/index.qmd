@@ -1,0 +1,40 @@
+---
+title: "Lasagna"
+description: |
+  Simple lasagna.
+date: 03-14-2021
+categories:
+  - pasta
+  - spaghetti
+bibliography: refs.bib
+---
+
+* Baking time: 1 hour, 20 minutes
+* Prep time: 20 minutes
+
+## Ingredients
+
+* Pasta sauce [@flight2021spaghetti]
+* 2 cups cottage cheese
+* 1 cup sour cream
+* oven ready lasagna noodles
+* Bunch of shredded / grated mozzarella cheese
+* 1/2 cup grated Parmesan cheese
+* 1 cup water
+
+## Directions
+
+* Preheat oven to 350F.
+* Combine **2 cups** cottage cheese and **1 cup** sour cream in a bowl.
+* Layer:
+  * sauce
+  * noodles
+  * cottage cheese & sour cream
+  * mozzarella cheese
+  * however many times you need to to fill your dish
+  
+* Finish with a layer of noodles and cheese.
+* Cover dish with foil.
+* Put dish on baking sheet, and pour water around the outside of the pan.
+* Bake 1 hour.
+* Uncover, bake 20 minutes more until bubbly.

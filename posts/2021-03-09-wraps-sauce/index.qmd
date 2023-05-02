@@ -1,0 +1,44 @@
+---
+title: "Chicken Wraps"
+description: |
+  A sweet sauce for meat and veggies wrapped in tortillas.
+date: 03-09-2021
+categories:
+  - sauce
+  - chicken
+  - wraps
+---
+
+v 0.0.3
+
+## Ingredients
+
+* 2 - 3 chicken breasts cubed
+* 1 tbsp cooking oil
+* 1 sweet peper sliced
+* 4 large carrots sliced
+* 1 onion in pieces
+* 1 cup hot water
+* Heaping tsp of chicken bouillon powder
+
+
+* 1 tbsp Soy sauce 
+* 1 tsp Balsamic vinegar
+* 3 tbsp Brown sugar
+* 1 tbsp White sugar
+* 1 tbsp Corn starch
+
+
+## Directions
+
+* Add **heaping tsp** of chicken stock to **1 cup** hot water. Set aside for later.
+* Heat **1 tbsp** oil over high heat in large saucepan
+* When hot, add cubed pieces of chicken. Season lightly with pepper and salt.
+* Continue cooking until brown and cooked through (no pink in pieces broken apart)
+* Add sliced veggies to the saucepan with chicken, and **1/2 cup** of chicken stock. 
+* Reduce heat, cover, and steam veggies and chicken for 5 - 10 min, until veggies are cooked.
+* While veggies are cooking, add to the **1/2 cup** chicken stock:
+  * **1 tbsp** soy sauce, **1 tsp** balsamic vinegar, **3 tbsp** brown sugar, **1 tbsp** white sugar, **1 tbsp** corn starch.
+* When veggies are cooked, uncover, add sauce mix, and stir until sauce is thickened.
+
+Source: Sarah Flight

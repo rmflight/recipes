@@ -1,0 +1,27 @@
+---
+title: "Sweet & Sour Sauce"
+description: |
+  A sweet and sour sauce that goes great with meatballs and rice.
+date: 03-09-2021
+categories:
+  - sauce
+  - sweet
+  - sour
+  - meatballs
+---
+
+## Ingredients
+
+* 10 oz of chicken bullion
+* 14 oz tin of pineapple chunks in juice
+* 1 cup chopped peppers (yellow, green, red, whatever)
+* 1 Tbsp soy sauce
+* 1/4 cup white sugar
+* 1/2 cup white vinegar
+* 3 Tbsp corn starch
+
+## Directions
+
+* Dump juice from pineapple, and all other liquids and sugar into a saucepan.
+* Whisk corn starch into liquids, and heat over medium until sauce darkens and starts to thicken, while continuously stirring.
+* Add pineapple and peppers, and then to whatever.

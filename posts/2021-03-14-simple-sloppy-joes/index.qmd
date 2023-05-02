@@ -1,0 +1,28 @@
+---
+title: "Simple Sloppy Joes"
+description: |
+  A 4 ingredient sloppy joe, that tastes great.
+date: 03-14-2021
+categories:
+  - hamburger
+  - casserole
+---
+
+v 0.0.3
+
+## Ingredients
+
+* 1 pounds of hamburger
+* 1/2 cup of ketchup
+* 2 Tbsp brown sugar
+* 0.5 tsp of mustard
+* 2 - 3 Tbsp of bbq sauce
+
+## Directions
+
+* Cook hamburger
+* Mix condiments together
+* Throw condiments in with hamburger, stir until heated through.
+* Serve on buns
+
+Adapted from https://www.eatingonadime.com/sloppy-joes-recipe/

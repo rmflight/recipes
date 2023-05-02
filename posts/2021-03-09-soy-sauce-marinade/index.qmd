@@ -1,0 +1,27 @@
+---
+title: "Soy Sauce Marinade"
+description: |
+  A meaty marinade great for pork chops or chicken.
+date: 03-09-2021
+categories:
+  - sauce
+  - marinade
+  - chicken
+  - pork
+---
+
+## Ingredients
+
+* 3 Tbsp regular or dark soy sauce
+* 2.5 Tbsp rice vinegar (makes up to make 1/3 cup total liquid)
+* 1 tsp Dijon mustard
+* 2 Tbsp brown sugar
+* 2 tsp Worcestershire sauce
+* 2 garlic cloves, minced (or 2 tsp minced garlic)
+
+## Directions
+
+Mix it all up, dump it into a bag with your meat, let marinade for at least an hour.
+
+Source: Modified from https://www.recipetineats.com/a-great-marinade-for-pork-chops/
+
