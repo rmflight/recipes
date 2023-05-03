@@ -1,0 +1,39 @@
+---
+title: "Chocolate Chip Cookies"
+subtitle: |
+  Simple, chocolate chip cookies.
+date: 2023-05-02
+categories: [dessert, cookie]
+editor_options: 
+  chunk_output_type: console
+---
+
+## Ingredients
+
+* 3/4 cup white sugar
+* 3/4 cup brown sugar
+* 1 tsp vanilla
+* 2 eggs
+* 1 cup softened butter
+* 1 tsp baking soda
+* 2 1/4 cups flour
+* 10 oz semi-sweet chocolate baking chips (2 cups)
+
+## Directions
+
+* Preheat oven to 375F
+* Beat together:
+  * **3/4 cup** white sugar
+  * **3/4 cup** brown sugar
+  * **1 tsp** vanilla
+  * **2** eggs
+  * **1 cup** butter
+* To sugar and butter mixture, add **1 tsp** baking soda.
+* Slowly stir in **2 1/4 cups** flour.
+Depending on your butter, eggs, etc, you may need more or less flour.
+You want a mostly non-sticky batter.
+* Stir in **10 oz** (2 cups) of semi-sweet chocolate baking chips.
+* Spoon out onto a prepared baking tray.
+* Bake at 375F for 10 - 12 minutes.
+
+Source: Stella Trask
