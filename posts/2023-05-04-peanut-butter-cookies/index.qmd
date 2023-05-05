@@ -1,0 +1,33 @@
+---
+title: "Peanut Butter Cookies"
+subtitle: |
+  Classic peanut butter cookies.
+date: 2023-05-04
+categories: [cookies, dessert]
+editor_options: 
+  chunk_output_type: console
+---
+
+## Ingredients
+
+* 1 cup butter, softened
+* 1 cup white sugar
+* 1 cup brown sugar
+* 2 eggs
+* 1 cup peanut butter
+* 2 cups flour
+* 2 tsp baking soda
+* 1/4 tsp salt (optional)
+
+## Directions
+
+* Preheat oven to 375F.
+* Cream together:
+  * **1 cup** butter
+  * **1 cup** white sugar
+  * **1 cup** brown sugar
+  * **2** eggs
+* Add **1 cup** peanut butter.
+* Add **2 cups** flour, **2 tsp** baking soda, and **1/4 tsp** salt.
+* Roll into balls, press flat with a fork.
+* Bake at 375F for 12 - 15 minutes.
