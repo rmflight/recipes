@@ -1,0 +1,31 @@
+---
+title: "Taco Dip"
+subtitle: |
+  A nice dip for a party!
+date: 2023-05-04
+categories: [dip]
+editor_options: 
+  chunk_output_type: console
+---
+
+## Ingredients
+
+* 1 lb ground beef
+* 1 pkg taco seasoning (Old El Paso or similar)
+* 1 cup sour cream
+* 2 cups salsa (your preference)
+* 1 cup Tex Mex cheese
+* Slices of green onion to garnish
+
+## Directions
+
+* Preheat oven to 375F.
+* Cook **1 lb** ground beef until no longer pink. Drain fat if not using lean ground beef.
+* Add **1 pkg** taco seasoning to ground beef. **Do not** add water!
+* In a 9x11 baking dish, layer:
+  * ground beef
+  * **1 cup** sour cream
+  * **2 cups** salsa
+  * **1 cup** Tex-Mex cheese
+* Bake for 20 minutes at 375F.
+* Remove, add green onion to garnish if desired.

@@ -1,0 +1,31 @@
+---
+title: "Cold Taco Dip"
+subtitle: |
+  Like a cold taco, goes great with nacho's.
+date: 2023-05-04
+categories: [dip]
+editor_options: 
+  chunk_output_type: console
+---
+
+## Ingredients
+
+* 1 lb of ground beef
+* 1 1/1 cups salsa
+* 8 oz cream cheese, softened
+* 1 cup sour cream
+* 1 package taco seasoning
+* 1 cup shredded cheese
+
+## Directions
+
+* Brown **1 lb** ground beef until no longer pink. Drain, return to heat.
+* Add **1 1/2 cups** salsa.
+* Depending on how watery the salsa is, you may want to simmer off some water to thicken it.
+* In a bowl, combine **8 oz** cream cheese, **1 cup** sour cream, **1 package** taco seasoning.
+* In a 9 x 11 dish, layer:
+  * cream mixture
+  * ground beef and salsa mix
+  * **1 cup** shredded cheddar cheese
+* Chill in fridge at least 2 hours, preferably overnight.
+* Serve cold with nacho chips.
