@@ -10,7 +10,109 @@
 <atom:link href="https://rmflight.github.io/recipes/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.2.269</generator>
-<lastBuildDate>Thu, 04 May 2023 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 05 May 2023 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Banana Bread</title>
+  <link>https://rmflight.github.io/recipes/posts/2023-05-05-banana-bread/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<ul>
+<li>1 cup white sugar</li>
+<li>4 tbsp or 1/4 cup melted butter</li>
+<li>2 eggs</li>
+<li>3 bananas</li>
+<li>1 1/2 cup flour</li>
+<li>1 tsp baking soda</li>
+<li>1 cup semi-sweet chocolate baking chips (optional)</li>
+</ul>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li>Preheat oven to 350F.</li>
+<li>Cream together <strong>1 cup</strong> white sugar, <strong>1/4 cup</strong> melted butter, <strong>2</strong> eggs.</li>
+<li>Add mashed bananas.</li>
+<li>Add <strong>1 1/2 cup</strong> flour and <strong>1 tsp</strong> baking soda.</li>
+<li>If desired, add <strong>1 cup</strong> semi-sweet chocolate baking chips.</li>
+<li>Pour into a large loaf tin.</li>
+<li>Bake at 350F for 45 minutes.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>bread</category>
+  <category>dessert</category>
+  <guid>https://rmflight.github.io/recipes/posts/2023-05-05-banana-bread/index.html</guid>
+  <pubDate>Fri, 05 May 2023 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Pumpkin Cheese Cake</title>
+  <link>https://rmflight.github.io/recipes/posts/2023-05-05-pumpkin-cheese-cake/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<section id="crust" class="level3">
+<h3 class="anchored" data-anchor-id="crust">Crust</h3>
+<ul>
+<li>1 3/4 cups graham cracker crumbs</li>
+<li>3 tbsp light brown sugar</li>
+<li>1/2 tsp ground cinnamon</li>
+<li>1/2 cup melted butter</li>
+</ul>
+</section>
+<section id="cake" class="level3">
+<h3 class="anchored" data-anchor-id="cake">Cake</h3>
+<ul>
+<li>8oz x 3 packages cream cheese, at room temperature</li>
+<li>15oz can pureed pumpkin</li>
+<li>3 eggs</li>
+<li>1 egg yolk</li>
+<li>1/4 cup sour cream</li>
+<li>1 1/2 cups white sugar</li>
+<li>1/2 tsp ground cinnamon</li>
+<li>1/8 tsp nutmeg</li>
+<li>1/8 tsp ground cloves</li>
+<li>2 tbsp all purpose flour</li>
+<li>1 tsp vanilla extract</li>
+</ul>
+</section>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li>Preheat oven to 350F.</li>
+<li>Make the crust:
+<ul>
+<li>In a medium bowl, combine the <strong>1 3/4 cups</strong> graham cracker crumbs, <strong>3 tbsp</strong> light brown sugar, <strong>1/2 tsp</strong> ground cinnamon.</li>
+<li>Add <strong>1/2 cup</strong> melted butter.</li>
+<li>Press down flat into a 9 inch springform pan.</li>
+<li>Set aside.</li>
+</ul></li>
+<li>Beat <strong>8oz x 3 packages</strong> cream cheese until smooth.</li>
+<li>Add <strong>15oz</strong> can of pumpkin puree, <strong>3</strong> eggs and <strong>1</strong> egg yolk, <strong>1/4 cup</strong> sour cream, <strong>1 1/2 cup</strong> white sugar, <strong>1/2 tsp</strong> ground cinnamon, <strong>1/8 tsp</strong> nutmeg, <strong>1/8 tsp</strong> ground cloves. Beat together to combine.</li>
+<li>Add <strong>2 tbsp</strong> flour and <strong>1 tsp</strong> vanilla extract. Beat together until well combined.</li>
+<li>Pour into crust and spread evenly.</li>
+<li>Bake at 350F for 1 hour.</li>
+<li>Remove from oven and let rest for 15 minutes.</li>
+<li>Cover with plastic wrap and refrigerate for 4 hours before serving.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://rmflight.github.io/recipes/posts/2023-05-05-pumpkin-cheese-cake/index.html</guid>
+  <pubDate>Fri, 05 May 2023 04:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Taco Dip</title>
   <link>https://rmflight.github.io/recipes/posts/2023-05-04-taco-dip/index.html</link>
@@ -876,117 +978,6 @@
   <category>pasta</category>
   <guid>https://rmflight.github.io/recipes/posts/2021-11-09-skinny-fettuccine-alfredo/index.html</guid>
   <pubDate>Tue, 09 Nov 2021 05:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Chicken Soup</title>
-  <link>https://rmflight.github.io/recipes/posts/2021-11-07-chicken-soup/index.html</link>
-  <description><![CDATA[ 
-
-
-
-<section id="ingredients" class="level2">
-<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
-<ul>
-<li>2 tbsp butter</li>
-<li>2 cups diced carrots</li>
-<li>1 tbsp minced &amp; dried onion (add water to rehydrate for frying)</li>
-<li>2 garlic cloves (or 2 tsp minced garlic)</li>
-<li>8 cups vegetable broth (two 32 oz boxes)</li>
-<li>1/2 tsp dried basil</li>
-<li>1/2 tsp dried oregano</li>
-<li>dash of sage</li>
-<li>salt and pepper to taste</li>
-<li>3 cups egg noodles</li>
-<li>2 cups cooked and shredded chicken breasts (<a href="https://rmflight.github.io/recipes/posts/2021-11-06-poached-chicken-breast-instant-pot/">see here</a>)</li>
-</ul>
-</section>
-<section id="directions" class="level2">
-<h2 class="anchored" data-anchor-id="directions">Directions</h2>
-<ul>
-<li>In large pot over medium heat, melt <strong>2 tbsp</strong> butter.</li>
-<li>Cook <strong>1 tbsp minced</strong> onion and <strong>2 cups</strong> diced carrot in butter until tender (~ 5 min).</li>
-<li>Add garlic and cook an additional minute.</li>
-<li>Pour in vegetable broth and stir in <strong>3 cups</strong> egg noodles; <strong>1/2 tsp</strong> oregano, <strong>1/2 tsp</strong> basil, dash of sage, salt and pepper.</li>
-<li>Check the taste now and add any more seasoning you think it needs.</li>
-<li>Stir in <strong>2 cups</strong> shredded chicken (putting it in now means the chicken flavor will well permeate the soup, a plus if you are using vegetable broth, if using chicken broth, add it after simmering).</li>
-<li>Bring to a boil, reduce heat and simmer 15 - 20 minutes.</li>
-</ul>
-<p>From <a href="https://www.the-girl-who-ate-everything.com/homemade-chicken-noodle-soup/">The Girl Who Ate Everything</a>.</p>
-</section>
-<section id="notes" class="level2">
-<h2 class="anchored" data-anchor-id="notes">Notes:</h2>
-<p>Yes, I use vegetable broth. My digestive system does not seem to do well with the dried broth when you add enough powder to make it taste chickeny enough, and the same for “Better than Boullion”. If you really want chicken broth, go for it. In my experience, the vegetable broth tasted great, <strong>especially</strong> if you add the chicken before letting it simmer.</p>
-
-
-</section>
-
- ]]></description>
-  <category>soup</category>
-  <category>chicken</category>
-  <guid>https://rmflight.github.io/recipes/posts/2021-11-07-chicken-soup/index.html</guid>
-  <pubDate>Sun, 07 Nov 2021 04:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Poached Chicken Breast (Instant Pot)</title>
-  <link>https://rmflight.github.io/recipes/posts/2021-11-06-poached-chicken-breast-instant-pot/index.html</link>
-  <description><![CDATA[ 
-
-
-
-<section id="ingredients" class="level2">
-<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
-<ul>
-<li>5 tsp salt (or just a couple, really)</li>
-<li>2 bay leaves</li>
-<li>1 tsp dried thyme</li>
-<li>1 tsp rosemary</li>
-<li>1 tsp oregano</li>
-<li>4 cups water</li>
-<li>2 chicken breasts</li>
-</ul>
-</section>
-<section id="directions" class="level2">
-<h2 class="anchored" data-anchor-id="directions">Directions</h2>
-<ul>
-<li><p>Add dried herbs to instant pot insert.</p></li>
-<li><p>Add <strong>4 cups</strong> water.</p></li>
-<li><p>Add 2 chicken breasts (either whole or in chunks).</p></li>
-<li><p>Set timer for 0 (yes, really) minutes, or if not possible, 1 minute.</p></li>
-<li><p>When pressure is reached, if you had to set 1 minute, get up and turn the instant pot off.</p></li>
-<li><p>Hit “keep warm” to at least keep it warm but naturally release</p></li>
-<li><p>For</p>
-<ul>
-<li>1 chicken breast - 12 min</li>
-<li>2 chicken breasts - 11 min</li>
-<li>4 chicken breasts - 9 min</li>
-</ul></li>
-<li><p>Release pressure.</p></li>
-<li><p>Check temperature with a meat thermometer. Supposedly 165F is safe, but I still prefer 180F.</p></li>
-</ul>
-</section>
-<section id="frozen" class="level2">
-<h2 class="anchored" data-anchor-id="frozen">Frozen</h2>
-<ul>
-<li>For frozen chicken breasts:
-<ul>
-<li>2 chicken breasts - 3 minutes at pressure, 18 - 20 minute rest.</li>
-</ul></li>
-</ul>
-</section>
-<section id="wait-why" class="level2">
-<h2 class="anchored" data-anchor-id="wait-why">Wait, why?</h2>
-<p>As far as I can understand, we are using the heat necessary to get the mass of water + chicken to a boiling point to actually cook the chicken (poaching). This means that the more <em>cold</em> chicken breast you put in, the more heat it will take to get it to pressure, and therefore you need <em>less</em> time to naturally release. However, we are talking changes of 1 - 2 minutes, in salty water.</p>
-<p>I use this to make shredded chicken breast for soup, chicken pot pie, etc.</p>
-<p>Original guidelines are from <a href="https://www.pressurecookrecipes.com/instant-pot-chicken-breast/">Amy &amp; Jacky Pressure Cook Recipes</a>.</p>
-
-
-</section>
-
- ]]></description>
-  <category>chicken</category>
-  <category>instant-pot</category>
-  <guid>https://rmflight.github.io/recipes/posts/2021-11-06-poached-chicken-breast-instant-pot/index.html</guid>
-  <pubDate>Sat, 06 Nov 2021 04:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

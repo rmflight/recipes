@@ -1,0 +1,29 @@
+---
+title: "Banana Bread"
+subtitle: |
+  Classic banana bread.
+date: 2023-05-05
+categories: [bread, dessert]
+editor_options: 
+  chunk_output_type: console
+---
+
+## Ingredients
+
+* 1 cup white sugar
+* 4 tbsp or 1/4 cup melted butter
+* 2 eggs
+* 3 bananas
+* 1 1/2 cup flour
+* 1 tsp baking soda
+* 1 cup semi-sweet chocolate baking chips (optional) 
+
+## Directions
+
+* Preheat oven to 350F.
+* Cream together **1 cup** white sugar, **1/4 cup** melted butter, **2** eggs.
+* Add mashed bananas.
+* Add **1 1/2 cup** flour and **1 tsp** baking soda.
+* If desired, add **1 cup** semi-sweet chocolate baking chips.
+* Pour into a large loaf tin.
+* Bake at 350F for 45 minutes.
