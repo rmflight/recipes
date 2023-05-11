@@ -1,0 +1,40 @@
+---
+title: "Sugar Cookies"
+subtitle: |
+  Wonderful cookies for decorating and dressing up at any time of year.
+date: 2023-05-10
+categories: [cookies, dessert]
+editor_options:
+  chunk_output_type: console
+---
+
+## Ingredients
+
+* 1 cup butter
+* 1 1/2 cups sugar
+* 3 eggs
+* 1 tsp vanilla
+* 3 1/2 cups sifted white flour
+* 2 tsp cream of tartar
+* 1 tsp baking soda
+* 1/2 tsp salt
+
+## Directions
+
+* Cream **1 cup** butter.
+* Add **1 1/2 cups** sugar gradually, beating until light and fluffy.
+* Add **3 eggs**, **1 egg** at a time, beating after each is added.
+* Stir in **1 tsp** vanilla.
+* Sift dry ingredients together:
+  * **3 1/2 cups** white flour
+  * **2 tsp** cream of tartar
+  * **1 tsp** baking soda
+  * **1/2 tsp** salt
+* Add gradually to the creamed mixture.
+* Chill thoroughly (4 hours, or overnight).
+* On a well floured surface, roll dough out until it is 1/8 inch to 1/4 inch thick.
+* Cut into shapes with cookie cutters.
+* Bake at 350F on ungreased baking sheets for 6 - 8 minutes.
+* Allow to cool slightly before removing to racks.
+
+Source: Stella Trask
