@@ -1,0 +1,41 @@
+---
+title: "Instant Pot Potato Soup"
+subtitle: |
+  Quick, tasty potato soup. No heavy cream involved!
+date: 2023-05-21
+categories: [soup, potatoes]
+editor_options:
+  chunk_output_type: console
+---
+
+## Ingredients
+
+* 2 large shallots
+* 4 medium russet potatoes
+* 4 tbsp salted butter
+* 2 cups vegetable broth
+* 1/2 cup vegetable broth
+* 6 tbsp flour
+* 1 tsp Old Bay seasoning
+* 1 tsp minced garlic
+* 2 cups milk
+* Toppings (Greek yogurt, shredded cheddar cheese, bacon bits)
+
+## Directions
+
+* Mince the **2** large shallots.
+* Peel and dice the **4** medium potatoes.
+* Turn instant pot to saute mode.
+* Add **4 tbsp** butter.
+* When butter is melted, add the minced shallot, and saute 4 - 5 minutes, until softened but not browned.
+* Add **2 cups** vegetable broth and diced potatoes.
+* Seal.
+* Cook on high pressure for **10 min**.
+* Quick release.
+* Add **6 tbsp** flour to **1/2 cup** of vegetable broth and mix until flour is combined.
+* Add flour mixture to cooked potatoes, along with **1 tsp** Old Bay seasoning, **1 tsp** minced garlic.
+* Stir potatoes until they are creamy, like chunky mashed potatoes.
+* Add **2 cups** milk and stir until they are smooth.
+* Turn instant pot to saute mode for 2 minutes until the soup is warmed through.    
+
+Original source: A Couple Cooks - [Best Instant Pot Potato Soup](https://www.acouplecooks.com/instant-pot-potato-soup/)

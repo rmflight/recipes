@@ -26,7 +26,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Directions
 
 * In skillet over medium heat, add **1.5 tbsp** butter / margarine and let it melt.
-* Add garlic and let it sizzle for just a minute.
+* Add **1.5 tsp** garlic and let it sizzle for just a minute.
 * Stir in **3 tbsp** flour.
 * Stir in **1.5 cups** chicken broth and use whisk to remove lumps.
 * Stir in **1.5 cups** milk.

@@ -1,0 +1,52 @@
+---
+title: "Grilled Cheese"
+subtitle: |
+  Decadent recipe. Any one part really elevates any given grilled cheese sandwich.
+date: 2023-05-21
+categories: [sandwich, cheese]
+editor_options:
+  chunk_output_type: console
+---
+
+## Ingredients:
+
+### Cream Cheese Spread Filling
+
+* 1/2 cup cream cheese
+* 1/2 cup shredded cheddar 
+* 2 tbsp heavy cream
+
+### Garlic Spread
+
+* 1/2 cup mayonnaise
+* 3/4 tsp minced garlic
+
+### Grilled Three-Cheese Sandwich
+
+* 8 slices of sourdough bread
+* 8 cheddar cheese slices
+* 8 provolone slices
+
+## Directions
+
+### Cream Cheese Filling
+
+* Combine **1/2 cup** cream cheese, **1/2 cup** shredded cheddar cheese, **2 tbsp** heavy cream.
+* Set aside.
+
+### Garlic Spread
+
+* Combine **1/2 cup** mayonnaise and **3/4 tsp** minced garlic in a small bowl.
+
+### Sandwiches
+
+* Lay out sourdough bread slices a large cutting board.
+* Place **2 slices** of cheddar on **4** of the bread slices. 
+* Place **2 slices** of provolone on remaining bread slices. 
+* Equally spoon cream cheese spread on slices with provolone. Gently smooth cream cheese spread over each slice.
+* Press cheddar side and provolone side together.
+* Heat a large skillet over medium heat for 5 minutes, until hot. 
+* Brush both sides of the sandwiches with garlic spread. 
+* Grill sandwiches for 2 minutes on each side, until cheese is melted and bread is golden brown.
+
+Original from: Walt Disney World Resort - [Grilled Cheese Sandwich from Toy Story Land](https://disneyparks.disney.go.com/blog/2020/04/cooking-up-the-magic-at-home-celebrate-national-grilled-cheese-day-with-a-grilled-cheese-sandwich-from-toy-story-land/)
