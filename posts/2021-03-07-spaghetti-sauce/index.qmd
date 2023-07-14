@@ -31,6 +31,8 @@ knitr::include_graphics("sauce_done.jpg")
 * 2 Tbsp oregano flakes
 * 2 tsp rosemary
 * 2 tsp thyme
+* 1/2 tsp chili powder
+* 1/2 tsp cumin
 * 2 Tbsp worcestershire sauce
 * 2 bay leaves
 * 2 Tbsp tomato paste
@@ -46,6 +48,8 @@ knitr::include_graphics("sauce_done.jpg")
 * 1 Tbsp oregano flakes
 * 1 tsp rosemary
 * 1 tsp thyme
+* 1/4 tsp chili powder
+* 1/4 tsp cumin
 * 1 Tbsp Worcestershire sauce
 * 1 Tbsp tomato paste
 * 1 bay leaf
