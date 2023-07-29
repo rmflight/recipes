@@ -10,7 +10,7 @@ categories:
   - breakfast
 ---
 
-Bake at 400F for 20 - 25 min. Makes 12 really big muffins, or 20 - 24 smaller muffins.
+Bake at 400F for 20 - 25 min. Makes 24 muffins.
 
 
 ## Ingredients
@@ -27,7 +27,7 @@ Bake at 400F for 20 - 25 min. Makes 12 really big muffins, or 20 - 24 smaller mu
 * 3/4 cup vegetable oil
 * 2 eggs
 * 3/4 cup milk
-* 3 or 4 apples, peeled, cored and chopped
+* 2 cups apple, peeled, cored and chopped (3 - 4 regular sized apples)
 
 
 ## Directions
@@ -35,5 +35,26 @@ Bake at 400F for 20 - 25 min. Makes 12 really big muffins, or 20 - 24 smaller mu
 Mix dry ingredients, and then mix in wet. Fold in chopped apples. Prepare muffin tin with oil, butter, or liners. Spoon batter into muffin tin.
 
 Bake at 400F for 20 - 25 minutes, turning at 10 minutes.
+
+```{r}
+#| label: fig-muffins_24
+#| echo: false
+#| fig-cap: "24 muffins, ready to bake."
+knitr::include_graphics("muffins_24.jpg")
+```
+
+```{r}
+#| label: fig-muffins_closeup
+#| fig-cap: "Closeup of one of the muffin tins, showing how full each spot is."
+#| echo: false
+knitr::include_graphics("muffins_closeup.jpg")
+```
+
+```{r}
+#| label: fig-muffins-baked
+#| fig-cap: "Muffins just after coming out of the oven. All done!"
+#| echo: false
+knitr::include_graphics("muffins_done.jpg")
+```
 
 Source: [Allrecipes](https://www.allrecipes.com/recipe/24352/easy-apple-cinnamon-muffins/?fbclid=IwAR1YD0LRxzrZc4MaX1ZRm0gKmfeQih04BupIOzAPF4zwYd-PSzbc-q8luGQ)
