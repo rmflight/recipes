@@ -1,0 +1,60 @@
+---
+title: "Apple Cider Donuts"
+subtitle: |
+  These baked donuts are a wonderful fall treat.
+date: 2023-10-17
+categories:
+  - dessert
+  - donut
+  - apple cider
+  - apple
+editor_options:
+  chunk_output_type: console
+---
+
+Note that you should reduce apple cider first to concentrate it, so allow time for that step.
+
+## Ingredients
+
+### Donut
+
+* 1 1/2 cups apple cider, reduced to 1/2 cup
+* 2 cups all-purpose flour
+* 1 tsp baking soda
+* 1 tsp baking powder
+* 1 tsp ground cinnamon
+* 1 tsp apple pie spice
+* 2 tbsp butter, melted
+* 1 large egg, at room temperature
+* 1/2 cup packed brown sugar
+* 1/2 cup granulated white sugar
+* 1/2 cup milk, at room temperature*
+* 1 tsp vanilla extract
+
+### Topping
+
+* 1 cup granulated white sugar
+* 3/4 tsp ground cinnamon
+* 3/4 tsp teaspoon apple pie spice*
+* 6 tbsp butter, melted
+
+## Directions
+
+* Reduce the apple cider: 
+  * Stirring occasionally, simmer the **1 1/2 cup** apple cider in a small saucepan over low heat until you’re left with about 1/2 cup. 
+  * Start checking at 10 minutes, 15 minutes, 20 minutes, etc until you have 1/2 cup (120ml). 
+  * Mine takes about 20 minutes. If there are any spices or solids on top of your reduced apple cider, leave them. * * Set **1/2 cup** reduced cider aside to cool for 10 minutes.
+* Preheat oven to 350°F. Spray donut pan with non-stick spray. Set aside.
+* Make the donuts: 
+  * Whisk the **2 cups** flour, **1 tsp** baking soda, **1 tsp** baking powder, **1 tsp** cinnamon, **1 tsp** apple pie spice in a large bowl. Set aside.
+  * Whisk the **2 tbsp** melted butter, **1** egg, **1/2 cup** brown sugar, **1/2 cup** white sugar, **1/2 cup** milk, **1 tsp** vanilla extract together. 
+  * Pour into the dry ingredients, add the reduced apple cider, and whisk everything together until smooth and combined. Batter will be slightly thick.
+* Spoon the batter into the donut cavities. —for ease, I highly recommend using a large zipped-top bag. Cut a corner off the bottom of the bag and pipe the batter into each donut cup, filling about halfway.
+* Bake for 10-11 minutes or until the edges and tops are lightly browned. To test, poke your finger into the top of the donut. If the donut bounces back, they’re done. 
+* Cool donuts for 2 minutes then transfer to a wire rack. Re-grease the pan and bake the remaining donut batter.
+* Coat the donuts: 
+  * Combine the **1 cup** white sugar, **3/4 tsp** cinnamon, **3/4 tsp** apple pie spice together in a medium bowl. 
+  * Melt **6 tbsp** butter.
+* Once cool enough to handle, dunk both sides of each donut in the melted butter, then generously in the apple spice topping.
+
+From [Sally's Baking Addiction](https://sallysbakingaddiction.com/baked-apple-cider-donuts/).
