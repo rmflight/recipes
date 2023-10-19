@@ -1,0 +1,41 @@
+---
+title: "Strawberry Muffins"
+subtitle: |
+  Fresh or frozen strawberries make these a great treat.
+date: 2023-10-18
+categories:
+  - muffin
+  - strawberry
+editor_options:
+  chunk_output_type: console
+---
+
+## Ingredients
+
+* 2 cups + 2 tsp all purpose flour
+* 2 tsp baking powder
+* 3/4 tsp salt
+* 1/2 cup unsalted butter, softened
+* 1 cup granulated white sugar
+* 2 large eggs
+* 1 1/2 tsp vanilla extract
+* 1/4 tsp almond extract
+* 1/2 cup milk
+* 2 1/4 cups diced strawberries, from 1 pint, divided
+
+## Directions
+
+* Preheat the oven to 375F. 
+* Line a 12-cup muffin tin with paper liners; spray the liners and the pan with non-stick cooking spray.
+* In a medium bowl, whisk together the **2 cups** flour, **2 tsp** baking powder and **3/4 tsp** salt.
+* In the bowl of an electric mixer, beat the **1/2 cup** softened butter and **1 cup** granulated white sugar for about 2 minutes. 
+* Add the **2** eggs one at a time, scraping down the sides of the bowl and beating well after each addition. 
+* Beat in the **1 1/2 tsp** vanilla extract and **1/4 tsp** almond extract. (The batter may look a little grainy -- that's okay).
+* With the mixer on low, add the flour mixture in three separate additions, alternating with the milk and ending with the flour.
+* Toss the strawberries with **2 tsp** of flour (this will keep them from sinking to the bottom). 
+* Add the berries to the batter and fold with a spatula until evenly distributed. Do not overmix.
+* Scoop the batter into the prepared muffin tin (an ice-cream scoop with a wire scraper works well here); they will be very full.
+* Bake at 375F for about 30 minutes, until lightly golden and a cake tester comes out clean. 
+* Run a sharp knife around the top edge of each muffin to free it from the pan if necessary (the edges can stick), then let the muffins cool in the pan for about 25 minutes. Transfer the muffins to a rack to cool completely.
+
+From [Once Upon a Chef](https://www.onceuponachef.com/recipes/strawberry-muffins.html).
