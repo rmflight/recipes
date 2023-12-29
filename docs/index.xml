@@ -6,14 +6,96 @@
       version="2.0">
 <channel>
 <title>Flight Family Recipes</title>
-<link>https://rmflight.github.io/recipes/index.html</link>
+<link>https://rmflight.github.io/recipes/</link>
 <atom:link href="https://rmflight.github.io/recipes/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.2.269</generator>
-<lastBuildDate>Wed, 18 Oct 2023 04:00:00 GMT</lastBuildDate>
+<generator>quarto-1.4.502</generator>
+<lastBuildDate>Thu, 28 Dec 2023 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Gingerbread Cookies</title>
+  <link>https://rmflight.github.io/recipes/posts/2023-12-28-gingerbread/</link>
+  <description><![CDATA[ 
+
+
+
+
+<ul>
+<li>Prep-time: 2 hours + 15 minutes</li>
+<li>Baking time: 8 minutes</li>
+</ul>
+<section id="notes" class="level2">
+<h2 class="anchored" data-anchor-id="notes">Notes</h2>
+<ul>
+<li>Houses:
+<ul>
+<li>If you are making gingerbread houses, you might be tempted to double this recipe in one batch. It may be very hard to mix if doubled.</li>
+</ul></li>
+<li>Plant based butter:
+<ul>
+<li>In our experience, plant based butter leaves this receipe little dry. Try adding another tablespoon.</li>
+</ul></li>
+</ul>
+</section>
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<section id="dry" class="level3">
+<h3 class="anchored" data-anchor-id="dry">Dry</h3>
+<ul>
+<li>3 cups all purpose flour</li>
+<li>1 1/2 tsp baking powder</li>
+<li>3/4 tsp baking soda</li>
+<li>1 Tbsp ground ginger</li>
+<li>1 3/4 tsp ground cinnamon</li>
+<li>1/4 tsp ground cloves</li>
+</ul>
+</section>
+<section id="wet" class="level3">
+<h3 class="anchored" data-anchor-id="wet">Wet</h3>
+<ul>
+<li>6 Tbsp unsalted butter</li>
+<li>3/4 cup brown sugar</li>
+<li>1 egg</li>
+<li>1/2 cup molasses</li>
+<li>2 tsp vanilla</li>
+</ul>
+</section>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li>In small bowl, whisk together <strong>3 cups</strong> flour, <strong>1 1/2 tsp</strong> baking powder, <strong>3/4 tsp</strong> baking soda, <strong>1 Tbsp</strong> ground ginger, <strong>1 3/4 tsp</strong> ground cinnamon, <strong>1/4</strong> tsp ground cloves.</li>
+<li>In large bowl, beat <strong>6 Tbsp</strong> butter, <strong>3/4 cup</strong> brown sugar, <strong>1</strong> egg on medium until well blended.</li>
+<li>Add in <strong>1/2 cup</strong> molasses, <strong>2 tsp</strong> vanilla and continue to mix until well blended.</li>
+<li>Gradually stir in dry ingredients until blended smooth.</li>
+<li>Divide dough in half, wrap each half in plastic wrap and let stand at room temperature for 2 - 8 hours.</li>
+<li>Dough can be refrigerated up to 4 days, but return to room temperature before using.</li>
+<li>Preheat oven to 375 F.</li>
+<li>Grease or line a cookie sheet with parchment paper.</li>
+<li>Place a portion of the dough on lightly floured surface.</li>
+<li>Sprinkle flour over dough and rolling pin.</li>
+<li>Roll out dough to 1/4 inch thick.</li>
+<li>Use additional flour to prevent sticking.</li>
+<li>Cut out cookies with a cutter.</li>
+<li>Place on cookie sheet, 1/2 inch apart.</li>
+<li>Bake 1 sheet at a time for 7 - 10 minutes (less time will result in softer cookies).</li>
+<li>Remove sheet from oven, and allow the cookies to stand for 5 minutes or until they are firm enough to move to a rack.</li>
+<li>Decorate!</li>
+</ul>
+<p>Source: Stella Trask.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>dessert</category>
+  <category>bread</category>
+  <category>cookies</category>
+  <guid>https://rmflight.github.io/recipes/posts/2023-12-28-gingerbread/</guid>
+  <pubDate>Thu, 28 Dec 2023 05:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Strawberry Muffins</title>
-  <link>https://rmflight.github.io/recipes/posts/2023-10-18-strawberry-muffins/index.html</link>
+  <link>https://rmflight.github.io/recipes/posts/2023-10-18-strawberry-muffins/</link>
   <description><![CDATA[ 
 
 
@@ -57,12 +139,12 @@
  ]]></description>
   <category>muffin</category>
   <category>strawberry</category>
-  <guid>https://rmflight.github.io/recipes/posts/2023-10-18-strawberry-muffins/index.html</guid>
+  <guid>https://rmflight.github.io/recipes/posts/2023-10-18-strawberry-muffins/</guid>
   <pubDate>Wed, 18 Oct 2023 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Double Chocolate Chip Cookies</title>
-  <link>https://rmflight.github.io/recipes/posts/2023-10-17-double-chocolate-chip-cookies/index.html</link>
+  <link>https://rmflight.github.io/recipes/posts/2023-10-17-double-chocolate-chip-cookies/</link>
   <description><![CDATA[ 
 
 
@@ -108,12 +190,12 @@
  ]]></description>
   <category>cookies</category>
   <category>dessert</category>
-  <guid>https://rmflight.github.io/recipes/posts/2023-10-17-double-chocolate-chip-cookies/index.html</guid>
+  <guid>https://rmflight.github.io/recipes/posts/2023-10-17-double-chocolate-chip-cookies/</guid>
   <pubDate>Tue, 17 Oct 2023 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Apple Cider Donuts</title>
-  <link>https://rmflight.github.io/recipes/posts/2023-10-17-apple-cider-donuts/index.html</link>
+  <link>https://rmflight.github.io/recipes/posts/2023-10-17-apple-cider-donuts/</link>
   <description><![CDATA[ 
 
 
@@ -184,12 +266,12 @@
   <category>donut</category>
   <category>apple cider</category>
   <category>apple</category>
-  <guid>https://rmflight.github.io/recipes/posts/2023-10-17-apple-cider-donuts/index.html</guid>
+  <guid>https://rmflight.github.io/recipes/posts/2023-10-17-apple-cider-donuts/</guid>
   <pubDate>Tue, 17 Oct 2023 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Grilled Cheese</title>
-  <link>https://rmflight.github.io/recipes/posts/2023-05-21-grilled-cheese/index.html</link>
+  <link>https://rmflight.github.io/recipes/posts/2023-05-21-grilled-cheese/</link>
   <description><![CDATA[ 
 
 
@@ -256,12 +338,12 @@
  ]]></description>
   <category>sandwich</category>
   <category>cheese</category>
-  <guid>https://rmflight.github.io/recipes/posts/2023-05-21-grilled-cheese/index.html</guid>
+  <guid>https://rmflight.github.io/recipes/posts/2023-05-21-grilled-cheese/</guid>
   <pubDate>Sun, 21 May 2023 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Instant Pot Potato Soup</title>
-  <link>https://rmflight.github.io/recipes/posts/2023-05-21-instant-pot-potato-soup/index.html</link>
+  <link>https://rmflight.github.io/recipes/posts/2023-05-21-instant-pot-potato-soup/</link>
   <description><![CDATA[ 
 
 
@@ -307,12 +389,12 @@
  ]]></description>
   <category>soup</category>
   <category>potatoes</category>
-  <guid>https://rmflight.github.io/recipes/posts/2023-05-21-instant-pot-potato-soup/index.html</guid>
+  <guid>https://rmflight.github.io/recipes/posts/2023-05-21-instant-pot-potato-soup/</guid>
   <pubDate>Sun, 21 May 2023 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Chocolate Peanut Butter Balls</title>
-  <link>https://rmflight.github.io/recipes/posts/2023-05-10-chocolate-peanut-butter-balls/index.html</link>
+  <link>https://rmflight.github.io/recipes/posts/2023-05-10-chocolate-peanut-butter-balls/</link>
   <description><![CDATA[ 
 
 
@@ -347,12 +429,12 @@
  ]]></description>
   <category>dessert</category>
   <category>chocolate</category>
-  <guid>https://rmflight.github.io/recipes/posts/2023-05-10-chocolate-peanut-butter-balls/index.html</guid>
+  <guid>https://rmflight.github.io/recipes/posts/2023-05-10-chocolate-peanut-butter-balls/</guid>
   <pubDate>Wed, 10 May 2023 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Sugar Cookies</title>
-  <link>https://rmflight.github.io/recipes/posts/2023-05-10-sugar-cookies/index.html</link>
+  <link>https://rmflight.github.io/recipes/posts/2023-05-10-sugar-cookies/</link>
   <description><![CDATA[ 
 
 
@@ -399,12 +481,12 @@
  ]]></description>
   <category>cookies</category>
   <category>dessert</category>
-  <guid>https://rmflight.github.io/recipes/posts/2023-05-10-sugar-cookies/index.html</guid>
+  <guid>https://rmflight.github.io/recipes/posts/2023-05-10-sugar-cookies/</guid>
   <pubDate>Wed, 10 May 2023 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Cracked Top Molasses Cookies</title>
-  <link>https://rmflight.github.io/recipes/posts/2023-05-10-cracked-top-molasses-cookies/index.html</link>
+  <link>https://rmflight.github.io/recipes/posts/2023-05-10-cracked-top-molasses-cookies/</link>
   <description><![CDATA[ 
 
 
@@ -444,18 +526,18 @@
  ]]></description>
   <category>cookie</category>
   <category>dessert</category>
-  <guid>https://rmflight.github.io/recipes/posts/2023-05-10-cracked-top-molasses-cookies/index.html</guid>
+  <guid>https://rmflight.github.io/recipes/posts/2023-05-10-cracked-top-molasses-cookies/</guid>
   <pubDate>Wed, 10 May 2023 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Banana Bread</title>
-  <link>https://rmflight.github.io/recipes/posts/2023-05-05-banana-bread/index.html</link>
+  <link>https://rmflight.github.io/recipes/posts/2023-05-05-banana-bread/</link>
   <description><![CDATA[ 
 
 
 
 <section id="ingredients" class="level2">
-<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+
 <ul>
 <li>1 cup white sugar</li>
 <li>4 tbsp or 1/4 cup melted butter</li>
@@ -484,18 +566,18 @@
  ]]></description>
   <category>bread</category>
   <category>dessert</category>
-  <guid>https://rmflight.github.io/recipes/posts/2023-05-05-banana-bread/index.html</guid>
+  <guid>https://rmflight.github.io/recipes/posts/2023-05-05-banana-bread/</guid>
   <pubDate>Fri, 05 May 2023 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Vanilla Cake</title>
-  <link>https://rmflight.github.io/recipes/posts/2023-05-05-vanilla-cake/index.html</link>
+  <link>https://rmflight.github.io/recipes/posts/2023-05-05-vanilla-cake/</link>
   <description><![CDATA[ 
 
 
 
 <section id="ingredients" class="level2">
-<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+
 <ul>
 <li>2 1/2 cups flour</li>
 <li>2 1/2 tsp baking powder</li>
@@ -537,20 +619,20 @@
  ]]></description>
   <category>cake</category>
   <category>dessert</category>
-  <guid>https://rmflight.github.io/recipes/posts/2023-05-05-vanilla-cake/index.html</guid>
+  <guid>https://rmflight.github.io/recipes/posts/2023-05-05-vanilla-cake/</guid>
   <pubDate>Fri, 05 May 2023 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Pumpkin Cheese Cake</title>
-  <link>https://rmflight.github.io/recipes/posts/2023-05-05-pumpkin-cheese-cake/index.html</link>
+  <link>https://rmflight.github.io/recipes/posts/2023-05-05-pumpkin-cheese-cake/</link>
   <description><![CDATA[ 
 
 
 
 <section id="ingredients" class="level2">
-<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+
 <section id="crust" class="level3">
-<h3 class="anchored" data-anchor-id="crust">Crust</h3>
+
 <ul>
 <li>1 3/4 cups graham cracker crumbs</li>
 <li>3 tbsp light brown sugar</li>
@@ -559,7 +641,7 @@
 </ul>
 </section>
 <section id="cake" class="level3">
-<h3 class="anchored" data-anchor-id="cake">Cake</h3>
+
 <ul>
 <li>8oz x 3 packages cream cheese, at room temperature</li>
 <li>15oz can pureed pumpkin</li>
@@ -599,18 +681,18 @@
 </section>
 
  ]]></description>
-  <guid>https://rmflight.github.io/recipes/posts/2023-05-05-pumpkin-cheese-cake/index.html</guid>
+  <guid>https://rmflight.github.io/recipes/posts/2023-05-05-pumpkin-cheese-cake/</guid>
   <pubDate>Fri, 05 May 2023 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Taco Dip</title>
-  <link>https://rmflight.github.io/recipes/posts/2023-05-04-taco-dip/index.html</link>
+  <link>https://rmflight.github.io/recipes/posts/2023-05-04-taco-dip/</link>
   <description><![CDATA[ 
 
 
 
 <section id="ingredients" class="level2">
-<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+
 <ul>
 <li>1 lb ground beef</li>
 <li>1 pkg taco seasoning (Old El Paso or similar)</li>
@@ -642,18 +724,18 @@
 
  ]]></description>
   <category>dip</category>
-  <guid>https://rmflight.github.io/recipes/posts/2023-05-04-taco-dip/index.html</guid>
+  <guid>https://rmflight.github.io/recipes/posts/2023-05-04-taco-dip/</guid>
   <pubDate>Thu, 04 May 2023 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Cold Taco Dip</title>
-  <link>https://rmflight.github.io/recipes/posts/2023-05-04-cold-taco-dip/index.html</link>
+  <link>https://rmflight.github.io/recipes/posts/2023-05-04-cold-taco-dip/</link>
   <description><![CDATA[ 
 
 
 
 <section id="ingredients" class="level2">
-<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+
 <ul>
 <li>1 lb of ground beef</li>
 <li>1 1/1 cups salsa</li>
@@ -685,18 +767,18 @@
 
  ]]></description>
   <category>dip</category>
-  <guid>https://rmflight.github.io/recipes/posts/2023-05-04-cold-taco-dip/index.html</guid>
+  <guid>https://rmflight.github.io/recipes/posts/2023-05-04-cold-taco-dip/</guid>
   <pubDate>Thu, 04 May 2023 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Peanut Butter Cookies</title>
-  <link>https://rmflight.github.io/recipes/posts/2023-05-04-peanut-butter-cookies/index.html</link>
+  <link>https://rmflight.github.io/recipes/posts/2023-05-04-peanut-butter-cookies/</link>
   <description><![CDATA[ 
 
 
 
 <section id="ingredients" class="level2">
-<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+
 <ul>
 <li>1 cup butter, softened</li>
 <li>1 cup white sugar</li>
@@ -731,12 +813,12 @@
  ]]></description>
   <category>cookies</category>
   <category>dessert</category>
-  <guid>https://rmflight.github.io/recipes/posts/2023-05-04-peanut-butter-cookies/index.html</guid>
+  <guid>https://rmflight.github.io/recipes/posts/2023-05-04-peanut-butter-cookies/</guid>
   <pubDate>Thu, 04 May 2023 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Chocolate Chip Cookies</title>
-  <link>https://rmflight.github.io/recipes/posts/2023-05-02-chocolate-chip-cookies/index.html</link>
+  <link>https://rmflight.github.io/recipes/posts/2023-05-02-chocolate-chip-cookies/</link>
   <description><![CDATA[ 
 
 
@@ -780,18 +862,18 @@
  ]]></description>
   <category>dessert</category>
   <category>cookie</category>
-  <guid>https://rmflight.github.io/recipes/posts/2023-05-02-chocolate-chip-cookies/index.html</guid>
+  <guid>https://rmflight.github.io/recipes/posts/2023-05-02-chocolate-chip-cookies/</guid>
   <pubDate>Tue, 02 May 2023 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Peanut Butter Fudge</title>
-  <link>https://rmflight.github.io/recipes/posts/2023-05-02-peanut-butter-fudge/index.html</link>
+  <link>https://rmflight.github.io/recipes/posts/2023-05-02-peanut-butter-fudge/</link>
   <description><![CDATA[ 
 
 
 
 <section id="ingredients" class="level2">
-<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+
 <ul>
 <li>1 cup butter</li>
 <li>1 cup peanut butter</li>
@@ -813,12 +895,12 @@
 
  ]]></description>
   <category>peanut butter</category>
-  <guid>https://rmflight.github.io/recipes/posts/2023-05-02-peanut-butter-fudge/index.html</guid>
+  <guid>https://rmflight.github.io/recipes/posts/2023-05-02-peanut-butter-fudge/</guid>
   <pubDate>Tue, 02 May 2023 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Butter and Butter Substitutes</title>
-  <link>https://rmflight.github.io/recipes/posts/2022-08-07-butter/index.html</link>
+  <link>https://rmflight.github.io/recipes/posts/2022-08-07-butter/</link>
   <description><![CDATA[ 
 
 
@@ -849,12 +931,12 @@
 </section>
 
  ]]></description>
-  <guid>https://rmflight.github.io/recipes/posts/2022-08-07-butter/index.html</guid>
+  <guid>https://rmflight.github.io/recipes/posts/2022-08-07-butter/</guid>
   <pubDate>Sun, 07 Aug 2022 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Chickpea Orzo Soup</title>
-  <link>https://rmflight.github.io/recipes/posts/2022-07-21-chickpea-orzo-soup/index.html</link>
+  <link>https://rmflight.github.io/recipes/posts/2022-07-21-chickpea-orzo-soup/</link>
   <description><![CDATA[ 
 
 
@@ -912,18 +994,18 @@
  ]]></description>
   <category>soup</category>
   <category>vegetarian</category>
-  <guid>https://rmflight.github.io/recipes/posts/2022-07-21-chickpea-orzo-soup/index.html</guid>
+  <guid>https://rmflight.github.io/recipes/posts/2022-07-21-chickpea-orzo-soup/</guid>
   <pubDate>Thu, 21 Jul 2022 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Chili</title>
-  <link>https://rmflight.github.io/recipes/posts/2022-07-03-chili/index.html</link>
+  <link>https://rmflight.github.io/recipes/posts/2022-07-03-chili/</link>
   <description><![CDATA[ 
 
 
 
 <section id="ingredients" class="level2">
-<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+
 <ul>
 <li>1 tbsp. cooking oil</li>
 <li>1 tbsp minced onion, rehydrated</li>
@@ -964,58 +1046,8 @@
  ]]></description>
   <category>hamburger</category>
   <category>tomato</category>
-  <guid>https://rmflight.github.io/recipes/posts/2022-07-03-chili/index.html</guid>
+  <guid>https://rmflight.github.io/recipes/posts/2022-07-03-chili/</guid>
   <pubDate>Sun, 03 Jul 2022 04:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Roasted Sweet Potatoes</title>
-  <link>https://rmflight.github.io/recipes/posts/2022-04-07-roasted-sweet-potatoes/index.html</link>
-  <description><![CDATA[ 
-
-
-
-<section id="time" class="level2">
-<h2 class="anchored" data-anchor-id="time">Time</h2>
-<ul>
-<li>Prep: 10 minutes</li>
-<li>Cook: 30 - 35 minutes</li>
-</ul>
-</section>
-<section id="ingredients" class="level2">
-<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
-<ul>
-<li>4 cups chopped peeled sweet potato</li>
-<li>1 sweet onions (such as Vidalia®), cut into wedges</li>
-<li>2 cloves garlic, sliced</li>
-<li>3 tbsp olive oil</li>
-<li>1 tbsp balsamic vinegar, or more to taste</li>
-<li>1 pinch salt and ground black pepper to taste</li>
-</ul>
-</section>
-<section id="directions" class="level2">
-<h2 class="anchored" data-anchor-id="directions">Directions</h2>
-<ul>
-<li>Preheat oven to 425F</li>
-<li>Mix <strong>4 cups</strong> sweet potatoes, <strong>1</strong> sweet onion, and <strong>2 cloves</strong> garlic in a bowl. Drizzle <strong>3 tbps</strong> olive oil over the mixture and toss to coat; pour into a shallow roasting pan.</li>
-<li>Roast sweet potato mixture in preheated oven, turning frequently, until the vegetables are soft and golden brown, 30 to 35 minutes.</li>
-<li>Drizzle balsamic vinegar over the vegetables; season with salt and pepper.</li>
-</ul>
-</section>
-<section id="nutrition" class="level2">
-<h2 class="anchored" data-anchor-id="nutrition">Nutrition</h2>
-<ul>
-<li>220 Kcal / serving</li>
-</ul>
-<p>Original source: <a href="https://www.allrecipes.com/recipe/241834/oven-roasted-sweet-potatoes/">Allrecipes</a></p>
-
-
-</section>
-
- ]]></description>
-  <category>side-dish</category>
-  <category>baked</category>
-  <guid>https://rmflight.github.io/recipes/posts/2022-04-07-roasted-sweet-potatoes/index.html</guid>
-  <pubDate>Thu, 07 Apr 2022 04:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

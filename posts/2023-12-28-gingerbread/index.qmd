@@ -1,0 +1,61 @@
+---
+title: "Gingerbread Cookies"
+subtitle: |
+  Cookies, or sheets for houses, either way this is so tasty.
+date: 2023-12-28
+categories: [dessert, bread, cookies]
+editor_options:
+  chunk_output_type: console
+bibliography: refs.bib
+---
+
+* Prep-time: 2 hours + 15 minutes
+* Baking time: 8 minutes
+
+## Notes
+
+* Houses:
+  * If you are making gingerbread houses, you might be tempted to double this recipe in one batch. It may be very hard to mix if doubled.
+* Plant based butter:
+  * In our experience, plant based butter leaves this receipe little dry. Try adding another tablespoon.
+
+## Ingredients
+
+### Dry
+
+* 3 cups all purpose flour
+* 1 1/2 tsp baking powder
+* 3/4 tsp baking soda
+* 1 Tbsp ground ginger
+* 1 3/4 tsp ground cinnamon
+* 1/4 tsp ground cloves
+
+### Wet
+
+* 6 Tbsp unsalted butter
+* 3/4 cup brown sugar
+* 1 egg
+* 1/2 cup molasses
+* 2 tsp vanilla
+
+## Directions
+
+* In small bowl, whisk together **3 cups** flour, **1 1/2 tsp** baking powder, **3/4 tsp** baking soda, **1 Tbsp** ground ginger, **1 3/4 tsp** ground cinnamon, **1/4** tsp ground cloves.
+* In large bowl, beat **6 Tbsp** butter, **3/4 cup** brown sugar, **1** egg on medium until well blended.
+* Add in **1/2 cup** molasses, **2 tsp** vanilla and continue to mix until well blended.
+* Gradually stir in dry ingredients until blended smooth.
+* Divide dough in half, wrap each half in plastic wrap and let stand at room temperature for 2 - 8 hours.
+* Dough can be refrigerated up to 4 days, but return to room temperature before using.
+* Preheat oven to 375 F.
+* Grease or line a cookie sheet with parchment paper.
+* Place a portion of the dough on lightly floured surface.
+* Sprinkle flour over dough and rolling pin.
+* Roll out dough to 1/4 inch thick.
+* Use additional flour to prevent sticking.
+* Cut out cookies with a cutter.
+* Place on cookie sheet, 1/2 inch apart.
+* Bake 1 sheet at a time for 7 - 10 minutes (less time will result in softer cookies).
+* Remove sheet from oven, and allow the cookies to stand for 5 minutes or until they are firm enough to move to a rack.
+* Decorate!
+
+Source: Stella Trask.

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.4.502">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -18,7 +18,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -50,7 +50,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -60,7 +66,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -73,10 +80,10 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       page: 25,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -94,54 +101,55 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="alternate" type="application/rss+xml" title="Flight Family Recipes" href="index.xml"></head>
+<link rel="alternate" type="application/rss+xml" title="Flight Family Recipes" href="index.xml" data-external="1"></head>
 
 <body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Flight Family Recipes</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://github.com/rmflight/recipes/tree/main/old_recipes">
- <span class="menu-text">Old Recipes</span></a>
+    <a class="nav-link" href="https://github.com/rmflight/recipes/tree/main/old_recipes"> 
+<span class="menu-text">Old Recipes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts/welcome/index.html">
- <span class="menu-text">Welcome</span></a>
+    <a class="nav-link" href="./posts/welcome/index.html"> 
+<span class="menu-text">Welcome</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/rmflight/recipes"><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/rmflight/recipes"> <i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./index.xml"><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="./index.xml"> <i class="bi bi-rss" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div class="quarto-toggle-container">
-                  <a href="" class="quarto-color-scheme-toggle nav-link" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-              </div>
-              <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -154,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page-left">
 
       <div>
       <div class="quarto-title-meta-heading">Author</div>
@@ -171,9 +179,10 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
   
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(61)</span></div><div class="category" data-category="apple">apple <span class="quarto-category-count">(2)</span></div><div class="category" data-category="apple cider">apple cider <span class="quarto-category-count">(1)</span></div><div class="category" data-category="baked">baked <span class="quarto-category-count">(7)</span></div><div class="category" data-category="bar">bar <span class="quarto-category-count">(1)</span></div><div class="category" data-category="barley">barley <span class="quarto-category-count">(1)</span></div><div class="category" data-category="beans">beans <span class="quarto-category-count">(2)</span></div><div class="category" data-category="beef">beef <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bread">bread <span class="quarto-category-count">(1)</span></div><div class="category" data-category="breakfast">breakfast <span class="quarto-category-count">(5)</span></div><div class="category" data-category="brownies">brownies <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cake">cake <span class="quarto-category-count">(9)</span></div><div class="category" data-category="carrot">carrot <span class="quarto-category-count">(1)</span></div><div class="category" data-category="casserole">casserole <span class="quarto-category-count">(5)</span></div><div class="category" data-category="cheese">cheese <span class="quarto-category-count">(5)</span></div><div class="category" data-category="cherry">cherry <span class="quarto-category-count">(1)</span></div><div class="category" data-category="chicken">chicken <span class="quarto-category-count">(8)</span></div><div class="category" data-category="chickpea">chickpea <span class="quarto-category-count">(1)</span></div><div class="category" data-category="chocolate">chocolate <span class="quarto-category-count">(3)</span></div><div class="category" data-category="chocolate-chip">chocolate-chip <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cinnamon">cinnamon <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cookie">cookie <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cookies">cookies <span class="quarto-category-count">(4)</span></div><div class="category" data-category="curry">curry <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dessert">dessert <span class="quarto-category-count">(11)</span></div><div class="category" data-category="dip">dip <span class="quarto-category-count">(2)</span></div><div class="category" data-category="donut">donut <span class="quarto-category-count">(1)</span></div><div class="category" data-category="edamame">edamame <span class="quarto-category-count">(1)</span></div><div class="category" data-category="eggs">eggs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="garlic">garlic <span class="quarto-category-count">(1)</span></div><div class="category" data-category="gravy">gravy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="hamburger">hamburger <span class="quarto-category-count">(5)</span></div><div class="category" data-category="icing">icing <span class="quarto-category-count">(3)</span></div><div class="category" data-category="instant-pot">instant-pot <span class="quarto-category-count">(6)</span></div><div class="category" data-category="lactose-free">lactose-free <span class="quarto-category-count">(3)</span></div><div class="category" data-category="main-dish">main-dish <span class="quarto-category-count">(4)</span></div><div class="category" data-category="marinade">marinade <span class="quarto-category-count">(1)</span></div><div class="category" data-category="meat">meat <span class="quarto-category-count">(3)</span></div><div class="category" data-category="meatballs">meatballs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="molasses">molasses <span class="quarto-category-count">(1)</span></div><div class="category" data-category="muffin">muffin <span class="quarto-category-count">(3)</span></div><div class="category" data-category="mushroom">mushroom <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mushrooms">mushrooms <span class="quarto-category-count">(1)</span></div><div class="category" data-category="oatmeal">oatmeal <span class="quarto-category-count">(1)</span></div><div class="category" data-category="pasta">pasta <span class="quarto-category-count">(4)</span></div><div class="category" data-category="peanut butter">peanut butter <span class="quarto-category-count">(1)</span></div><div class="category" data-category="peanut-butter">peanut-butter <span class="quarto-category-count">(1)</span></div><div class="category" data-category="pie">pie <span class="quarto-category-count">(2)</span></div><div class="category" data-category="pizza">pizza <span class="quarto-category-count">(1)</span></div><div class="category" data-category="pork">pork <span class="quarto-category-count">(3)</span></div><div class="category" data-category="pot-pie">pot-pie <span class="quarto-category-count">(1)</span></div><div class="category" data-category="potato">potato <span class="quarto-category-count">(3)</span></div><div class="category" data-category="potatoes">potatoes <span class="quarto-category-count">(2)</span></div><div class="category" data-category="roll">roll <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sandwich">sandwich <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sauce">sauce <span class="quarto-category-count">(5)</span></div><div class="category" data-category="seasonal">seasonal <span class="quarto-category-count">(2)</span></div><div class="category" data-category="side-dish">side-dish <span class="quarto-category-count">(3)</span></div><div class="category" data-category="soup">soup <span class="quarto-category-count">(10)</span></div><div class="category" data-category="sour">sour <span class="quarto-category-count">(1)</span></div><div class="category" data-category="spaghetti">spaghetti <span class="quarto-category-count">(1)</span></div><div class="category" data-category="stew">stew <span class="quarto-category-count">(1)</span></div><div class="category" data-category="strawberry">strawberry <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sweet">sweet <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tomato">tomato <span class="quarto-category-count">(2)</span></div><div class="category" data-category="vegetarian">vegetarian <span class="quarto-category-count">(3)</span></div><div class="category" data-category="wraps">wraps <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(62)</span></div><div class="category" data-category="apple">apple <span class="quarto-category-count">(2)</span></div><div class="category" data-category="apple cider">apple cider <span class="quarto-category-count">(1)</span></div><div class="category" data-category="baked">baked <span class="quarto-category-count">(7)</span></div><div class="category" data-category="bar">bar <span class="quarto-category-count">(1)</span></div><div class="category" data-category="barley">barley <span class="quarto-category-count">(1)</span></div><div class="category" data-category="beans">beans <span class="quarto-category-count">(2)</span></div><div class="category" data-category="beef">beef <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bread">bread <span class="quarto-category-count">(2)</span></div><div class="category" data-category="breakfast">breakfast <span class="quarto-category-count">(5)</span></div><div class="category" data-category="brownies">brownies <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cake">cake <span class="quarto-category-count">(9)</span></div><div class="category" data-category="carrot">carrot <span class="quarto-category-count">(1)</span></div><div class="category" data-category="casserole">casserole <span class="quarto-category-count">(5)</span></div><div class="category" data-category="cheese">cheese <span class="quarto-category-count">(5)</span></div><div class="category" data-category="cherry">cherry <span class="quarto-category-count">(1)</span></div><div class="category" data-category="chicken">chicken <span class="quarto-category-count">(8)</span></div><div class="category" data-category="chickpea">chickpea <span class="quarto-category-count">(1)</span></div><div class="category" data-category="chocolate">chocolate <span class="quarto-category-count">(3)</span></div><div class="category" data-category="chocolate-chip">chocolate-chip <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cinnamon">cinnamon <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cookie">cookie <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cookies">cookies <span class="quarto-category-count">(5)</span></div><div class="category" data-category="curry">curry <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dessert">dessert <span class="quarto-category-count">(12)</span></div><div class="category" data-category="dip">dip <span class="quarto-category-count">(2)</span></div><div class="category" data-category="donut">donut <span class="quarto-category-count">(1)</span></div><div class="category" data-category="edamame">edamame <span class="quarto-category-count">(1)</span></div><div class="category" data-category="eggs">eggs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="garlic">garlic <span class="quarto-category-count">(1)</span></div><div class="category" data-category="gravy">gravy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="hamburger">hamburger <span class="quarto-category-count">(5)</span></div><div class="category" data-category="icing">icing <span class="quarto-category-count">(3)</span></div><div class="category" data-category="instant-pot">instant-pot <span class="quarto-category-count">(6)</span></div><div class="category" data-category="lactose-free">lactose-free <span class="quarto-category-count">(3)</span></div><div class="category" data-category="main-dish">main-dish <span class="quarto-category-count">(4)</span></div><div class="category" data-category="marinade">marinade <span class="quarto-category-count">(1)</span></div><div class="category" data-category="meat">meat <span class="quarto-category-count">(3)</span></div><div class="category" data-category="meatballs">meatballs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="molasses">molasses <span class="quarto-category-count">(1)</span></div><div class="category" data-category="muffin">muffin <span class="quarto-category-count">(3)</span></div><div class="category" data-category="mushroom">mushroom <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mushrooms">mushrooms <span class="quarto-category-count">(1)</span></div><div class="category" data-category="oatmeal">oatmeal <span class="quarto-category-count">(1)</span></div><div class="category" data-category="pasta">pasta <span class="quarto-category-count">(4)</span></div><div class="category" data-category="peanut butter">peanut butter <span class="quarto-category-count">(1)</span></div><div class="category" data-category="peanut-butter">peanut-butter <span class="quarto-category-count">(1)</span></div><div class="category" data-category="pie">pie <span class="quarto-category-count">(2)</span></div><div class="category" data-category="pizza">pizza <span class="quarto-category-count">(1)</span></div><div class="category" data-category="pork">pork <span class="quarto-category-count">(3)</span></div><div class="category" data-category="pot-pie">pot-pie <span class="quarto-category-count">(1)</span></div><div class="category" data-category="potato">potato <span class="quarto-category-count">(3)</span></div><div class="category" data-category="potatoes">potatoes <span class="quarto-category-count">(2)</span></div><div class="category" data-category="roll">roll <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sandwich">sandwich <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sauce">sauce <span class="quarto-category-count">(5)</span></div><div class="category" data-category="seasonal">seasonal <span class="quarto-category-count">(2)</span></div><div class="category" data-category="side-dish">side-dish <span class="quarto-category-count">(3)</span></div><div class="category" data-category="soup">soup <span class="quarto-category-count">(10)</span></div><div class="category" data-category="sour">sour <span class="quarto-category-count">(1)</span></div><div class="category" data-category="spaghetti">spaghetti <span class="quarto-category-count">(1)</span></div><div class="category" data-category="stew">stew <span class="quarto-category-count">(1)</span></div><div class="category" data-category="strawberry">strawberry <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sweet">sweet <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tomato">tomato <span class="quarto-category-count">(2)</span></div><div class="category" data-category="vegetarian">vegetarian <span class="quarto-category-count">(3)</span></div><div class="category" data-category="wraps">wraps <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -184,18 +193,58 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="muffin,strawberry" data-listing-date-sort="1697601600000" data-listing-file-modified-sort="1697674206777" data-listing-reading-time-sort="1.54">
+<div class="quarto-post image-right" data-index="0" data-categories="dessert,bread,cookies" data-listing-date-sort="1703739600000" data-listing-file-modified-sort="1703811917689" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="314">
+<div class="thumbnail">
+<p><a href="./posts/2023-12-28-gingerbread/index.html" class="no-external"></a></p><a href="./posts/2023-12-28-gingerbread/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2023-12-28-gingerbread/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2023-10-18-strawberry-muffins/index.html">
 <h3 class="no-anchor listing-title">
-Strawberry Muffins
+<a href="./posts/2023-12-28-gingerbread/index.html" class="no-external">Gingerbread Cookies</a>
 </h3>
 <div class="listing-subtitle">
-<p>Fresh or frozen strawberries make these a great treat.</p>
+<a href="./posts/2023-12-28-gingerbread/index.html" class="no-external">Cookies, or sheets for houses, either way this is so tasty. </a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('dessert'); return false;">
+dessert
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('bread'); return false;">
+bread
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('cookies'); return false;">
+cookies
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2023-12-28-gingerbread/index.html" class="no-external">Source: Stella Trask.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2023-12-28-gingerbread/index.html" class="no-external">
+<div class="listing-date">
+Dec 28, 2023
 </div>
 </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="muffin,strawberry" data-listing-date-sort="1697601600000" data-listing-file-modified-sort="1697674206777" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="308">
+<div class="thumbnail">
+<p><a href="./posts/2023-10-18-strawberry-muffins/index.html" class="no-external"></a></p><a href="./posts/2023-10-18-strawberry-muffins/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2023-10-18-strawberry-muffins/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2023-10-18-strawberry-muffins/index.html" class="no-external">Strawberry Muffins</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2023-10-18-strawberry-muffins/index.html" class="no-external">Fresh or frozen strawberries make these a great treat. </a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('muffin'); return false;">
 muffin
@@ -204,30 +253,31 @@ muffin
 strawberry
 </div>
 </div>
-<a href="./posts/2023-10-18-strawberry-muffins/index.html">
 <div class="listing-description">
-From Once Upon a Chef.
+<a href="./posts/2023-10-18-strawberry-muffins/index.html" class="no-external">From Once Upon a Chef.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-10-18-strawberry-muffins/index.html">
+<a href="./posts/2023-10-18-strawberry-muffins/index.html" class="no-external">
 <div class="listing-date">
 Oct 18, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="cookies,dessert" data-listing-date-sort="1697515200000" data-listing-file-modified-sort="1697589660041" data-listing-reading-time-sort="2.1">
+<div class="quarto-post image-right" data-index="2" data-categories="cookies,dessert" data-listing-date-sort="1697515200000" data-listing-file-modified-sort="1697589660041" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="420">
+<div class="thumbnail">
+<p><a href="./posts/2023-10-17-double-chocolate-chip-cookies/index.html" class="no-external"></a></p><a href="./posts/2023-10-17-double-chocolate-chip-cookies/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2023-10-17-double-chocolate-chip-cookies/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2023-10-17-double-chocolate-chip-cookies/index.html">
 <h3 class="no-anchor listing-title">
-Double Chocolate Chip Cookies
+<a href="./posts/2023-10-17-double-chocolate-chip-cookies/index.html" class="no-external">Double Chocolate Chip Cookies</a>
 </h3>
 <div class="listing-subtitle">
-<p>These amazing cocoa and chocolate chip cookies are delicious, and relatively easy.</p>
+<a href="./posts/2023-10-17-double-chocolate-chip-cookies/index.html" class="no-external">These amazing cocoa and chocolate chip cookies are delicious, and relatively easy. </a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('cookies'); return false;">
 cookies
@@ -236,30 +286,31 @@ cookies
 dessert
 </div>
 </div>
-<a href="./posts/2023-10-17-double-chocolate-chip-cookies/index.html">
 <div class="listing-description">
-Note that the dough should ideally chill for three hours before baking.
+<a href="./posts/2023-10-17-double-chocolate-chip-cookies/index.html" class="no-external">Note that the dough should ideally chill for three hours before baking.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-10-17-double-chocolate-chip-cookies/index.html">
+<a href="./posts/2023-10-17-double-chocolate-chip-cookies/index.html" class="no-external">
 <div class="listing-date">
 Oct 17, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="dessert,donut,apple cider,apple" data-listing-date-sort="1697515200000" data-listing-file-modified-sort="1697591110034" data-listing-reading-time-sort="2.14">
+<div class="quarto-post image-right" data-index="3" data-categories="dessert,donut,apple cider,apple" data-listing-date-sort="1697515200000" data-listing-file-modified-sort="1697591110034" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="428">
+<div class="thumbnail">
+<p><a href="./posts/2023-10-17-apple-cider-donuts/index.html" class="no-external"></a></p><a href="./posts/2023-10-17-apple-cider-donuts/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2023-10-17-apple-cider-donuts/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2023-10-17-apple-cider-donuts/index.html">
 <h3 class="no-anchor listing-title">
-Apple Cider Donuts
+<a href="./posts/2023-10-17-apple-cider-donuts/index.html" class="no-external">Apple Cider Donuts</a>
 </h3>
 <div class="listing-subtitle">
-<p>These baked donuts are a wonderful fall treat.</p>
+<a href="./posts/2023-10-17-apple-cider-donuts/index.html" class="no-external">These baked donuts are a wonderful fall treat. </a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('dessert'); return false;">
 dessert
@@ -274,30 +325,31 @@ apple cider
 apple
 </div>
 </div>
-<a href="./posts/2023-10-17-apple-cider-donuts/index.html">
 <div class="listing-description">
-Note that you should reduce apple cider first to concentrate it, so allow time for that step.
+<a href="./posts/2023-10-17-apple-cider-donuts/index.html" class="no-external">Note that you should reduce apple cider first to concentrate it, so allow time for that step.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-10-17-apple-cider-donuts/index.html">
+<a href="./posts/2023-10-17-apple-cider-donuts/index.html" class="no-external">
 <div class="listing-date">
 Oct 17, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="sandwich,cheese" data-listing-date-sort="1684641600000" data-listing-file-modified-sort="1684702908316" data-listing-reading-time-sort="0.93">
+<div class="quarto-post image-right" data-index="4" data-categories="sandwich,cheese" data-listing-date-sort="1684641600000" data-listing-file-modified-sort="1684702908316" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="186">
+<div class="thumbnail">
+<p><a href="./posts/2023-05-21-grilled-cheese/index.html" class="no-external"></a></p><a href="./posts/2023-05-21-grilled-cheese/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2023-05-21-grilled-cheese/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2023-05-21-grilled-cheese/index.html">
 <h3 class="no-anchor listing-title">
-Grilled Cheese
+<a href="./posts/2023-05-21-grilled-cheese/index.html" class="no-external">Grilled Cheese</a>
 </h3>
 <div class="listing-subtitle">
-<p>Decadent recipe. Any one part really elevates any given grilled cheese sandwich.</p>
+<a href="./posts/2023-05-21-grilled-cheese/index.html" class="no-external">Decadent recipe. Any one part really elevates any given grilled cheese sandwich. </a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('sandwich'); return false;">
 sandwich
@@ -306,30 +358,31 @@ sandwich
 cheese
 </div>
 </div>
-<a href="./posts/2023-05-21-grilled-cheese/index.html">
 <div class="listing-description">
-Original from: Walt Disney World Resort - Grilled Cheese Sandwich from Toy Story Land
+<a href="./posts/2023-05-21-grilled-cheese/index.html" class="no-external">Original from: Walt Disney World Resort - Grilled Cheese Sandwich from Toy Story Land</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-05-21-grilled-cheese/index.html">
+<a href="./posts/2023-05-21-grilled-cheese/index.html" class="no-external">
 <div class="listing-date">
 May 21, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="soup,potatoes" data-listing-date-sort="1684641600000" data-listing-file-modified-sort="1688132961661" data-listing-reading-time-sort="0.925">
+<div class="quarto-post image-right" data-index="5" data-categories="soup,potatoes" data-listing-date-sort="1684641600000" data-listing-file-modified-sort="1688132961661" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
+<div class="thumbnail">
+<p><a href="./posts/2023-05-21-instant-pot-potato-soup/index.html" class="no-external"></a></p><a href="./posts/2023-05-21-instant-pot-potato-soup/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2023-05-21-instant-pot-potato-soup/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2023-05-21-instant-pot-potato-soup/index.html">
 <h3 class="no-anchor listing-title">
-Instant Pot Potato Soup
+<a href="./posts/2023-05-21-instant-pot-potato-soup/index.html" class="no-external">Instant Pot Potato Soup</a>
 </h3>
 <div class="listing-subtitle">
-<p>Quick, tasty potato soup. No heavy cream involved!</p>
+<a href="./posts/2023-05-21-instant-pot-potato-soup/index.html" class="no-external">Quick, tasty potato soup. No heavy cream involved! </a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('soup'); return false;">
 soup
@@ -338,30 +391,31 @@ soup
 potatoes
 </div>
 </div>
-<a href="./posts/2023-05-21-instant-pot-potato-soup/index.html">
 <div class="listing-description">
-Original source: A Couple Cooks - Best Instant Pot Potato Soup
+<a href="./posts/2023-05-21-instant-pot-potato-soup/index.html" class="no-external">Original source: A Couple Cooks - Best Instant Pot Potato Soup</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-05-21-instant-pot-potato-soup/index.html">
+<a href="./posts/2023-05-21-instant-pot-potato-soup/index.html" class="no-external">
 <div class="listing-date">
 May 21, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="dessert,chocolate" data-listing-date-sort="1683691200000" data-listing-file-modified-sort="1683769729873" data-listing-reading-time-sort="0.62">
+<div class="quarto-post image-right" data-index="6" data-categories="dessert,chocolate" data-listing-date-sort="1683691200000" data-listing-file-modified-sort="1683769729873" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
+<div class="thumbnail">
+<p><a href="./posts/2023-05-10-chocolate-peanut-butter-balls/index.html" class="no-external"></a></p><a href="./posts/2023-05-10-chocolate-peanut-butter-balls/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2023-05-10-chocolate-peanut-butter-balls/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2023-05-10-chocolate-peanut-butter-balls/index.html">
 <h3 class="no-anchor listing-title">
-Chocolate Peanut Butter Balls
+<a href="./posts/2023-05-10-chocolate-peanut-butter-balls/index.html" class="no-external">Chocolate Peanut Butter Balls</a>
 </h3>
 <div class="listing-subtitle">
-<p>Wonderful rich dessert.</p>
+<a href="./posts/2023-05-10-chocolate-peanut-butter-balls/index.html" class="no-external">Wonderful rich dessert. </a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('dessert'); return false;">
 dessert
@@ -370,30 +424,31 @@ dessert
 chocolate
 </div>
 </div>
-<a href="./posts/2023-05-10-chocolate-peanut-butter-balls/index.html">
 <div class="listing-description">
-Source: Stella Trask
+<a href="./posts/2023-05-10-chocolate-peanut-butter-balls/index.html" class="no-external">Source: Stella Trask</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-05-10-chocolate-peanut-butter-balls/index.html">
+<a href="./posts/2023-05-10-chocolate-peanut-butter-balls/index.html" class="no-external">
 <div class="listing-date">
 May 10, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="cookies,dessert" data-listing-date-sort="1683691200000" data-listing-file-modified-sort="1683766270476" data-listing-reading-time-sort="0.755">
+<div class="quarto-post image-right" data-index="7" data-categories="cookies,dessert" data-listing-date-sort="1683691200000" data-listing-file-modified-sort="1683766270476" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="151">
+<div class="thumbnail">
+<p><a href="./posts/2023-05-10-sugar-cookies/index.html" class="no-external"></a></p><a href="./posts/2023-05-10-sugar-cookies/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2023-05-10-sugar-cookies/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2023-05-10-sugar-cookies/index.html">
 <h3 class="no-anchor listing-title">
-Sugar Cookies
+<a href="./posts/2023-05-10-sugar-cookies/index.html" class="no-external">Sugar Cookies</a>
 </h3>
 <div class="listing-subtitle">
-<p>Wonderful cookies for decorating and dressing up at any time of year.</p>
+<a href="./posts/2023-05-10-sugar-cookies/index.html" class="no-external">Wonderful cookies for decorating and dressing up at any time of year. </a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('cookies'); return false;">
 cookies
@@ -402,30 +457,31 @@ cookies
 dessert
 </div>
 </div>
-<a href="./posts/2023-05-10-sugar-cookies/index.html">
 <div class="listing-description">
-Source: Stella Trask
+<a href="./posts/2023-05-10-sugar-cookies/index.html" class="no-external">Source: Stella Trask</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-05-10-sugar-cookies/index.html">
+<a href="./posts/2023-05-10-sugar-cookies/index.html" class="no-external">
 <div class="listing-date">
 May 10, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="cookie,dessert" data-listing-date-sort="1683691200000" data-listing-file-modified-sort="1683764492935" data-listing-reading-time-sort="0.67">
+<div class="quarto-post image-right" data-index="8" data-categories="cookie,dessert" data-listing-date-sort="1683691200000" data-listing-file-modified-sort="1683764492935" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="134">
+<div class="thumbnail">
+<p><a href="./posts/2023-05-10-cracked-top-molasses-cookies/index.html" class="no-external"></a></p><a href="./posts/2023-05-10-cracked-top-molasses-cookies/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2023-05-10-cracked-top-molasses-cookies/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2023-05-10-cracked-top-molasses-cookies/index.html">
 <h3 class="no-anchor listing-title">
-Cracked Top Molasses Cookies
+<a href="./posts/2023-05-10-cracked-top-molasses-cookies/index.html" class="no-external">Cracked Top Molasses Cookies</a>
 </h3>
 <div class="listing-subtitle">
-<p>Molasses makes these sweet with a nice bite.</p>
+<a href="./posts/2023-05-10-cracked-top-molasses-cookies/index.html" class="no-external">Molasses makes these sweet with a nice bite. </a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('cookie'); return false;">
 cookie
@@ -434,30 +490,31 @@ cookie
 dessert
 </div>
 </div>
-<a href="./posts/2023-05-10-cracked-top-molasses-cookies/index.html">
 <div class="listing-description">
-Source: Stella Trask
+<a href="./posts/2023-05-10-cracked-top-molasses-cookies/index.html" class="no-external">Source: Stella Trask</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-05-10-cracked-top-molasses-cookies/index.html">
+<a href="./posts/2023-05-10-cracked-top-molasses-cookies/index.html" class="no-external">
 <div class="listing-date">
 May 10, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="bread,dessert" data-listing-date-sort="1683259200000" data-listing-file-modified-sort="1683327879442" data-listing-reading-time-sort="0.415">
+<div class="quarto-post image-right" data-index="9" data-categories="bread,dessert" data-listing-date-sort="1683259200000" data-listing-file-modified-sort="1683327879442" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="83">
+<div class="thumbnail">
+<p><a href="./posts/2023-05-05-banana-bread/index.html" class="no-external"></a></p><a href="./posts/2023-05-05-banana-bread/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2023-05-05-banana-bread/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2023-05-05-banana-bread/index.html">
 <h3 class="no-anchor listing-title">
-Banana Bread
+<a href="./posts/2023-05-05-banana-bread/index.html" class="no-external">Banana Bread</a>
 </h3>
 <div class="listing-subtitle">
-<p>Classic banana bread.</p>
+<a href="./posts/2023-05-05-banana-bread/index.html" class="no-external">Classic banana bread. </a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('bread'); return false;">
 bread
@@ -466,30 +523,42 @@ bread
 dessert
 </div>
 </div>
-<a href="./posts/2023-05-05-banana-bread/index.html">
 <div class="listing-description">
+<a href="./posts/2023-05-05-banana-bread/index.html" class="no-external">
 
-</div>
+<ul>
+<li>1 cup white sugar</li>
+<li>4 tbsp or 1/4 cup melted butter</li>
+<li>2 eggs</li>
+<li>3 bananas</li>
+<li>1 1/2 cup flour</li>
+<li>1 tsp baking soda</li>
+<li>1 cup semi-sweet chocolate baking chips (optional)</li>
+</ul>
 </a>
 </div>
+</div>
 <div class="metadata">
-<a href="./posts/2023-05-05-banana-bread/index.html">
+<a href="./posts/2023-05-05-banana-bread/index.html" class="no-external">
 <div class="listing-date">
 May 5, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="cake,dessert" data-listing-date-sort="1683259200000" data-listing-file-modified-sort="1683763788757" data-listing-reading-time-sort="0.72">
+<div class="quarto-post image-right" data-index="10" data-categories="cake,dessert" data-listing-date-sort="1683259200000" data-listing-file-modified-sort="1683763788757" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="144">
+<div class="thumbnail">
+<p><a href="./posts/2023-05-05-vanilla-cake/index.html" class="no-external"></a></p><a href="./posts/2023-05-05-vanilla-cake/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2023-05-05-vanilla-cake/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2023-05-05-vanilla-cake/index.html">
 <h3 class="no-anchor listing-title">
-Vanilla Cake
+<a href="./posts/2023-05-05-vanilla-cake/index.html" class="no-external">Vanilla Cake</a>
 </h3>
 <div class="listing-subtitle">
-<p>Moist, delicious vanilla cake.</p>
+<a href="./posts/2023-05-05-vanilla-cake/index.html" class="no-external">Moist, delicious vanilla cake. </a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('cake'); return false;">
 cake
@@ -498,115 +567,162 @@ cake
 dessert
 </div>
 </div>
-<a href="./posts/2023-05-05-vanilla-cake/index.html">
 <div class="listing-description">
+<a href="./posts/2023-05-05-vanilla-cake/index.html" class="no-external">
 
+<ul>
+<li>2 1/2 cups flour</li>
+<li>2 1/2 tsp baking powder</li>
+<li>1 small box of dry instant french vanilla <strong>or</strong> vanilla pudding mix</li>
+<li>1 1/2 cups white sugar</li>
+<li>1 cup french vanilla coffee creamer</li>
+<li>1/2…</li><li></li><li></li><li></li><li></li></ul></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-05-05-vanilla-cake/index.html">
+<a href="./posts/2023-05-05-vanilla-cake/index.html" class="no-external">
 <div class="listing-date">
 May 5, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="" data-listing-date-sort="1683259200000" data-listing-file-modified-sort="1683336121805" data-listing-reading-time-sort="1.065">
+<div class="quarto-post image-right" data-index="11" data-categories="" data-listing-date-sort="1683259200000" data-listing-file-modified-sort="1683336121805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="213">
+<div class="thumbnail">
+<p><a href="./posts/2023-05-05-pumpkin-cheese-cake/index.html" class="no-external"></a></p><a href="./posts/2023-05-05-pumpkin-cheese-cake/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2023-05-05-pumpkin-cheese-cake/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2023-05-05-pumpkin-cheese-cake/index.html">
 <h3 class="no-anchor listing-title">
-Pumpkin Cheese Cake
+<a href="./posts/2023-05-05-pumpkin-cheese-cake/index.html" class="no-external">Pumpkin Cheese Cake</a>
 </h3>
 <div class="listing-subtitle">
-<p>Delicious cheesecake good for any time of year!</p>
+<a href="./posts/2023-05-05-pumpkin-cheese-cake/index.html" class="no-external">Delicious cheesecake good for any time of year! </a>
 </div>
-</a>
 <div class="listing-categories">
 
 </div>
-<a href="./posts/2023-05-05-pumpkin-cheese-cake/index.html">
 <div class="listing-description">
+<a href="./posts/2023-05-05-pumpkin-cheese-cake/index.html" class="no-external">
 
+<section id="crust" class="level3">
+
+<ul>
+<li>1 3/4 cups graham cracker crumbs</li>
+<li>3 tbsp light brown sugar</li>
+<li>1/2 tsp ground cinnamon</li>
+<li>1/2 cup melted butter</li>
+</ul>
+</section>
+<section id="cake" class="level3">
+
+<ul>
+<li>8oz x 3 packages cream cheese, at room temperature</li>
+<li>15oz can…</li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul></section></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-05-05-pumpkin-cheese-cake/index.html">
+<a href="./posts/2023-05-05-pumpkin-cheese-cake/index.html" class="no-external">
 <div class="listing-date">
 May 5, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="dip" data-listing-date-sort="1683172800000" data-listing-file-modified-sort="1683244572326" data-listing-reading-time-sort="0.545">
+<div class="quarto-post image-right" data-index="12" data-categories="dip" data-listing-date-sort="1683172800000" data-listing-file-modified-sort="1683244572326" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="109">
+<div class="thumbnail">
+<p><a href="./posts/2023-05-04-taco-dip/index.html" class="no-external"></a></p><a href="./posts/2023-05-04-taco-dip/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2023-05-04-taco-dip/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2023-05-04-taco-dip/index.html">
 <h3 class="no-anchor listing-title">
-Taco Dip
+<a href="./posts/2023-05-04-taco-dip/index.html" class="no-external">Taco Dip</a>
 </h3>
 <div class="listing-subtitle">
-<p>A nice dip for a party!</p>
+<a href="./posts/2023-05-04-taco-dip/index.html" class="no-external">A nice dip for a party! </a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('dip'); return false;">
 dip
 </div>
 </div>
-<a href="./posts/2023-05-04-taco-dip/index.html">
 <div class="listing-description">
+<a href="./posts/2023-05-04-taco-dip/index.html" class="no-external">
 
-</div>
+<ul>
+<li>1 lb ground beef</li>
+<li>1 pkg taco seasoning (Old El Paso or similar)</li>
+<li>1 cup sour cream</li>
+<li>2 cups salsa (your preference)</li>
+<li>1 cup Tex Mex cheese</li>
+<li>Slices of green onion to garnish</li>
+</ul>
 </a>
 </div>
+</div>
 <div class="metadata">
-<a href="./posts/2023-05-04-taco-dip/index.html">
+<a href="./posts/2023-05-04-taco-dip/index.html" class="no-external">
 <div class="listing-date">
 May 4, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="dip" data-listing-date-sort="1683172800000" data-listing-file-modified-sort="1683245135242" data-listing-reading-time-sort="0.595">
+<div class="quarto-post image-right" data-index="13" data-categories="dip" data-listing-date-sort="1683172800000" data-listing-file-modified-sort="1683245135242" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="119">
+<div class="thumbnail">
+<p><a href="./posts/2023-05-04-cold-taco-dip/index.html" class="no-external"></a></p><a href="./posts/2023-05-04-cold-taco-dip/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2023-05-04-cold-taco-dip/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2023-05-04-cold-taco-dip/index.html">
 <h3 class="no-anchor listing-title">
-Cold Taco Dip
+<a href="./posts/2023-05-04-cold-taco-dip/index.html" class="no-external">Cold Taco Dip</a>
 </h3>
 <div class="listing-subtitle">
-<p>Like a cold taco, goes great with nacho’s.</p>
+<a href="./posts/2023-05-04-cold-taco-dip/index.html" class="no-external">Like a cold taco, goes great with nacho’s. </a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('dip'); return false;">
 dip
 </div>
 </div>
-<a href="./posts/2023-05-04-cold-taco-dip/index.html">
 <div class="listing-description">
+<a href="./posts/2023-05-04-cold-taco-dip/index.html" class="no-external">
 
-</div>
+<ul>
+<li>1 lb of ground beef</li>
+<li>1 1/1 cups salsa</li>
+<li>8 oz cream cheese, softened</li>
+<li>1 cup sour cream</li>
+<li>1 package taco seasoning</li>
+<li>1 cup shredded cheese</li>
+</ul>
 </a>
 </div>
+</div>
 <div class="metadata">
-<a href="./posts/2023-05-04-cold-taco-dip/index.html">
+<a href="./posts/2023-05-04-cold-taco-dip/index.html" class="no-external">
 <div class="listing-date">
 May 4, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="cookies,dessert" data-listing-date-sort="1683172800000" data-listing-file-modified-sort="1683245843027" data-listing-reading-time-sort="0.455">
+<div class="quarto-post image-right" data-index="14" data-categories="cookies,dessert" data-listing-date-sort="1683172800000" data-listing-file-modified-sort="1683245843027" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="91">
+<div class="thumbnail">
+<p><a href="./posts/2023-05-04-peanut-butter-cookies/index.html" class="no-external"></a></p><a href="./posts/2023-05-04-peanut-butter-cookies/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2023-05-04-peanut-butter-cookies/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2023-05-04-peanut-butter-cookies/index.html">
 <h3 class="no-anchor listing-title">
-Peanut Butter Cookies
+<a href="./posts/2023-05-04-peanut-butter-cookies/index.html" class="no-external">Peanut Butter Cookies</a>
 </h3>
 <div class="listing-subtitle">
-<p>Classic peanut butter cookies.</p>
+<a href="./posts/2023-05-04-peanut-butter-cookies/index.html" class="no-external">Classic peanut butter cookies. </a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('cookies'); return false;">
 cookies
@@ -615,30 +731,43 @@ cookies
 dessert
 </div>
 </div>
-<a href="./posts/2023-05-04-peanut-butter-cookies/index.html">
 <div class="listing-description">
+<a href="./posts/2023-05-04-peanut-butter-cookies/index.html" class="no-external">
 
-</div>
+<ul>
+<li>1 cup butter, softened</li>
+<li>1 cup white sugar</li>
+<li>1 cup brown sugar</li>
+<li>2 eggs</li>
+<li>1 cup peanut butter</li>
+<li>2 cups flour</li>
+<li>2 tsp baking soda</li>
+<li>1/4 tsp salt (optional)</li>
+</ul>
 </a>
 </div>
+</div>
 <div class="metadata">
-<a href="./posts/2023-05-04-peanut-butter-cookies/index.html">
+<a href="./posts/2023-05-04-peanut-butter-cookies/index.html" class="no-external">
 <div class="listing-date">
 May 4, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="dessert,cookie" data-listing-date-sort="1683000000000" data-listing-file-modified-sort="1683075137194" data-listing-reading-time-sort="0.645">
+<div class="quarto-post image-right" data-index="15" data-categories="dessert,cookie" data-listing-date-sort="1683000000000" data-listing-file-modified-sort="1683075137194" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="129">
+<div class="thumbnail">
+<p><a href="./posts/2023-05-02-chocolate-chip-cookies/index.html" class="no-external"></a></p><a href="./posts/2023-05-02-chocolate-chip-cookies/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2023-05-02-chocolate-chip-cookies/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2023-05-02-chocolate-chip-cookies/index.html">
 <h3 class="no-anchor listing-title">
-Chocolate Chip Cookies
+<a href="./posts/2023-05-02-chocolate-chip-cookies/index.html" class="no-external">Chocolate Chip Cookies</a>
 </h3>
 <div class="listing-subtitle">
-<p>Simple, chocolate chip cookies.</p>
+<a href="./posts/2023-05-02-chocolate-chip-cookies/index.html" class="no-external">Simple, chocolate chip cookies. </a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('dessert'); return false;">
 dessert
@@ -647,81 +776,95 @@ dessert
 cookie
 </div>
 </div>
-<a href="./posts/2023-05-02-chocolate-chip-cookies/index.html">
 <div class="listing-description">
-Source: Stella Trask
+<a href="./posts/2023-05-02-chocolate-chip-cookies/index.html" class="no-external">Source: Stella Trask</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-05-02-chocolate-chip-cookies/index.html">
+<a href="./posts/2023-05-02-chocolate-chip-cookies/index.html" class="no-external">
 <div class="listing-date">
 May 2, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="peanut butter" data-listing-date-sort="1683000000000" data-listing-file-modified-sort="1683078188103" data-listing-reading-time-sort="0.27">
+<div class="quarto-post image-right" data-index="16" data-categories="peanut butter" data-listing-date-sort="1683000000000" data-listing-file-modified-sort="1683078188103" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
+<div class="thumbnail">
+<p><a href="./posts/2023-05-02-peanut-butter-fudge/index.html" class="no-external"></a></p><a href="./posts/2023-05-02-peanut-butter-fudge/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2023-05-02-peanut-butter-fudge/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2023-05-02-peanut-butter-fudge/index.html">
 <h3 class="no-anchor listing-title">
-Peanut Butter Fudge
+<a href="./posts/2023-05-02-peanut-butter-fudge/index.html" class="no-external">Peanut Butter Fudge</a>
 </h3>
 <div class="listing-subtitle">
-<p>Simple fudge.</p>
+<a href="./posts/2023-05-02-peanut-butter-fudge/index.html" class="no-external">Simple fudge. </a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('peanut butter'); return false;">
 peanut butter
 </div>
 </div>
-<a href="./posts/2023-05-02-peanut-butter-fudge/index.html">
 <div class="listing-description">
+<a href="./posts/2023-05-02-peanut-butter-fudge/index.html" class="no-external">
 
-</div>
+<ul>
+<li>1 cup butter</li>
+<li>1 cup peanut butter</li>
+<li>1 tsp vanilla</li>
+<li>3 1/2 cup icing sugar</li>
+<li>1 tsp flour</li>
+</ul>
 </a>
 </div>
+</div>
 <div class="metadata">
-<a href="./posts/2023-05-02-peanut-butter-fudge/index.html">
+<a href="./posts/2023-05-02-peanut-butter-fudge/index.html" class="no-external">
 <div class="listing-date">
 May 2, 2023
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-listing-date-sort="1659844800000" data-listing-file-modified-sort="1682992752543" data-listing-reading-time-sort="1.715">
+<div class="quarto-post image-right" data-index="17" data-listing-date-sort="1659844800000" data-listing-file-modified-sort="1682992752543" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="343">
+<div class="thumbnail">
+<p><a href="./posts/2022-08-07-butter/index.html" class="no-external"></a></p><a href="./posts/2022-08-07-butter/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2022-08-07-butter/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2022-08-07-butter/index.html">
 <h3 class="no-anchor listing-title">
-Butter and Butter Substitutes
+<a href="./posts/2022-08-07-butter/index.html" class="no-external">Butter and Butter Substitutes</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-08-07-butter/index.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p>What types of butter we typically use, and how we substitute different things in depending on the recipe.</p>
+<a href="./posts/2022-08-07-butter/index.html" class="no-external">What types of butter we typically use, and how we substitute different things in depending on the recipe. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-08-07-butter/index.html">
+<a href="./posts/2022-08-07-butter/index.html" class="no-external">
 <div class="listing-date">
 Aug 7, 2022
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="soup,vegetarian" data-listing-date-sort="1658376000000" data-listing-file-modified-sort="1682992730971" data-listing-reading-time-sort="1.07">
+<div class="quarto-post image-right" data-index="18" data-categories="soup,vegetarian" data-listing-date-sort="1658376000000" data-listing-file-modified-sort="1682992730971" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="214">
+<div class="thumbnail">
+<p><a href="./posts/2022-07-21-chickpea-orzo-soup/index.html" class="no-external"></a></p><a href="./posts/2022-07-21-chickpea-orzo-soup/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2022-07-21-chickpea-orzo-soup/chickpea_soup.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022-07-21-chickpea-orzo-soup/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2022-07-21-chickpea-orzo-soup/index.html">
 <h3 class="no-anchor listing-title">
-Chickpea Orzo Soup
+<a href="./posts/2022-07-21-chickpea-orzo-soup/index.html" class="no-external">Chickpea Orzo Soup</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-07-21-chickpea-orzo-soup/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('soup'); return false;">
 soup
@@ -730,30 +873,31 @@ soup
 vegetarian
 </div>
 </div>
-<a href="./posts/2022-07-21-chickpea-orzo-soup/index.html">
 <div class="listing-description">
-<p>Filling vegetarian soup.</p>
+<a href="./posts/2022-07-21-chickpea-orzo-soup/index.html" class="no-external">Filling vegetarian soup. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-07-21-chickpea-orzo-soup/index.html">
+<a href="./posts/2022-07-21-chickpea-orzo-soup/index.html" class="no-external">
 <div class="listing-date">
 Jul 21, 2022
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="hamburger,tomato" data-listing-date-sort="1656820800000" data-listing-file-modified-sort="1683078458036" data-listing-reading-time-sort="0.995">
+<div class="quarto-post image-right" data-index="19" data-categories="hamburger,tomato" data-listing-date-sort="1656820800000" data-listing-file-modified-sort="1683078458036" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="199">
+<div class="thumbnail">
+<p><a href="./posts/2022-07-03-chili/index.html" class="no-external"></a></p><a href="./posts/2022-07-03-chili/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2022-07-03-chili/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2022-07-03-chili/index.html">
 <h3 class="no-anchor listing-title">
-Chili
+<a href="./posts/2022-07-03-chili/index.html" class="no-external">Chili</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-07-03-chili/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('hamburger'); return false;">
 hamburger
@@ -762,30 +906,31 @@ hamburger
 tomato
 </div>
 </div>
-<a href="./posts/2022-07-03-chili/index.html">
 <div class="listing-description">
-<p>Ground beef, kidney beans, tomatos and some spice!</p>
+<a href="./posts/2022-07-03-chili/index.html" class="no-external">Ground beef, kidney beans, tomatos and some spice! </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-07-03-chili/index.html">
+<a href="./posts/2022-07-03-chili/index.html" class="no-external">
 <div class="listing-date">
 Jul 3, 2022
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="side-dish,baked" data-listing-date-sort="1649304000000" data-listing-file-modified-sort="1682992677535" data-listing-reading-time-sort="0.645">
+<div class="quarto-post image-right" data-index="20" data-categories="side-dish,baked" data-listing-date-sort="1649304000000" data-listing-file-modified-sort="1682992677535" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="129">
+<div class="thumbnail">
+<p><a href="./posts/2022-04-07-roasted-sweet-potatoes/index.html" class="no-external"></a></p><a href="./posts/2022-04-07-roasted-sweet-potatoes/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2022-04-07-roasted-sweet-potatoes/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2022-04-07-roasted-sweet-potatoes/index.html">
 <h3 class="no-anchor listing-title">
-Roasted Sweet Potatoes
+<a href="./posts/2022-04-07-roasted-sweet-potatoes/index.html" class="no-external">Roasted Sweet Potatoes</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-04-07-roasted-sweet-potatoes/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('side-dish'); return false;">
 side-dish
@@ -794,30 +939,31 @@ side-dish
 baked
 </div>
 </div>
-<a href="./posts/2022-04-07-roasted-sweet-potatoes/index.html">
 <div class="listing-description">
-<p>Deliciously tart sweet potatoes.</p>
+<a href="./posts/2022-04-07-roasted-sweet-potatoes/index.html" class="no-external">Deliciously tart sweet potatoes. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-04-07-roasted-sweet-potatoes/index.html">
+<a href="./posts/2022-04-07-roasted-sweet-potatoes/index.html" class="no-external">
 <div class="listing-date">
 Apr 7, 2022
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="vegetarian,soup,main-dish,barley,edamame,instant-pot" data-listing-date-sort="1649131200000" data-listing-file-modified-sort="1682992644283" data-listing-reading-time-sort="1.29">
+<div class="quarto-post image-right" data-index="21" data-categories="vegetarian,soup,main-dish,barley,edamame,instant-pot" data-listing-date-sort="1649131200000" data-listing-file-modified-sort="1682992644283" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="258">
+<div class="thumbnail">
+<p><a href="./posts/2022-04-05-vegetable-barley-soup/index.html" class="no-external"></a></p><a href="./posts/2022-04-05-vegetable-barley-soup/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2022-04-05-vegetable-barley-soup/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2022-04-05-vegetable-barley-soup/index.html">
 <h3 class="no-anchor listing-title">
-Vegetable Barley Soup
+<a href="./posts/2022-04-05-vegetable-barley-soup/index.html" class="no-external">Vegetable Barley Soup</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-04-05-vegetable-barley-soup/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('vegetarian'); return false;">
 vegetarian
@@ -838,30 +984,31 @@ edamame
 instant-pot
 </div>
 </div>
-<a href="./posts/2022-04-05-vegetable-barley-soup/index.html">
 <div class="listing-description">
-<p>Quick and Easy Vegetable Barley Soup in the Instant Pot</p>
+<a href="./posts/2022-04-05-vegetable-barley-soup/index.html" class="no-external">Quick and Easy Vegetable Barley Soup in the Instant Pot </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-04-05-vegetable-barley-soup/index.html">
+<a href="./posts/2022-04-05-vegetable-barley-soup/index.html" class="no-external">
 <div class="listing-date">
 Apr 5, 2022
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="muffin,chocolate-chip,breakfast" data-listing-date-sort="1644642000000" data-listing-file-modified-sort="1682992617551" data-listing-reading-time-sort="0.825">
+<div class="quarto-post image-right" data-index="22" data-categories="muffin,chocolate-chip,breakfast" data-listing-date-sort="1644642000000" data-listing-file-modified-sort="1682992617551" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
+<div class="thumbnail">
+<p><a href="./posts/2022-02-12-chocolate-chip-muffins/index.html" class="no-external"></a></p><a href="./posts/2022-02-12-chocolate-chip-muffins/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2022-02-12-chocolate-chip-muffins/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2022-02-12-chocolate-chip-muffins/index.html">
 <h3 class="no-anchor listing-title">
-Chocolate Chip Muffins
+<a href="./posts/2022-02-12-chocolate-chip-muffins/index.html" class="no-external">Chocolate Chip Muffins</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-02-12-chocolate-chip-muffins/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('muffin'); return false;">
 muffin
@@ -873,59 +1020,61 @@ chocolate-chip
 breakfast
 </div>
 </div>
-<a href="./posts/2022-02-12-chocolate-chip-muffins/index.html">
 <div class="listing-description">
-<p>Tasty chocolate chip muffins.</p>
+<a href="./posts/2022-02-12-chocolate-chip-muffins/index.html" class="no-external">Tasty chocolate chip muffins. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-02-12-chocolate-chip-muffins/index.html">
+<a href="./posts/2022-02-12-chocolate-chip-muffins/index.html" class="no-external">
 <div class="listing-date">
 Feb 12, 2022
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="22" data-categories="eggs" data-listing-date-sort="1642309200000" data-listing-file-modified-sort="1682992595479" data-listing-reading-time-sort="0.735">
+<div class="quarto-post image-right" data-index="23" data-categories="eggs" data-listing-date-sort="1642309200000" data-listing-file-modified-sort="1682992595479" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
+<div class="thumbnail">
+<p><a href="./posts/2022-01-16-quiche/index.html" class="no-external"></a></p><a href="./posts/2022-01-16-quiche/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2022-01-16-quiche/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2022-01-16-quiche/index.html">
 <h3 class="no-anchor listing-title">
-Quiche
+<a href="./posts/2022-01-16-quiche/index.html" class="no-external">Quiche</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-01-16-quiche/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('eggs'); return false;">
 eggs
 </div>
 </div>
-<a href="./posts/2022-01-16-quiche/index.html">
 <div class="listing-description">
-<p>Eggs, milk, spices and some ham makes a delicious lunch or dinner.</p>
+<a href="./posts/2022-01-16-quiche/index.html" class="no-external">Eggs, milk, spices and some ham makes a delicious lunch or dinner. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-01-16-quiche/index.html">
+<a href="./posts/2022-01-16-quiche/index.html" class="no-external">
 <div class="listing-date">
 Jan 16, 2022
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="23" data-categories="cheese,gravy,side-dish" data-listing-date-sort="1641531600000" data-listing-file-modified-sort="1682992570902" data-listing-reading-time-sort="0.75">
+<div class="quarto-post image-right" data-index="24" data-categories="cheese,gravy,side-dish" data-listing-date-sort="1641531600000" data-listing-file-modified-sort="1682992570902" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="150">
+<div class="thumbnail">
+<p><a href="./posts/2022-01-07-poutine-gravy/index.html" class="no-external"></a></p><a href="./posts/2022-01-07-poutine-gravy/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2022-01-07-poutine-gravy/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2022-01-07-poutine-gravy/index.html">
 <h3 class="no-anchor listing-title">
-Poutine Gravy
+<a href="./posts/2022-01-07-poutine-gravy/index.html" class="no-external">Poutine Gravy</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-01-07-poutine-gravy/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('cheese'); return false;">
 cheese
@@ -937,30 +1086,31 @@ gravy
 side-dish
 </div>
 </div>
-<a href="./posts/2022-01-07-poutine-gravy/index.html">
 <div class="listing-description">
-<p>Nice tasting gravy to go on your french fries and cheese.</p>
+<a href="./posts/2022-01-07-poutine-gravy/index.html" class="no-external">Nice tasting gravy to go on your french fries and cheese. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-01-07-poutine-gravy/index.html">
+<a href="./posts/2022-01-07-poutine-gravy/index.html" class="no-external">
 <div class="listing-date">
 Jan 7, 2022
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="24" data-categories="cake,seasonal,cherry" data-listing-date-sort="1639198800000" data-listing-file-modified-sort="1682992518830" data-listing-reading-time-sort="0.625">
+<div class="quarto-post image-right" data-index="25" data-categories="cake,seasonal,cherry" data-listing-date-sort="1639198800000" data-listing-file-modified-sort="1682992518830" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="125">
+<div class="thumbnail">
+<p><a href="./posts/2021-12-11-cherry-pound-cake/index.html" class="no-external"></a></p><a href="./posts/2021-12-11-cherry-pound-cake/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-12-11-cherry-pound-cake/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-12-11-cherry-pound-cake/index.html">
 <h3 class="no-anchor listing-title">
-Cherry Pound Cake
+<a href="./posts/2021-12-11-cherry-pound-cake/index.html" class="no-external">Cherry Pound Cake</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-12-11-cherry-pound-cake/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('cake'); return false;">
 cake
@@ -972,30 +1122,31 @@ seasonal
 cherry
 </div>
 </div>
-<a href="./posts/2021-12-11-cherry-pound-cake/index.html">
 <div class="listing-description">
-<p>Seasonal favorite with red and green glaced cherries.</p>
+<a href="./posts/2021-12-11-cherry-pound-cake/index.html" class="no-external">Seasonal favorite with red and green glaced cherries. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-12-11-cherry-pound-cake/index.html">
+<a href="./posts/2021-12-11-cherry-pound-cake/index.html" class="no-external">
 <div class="listing-date">
 Dec 11, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="25" data-categories="cake,seasonal" data-listing-date-sort="1639198800000" data-listing-file-modified-sort="1682992546866" data-listing-reading-time-sort="0.81">
+<div class="quarto-post image-right" data-index="26" data-categories="cake,seasonal" data-listing-date-sort="1639198800000" data-listing-file-modified-sort="1682992546866" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="162">
+<div class="thumbnail">
+<p><a href="./posts/2021-12-11-gum-drop-cake/index.html" class="no-external"></a></p><a href="./posts/2021-12-11-gum-drop-cake/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-12-11-gum-drop-cake/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-12-11-gum-drop-cake/index.html">
 <h3 class="no-anchor listing-title">
-Gum Drop Cake
+<a href="./posts/2021-12-11-gum-drop-cake/index.html" class="no-external">Gum Drop Cake</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-12-11-gum-drop-cake/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('cake'); return false;">
 cake
@@ -1004,30 +1155,31 @@ cake
 seasonal
 </div>
 </div>
-<a href="./posts/2021-12-11-gum-drop-cake/index.html">
 <div class="listing-description">
-<p>A christmas time favorite, cake and gum-drop candies!</p>
+<a href="./posts/2021-12-11-gum-drop-cake/index.html" class="no-external">A christmas time favorite, cake and gum-drop candies! </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-12-11-gum-drop-cake/index.html">
+<a href="./posts/2021-12-11-gum-drop-cake/index.html" class="no-external">
 <div class="listing-date">
 Dec 11, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="26" data-categories="icing,cake" data-listing-date-sort="1636866000000" data-listing-file-modified-sort="1682992498086" data-listing-reading-time-sort="0.265">
+<div class="quarto-post image-right" data-index="27" data-categories="icing,cake" data-listing-date-sort="1636866000000" data-listing-file-modified-sort="1682992498086" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="53">
+<div class="thumbnail">
+<p><a href="./posts/2021-11-14-cream-cheese-icing/index.html" class="no-external"></a></p><a href="./posts/2021-11-14-cream-cheese-icing/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-11-14-cream-cheese-icing/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-11-14-cream-cheese-icing/index.html">
 <h3 class="no-anchor listing-title">
-Cream Cheese Icing
+<a href="./posts/2021-11-14-cream-cheese-icing/index.html" class="no-external">Cream Cheese Icing</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-11-14-cream-cheese-icing/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('icing'); return false;">
 icing
@@ -1036,30 +1188,31 @@ icing
 cake
 </div>
 </div>
-<a href="./posts/2021-11-14-cream-cheese-icing/index.html">
 <div class="listing-description">
-<p>Cream cheese icing. It’s good. Goes well with carrot cake.</p>
+<a href="./posts/2021-11-14-cream-cheese-icing/index.html" class="no-external">Cream cheese icing. It’s good. Goes well with carrot cake. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-11-14-cream-cheese-icing/index.html">
+<a href="./posts/2021-11-14-cream-cheese-icing/index.html" class="no-external">
 <div class="listing-date">
 Nov 14, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="27" data-categories="cake,carrot,lactose-free" data-listing-date-sort="1636866000000" data-listing-file-modified-sort="1682992471746" data-listing-reading-time-sort="0.715">
+<div class="quarto-post image-right" data-index="28" data-categories="cake,carrot,lactose-free" data-listing-date-sort="1636866000000" data-listing-file-modified-sort="1682992471746" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="143">
+<div class="thumbnail">
+<p><a href="./posts/2021-11-14-carrot-cake/index.html" class="no-external"></a></p><a href="./posts/2021-11-14-carrot-cake/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-11-14-carrot-cake/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-11-14-carrot-cake/index.html">
 <h3 class="no-anchor listing-title">
-Carrot Cake
+<a href="./posts/2021-11-14-carrot-cake/index.html" class="no-external">Carrot Cake</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-11-14-carrot-cake/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('cake'); return false;">
 cake
@@ -1071,30 +1224,31 @@ carrot
 lactose-free
 </div>
 </div>
-<a href="./posts/2021-11-14-carrot-cake/index.html">
 <div class="listing-description">
-<p>A decadent carrot cake appropriate for any occasion.</p>
+<a href="./posts/2021-11-14-carrot-cake/index.html" class="no-external">A decadent carrot cake appropriate for any occasion. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-11-14-carrot-cake/index.html">
+<a href="./posts/2021-11-14-carrot-cake/index.html" class="no-external">
 <div class="listing-date">
 Nov 14, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="28" data-categories="lactose-free,pasta" data-listing-date-sort="1636434000000" data-listing-file-modified-sort="1684702417666" data-listing-reading-time-sort="0.605">
+<div class="quarto-post image-right" data-index="29" data-categories="lactose-free,pasta" data-listing-date-sort="1636434000000" data-listing-file-modified-sort="1684702417666" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
+<div class="thumbnail">
+<p><a href="./posts/2021-11-09-skinny-fettuccine-alfredo/index.html" class="no-external"></a></p><a href="./posts/2021-11-09-skinny-fettuccine-alfredo/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-11-09-skinny-fettuccine-alfredo/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-11-09-skinny-fettuccine-alfredo/index.html">
 <h3 class="no-anchor listing-title">
-Skinny Fettuccine Alfredo
+<a href="./posts/2021-11-09-skinny-fettuccine-alfredo/index.html" class="no-external">Skinny Fettuccine Alfredo</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-11-09-skinny-fettuccine-alfredo/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('lactose-free'); return false;">
 lactose-free
@@ -1103,30 +1257,31 @@ lactose-free
 pasta
 </div>
 </div>
-<a href="./posts/2021-11-09-skinny-fettuccine-alfredo/index.html">
 <div class="listing-description">
-<p>Delicious Alfredo sauce that’s lower fat and can be lactose free too.</p>
+<a href="./posts/2021-11-09-skinny-fettuccine-alfredo/index.html" class="no-external">Delicious Alfredo sauce that’s lower fat and can be lactose free too. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-11-09-skinny-fettuccine-alfredo/index.html">
+<a href="./posts/2021-11-09-skinny-fettuccine-alfredo/index.html" class="no-external">
 <div class="listing-date">
 Nov 9, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="29" data-categories="soup,chicken" data-listing-date-sort="1636257600000" data-listing-file-modified-sort="1682992423386" data-listing-reading-time-sort="1.26">
+<div class="quarto-post image-right" data-index="30" data-categories="soup,chicken" data-listing-date-sort="1636257600000" data-listing-file-modified-sort="1682992423386" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="252">
+<div class="thumbnail">
+<p><a href="./posts/2021-11-07-chicken-soup/index.html" class="no-external"></a></p><a href="./posts/2021-11-07-chicken-soup/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-11-07-chicken-soup/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-11-07-chicken-soup/index.html">
 <h3 class="no-anchor listing-title">
-Chicken Soup
+<a href="./posts/2021-11-07-chicken-soup/index.html" class="no-external">Chicken Soup</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-11-07-chicken-soup/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('soup'); return false;">
 soup
@@ -1135,30 +1290,31 @@ soup
 chicken
 </div>
 </div>
-<a href="./posts/2021-11-07-chicken-soup/index.html">
 <div class="listing-description">
-<p>This chicken soup is yummy, and you know exactly what’s in it.</p>
+<a href="./posts/2021-11-07-chicken-soup/index.html" class="no-external">This chicken soup is yummy, and you know exactly what’s in it. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-11-07-chicken-soup/index.html">
+<a href="./posts/2021-11-07-chicken-soup/index.html" class="no-external">
 <div class="listing-date">
 Nov 7, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="30" data-categories="chicken,instant-pot" data-listing-date-sort="1636171200000" data-listing-file-modified-sort="1682992395230" data-listing-reading-time-sort="1.27">
+<div class="quarto-post image-right" data-index="31" data-categories="chicken,instant-pot" data-listing-date-sort="1636171200000" data-listing-file-modified-sort="1682992395230" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="254">
+<div class="thumbnail">
+<p><a href="./posts/2021-11-06-poached-chicken-breast-instant-pot/index.html" class="no-external"></a></p><a href="./posts/2021-11-06-poached-chicken-breast-instant-pot/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-11-06-poached-chicken-breast-instant-pot/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-11-06-poached-chicken-breast-instant-pot/index.html">
 <h3 class="no-anchor listing-title">
-Poached Chicken Breast (Instant Pot)
+<a href="./posts/2021-11-06-poached-chicken-breast-instant-pot/index.html" class="no-external">Poached Chicken Breast (Instant Pot)</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-11-06-poached-chicken-breast-instant-pot/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('chicken'); return false;">
 chicken
@@ -1167,30 +1323,31 @@ chicken
 instant-pot
 </div>
 </div>
-<a href="./posts/2021-11-06-poached-chicken-breast-instant-pot/index.html">
 <div class="listing-description">
-<p>Poached chicken breast that shreds nicely for other recipes.</p>
+<a href="./posts/2021-11-06-poached-chicken-breast-instant-pot/index.html" class="no-external">Poached chicken breast that shreds nicely for other recipes. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-11-06-poached-chicken-breast-instant-pot/index.html">
+<a href="./posts/2021-11-06-poached-chicken-breast-instant-pot/index.html" class="no-external">
 <div class="listing-date">
 Nov 6, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="31" data-categories="breakfast,lactose-free" data-listing-date-sort="1635048000000" data-listing-file-modified-sort="1682992369066" data-listing-reading-time-sort="1.185">
+<div class="quarto-post image-right" data-index="32" data-categories="breakfast,lactose-free" data-listing-date-sort="1635048000000" data-listing-file-modified-sort="1682992369066" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="237">
+<div class="thumbnail">
+<p><a href="./posts/2021-10-24-pancakes-no-milk/index.html" class="no-external"></a></p><a href="./posts/2021-10-24-pancakes-no-milk/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-10-24-pancakes-no-milk/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-10-24-pancakes-no-milk/index.html">
 <h3 class="no-anchor listing-title">
-Pancakes! (No Milk)
+<a href="./posts/2021-10-24-pancakes-no-milk/index.html" class="no-external">Pancakes! (No Milk)</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-10-24-pancakes-no-milk/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('breakfast'); return false;">
 breakfast
@@ -1199,30 +1356,31 @@ breakfast
 lactose-free
 </div>
 </div>
-<a href="./posts/2021-10-24-pancakes-no-milk/index.html">
 <div class="listing-description">
-<p>Easy, tasty pancakes with no milk.</p>
+<a href="./posts/2021-10-24-pancakes-no-milk/index.html" class="no-external">Easy, tasty pancakes with no milk. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-10-24-pancakes-no-milk/index.html">
+<a href="./posts/2021-10-24-pancakes-no-milk/index.html" class="no-external">
 <div class="listing-date">
 Oct 24, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="32" data-categories="cake,brownies,icing" data-listing-date-sort="1632024000000" data-listing-file-modified-sort="1682992281886" data-listing-reading-time-sort="0.505">
+<div class="quarto-post image-right" data-index="33" data-categories="cake,brownies,icing" data-listing-date-sort="1632024000000" data-listing-file-modified-sort="1682992281886" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="101">
+<div class="thumbnail">
+<p><a href="./posts/2021-09-19-icing/index.html" class="no-external"></a></p><a href="./posts/2021-09-19-icing/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-09-19-icing/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-09-19-icing/index.html">
 <h3 class="no-anchor listing-title">
-ButterCream Icing
+<a href="./posts/2021-09-19-icing/index.html" class="no-external">ButterCream Icing</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-09-19-icing/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('cake'); return false;">
 cake
@@ -1234,30 +1392,31 @@ brownies
 icing
 </div>
 </div>
-<a href="./posts/2021-09-19-icing/index.html">
 <div class="listing-description">
-<p>Various flavored icing for cakes, etc.</p>
+<a href="./posts/2021-09-19-icing/index.html" class="no-external">Various flavored icing for cakes, etc. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-09-19-icing/index.html">
+<a href="./posts/2021-09-19-icing/index.html" class="no-external">
 <div class="listing-date">
 Sep 19, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="33" data-categories="cake,brownies,icing" data-listing-date-sort="1632024000000" data-listing-file-modified-sort="1682992320734" data-listing-reading-time-sort="0.805">
+<div class="quarto-post image-right" data-index="34" data-categories="cake,brownies,icing" data-listing-date-sort="1632024000000" data-listing-file-modified-sort="1682992320734" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="161">
+<div class="thumbnail">
+<p><a href="./posts/2021-09-19-never-fail-brownies/index.html" class="no-external"></a></p><a href="./posts/2021-09-19-never-fail-brownies/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-09-19-never-fail-brownies/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-09-19-never-fail-brownies/index.html">
 <h3 class="no-anchor listing-title">
-Never Fail Brownies
+<a href="./posts/2021-09-19-never-fail-brownies/index.html" class="no-external">Never Fail Brownies</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-09-19-never-fail-brownies/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('cake'); return false;">
 cake
@@ -1269,30 +1428,31 @@ brownies
 icing
 </div>
 </div>
-<a href="./posts/2021-09-19-never-fail-brownies/index.html">
 <div class="listing-description">
-<p>Delicious, chocolatey brownies.</p>
+<a href="./posts/2021-09-19-never-fail-brownies/index.html" class="no-external">Delicious, chocolatey brownies. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-09-19-never-fail-brownies/index.html">
+<a href="./posts/2021-09-19-never-fail-brownies/index.html" class="no-external">
 <div class="listing-date">
 Sep 19, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="34" data-categories="instant-pot,pork,meat,main-dish" data-listing-date-sort="1618113600000" data-listing-file-modified-sort="1682992230541" data-listing-reading-time-sort="2.53">
+<div class="quarto-post image-right" data-index="35" data-categories="instant-pot,pork,meat,main-dish" data-listing-date-sort="1618113600000" data-listing-file-modified-sort="1682992230541" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="506">
+<div class="thumbnail">
+<p><a href="./posts/2021-04-11-pork-apples-instant-pot/index.html" class="no-external"></a></p><a href="./posts/2021-04-11-pork-apples-instant-pot/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-04-11-pork-apples-instant-pot/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-04-11-pork-apples-instant-pot/index.html">
 <h3 class="no-anchor listing-title">
-Pork &amp; Apples (Instant Pot)
+<a href="./posts/2021-04-11-pork-apples-instant-pot/index.html" class="no-external">Pork &amp; Apples (Instant Pot)</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-04-11-pork-apples-instant-pot/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('instant-pot'); return false;">
 instant-pot
@@ -1307,30 +1467,31 @@ meat
 main-dish
 </div>
 </div>
-<a href="./posts/2021-04-11-pork-apples-instant-pot/index.html">
 <div class="listing-description">
-<p>Delicious pork chops in a sweet apple gravy.</p>
+<a href="./posts/2021-04-11-pork-apples-instant-pot/index.html" class="no-external">Delicious pork chops in a sweet apple gravy. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-04-11-pork-apples-instant-pot/index.html">
+<a href="./posts/2021-04-11-pork-apples-instant-pot/index.html" class="no-external">
 <div class="listing-date">
 Apr 11, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="35" data-categories="meat,chicken,mushrooms,main-dish" data-listing-date-sort="1618113600000" data-listing-file-modified-sort="1682992176573" data-listing-reading-time-sort="1.445">
+<div class="quarto-post image-right" data-index="36" data-categories="meat,chicken,mushrooms,main-dish" data-listing-date-sort="1618113600000" data-listing-file-modified-sort="1682992176573" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="289">
+<div class="thumbnail">
+<p><a href="./posts/2021-04-11-balsamic-chicken-mushrooms/index.html" class="no-external"></a></p><a href="./posts/2021-04-11-balsamic-chicken-mushrooms/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-04-11-balsamic-chicken-mushrooms/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-04-11-balsamic-chicken-mushrooms/index.html">
 <h3 class="no-anchor listing-title">
-Balsamic Chicken &amp; Mushrooms
+<a href="./posts/2021-04-11-balsamic-chicken-mushrooms/index.html" class="no-external">Balsamic Chicken &amp; Mushrooms</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-04-11-balsamic-chicken-mushrooms/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('meat'); return false;">
 meat
@@ -1345,30 +1506,31 @@ mushrooms
 main-dish
 </div>
 </div>
-<a href="./posts/2021-04-11-balsamic-chicken-mushrooms/index.html">
 <div class="listing-description">
-<p>Tangy, flavor bombs of mushroom and chicken in Balsamic sauce.</p>
+<a href="./posts/2021-04-11-balsamic-chicken-mushrooms/index.html" class="no-external">Tangy, flavor bombs of mushroom and chicken in Balsamic sauce. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-04-11-balsamic-chicken-mushrooms/index.html">
+<a href="./posts/2021-04-11-balsamic-chicken-mushrooms/index.html" class="no-external">
 <div class="listing-date">
 Apr 11, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="36" data-categories="meat,pork,potatoes,main-dish" data-listing-date-sort="1618113600000" data-listing-file-modified-sort="1682992262042" data-listing-reading-time-sort="1.53">
+<div class="quarto-post image-right" data-index="37" data-categories="meat,pork,potatoes,main-dish" data-listing-date-sort="1618113600000" data-listing-file-modified-sort="1682992262042" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="306">
+<div class="thumbnail">
+<p><a href="./posts/2021-04-11-pork-potatoes-instant-pot/index.html" class="no-external"></a></p><a href="./posts/2021-04-11-pork-potatoes-instant-pot/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-04-11-pork-potatoes-instant-pot/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-04-11-pork-potatoes-instant-pot/index.html">
 <h3 class="no-anchor listing-title">
-Pork &amp; Potatoes (Instant Pot)
+<a href="./posts/2021-04-11-pork-potatoes-instant-pot/index.html" class="no-external">Pork &amp; Potatoes (Instant Pot)</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-04-11-pork-potatoes-instant-pot/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('meat'); return false;">
 meat
@@ -1383,30 +1545,31 @@ potatoes
 main-dish
 </div>
 </div>
-<a href="./posts/2021-04-11-pork-potatoes-instant-pot/index.html">
 <div class="listing-description">
-<p>Simple way to cook both meat and potatoes in the instant pot.</p>
+<a href="./posts/2021-04-11-pork-potatoes-instant-pot/index.html" class="no-external">Simple way to cook both meat and potatoes in the instant pot. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-04-11-pork-potatoes-instant-pot/index.html">
+<a href="./posts/2021-04-11-pork-potatoes-instant-pot/index.html" class="no-external">
 <div class="listing-date">
 Apr 11, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="37" data-categories="beans,instant-pot,side-dish,soup" data-listing-date-sort="1618113600000" data-listing-file-modified-sort="1682992205901" data-listing-reading-time-sort="1.34">
+<div class="quarto-post image-right" data-index="38" data-categories="beans,instant-pot,side-dish,soup" data-listing-date-sort="1618113600000" data-listing-file-modified-sort="1682992205901" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="268">
+<div class="thumbnail">
+<p><a href="./posts/2021-04-11-bbq-baked-beans-instant-pot/index.html" class="no-external"></a></p><a href="./posts/2021-04-11-bbq-baked-beans-instant-pot/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-04-11-bbq-baked-beans-instant-pot/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-04-11-bbq-baked-beans-instant-pot/index.html">
 <h3 class="no-anchor listing-title">
-BBQ Baked Beans (Instant Pot)
+<a href="./posts/2021-04-11-bbq-baked-beans-instant-pot/index.html" class="no-external">BBQ Baked Beans (Instant Pot)</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-04-11-bbq-baked-beans-instant-pot/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('beans'); return false;">
 beans
@@ -1421,30 +1584,31 @@ side-dish
 soup
 </div>
 </div>
-<a href="./posts/2021-04-11-bbq-baked-beans-instant-pot/index.html">
 <div class="listing-description">
-<p>Tangy sweet beans take very little time in the instant pot.</p>
+<a href="./posts/2021-04-11-bbq-baked-beans-instant-pot/index.html" class="no-external">Tangy sweet beans take very little time in the instant pot. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-04-11-bbq-baked-beans-instant-pot/index.html">
+<a href="./posts/2021-04-11-bbq-baked-beans-instant-pot/index.html" class="no-external">
 <div class="listing-date">
 Apr 11, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="38" data-categories="soup,vegetarian" data-listing-date-sort="1616212800000" data-listing-file-modified-sort="1682991898433" data-listing-reading-time-sort="0.36">
+<div class="quarto-post image-right" data-index="39" data-categories="soup,vegetarian" data-listing-date-sort="1616212800000" data-listing-file-modified-sort="1682991898433" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
+<div class="thumbnail">
+<p><a href="./posts/2021-03-20-butternut-squash-sweet-potato-soup/index.html" class="no-external"></a></p><a href="./posts/2021-03-20-butternut-squash-sweet-potato-soup/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-03-20-butternut-squash-sweet-potato-soup/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-03-20-butternut-squash-sweet-potato-soup/index.html">
 <h3 class="no-anchor listing-title">
-Butternut Squash &amp; Sweet Potato Soup
+<a href="./posts/2021-03-20-butternut-squash-sweet-potato-soup/index.html" class="no-external">Butternut Squash &amp; Sweet Potato Soup</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-03-20-butternut-squash-sweet-potato-soup/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('soup'); return false;">
 soup
@@ -1453,30 +1617,31 @@ soup
 vegetarian
 </div>
 </div>
-<a href="./posts/2021-03-20-butternut-squash-sweet-potato-soup/index.html">
 <div class="listing-description">
-<p>Vegetarian, delightful soup that is delicious any time of year.</p>
+<a href="./posts/2021-03-20-butternut-squash-sweet-potato-soup/index.html" class="no-external">Vegetarian, delightful soup that is delicious any time of year. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-20-butternut-squash-sweet-potato-soup/index.html">
+<a href="./posts/2021-03-20-butternut-squash-sweet-potato-soup/index.html" class="no-external">
 <div class="listing-date">
 Mar 20, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="39" data-categories="baked,cake,dessert,chocolate" data-listing-date-sort="1616212800000" data-listing-file-modified-sort="1682991841364" data-listing-reading-time-sort="0.34">
+<div class="quarto-post image-right" data-index="40" data-categories="baked,cake,dessert,chocolate" data-listing-date-sort="1616212800000" data-listing-file-modified-sort="1682991841364" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="68">
+<div class="thumbnail">
+<p><a href="./posts/2021-03-20-buried-treasure-cake/index.html" class="no-external"></a></p><a href="./posts/2021-03-20-buried-treasure-cake/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-03-20-buried-treasure-cake/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-03-20-buried-treasure-cake/index.html">
 <h3 class="no-anchor listing-title">
-Buried Treasure Cake
+<a href="./posts/2021-03-20-buried-treasure-cake/index.html" class="no-external">Buried Treasure Cake</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-03-20-buried-treasure-cake/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('baked'); return false;">
 baked
@@ -1491,30 +1656,31 @@ dessert
 chocolate
 </div>
 </div>
-<a href="./posts/2021-03-20-buried-treasure-cake/index.html">
 <div class="listing-description">
-<p>A hidden cream cheese and chocolate chip filling makes this a treasure.</p>
+<a href="./posts/2021-03-20-buried-treasure-cake/index.html" class="no-external">A hidden cream cheese and chocolate chip filling makes this a treasure. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-20-buried-treasure-cake/index.html">
+<a href="./posts/2021-03-20-buried-treasure-cake/index.html" class="no-external">
 <div class="listing-date">
 Mar 20, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="40" data-categories="baked,oatmeal,breakfast,bar" data-listing-date-sort="1616212800000" data-listing-file-modified-sort="1682992017645" data-listing-reading-time-sort="0.74">
+<div class="quarto-post image-right" data-index="41" data-categories="baked,oatmeal,breakfast,bar" data-listing-date-sort="1616212800000" data-listing-file-modified-sort="1682992017645" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148">
+<div class="thumbnail">
+<p><a href="./posts/2021-03-20-easy-oatmeal-raisin-breakfast-bars/index.html" class="no-external"></a></p><a href="./posts/2021-03-20-easy-oatmeal-raisin-breakfast-bars/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-03-20-easy-oatmeal-raisin-breakfast-bars/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-03-20-easy-oatmeal-raisin-breakfast-bars/index.html">
 <h3 class="no-anchor listing-title">
-Easy Oatmeal Raisin Breakfast Bars
+<a href="./posts/2021-03-20-easy-oatmeal-raisin-breakfast-bars/index.html" class="no-external">Easy Oatmeal Raisin Breakfast Bars</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-03-20-easy-oatmeal-raisin-breakfast-bars/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('baked'); return false;">
 baked
@@ -1529,30 +1695,31 @@ breakfast
 bar
 </div>
 </div>
-<a href="./posts/2021-03-20-easy-oatmeal-raisin-breakfast-bars/index.html">
 <div class="listing-description">
-<p>Oatmeal raisin or chocolate chip breakfast bars.</p>
+<a href="./posts/2021-03-20-easy-oatmeal-raisin-breakfast-bars/index.html" class="no-external">Oatmeal raisin or chocolate chip breakfast bars. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-20-easy-oatmeal-raisin-breakfast-bars/index.html">
+<a href="./posts/2021-03-20-easy-oatmeal-raisin-breakfast-bars/index.html" class="no-external">
 <div class="listing-date">
 Mar 20, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="41" data-categories="pasta,cheese,casserole" data-listing-date-sort="1616212800000" data-listing-file-modified-sort="1682992052213" data-listing-reading-time-sort="0.735">
+<div class="quarto-post image-right" data-index="42" data-categories="pasta,cheese,casserole" data-listing-date-sort="1616212800000" data-listing-file-modified-sort="1682992052213" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
+<div class="thumbnail">
+<p><a href="./posts/2021-03-20-mac-cheese/index.html" class="no-external"></a></p><a href="./posts/2021-03-20-mac-cheese/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-03-20-mac-cheese/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-03-20-mac-cheese/index.html">
 <h3 class="no-anchor listing-title">
-Mac &amp; Cheese
+<a href="./posts/2021-03-20-mac-cheese/index.html" class="no-external">Mac &amp; Cheese</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-03-20-mac-cheese/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('pasta'); return false;">
 pasta
@@ -1564,30 +1731,31 @@ cheese
 casserole
 </div>
 </div>
-<a href="./posts/2021-03-20-mac-cheese/index.html">
 <div class="listing-description">
-<p>Hearty macaroni and cheese</p>
+<a href="./posts/2021-03-20-mac-cheese/index.html" class="no-external">Hearty macaroni and cheese </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-20-mac-cheese/index.html">
+<a href="./posts/2021-03-20-mac-cheese/index.html" class="no-external">
 <div class="listing-date">
 Mar 20, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="42" data-categories="baked,cake,chocolate,dessert" data-listing-date-sort="1616212800000" data-listing-file-modified-sort="1682991982385" data-listing-reading-time-sort="0.74">
+<div class="quarto-post image-right" data-index="43" data-categories="baked,cake,chocolate,dessert" data-listing-date-sort="1616212800000" data-listing-file-modified-sort="1682991982385" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148">
+<div class="thumbnail">
+<p><a href="./posts/2021-03-20-chocolate-cake/index.html" class="no-external"></a></p><a href="./posts/2021-03-20-chocolate-cake/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-03-20-chocolate-cake/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-03-20-chocolate-cake/index.html">
 <h3 class="no-anchor listing-title">
-Chocolate Cake
+<a href="./posts/2021-03-20-chocolate-cake/index.html" class="no-external">Chocolate Cake</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-03-20-chocolate-cake/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('baked'); return false;">
 baked
@@ -1602,30 +1770,31 @@ chocolate
 dessert
 </div>
 </div>
-<a href="./posts/2021-03-20-chocolate-cake/index.html">
 <div class="listing-description">
-<p>A rich chocolate cake, great for whenever you need some sweetness in your life.</p>
+<a href="./posts/2021-03-20-chocolate-cake/index.html" class="no-external">A rich chocolate cake, great for whenever you need some sweetness in your life. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-20-chocolate-cake/index.html">
+<a href="./posts/2021-03-20-chocolate-cake/index.html" class="no-external">
 <div class="listing-date">
 Mar 20, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="43" data-categories="baked,muffin,apple,breakfast" data-listing-date-sort="1616212800000" data-listing-file-modified-sort="1690640515459" data-listing-reading-time-sort="0.66">
+<div class="quarto-post image-right" data-index="44" data-categories="baked,muffin,apple,breakfast" data-listing-date-sort="1616212800000" data-listing-file-modified-sort="1690640515459" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="132">
+<div class="thumbnail">
+<p><a href="./posts/2021-03-20-apple-cinnamon-muffins/index.html" class="no-external"></a></p><a href="./posts/2021-03-20-apple-cinnamon-muffins/index.html" class="no-external">
+<p class="card-img-top"><img data-src="posts/2021-03-20-apple-cinnamon-muffins/muffins_24.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2021-03-20-apple-cinnamon-muffins/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-03-20-apple-cinnamon-muffins/index.html">
 <h3 class="no-anchor listing-title">
-Apple Cinnamon Muffins
+<a href="./posts/2021-03-20-apple-cinnamon-muffins/index.html" class="no-external">Apple Cinnamon Muffins</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-03-20-apple-cinnamon-muffins/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('baked'); return false;">
 baked
@@ -1640,30 +1809,31 @@ apple
 breakfast
 </div>
 </div>
-<a href="./posts/2021-03-20-apple-cinnamon-muffins/index.html">
 <div class="listing-description">
-<p>Chunks of apple and the cinnamon make these delicious muffins with a great texture.</p>
+<a href="./posts/2021-03-20-apple-cinnamon-muffins/index.html" class="no-external">Chunks of apple and the cinnamon make these delicious muffins with a great texture. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-20-apple-cinnamon-muffins/index.html">
+<a href="./posts/2021-03-20-apple-cinnamon-muffins/index.html" class="no-external">
 <div class="listing-date">
 Mar 20, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="44" data-categories="baked,roll,cinnamon,breakfast" data-listing-date-sort="1616212800000" data-listing-file-modified-sort="1682991728232" data-listing-reading-time-sort="3.46">
+<div class="quarto-post image-right" data-index="45" data-categories="baked,roll,cinnamon,breakfast" data-listing-date-sort="1616212800000" data-listing-file-modified-sort="1682991728232" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="692">
+<div class="thumbnail">
+<p><a href="./posts/2021-03-20-1-hour-cinnamon-rolls/index.html" class="no-external"></a></p><a href="./posts/2021-03-20-1-hour-cinnamon-rolls/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-03-20-1-hour-cinnamon-rolls/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-03-20-1-hour-cinnamon-rolls/index.html">
 <h3 class="no-anchor listing-title">
-1 Hour Cinnamon Rolls
+<a href="./posts/2021-03-20-1-hour-cinnamon-rolls/index.html" class="no-external">1 Hour Cinnamon Rolls</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-03-20-1-hour-cinnamon-rolls/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('baked'); return false;">
 baked
@@ -1678,30 +1848,31 @@ cinnamon
 breakfast
 </div>
 </div>
-<a href="./posts/2021-03-20-1-hour-cinnamon-rolls/index.html">
 <div class="listing-description">
-<p>A yummy treat for breakfast or a snack.</p>
+<a href="./posts/2021-03-20-1-hour-cinnamon-rolls/index.html" class="no-external">A yummy treat for breakfast or a snack. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-20-1-hour-cinnamon-rolls/index.html">
+<a href="./posts/2021-03-20-1-hour-cinnamon-rolls/index.html" class="no-external">
 <div class="listing-date">
 Mar 20, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="45" data-categories="casserole,pie,cheese,hamburger,potato" data-listing-date-sort="1616212800000" data-listing-file-modified-sort="1682991929497" data-listing-reading-time-sort="1.29">
+<div class="quarto-post image-right" data-index="46" data-categories="casserole,pie,cheese,hamburger,potato" data-listing-date-sort="1616212800000" data-listing-file-modified-sort="1682991929497" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="258">
+<div class="thumbnail">
+<p><a href="./posts/2021-03-20-cheesy-cottage-pie/index.html" class="no-external"></a></p><a href="./posts/2021-03-20-cheesy-cottage-pie/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-03-20-cheesy-cottage-pie/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-03-20-cheesy-cottage-pie/index.html">
 <h3 class="no-anchor listing-title">
-Cheesy Cottage Pie
+<a href="./posts/2021-03-20-cheesy-cottage-pie/index.html" class="no-external">Cheesy Cottage Pie</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-03-20-cheesy-cottage-pie/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('casserole'); return false;">
 casserole
@@ -1719,30 +1890,31 @@ hamburger
 potato
 </div>
 </div>
-<a href="./posts/2021-03-20-cheesy-cottage-pie/index.html">
 <div class="listing-description">
-<p>A cheesy variation on Shepherds Pie.</p>
+<a href="./posts/2021-03-20-cheesy-cottage-pie/index.html" class="no-external">A cheesy variation on Shepherds Pie. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-20-cheesy-cottage-pie/index.html">
+<a href="./posts/2021-03-20-cheesy-cottage-pie/index.html" class="no-external">
 <div class="listing-date">
 Mar 20, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="46" data-categories="stew,soup,chicken,potato,mushroom" data-listing-date-sort="1616212800000" data-listing-file-modified-sort="1682991956597" data-listing-reading-time-sort="0.43">
+<div class="quarto-post image-right" data-index="47" data-categories="stew,soup,chicken,potato,mushroom" data-listing-date-sort="1616212800000" data-listing-file-modified-sort="1682991956597" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="86">
+<div class="thumbnail">
+<p><a href="./posts/2021-03-20-chicken-stew/index.html" class="no-external"></a></p><a href="./posts/2021-03-20-chicken-stew/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-03-20-chicken-stew/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-03-20-chicken-stew/index.html">
 <h3 class="no-anchor listing-title">
-Chicken Stew
+<a href="./posts/2021-03-20-chicken-stew/index.html" class="no-external">Chicken Stew</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-03-20-chicken-stew/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('stew'); return false;">
 stew
@@ -1760,30 +1932,31 @@ potato
 mushroom
 </div>
 </div>
-<a href="./posts/2021-03-20-chicken-stew/index.html">
 <div class="listing-description">
-<p>Chicken, mushroom and potato stew.</p>
+<a href="./posts/2021-03-20-chicken-stew/index.html" class="no-external">Chicken, mushroom and potato stew. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-20-chicken-stew/index.html">
+<a href="./posts/2021-03-20-chicken-stew/index.html" class="no-external">
 <div class="listing-date">
 Mar 20, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="47" data-categories="cookies,baked,peanut-butter" data-listing-date-sort="1616212800000" data-listing-file-modified-sort="1682991789104" data-listing-reading-time-sort="0.165">
+<div class="quarto-post image-right" data-index="48" data-categories="cookies,baked,peanut-butter" data-listing-date-sort="1616212800000" data-listing-file-modified-sort="1682991789104" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
+<div class="thumbnail">
+<p><a href="./posts/2021-03-20-3-ingredient-peanut-butter-cookies/index.html" class="no-external"></a></p><a href="./posts/2021-03-20-3-ingredient-peanut-butter-cookies/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-03-20-3-ingredient-peanut-butter-cookies/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-03-20-3-ingredient-peanut-butter-cookies/index.html">
 <h3 class="no-anchor listing-title">
-3 Ingredient Peanut-Butter Cookies
+<a href="./posts/2021-03-20-3-ingredient-peanut-butter-cookies/index.html" class="no-external">3 Ingredient Peanut-Butter Cookies</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-03-20-3-ingredient-peanut-butter-cookies/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('cookies'); return false;">
 cookies
@@ -1795,30 +1968,31 @@ baked
 peanut-butter
 </div>
 </div>
-<a href="./posts/2021-03-20-3-ingredient-peanut-butter-cookies/index.html">
 <div class="listing-description">
-<p>Simple, mostly allergen free PB cookies.</p>
+<a href="./posts/2021-03-20-3-ingredient-peanut-butter-cookies/index.html" class="no-external">Simple, mostly allergen free PB cookies. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-20-3-ingredient-peanut-butter-cookies/index.html">
+<a href="./posts/2021-03-20-3-ingredient-peanut-butter-cookies/index.html" class="no-external">
 <div class="listing-date">
 Mar 20, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="48" data-categories="curry,soup,chicken,chickpea" data-listing-date-sort="1616212800000" data-listing-file-modified-sort="1682992076665" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="49" data-categories="curry,soup,chicken,chickpea" data-listing-date-sort="1616212800000" data-listing-file-modified-sort="1682992076665" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="200">
+<div class="thumbnail">
+<p><a href="./posts/2021-03-20-punjabi-curry/index.html" class="no-external"></a></p><a href="./posts/2021-03-20-punjabi-curry/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-03-20-punjabi-curry/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-03-20-punjabi-curry/index.html">
 <h3 class="no-anchor listing-title">
-Punjabi Curry
+<a href="./posts/2021-03-20-punjabi-curry/index.html" class="no-external">Punjabi Curry</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-03-20-punjabi-curry/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('curry'); return false;">
 curry
@@ -1833,30 +2007,31 @@ chicken
 chickpea
 </div>
 </div>
-<a href="./posts/2021-03-20-punjabi-curry/index.html">
 <div class="listing-description">
-<p>A great base for various curries.</p>
+<a href="./posts/2021-03-20-punjabi-curry/index.html" class="no-external">A great base for various curries. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-20-punjabi-curry/index.html">
+<a href="./posts/2021-03-20-punjabi-curry/index.html" class="no-external">
 <div class="listing-date">
 Mar 20, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="49" data-categories="pasta,spaghetti" data-listing-date-sort="1615698000000" data-listing-file-modified-sort="1682991651196" data-listing-reading-time-sort="0.635">
+<div class="quarto-post image-right" data-index="50" data-categories="pasta,spaghetti" data-listing-date-sort="1615698000000" data-listing-file-modified-sort="1682991651196" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="127">
+<div class="thumbnail">
+<p><a href="./posts/2021-03-14-lasagna/index.html" class="no-external"></a></p><a href="./posts/2021-03-14-lasagna/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-03-14-lasagna/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-03-14-lasagna/index.html">
 <h3 class="no-anchor listing-title">
-Lasagna
+<a href="./posts/2021-03-14-lasagna/index.html" class="no-external">Lasagna</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-03-14-lasagna/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('pasta'); return false;">
 pasta
@@ -1865,30 +2040,31 @@ pasta
 spaghetti
 </div>
 </div>
-<a href="./posts/2021-03-14-lasagna/index.html">
 <div class="listing-description">
-<p>Simple lasagna.</p>
+<a href="./posts/2021-03-14-lasagna/index.html" class="no-external">Simple lasagna. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-14-lasagna/index.html">
+<a href="./posts/2021-03-14-lasagna/index.html" class="no-external">
 <div class="listing-date">
 Mar 14, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="50" data-categories="hamburger,casserole" data-listing-date-sort="1615698000000" data-listing-file-modified-sort="1682991703096" data-listing-reading-time-sort="0.225">
+<div class="quarto-post image-right" data-index="51" data-categories="hamburger,casserole" data-listing-date-sort="1615698000000" data-listing-file-modified-sort="1682991703096" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="45">
+<div class="thumbnail">
+<p><a href="./posts/2021-03-14-simple-sloppy-joes/index.html" class="no-external"></a></p><a href="./posts/2021-03-14-simple-sloppy-joes/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-03-14-simple-sloppy-joes/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-03-14-simple-sloppy-joes/index.html">
 <h3 class="no-anchor listing-title">
-Simple Sloppy Joes
+<a href="./posts/2021-03-14-simple-sloppy-joes/index.html" class="no-external">Simple Sloppy Joes</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-03-14-simple-sloppy-joes/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('hamburger'); return false;">
 hamburger
@@ -1897,30 +2073,31 @@ hamburger
 casserole
 </div>
 </div>
-<a href="./posts/2021-03-14-simple-sloppy-joes/index.html">
 <div class="listing-description">
-<p>A 4 ingredient sloppy joe, that tastes great.</p>
+<a href="./posts/2021-03-14-simple-sloppy-joes/index.html" class="no-external">A 4 ingredient sloppy joe, that tastes great. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-14-simple-sloppy-joes/index.html">
+<a href="./posts/2021-03-14-simple-sloppy-joes/index.html" class="no-external">
 <div class="listing-date">
 Mar 14, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="51" data-categories="hamburger,casserole,potato,gravy" data-listing-date-sort="1615698000000" data-listing-file-modified-sort="1682991679248" data-listing-reading-time-sort="2.39">
+<div class="quarto-post image-right" data-index="52" data-categories="hamburger,casserole,potato,gravy" data-listing-date-sort="1615698000000" data-listing-file-modified-sort="1682991679248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="478">
+<div class="thumbnail">
+<p><a href="./posts/2021-03-14-shepherds-pie/index.html" class="no-external"></a></p><a href="./posts/2021-03-14-shepherds-pie/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-03-14-shepherds-pie/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-03-14-shepherds-pie/index.html">
 <h3 class="no-anchor listing-title">
-Shepherds Pie
+<a href="./posts/2021-03-14-shepherds-pie/index.html" class="no-external">Shepherds Pie</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-03-14-shepherds-pie/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('hamburger'); return false;">
 hamburger
@@ -1935,30 +2112,31 @@ potato
 gravy
 </div>
 </div>
-<a href="./posts/2021-03-14-shepherds-pie/index.html">
 <div class="listing-description">
-<p>Meaty, potatoey goodness with an awesome gravy.</p>
+<a href="./posts/2021-03-14-shepherds-pie/index.html" class="no-external">Meaty, potatoey goodness with an awesome gravy. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-14-shepherds-pie/index.html">
+<a href="./posts/2021-03-14-shepherds-pie/index.html" class="no-external">
 <div class="listing-date">
 Mar 14, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="52" data-categories="sauce,marinade,chicken,pork" data-listing-date-sort="1615266000000" data-listing-file-modified-sort="1682989779435" data-listing-reading-time-sort="0.315">
+<div class="quarto-post image-right" data-index="53" data-categories="sauce,marinade,chicken,pork" data-listing-date-sort="1615266000000" data-listing-file-modified-sort="1682989779435" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="63">
+<div class="thumbnail">
+<p><a href="./posts/2021-03-09-soy-sauce-marinade/index.html" class="no-external"></a></p><a href="./posts/2021-03-09-soy-sauce-marinade/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-03-09-soy-sauce-marinade/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-03-09-soy-sauce-marinade/index.html">
 <h3 class="no-anchor listing-title">
-Soy Sauce Marinade
+<a href="./posts/2021-03-09-soy-sauce-marinade/index.html" class="no-external">Soy Sauce Marinade</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-03-09-soy-sauce-marinade/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('sauce'); return false;">
 sauce
@@ -1973,30 +2151,31 @@ chicken
 pork
 </div>
 </div>
-<a href="./posts/2021-03-09-soy-sauce-marinade/index.html">
 <div class="listing-description">
-<p>A meaty marinade great for pork chops or chicken.</p>
+<a href="./posts/2021-03-09-soy-sauce-marinade/index.html" class="no-external">A meaty marinade great for pork chops or chicken. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-09-soy-sauce-marinade/index.html">
+<a href="./posts/2021-03-09-soy-sauce-marinade/index.html" class="no-external">
 <div class="listing-date">
 Mar 9, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="53" data-categories="pizza,sauce,garlic" data-listing-date-sort="1615266000000" data-listing-file-modified-sort="1682989756475" data-listing-reading-time-sort="0.36">
+<div class="quarto-post image-right" data-index="54" data-categories="pizza,sauce,garlic" data-listing-date-sort="1615266000000" data-listing-file-modified-sort="1682989756475" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
+<div class="thumbnail">
+<p><a href="./posts/2021-03-09-donair-sauce/index.html" class="no-external"></a></p><a href="./posts/2021-03-09-donair-sauce/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-03-09-donair-sauce/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-03-09-donair-sauce/index.html">
 <h3 class="no-anchor listing-title">
-Donair Sauce
+<a href="./posts/2021-03-09-donair-sauce/index.html" class="no-external">Donair Sauce</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-03-09-donair-sauce/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('pizza'); return false;">
 pizza
@@ -2008,30 +2187,31 @@ sauce
 garlic
 </div>
 </div>
-<a href="./posts/2021-03-09-donair-sauce/index.html">
 <div class="listing-description">
-<p>An Atlantic Candadian classic that is great on pizza, cheese sticks, and gyros.</p>
+<a href="./posts/2021-03-09-donair-sauce/index.html" class="no-external">An Atlantic Candadian classic that is great on pizza, cheese sticks, and gyros. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-09-donair-sauce/index.html">
+<a href="./posts/2021-03-09-donair-sauce/index.html" class="no-external">
 <div class="listing-date">
 Mar 9, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="54" data-categories="sauce,sweet,sour,meatballs" data-listing-date-sort="1615266000000" data-listing-file-modified-sort="1682989804687" data-listing-reading-time-sort="0.395">
+<div class="quarto-post image-right" data-index="55" data-categories="sauce,sweet,sour,meatballs" data-listing-date-sort="1615266000000" data-listing-file-modified-sort="1682989804687" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="79">
+<div class="thumbnail">
+<p><a href="./posts/2021-03-09-sweet-sour-sauce/index.html" class="no-external"></a></p><a href="./posts/2021-03-09-sweet-sour-sauce/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-03-09-sweet-sour-sauce/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-03-09-sweet-sour-sauce/index.html">
 <h3 class="no-anchor listing-title">
-Sweet &amp; Sour Sauce
+<a href="./posts/2021-03-09-sweet-sour-sauce/index.html" class="no-external">Sweet &amp; Sour Sauce</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-03-09-sweet-sour-sauce/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('sauce'); return false;">
 sauce
@@ -2046,30 +2226,31 @@ sour
 meatballs
 </div>
 </div>
-<a href="./posts/2021-03-09-sweet-sour-sauce/index.html">
 <div class="listing-description">
-<p>A sweet and sour sauce that goes great with meatballs and rice.</p>
+<a href="./posts/2021-03-09-sweet-sour-sauce/index.html" class="no-external">A sweet and sour sauce that goes great with meatballs and rice. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-09-sweet-sour-sauce/index.html">
+<a href="./posts/2021-03-09-sweet-sour-sauce/index.html" class="no-external">
 <div class="listing-date">
 Mar 9, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="55" data-categories="sauce,chicken,wraps" data-listing-date-sort="1615266000000" data-listing-file-modified-sort="1682990707365" data-listing-reading-time-sort="0.94">
+<div class="quarto-post image-right" data-index="56" data-categories="sauce,chicken,wraps" data-listing-date-sort="1615266000000" data-listing-file-modified-sort="1682990707365" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="188">
+<div class="thumbnail">
+<p><a href="./posts/2021-03-09-wraps-sauce/index.html" class="no-external"></a></p><a href="./posts/2021-03-09-wraps-sauce/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-03-09-wraps-sauce/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-03-09-wraps-sauce/index.html">
 <h3 class="no-anchor listing-title">
-Chicken Wraps
+<a href="./posts/2021-03-09-wraps-sauce/index.html" class="no-external">Chicken Wraps</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-03-09-wraps-sauce/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('sauce'); return false;">
 sauce
@@ -2081,30 +2262,31 @@ chicken
 wraps
 </div>
 </div>
-<a href="./posts/2021-03-09-wraps-sauce/index.html">
 <div class="listing-description">
-<p>A sweet sauce for meat and veggies wrapped in tortillas.</p>
+<a href="./posts/2021-03-09-wraps-sauce/index.html" class="no-external">A sweet sauce for meat and veggies wrapped in tortillas. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-09-wraps-sauce/index.html">
+<a href="./posts/2021-03-09-wraps-sauce/index.html" class="no-external">
 <div class="listing-date">
 Mar 9, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="56" data-categories="casserole,chicken,pie,pot-pie" data-listing-date-sort="1615179600000" data-listing-file-modified-sort="1682986727346" data-listing-reading-time-sort="2.185">
+<div class="quarto-post image-right" data-index="57" data-categories="casserole,chicken,pie,pot-pie" data-listing-date-sort="1615179600000" data-listing-file-modified-sort="1682986727346" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="437">
+<div class="thumbnail">
+<p><a href="./posts/2021-03-08-chicken-pot-pie/index.html" class="no-external"></a></p><a href="./posts/2021-03-08-chicken-pot-pie/index.html" class="no-external">
+<p class="card-img-top"><img data-src="posts/2021-03-08-chicken-pot-pie/pot_pie_to_eat.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2021-03-08-chicken-pot-pie/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-03-08-chicken-pot-pie/index.html">
 <h3 class="no-anchor listing-title">
-Chicken Pot Pie
+<a href="./posts/2021-03-08-chicken-pot-pie/index.html" class="no-external">Chicken Pot Pie</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-03-08-chicken-pot-pie/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('casserole'); return false;">
 casserole
@@ -2119,52 +2301,56 @@ pie
 pot-pie
 </div>
 </div>
-<a href="./posts/2021-03-08-chicken-pot-pie/index.html">
 <div class="listing-description">
-<p>Delicious chicken pot pie to warm and fill you up.</p>
+<a href="./posts/2021-03-08-chicken-pot-pie/index.html" class="no-external">Delicious chicken pot pie to warm and fill you up. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-08-chicken-pot-pie/index.html">
+<a href="./posts/2021-03-08-chicken-pot-pie/index.html" class="no-external">
 <div class="listing-date">
 Mar 8, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="57" data-listing-date-sort="1615093200000" data-listing-file-modified-sort="1682992777835" data-listing-reading-time-sort="0.28">
+<div class="quarto-post image-right" data-index="58" data-listing-date-sort="1615093200000" data-listing-file-modified-sort="1682992777835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="56">
+<div class="thumbnail">
+<p><a href="./posts/welcome/index.html" class="no-external"></a></p><a href="./posts/welcome/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/welcome/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/welcome/index.html">
 <h3 class="no-anchor listing-title">
-Welcome to Flight Family Recipes
+<a href="./posts/welcome/index.html" class="no-external">Welcome to Flight Family Recipes</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/welcome/index.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p>Welcome to my personal recipe site.</p>
+<a href="./posts/welcome/index.html" class="no-external">Welcome to my personal recipe site. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/welcome/index.html">
+<a href="./posts/welcome/index.html" class="no-external">
 <div class="listing-date">
 Mar 7, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="58" data-categories="soup,hamburger,beef,instant-pot,cheese" data-listing-date-sort="1615093200000" data-listing-file-modified-sort="1682984337069" data-listing-reading-time-sort="0.895">
+<div class="quarto-post image-right" data-index="59" data-categories="soup,hamburger,beef,instant-pot,cheese" data-listing-date-sort="1615093200000" data-listing-file-modified-sort="1682984337069" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="179">
+<div class="thumbnail">
+<p><a href="./posts/2021-03-07-cheeseburger-soup/index.html" class="no-external"></a></p><a href="./posts/2021-03-07-cheeseburger-soup/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-03-07-cheeseburger-soup/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-03-07-cheeseburger-soup/index.html">
 <h3 class="no-anchor listing-title">
-Cheeseburger Soup
+<a href="./posts/2021-03-07-cheeseburger-soup/index.html" class="no-external">Cheeseburger Soup</a>
 </h3>
 <div class="listing-subtitle">
-<p>A hearty, meaty, cheesy soup with ground beef, potatoes, carrots and a lot of cheese.</p>
+<a href="./posts/2021-03-07-cheeseburger-soup/index.html" class="no-external">A hearty, meaty, cheesy soup with ground beef, potatoes, carrots and a lot of cheese. </a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('soup'); return false;">
 soup
@@ -2182,30 +2368,31 @@ instant-pot
 cheese
 </div>
 </div>
-<a href="./posts/2021-03-07-cheeseburger-soup/index.html">
 <div class="listing-description">
-Over medium to medium-hight heat:
+<a href="./posts/2021-03-07-cheeseburger-soup/index.html" class="no-external">Over medium to medium-hight heat:</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-07-cheeseburger-soup/index.html">
+<a href="./posts/2021-03-07-cheeseburger-soup/index.html" class="no-external">
 <div class="listing-date">
 Mar 7, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="59" data-categories="sauce,tomato,pasta" data-listing-date-sort="1615093200000" data-listing-file-modified-sort="1689297122394" data-listing-reading-time-sort="1.285">
+<div class="quarto-post image-right" data-index="60" data-categories="sauce,tomato,pasta" data-listing-date-sort="1615093200000" data-listing-file-modified-sort="1689297122394" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="257">
+<div class="thumbnail">
+<p><a href="./posts/2021-03-07-spaghetti-sauce/index.html" class="no-external"></a></p><a href="./posts/2021-03-07-spaghetti-sauce/index.html" class="no-external">
+<p class="card-img-top"><img data-src="posts/2021-03-07-spaghetti-sauce/sauce_done.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2021-03-07-spaghetti-sauce/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-03-07-spaghetti-sauce/index.html">
 <h3 class="no-anchor listing-title">
-Spaghetti Sauce
+<a href="./posts/2021-03-07-spaghetti-sauce/index.html" class="no-external">Spaghetti Sauce</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-03-07-spaghetti-sauce/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('sauce'); return false;">
 sauce
@@ -2217,30 +2404,31 @@ tomato
 pasta
 </div>
 </div>
-<a href="./posts/2021-03-07-spaghetti-sauce/index.html">
 <div class="listing-description">
-<p>A sweet and savory tomato sauce that is great on top of pasta or as part of a lasagna.</p>
+<a href="./posts/2021-03-07-spaghetti-sauce/index.html" class="no-external">A sweet and savory tomato sauce that is great on top of pasta or as part of a lasagna. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-07-spaghetti-sauce/index.html">
+<a href="./posts/2021-03-07-spaghetti-sauce/index.html" class="no-external">
 <div class="listing-date">
 Mar 7, 2021
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="60" data-categories="instant-pot,beans,molasses,soup" data-listing-date-sort="1615093200000" data-listing-file-modified-sort="1697589764033" data-listing-reading-time-sort="1.275">
+<div class="quarto-post image-right" data-index="61" data-categories="instant-pot,beans,molasses,soup" data-listing-date-sort="1615093200000" data-listing-file-modified-sort="1697589764033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="255">
+<div class="thumbnail">
+<p><a href="./posts/2021-03-07-crosbys-baked-beans/index.html" class="no-external"></a></p><a href="./posts/2021-03-07-crosbys-baked-beans/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-03-07-crosbys-baked-beans/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
-<a href="./posts/2021-03-07-crosbys-baked-beans/index.html">
 <h3 class="no-anchor listing-title">
-Crosby’s Baked Beans
+<a href="./posts/2021-03-07-crosbys-baked-beans/index.html" class="no-external">Crosby’s Baked Beans</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-03-07-crosbys-baked-beans/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('instant-pot'); return false;">
 instant-pot
@@ -2255,14 +2443,12 @@ molasses
 soup
 </div>
 </div>
-<a href="./posts/2021-03-07-crosbys-baked-beans/index.html">
 <div class="listing-description">
-<p>Instant-Pot makes these molasses baked beans a snap.</p>
+<a href="./posts/2021-03-07-crosbys-baked-beans/index.html" class="no-external">Instant-Pot makes these molasses baked beans a snap. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-07-crosbys-baked-beans/index.html">
+<a href="./posts/2021-03-07-crosbys-baked-beans/index.html" class="no-external">
 <div class="listing-date">
 Mar 7, 2021
 </div>
@@ -2276,14 +2462,15 @@ No matching items
 <nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
   <ul class="pagination"></ul>
 </nav>
-</div><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{mflight,
-  author = {Robert M Flight},
+</div><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{m flight,
+  author = {M Flight, Robert},
   title = {Flight {Family} {Recipes}},
+  pages = {undefined},
   url = {https://rmflight.github.io/recipes/},
   langid = {en}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-mflight" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
-Robert M Flight. n.d. <span>“Flight Family Recipes.”</span> <a href="https://rmflight.github.io/recipes/">https://rmflight.github.io/recipes/</a>.
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-m flight" class="csl-entry quarto-appendix-citeas" role="listitem">
+M Flight, Robert. n.d. <span>“Flight Family Recipes.”</span> <a href="https://rmflight.github.io/recipes/">https://rmflight.github.io/recipes/</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -2326,6 +2513,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -2394,13 +2608,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'alternate';
+  const darkModeDefault = true;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -2427,9 +2643,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -2465,10 +2695,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -2478,8 +2707,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -2494,6 +2732,248 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        typesetMath(container);
+        return container.innerHTML
+      } else {
+        typesetMath(note);
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      typesetMath(note);
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -2534,6 +3014,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
