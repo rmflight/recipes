@@ -1,0 +1,33 @@
+---
+title: "Brownies"
+subtitle: |
+  Ooey gooey chocolatey brownies.
+date: 2024-01-17
+categories: [desert, chocolate, brownie]
+editor_options:
+  chunk_output_type: console
+bibliography: refs.bib
+---
+
+## Ingredients
+
+* 2 cups sugar
+* 2/3 cup cocoa powder
+* 1 cup butter, melted
+* 4 large eggs
+* 2 tsp vanilla
+* 1 1/2 cup flour
+* 2/3 cup chocolate chips
+
+## Directions
+
+* Grease a 9 x 13 pan.
+* Preheat oven to 350 F.
+* Mix **2 cups** sugar and **2/3 cup** cocoa powder.
+* Mix in **1 cup** melted butter, **4** large eggs, **2 tsp** vanilla.
+* Add **1 1/2 cups** flour and mix until just combined.
+* Fold in **2/3 cup** chocolate chips.
+* Drop into greased 9 x 13 pan.
+* Bake at 350 F for 32 minutes.
+
+Source: https://handletheheat.com/rocky-road-brownies/

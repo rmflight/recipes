@@ -9,8 +9,99 @@
 <link>https://rmflight.github.io/recipes/</link>
 <atom:link href="https://rmflight.github.io/recipes/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.502</generator>
-<lastBuildDate>Thu, 28 Dec 2023 05:00:00 GMT</lastBuildDate>
+<generator>quarto-1.4.533</generator>
+<lastBuildDate>Wed, 17 Jan 2024 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Blueberry Muffins</title>
+  <link>https://rmflight.github.io/recipes/posts/2024-01-17-blueberry-muffins/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<ul>
+<li>1 1/2 cups (195g) all-purpose flour</li>
+<li>3/4 cup (150g) white sugar</li>
+<li>2 tsp baking powder</li>
+<li>1/3 cup (80ml) vegetable oil</li>
+<li>1 large egg</li>
+<li>1/3 to 1/2 cup (80ml to 120ml) milk</li>
+<li>1 1/2 tsp vanilla extract</li>
+<li>6 to 8 ounces fresh or frozen blueberries, generous 1 cup</li>
+</ul>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li>Preheat oven to 400 F.</li>
+<li>For larger muffins, line or grease 8 muffin cups.</li>
+<li>For smaller muffins, line or grease 10 muffin cups.</li>
+<li>Whisk the <strong>1 1/2 cups</strong> flour, <strong>3/4 cup</strong> white sugar, <strong>2 tsp</strong> baking powder in a bowl.</li>
+<li>Add <strong>1/3 cup</strong> oil to a 1 cup measuring cup, add <strong>1</strong> egg to it, and then fill to the 1 cup line with milk (<strong>1/2 to 1/3</strong>).</li>
+<li>Add <strong>1 1/2 tsp</strong> vanilla and whisk to combine.</li>
+<li>Add above milk mixture to the bowl of flour and combine with a fork. Do not over mix.</li>
+<li>Divide into muffin tins.</li>
+<li>If desired, sprinkle each muffin with a little bit of white sugar.</li>
+<li>Bake muffins at 400 F for 15 to 20 minutes or until tops are no longer wet and a toothpick inserted into the middle of a muffin comes out with crumbs, not wet batter.</li>
+<li>Transfer to a cooling rack.</li>
+</ul>
+<p>Source: https://www.inspiredtaste.net/18982/our-favorite-easy-blueberry-muffin-recipe/</p>
+
+
+</section>
+
+ ]]></description>
+  <category>muffin</category>
+  <category>blueberry</category>
+  <guid>https://rmflight.github.io/recipes/posts/2024-01-17-blueberry-muffins/</guid>
+  <pubDate>Wed, 17 Jan 2024 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Brownies</title>
+  <link>https://rmflight.github.io/recipes/posts/2024-01-17-brownies/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<ul>
+<li>2 cups sugar</li>
+<li>2/3 cup cocoa powder</li>
+<li>1 cup butter, melted</li>
+<li>4 large eggs</li>
+<li>2 tsp vanilla</li>
+<li>1 1/2 cup flour</li>
+<li>2/3 cup chocolate chips</li>
+</ul>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li>Grease a 9 x 13 pan.</li>
+<li>Preheat oven to 350 F.</li>
+<li>Mix <strong>2 cups</strong> sugar and <strong>2/3 cup</strong> cocoa powder.</li>
+<li>Mix in <strong>1 cup</strong> melted butter, <strong>4</strong> large eggs, <strong>2 tsp</strong> vanilla.</li>
+<li>Add <strong>1 1/2 cups</strong> flour and mix until just combined.</li>
+<li>Fold in <strong>2/3 cup</strong> chocolate chips.</li>
+<li>Drop into greased 9 x 13 pan.</li>
+<li>Bake at 350 F for 32 minutes.</li>
+</ul>
+<p>Source: https://handletheheat.com/rocky-road-brownies/</p>
+
+
+</section>
+
+ ]]></description>
+  <category>desert</category>
+  <category>chocolate</category>
+  <category>brownie</category>
+  <guid>https://rmflight.github.io/recipes/posts/2024-01-17-brownies/</guid>
+  <pubDate>Wed, 17 Jan 2024 05:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Gingerbread Cookies</title>
   <link>https://rmflight.github.io/recipes/posts/2023-12-28-gingerbread/</link>
@@ -933,121 +1024,6 @@
  ]]></description>
   <guid>https://rmflight.github.io/recipes/posts/2022-08-07-butter/</guid>
   <pubDate>Sun, 07 Aug 2022 04:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Chickpea Orzo Soup</title>
-  <link>https://rmflight.github.io/recipes/posts/2022-07-21-chickpea-orzo-soup/</link>
-  <description><![CDATA[ 
-
-
-
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="https://rmflight.github.io/recipes/posts/2022-07-21-chickpea-orzo-soup/chickpea_soup.jpg" class="img-fluid"></p>
-</div>
-</div>
-<section id="ingredients" class="level2">
-<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
-<ul>
-<li>1 Tbsp vegetable oil</li>
-<li>1 Tbsp minced onion rehydrated</li>
-<li>1 cup diced carrots</li>
-<li>3-4 tsp minced garlic</li>
-<li>1 cup dry orzo pasta</li>
-<li>1/2 yellow pepper, diced</li>
-<li>1 can garbanzo beans (chickpeas, 15.5 oz)- drain and rinse</li>
-<li>1 can fire roasted diced tomatoes (15.5 oz can)</li>
-<li>6 - 8 cups vegetable broth</li>
-<li>1 Tbsp Italian Seasoning
-<ul>
-<li>2 tsp basil, 1 tsp oregano, 1/2 tsp thyme, some rosemary</li>
-</ul></li>
-<li>Salt and Pepper per taste</li>
-<li>1 Tbsp lemon juice</li>
-</ul>
-</section>
-<section id="directions" class="level2">
-<h2 class="anchored" data-anchor-id="directions">Directions</h2>
-<ul>
-<li>Warm <strong>1 Tbsp</strong> vegetable oil in large pot.</li>
-<li>Add <strong>1 Tbsp</strong> minced onion, and <strong>1 cup</strong> diced carrots</li>
-<li>Cook for 4 - 5 minutes until the carrots are starting to get a little tender.</li>
-<li>Add <strong>3 - 4 tsp</strong> minced garlic and <strong>1 cup</strong> dry orzo pasta.</li>
-<li>Stir frequently over medium heat to toast the orzo until garlic is fragrant.</li>
-<li>Add <strong>1/2 yellow pepper</strong>, <strong>1 can</strong> drained and rinsed garbanzo beans, <strong>1 can</strong> fire roasted tomatoes, <strong>1 Tbsp</strong> italian seasoning</li>
-<li>Stir together with everything else.</li>
-<li>Add <strong>6 - 8 cups</strong> vegetable broth and <strong>1 Tbsp</strong> lemon juice.</li>
-<li>Bring to a boil, reduce heat and simmer for <strong>15 minutes</strong>.</li>
-<li>Serve in a bowl.</li>
-</ul>
-</section>
-<section id="nutritional-information" class="level2">
-<h2 class="anchored" data-anchor-id="nutritional-information">Nutritional Information</h2>
-<ul>
-<li>1 cup (or small bowl) is ~ 210 Kcal.</li>
-</ul>
-<p>Sourced and modified from <a href="https://profusioncurry.com/wprm_print/7381">Profusion Curry Chickpea Orzo Soup</a>.</p>
-
-
-</section>
-
- ]]></description>
-  <category>soup</category>
-  <category>vegetarian</category>
-  <guid>https://rmflight.github.io/recipes/posts/2022-07-21-chickpea-orzo-soup/</guid>
-  <pubDate>Thu, 21 Jul 2022 04:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Chili</title>
-  <link>https://rmflight.github.io/recipes/posts/2022-07-03-chili/</link>
-  <description><![CDATA[ 
-
-
-
-<section id="ingredients" class="level2">
-
-<ul>
-<li>1 tbsp. cooking oil</li>
-<li>1 tbsp minced onion, rehydrated</li>
-<li>3 cloves minced garlic / 3 tsp minced garlic</li>
-<li>2 tbsp. tomato paste</li>
-<li>1 - 1 1/2 lb. ground beef</li>
-<li>1 1/2 tbsp. chili powder</li>
-<li>1 tsp. ground cumin</li>
-<li>1 tsp. dried oregano</li>
-<li>2 (15-oz) cans kidney beans, drained</li>
-<li>1 (28-oz) can crushed tomatoes</li>
-</ul>
-</section>
-<section id="toppings" class="level2">
-<h2 class="anchored" data-anchor-id="toppings">Toppings</h2>
-<ul>
-<li>Shredded cheddar</li>
-<li>Sour cream</li>
-<li>Thinly sliced green onions</li>
-</ul>
-</section>
-<section id="directions" class="level2">
-<h2 class="anchored" data-anchor-id="directions">Directions</h2>
-<ul>
-<li>In a large pot over medium heat, heat <strong>1 tbsp</strong> oil.</li>
-<li>Add <strong>1 tbsp</strong> minced onion and cook until soft, about 5 minutes.</li>
-<li>Stir in <strong>3 tsp</strong> minced garlic and cook until fragrant, about 1 minute more, then add <strong>2 tbsp</strong> tomato paste, stirring to combine.</li>
-<li>Add <strong>1 - 1 1/2 lbs</strong> ground beef and cook until no longer pink. Drain fat and return to heat.</li>
-<li>Add <strong>1 1/2 tbsp</strong> chili powder, <strong>1 tsp</strong> cumin, <strong>1 tsp</strong> oregano, and season generously with salt and pepper.</li>
-<li>Pour in <strong>2 cans (15 oz)</strong> of drained and rinsed kidney beans, and <strong>1 can (28 oz)</strong> of crushed tomatoes and bring chili to a boil.</li>
-<li>Reduce heat and simmer 20 minutes.</li>
-<li>Season with more salt and pepper, if necessary</li>
-</ul>
-
-
-</section>
-
- ]]></description>
-  <category>hamburger</category>
-  <category>tomato</category>
-  <guid>https://rmflight.github.io/recipes/posts/2022-07-03-chili/</guid>
-  <pubDate>Sun, 03 Jul 2022 04:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
