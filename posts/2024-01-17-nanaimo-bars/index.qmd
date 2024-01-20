@@ -1,0 +1,67 @@
+---
+title: "Nanaimo Bars"
+subtitle: |
+  
+date: 2024-01-17
+categories: []
+editor_options:
+  chunk_output_type: console
+bibliography: refs.bib
+---
+
+## Ingredients
+
+### Bottom Layer:
+
+* 1/2 cup (113g) unsalted butter, diced into pieces
+* 1/4 cup (50g) white sugar
+* 5 Tbsp (30 g) unsweetened cocoa powder
+* 1 large egg, lightly beaten
+* 1 3/4 cup (180g) graham cracker crumbs (about 12 sheets)
+* 1/2 cup (76g) almonds, finely chopped
+* 1 cup (83g) sweetened shredded coconut
+
+### Filling:
+
+* 1/2 cup (113g) unsalted butter, softened
+* 2 - 3 Tbsp heavy cream
+* 2 Tbsp Bird's custard powder, or 1/4 cup powdered milk and 1 tsp vanilla
+* 1 3/4 cups (210g) powdered sugar
+
+### Top Layer:
+
+* 4 oz semi-sweet chocolate, chopped
+* 2 Tbsp (28g) unsalted butter
+
+## Directions
+
+### Bottom Layer:
+
+* Butter or grease an 8 x 11 baking dish.
+* Melt **1/2 cup** butter in a large bowl over boiling water.
+* Add **1/4 cup** white sugar, **5 Tbsp** cocoa and whisk until well combined.
+* While whisking, very slowly pour in beaten egg in a thin stream.
+* Return mixture to heat and cook until mixture has just thickened.
+* Remove from heat and add in **1 3/4 cup** graham cracker crumbs, **1/2 cup** chopped almonds, and **1 cup** sweetened shredded coconut.
+* Press mixture into prepared baking dish. Chill while preparing the filling, as the bottom layer shouldn't be warm when adding the custard frosting layer.
+
+### Filling:
+
+* For custard powder option,
+  * Add **2 Tbsp** custard powder, **2 Tbsp** heavy cream, **1/2 cup** softened butter, **1 3/4** cups to mixer bowl. 
+  * Whip until pale and fluffy, and thin with up to **1 Tbsp** cream if needed.
+* For powdered milk option, 
+  * Add **1/4 cup** powdered milk and **3 Tbsp** heavy cream.
+  * Whisk to dissolve powdered milk.
+  * Add **1/2 cup** butter, **1 3/4 cup** powdered sugar, and **1 tsp** vanilla, and mix until fluffy.
+* Spread mixture over bottom layer.
+* Chill (preferably in the freezer) while melting chocolate.
+
+### Top Layer:
+
+* Melt **4 oz** semi-sweet chocolate and **2 Tbsp** butter until smooth.
+* Spread quickly into an even layer over the filling before the chocolate begins to set.
+* Chill until the chocolate has set.
+
+
+Source: https://www.cookingclassy.com/nanaimo-bars
