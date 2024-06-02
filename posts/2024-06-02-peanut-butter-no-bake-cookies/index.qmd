@@ -1,0 +1,36 @@
+---
+title: "Peanut Butter No Bake Cookies"
+subtitle: |
+  An alternative to chocolate macaroons with some peanut butter thrown in.
+date: 2024-06-02
+categories: [cookies, no bake]
+editor_options:
+  chunk_output_type: console
+---
+
+## Ingredients
+
+### Wet
+
+* 1/2 cup butter, margarine, etc.
+* 1/2 cup milk
+* 2 cups sugar
+* 1/2 cup cocoa
+
+### Dry (ish)
+
+* 1/2 cup peanut butter
+* 3 cup oatmeal
+* 1 tsp vanilla
+
+## Directions
+
+* In medium or larger saucepan, combine [wet](#wet) ingredients.
+* On medium heat, bring to a boil, and boil 1 minute. 
+* Remove from heat. 
+* Stir in **1/2 cup** peanut butter until thoroughly mixed, add **1 tsp** vanilla.
+* Stir in **3 cups** oatmeal.
+* Drop spoonfuls onto a baking sheet lined with parchment or waxed paper.
+* Allow to fully cool, and transfer to a sealed container.
+
+Modified from [Cooks.com](https://www.cooks.com/recipe/4i2lq3jo/children-cant-wait-cookies.html).

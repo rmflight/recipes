@@ -1,0 +1,38 @@
+---
+title: "Spider Cookies"
+subtitle: |
+  Chocolate macaroons, frogs, etc. Chewy and delicious no bake cookie.
+date: 2024-06-02
+categories: [cookies, no bake]
+editor_options:
+  chunk_output_type: console
+---
+
+## Ingredients
+
+### Wet
+
+* 2 cups white sugar
+* 1/2 cup milk
+* 1/2 cup butter, margarine, or shortening
+* 1 tsp vanilla
+
+### Dry
+
+* 3 cups quick cooking rolled oats (not instant)
+* 1/2 cup coconut
+* 6 Tbsp cocoa
+
+## Directions
+
+* Put [wet](#wet) ingredients in a medium or larger saucepan.
+* Heat on medium.
+* While heating, combine [dry](#dry) ingredients in a bowl.
+* Just bring to a boil, then reduce heat to minimum, and boil for 5 minutes.
+* Remove from heat, thoroughly mix in dry ingredients.
+* Let sit for 10 minutes.
+* Turn out spoonfuls of mix onto a baking sheet lined with wax or parchment paper.
+* Cool in a refrigerator for 20 minutes.
+* Transfer to a sealed container.
+
+Modified from [My Island Bistro Kitchen](https://myislandbistrokitchen.com/2013/06/30/june-2013-cookie-of-the-month-spider-cookies/)
