@@ -1,7 +1,7 @@
 ---
 title: "Brownies"
 subtitle: |
-  Ooey gooey chocolatey brownies.
+  Ooey gooey chocolatey brownies, borrowed from the base of Rocky Road Brownies.
 date: 2024-01-17
 categories: [desert, chocolate, brownie]
 editor_options:
