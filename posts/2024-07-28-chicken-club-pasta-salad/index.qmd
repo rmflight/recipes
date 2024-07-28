@@ -1,0 +1,33 @@
+---
+title: "Chicken Club Pasta Salad"
+subtitle: |
+  A delicious pasta salad, with added protein from chicken breast and bacon.
+date: 2024-07-28
+categories: [salad, pasta, chicken, bacon]
+editor_options:
+  chunk_output_type: console
+bibliography: refs.bib
+---
+
+## Ingredients
+
+* 12 - 14 oz Cellentani or another fun shape pasta
+* 3/4 cup italian style dressing
+* 1/4 mayonnaise
+* 1/2 tsp black pepper
+* 9 - 12 slices bacon, crispy and crumbled
+* 2 cups chopped cooked chicken ([poached](https://rmflight.github.io/recipes/posts/2021-11-06-poached-chicken-breast-instant-pot/index.html) would work nicely)
+* 8 oz cherry tomatoes, halved
+* 1 cup cubed Muenster or Monterey Jack cheese
+* 1 medium red pepper, chopped
+* 1 avocado, chopped
+
+## Directions
+
+* Cook **12 - 14 oz** pasta, rinse under cold water and drain.
+* Whisk together **3/4 cup** italian dressing,  **1/4 cup** mayonnaise and **1/2 tsp** black pepper in a large bowl.
+* Stir in cooked pasta, **2 cups** chopped chicken, **9-12 slices** of bacon, **8 oz** cherry tomatoes, **1 cup** chopped cheese, **1** chopped red pepper, **1** chopped avocado.
+
+Serve immediately, or chill covered up to 4 hours.
+
+Source: Allrecipes magazine.

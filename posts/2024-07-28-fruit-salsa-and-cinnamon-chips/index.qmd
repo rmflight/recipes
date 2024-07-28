@@ -1,0 +1,50 @@
+---
+title: "Fruit Salsa and Cinnamon Chips"
+subtitle: |
+  A refreshing side, or even a meal of fruit and tortilla.
+date: 2024-07-28
+categories: [fruit, salsa]
+editor_options:
+  chunk_output_type: console
+---
+
+## Ingredients
+
+### Salsa
+
+* 1 large banana, chopped
+* 1 large honey crisp apple, chopped
+* 8 oz of chopped fresh strawberries
+* 1 1/2 tsp lime juice
+* 1 Tbsp white sugar
+* 1/4 tsp cinnamon
+* 1/4 tsp nutmeg
+
+### Tortilla Chips
+
+* 3 Tbsp white sugar
+* 3 tsp cinnamon
+* 8 or 9 8 inch tortillas (Mission soft taco size)
+* cooking spray
+
+## Directions
+
+### Salsa
+
+* Mix the apple, banana, strawberries, **1 1/2 tsp** lime juice, **1 Tbsp** white sugar, **1/4 tsp** cinnamon, and **1/4 tsp** nutmeg together.
+* Chill up to 20 minutes.
+
+### Tortilla chips
+
+* Preheat oven to 350F.
+* In a small bowl, mix together **3 Tbsp** white sugar and **3 tsp** cinnamon.
+* Cut each 8 inch tortilla into 8 wedges.
+* In a larger bowl, put up to 12 or 16 tortilla wedges.
+* Spray the wedges with baking spray, using hands to help coat them.
+* Sprinkle sprayed wedges with sugar / cinnamon mix, using hands to coat evenly.
+* Arrange wedges on a baking sheet with parchment paper.
+* Bake wedges for 5 minutes, flip them (**definitely flip them!!**), and bake another 5 minutes until crispy.
+* Remove hot wedges to a bowl to cool.
+* Repeat as needed until all wedges are baked.
+
+Source: Allrecipes magazine.
