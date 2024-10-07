@@ -20,11 +20,12 @@ knitr::opts_chunk$set(echo = FALSE)
 * 1 tbsp minced & dried onion (add water to rehydrate for frying)
 * 2 garlic cloves (or 2 tsp minced garlic)
 * 8 cups vegetable broth (two 32 oz boxes)
-* 1/2 tsp dried basil
-* 1/2 tsp dried oregano
-* dash of sage
+* 1 tbsp dried basil
+* 1 tbsp dried oregano
+* 1 tsp thyme
+* bunch of sage (or summer savory)
 * salt and pepper to taste
-* 3 cups egg noodles
+* 3 cups (8 oz by weight) egg noodles
 * 2 cups cooked and shredded chicken breasts ([see here](https://rmflight.github.io/recipes/posts/2021-11-06-poached-chicken-breast-instant-pot/))
 
 ## Directions
@@ -32,7 +33,7 @@ knitr::opts_chunk$set(echo = FALSE)
 * In large pot over medium heat, melt **2 tbsp** butter.
 * Cook **1 tbsp minced** onion and **2 cups** diced carrot in butter until tender (~ 5 min).
 * Add garlic and cook an additional minute.
-* Pour in vegetable broth and stir in **3 cups** egg noodles; **1/2 tsp** oregano, **1/2 tsp** basil, dash of sage, salt and pepper.
+* Pour in vegetable broth and stir in **3 cups** egg noodles; **1 tbsp** oregano, **1 tbsp** basil, **1 tsp** of thyme, bunch of sage (or summer savory), salt and pepper.
 * Check the taste now and add any more seasoning you think it needs.
 * Stir in **2 cups** shredded chicken (putting it in now means the chicken flavor will well permeate the soup, a plus if you are using vegetable broth, if using chicken broth, add it after simmering).
 * Bring to a boil, reduce heat and simmer 15 - 20 minutes.
