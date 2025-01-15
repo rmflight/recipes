@@ -9,8 +9,54 @@
 <link>https://rmflight.github.io/recipes/</link>
 <atom:link href="https://rmflight.github.io/recipes/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.6.20</generator>
-<lastBuildDate>Sun, 28 Jul 2024 04:00:00 GMT</lastBuildDate>
+<generator>quarto-1.7.7</generator>
+<lastBuildDate>Tue, 14 Jan 2025 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Breakfast Cookies</title>
+  <link>https://rmflight.github.io/recipes/posts/2025-01-14-breakfast-cookies/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="ingredients" class="level2">
+
+<ul>
+<li>2 cups white sugar</li>
+<li>1 1/3 cups creamy peanut butter</li>
+<li>1 cup butter, softened</li>
+<li>2 Tbsp vaniall</li>
+<li>2 eggs, lightly beaten</li>
+<li>2 1/4 cups flour</li>
+<li>1 tsp baking soda</li>
+<li>1 1/2 cups instant oats</li>
+<li>1 1/2 cups raisins</li>
+<li>4 1/2 cups toasted oat cereal (i.e.&nbsp;Cheerios)</li>
+</ul>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li>Preheat oven to 375F.</li>
+<li>In a large bowl, mix together <strong>2 cups white sugar</strong>, <strong>1 1/3 cups</strong> peanut butter, <strong>1 cup</strong> softened butter, <strong>2 Tbsp</strong> vanilla, <strong>2 eggs</strong> on medium until smooth.</li>
+<li>Another bowl, stir together <strong>2 1/4 cups</strong> flour, <strong>1 tsp</strong> baking soda.</li>
+<li>Mix flour mixture into peanut butter mixture at low speed until just combined.</li>
+<li>Mix in <strong>1 1/2 cups</strong> raisins and <strong>1 1/2 cups</strong> instant oats.</li>
+<li>Finally, with a spatula (or your hands), mix in <strong>4 1/2 cups</strong> toasted oat cereal.</li>
+<li>Drop <strong>1/2 cup</strong> portions onto a prepared cookie sheet, flattening to 3/4” thickness.</li>
+<li>Bake until cookies are lightly browned around the edges, about 10 - 12 minutes.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>breakfast</category>
+  <category>cookie</category>
+  <category>cookies</category>
+  <guid>https://rmflight.github.io/recipes/posts/2025-01-14-breakfast-cookies/</guid>
+  <pubDate>Tue, 14 Jan 2025 05:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Fruit Salsa and Cinnamon Chips</title>
   <link>https://rmflight.github.io/recipes/posts/2024-07-28-fruit-salsa-and-cinnamon-chips/</link>
@@ -1061,46 +1107,6 @@
   <category>dessert</category>
   <guid>https://rmflight.github.io/recipes/posts/2023-05-10-cracked-top-molasses-cookies/</guid>
   <pubDate>Wed, 10 May 2023 04:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Banana Bread</title>
-  <link>https://rmflight.github.io/recipes/posts/2023-05-05-banana-bread/</link>
-  <description><![CDATA[ 
-
-
-
-<section id="ingredients" class="level2">
-
-<ul>
-<li>1 cup white sugar</li>
-<li>4 tbsp or 1/4 cup melted butter</li>
-<li>2 eggs</li>
-<li>3 bananas</li>
-<li>1 1/2 cup flour</li>
-<li>1 tsp baking soda</li>
-<li>1 cup semi-sweet chocolate baking chips (optional)</li>
-</ul>
-</section>
-<section id="directions" class="level2">
-<h2 class="anchored" data-anchor-id="directions">Directions</h2>
-<ul>
-<li>Preheat oven to 350F.</li>
-<li>Cream together <strong>1 cup</strong> white sugar, <strong>1/4 cup</strong> melted butter, <strong>2</strong> eggs.</li>
-<li>Add mashed bananas.</li>
-<li>Add <strong>1 1/2 cup</strong> flour and <strong>1 tsp</strong> baking soda.</li>
-<li>If desired, add <strong>1 cup</strong> semi-sweet chocolate baking chips.</li>
-<li>Pour into a large loaf tin.</li>
-<li>Bake at 350F for 45 minutes.</li>
-</ul>
-
-
-</section>
-
- ]]></description>
-  <category>bread</category>
-  <category>dessert</category>
-  <guid>https://rmflight.github.io/recipes/posts/2023-05-05-banana-bread/</guid>
-  <pubDate>Fri, 05 May 2023 04:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
