@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = FALSE)
 * 1 tsp. ground cumin
 * 1 tsp. dried oregano
 * 2 (15-oz) cans kidney beans, drained
-* 1 (28-oz) can crushed tomatoes
+* 2 (28-oz) can crushed tomatoes
 
 ## Toppings
 
@@ -33,7 +33,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Directions
 
-* In a large pot over medium heat, heat **1 tbsp** oil. 
+* In a 4 quart pot over medium heat, heat **1 tbsp** oil. 
 * Add **1 tbsp** minced onion and cook until soft, about 5 minutes. 
 * Stir in **3 tsp** minced garlic and cook until fragrant, about 1 minute more, then add **2 tbsp** tomato paste, stirring to combine. 
 * Add **1 - 1 1/2 lbs** ground beef and cook until no longer pink. Drain fat and return to heat.
@@ -41,3 +41,5 @@ knitr::opts_chunk$set(echo = FALSE)
 * Pour in **2 cans (15 oz)** of drained and rinsed kidney beans, and **1 can (28 oz)** of crushed tomatoes and bring chili to a boil. 
 * Reduce heat and simmer 20 minutes. 
 * Season with more salt and pepper, if necessary
+
+Modified 2025-04-13 to use two cans of crushed tomatoes, and a 4 quart pot.
