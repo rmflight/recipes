@@ -10,7 +10,57 @@
 <atom:link href="https://rmflight.github.io/recipes/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.7.7</generator>
-<lastBuildDate>Sun, 20 Apr 2025 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 22 May 2025 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Red Lentil Dahl</title>
+  <link>https://rmflight.github.io/recipes/posts/2025-05-22-red-lentil-dahl/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<ul>
+<li>1 Tbsp oil</li>
+<li>1 onion, chopped small</li>
+<li>2 Tbsp minced garlic</li>
+<li>1 tsp ground ginger</li>
+<li>1 Tbsp garam masala</li>
+<li>1 tsp ground turmeric</li>
+<li>2 cups dried red lentils (1 lb bag)</li>
+<li>14 ounce can diced tomatoes</li>
+<li>13.5 ounce can full fat coconut milk</li>
+<li>4 cups vegetable broth</li>
+<li>1 Tbsp lemon juice</li>
+<li>2 - 4 cups baby spinach</li>
+</ul>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li>In a large pot (like you might use for making soup, doesn’t need to be stock pot, but bigger than you think) over medium heat, sauté the chopped onion in the oil for 5 minutes, stirring frequently.</li>
+<li>Then add the <strong>2 Tbsp</strong> minced garlic, cook 1 more minute.</li>
+<li>Add the <strong>1 tsp</strong> ground ginger, <strong>1 Tbsp</strong> garam masala, and <strong>1 tsp</strong> turmeric to the pan and stir into the onion mixture. Add a few tablespoons of water if the mixture is too dry.</li>
+<li>Now add the <strong>4 cups</strong> vegetable broth, <strong>2 cups</strong> dried lentils, <strong>14 oz</strong> canned tomatoes and their juices, <strong>13.5 oz</strong> coconut milk to the pan.</li>
+<li>Stir well and turn the heat to high.</li>
+<li>Bring to a boil, then lower heat and simmer for about 15 minutes, until the lentils are cooked and soft (may need longer for different colored lentils). * Stir occasionally.</li>
+<li>Rinse and dry <strong>2 - 4 cups</strong> of baby spinach.</li>
+<li>Add <strong>1 Tbsp</strong> lemon juice into the pan, and stir in the spinach as well until wilted.</li>
+<li>Serve with rice and pita or Naan bread.</li>
+</ul>
+<p>Source: <a href="https://www.noracooks.com/red-lentil-dahl/">Nora Cooks</a></p>
+
+
+</section>
+
+ ]]></description>
+  <category>main-dish</category>
+  <category>vegetarian</category>
+  <category>lentils</category>
+  <guid>https://rmflight.github.io/recipes/posts/2025-05-22-red-lentil-dahl/</guid>
+  <pubDate>Thu, 22 May 2025 04:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Tea Biscuits</title>
   <link>https://rmflight.github.io/recipes/posts/2025-04-20-tea-biscuits/</link>
@@ -1068,46 +1118,6 @@
   <category>potatoes</category>
   <guid>https://rmflight.github.io/recipes/posts/2023-05-21-instant-pot-potato-soup/</guid>
   <pubDate>Sun, 21 May 2023 04:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Chocolate Peanut Butter Balls</title>
-  <link>https://rmflight.github.io/recipes/posts/2023-05-10-chocolate-peanut-butter-balls/</link>
-  <description><![CDATA[ 
-
-
-
-<section id="ingredients" class="level2">
-<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
-<ul>
-<li>1 cup peanut butter</li>
-<li>1 cup icing or confectioners sugar</li>
-<li>4 tbsp butter</li>
-<li>1/2 cup sweetened coconut flakes</li>
-<li>1 cup rice krispies cereal</li>
-<li>10 oz package of semi-sweet baking chips</li>
-<li>2 tbsp shaved parafin wax</li>
-<li>4 tbsp butter</li>
-</ul>
-</section>
-<section id="directions" class="level2">
-<h2 class="anchored" data-anchor-id="directions">Directions</h2>
-<ul>
-<li>Mix the <strong>1 cup</strong> of peanut butter, <strong>1 cup</strong> icing sugar, <strong>4 tbsp</strong> butter, <strong>1/2 cup</strong> sweetened coconut flakes, <strong>1 cup</strong> rice krispies together, and roll into balls.</li>
-<li>Refrigerate the balls for 30 minutes to help them set.</li>
-<li>Melt <strong>10 oz</strong> package of chocolate chips, <strong>2 tbsp</strong> shaved parafin wax and <strong>4 tbsp</strong> butter over a double boiler or in the microwave.</li>
-<li>Use two forks to dip balls in melted chocolate, and remove to wax paper.</li>
-<li>Chill dipped balls in the freezer.</li>
-</ul>
-<p>Source: Stella Trask</p>
-
-
-</section>
-
- ]]></description>
-  <category>dessert</category>
-  <category>chocolate</category>
-  <guid>https://rmflight.github.io/recipes/posts/2023-05-10-chocolate-peanut-butter-balls/</guid>
-  <pubDate>Wed, 10 May 2023 04:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

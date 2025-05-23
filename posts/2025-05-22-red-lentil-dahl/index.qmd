@@ -1,0 +1,38 @@
+---
+title: "Red Lentil Dahl"
+subtitle: |
+  Easy, delicious, not too spicy lentil dahl (dal) that pairs well with rice and flatbread.
+date: 2025-05-22
+categories: [main-dish, vegetarian, lentils]
+editor_options:
+  chunk_output_type: console
+---
+
+## Ingredients
+
+* 1 Tbsp oil
+* 1 onion, chopped small
+* 2 Tbsp minced garlic
+* 1 tsp ground ginger
+* 1 Tbsp garam masala
+* 1 tsp ground turmeric
+* 2 cups dried red lentils (1 lb bag)
+* 14 ounce can diced tomatoes
+* 13.5 ounce can full fat coconut milk
+* 4 cups vegetable broth
+* 1 Tbsp lemon juice
+* 2 - 4 cups baby spinach
+
+## Directions
+
+* In a large pot (like you might use for making soup, doesn't need to be stock pot, but bigger than you think) over medium heat, sauté the chopped onion in the oil for 5 minutes, stirring frequently. 
+* Then add the **2 Tbsp** minced garlic, cook 1 more minute.
+* Add the **1 tsp** ground ginger, **1 Tbsp** garam masala, and **1 tsp** turmeric to the pan and stir into the onion mixture. Add a few tablespoons of water if the mixture is too dry.
+* Now add the **4 cups** vegetable broth, **2 cups** dried lentils, **14 oz** canned tomatoes and their juices, **13.5 oz** coconut milk to the pan. 
+* Stir well and turn the heat to high. 
+* Bring to a boil, then lower heat and simmer for about 15 minutes, until the lentils are cooked and soft (may need longer for different colored lentils). * Stir occasionally.
+* Rinse and dry **2 - 4 cups** of baby spinach.
+* Add **1 Tbsp** lemon juice into the pan, and stir in the spinach as well until wilted.
+* Serve with rice and pita or Naan bread.
+
+Source: [Nora Cooks](https://www.noracooks.com/red-lentil-dahl/)

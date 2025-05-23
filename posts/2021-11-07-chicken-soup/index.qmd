@@ -36,7 +36,7 @@ knitr::opts_chunk$set(echo = FALSE)
 * Pour in vegetable broth and stir in **3 cups** egg noodles; **1 tbsp** oregano, **1 tbsp** basil, **1 tsp** of thyme, bunch of sage (or summer savory), salt and pepper.
 * Check the taste now and add any more seasoning you think it needs.
 * Stir in **2 cups** shredded chicken (putting it in now means the chicken flavor will well permeate the soup, a plus if you are using vegetable broth, if using chicken broth, add it after simmering).
-* Bring to a boil, reduce heat and simmer 15 - 20 minutes.
+* Bring to a boil, reduce heat, cover with a lid, and simmer 15 - 20 minutes.
 
 From [The Girl Who Ate Everything](https://www.the-girl-who-ate-everything.com/homemade-chicken-noodle-soup/).
 
