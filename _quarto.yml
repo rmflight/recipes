@@ -9,8 +9,6 @@ website:
     right:
       - text: Home
         href: index.html
-      - text: Old Recipes
-        href: https://github.com/rmflight/recipes/tree/main/old_recipes
       - text: Welcome
         href: posts/welcome/index.html
       - icon: github
