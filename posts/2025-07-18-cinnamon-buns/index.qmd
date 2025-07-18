@@ -1,0 +1,79 @@
+---
+title: "Cinnamon Buns"
+subtitle: |
+  Delicious cinnamon buns, based on a Cinnabon copycat recipe.
+date: 2025-07-18
+categories: [dessert, breakfast, cinnamon]
+editor_options:
+  chunk_output_type: console
+bibliography: refs.bib
+---
+
+This recipe assumes you are using a stand mixer (like a Kitchenaid) with a paddle and dough hook attachment. Adjust accordingly if you don't have that.
+
+## Equipment
+
+* 9 x 13 inch baking pan
+* Stand mixer with paddle and dough hook
+* Large flat surface to roll dough out on
+* Rolling pin
+* Spatula
+* Microwave, or some other way to heat milk, melt butter.
+* Oven to bake the rolls in.
+
+## Ingredients
+
+### Dough
+
+* 1 cup of milk warmed to 110 F
+* 1 packet or 2 1/4 tsp of fast rise yeast
+* 1/3 cup salted butter, melted and cooled
+* 1/2 cup white sugar
+* 2 eggs at room temperature
+* 1 tsp salt
+* 4 cups bread flour
+
+### Filling
+
+* 1/2 cup butter, melted and cooled
+* 2 Tbsp ground cinnamon
+* 1 cup brown sugar, packed
+
+### Baking
+
+* 1/2 cup heavy cream; OR
+* 1/3 cup whole milk + 2 Tbsp butter
+
+## Directions
+
+### Dough
+
+* Warm **1 cup** of milk to 110 F (1 minute in microwave works for me).
+* Add your **1 packet** or **2 1/4 tsp** of fast rising yeast.
+* If using lactose free milk, also add **1 tsp** white sugar to the milk and yeast mixture.
+* Let the yeast and milk mixture sit for **5 minutes** until it becomes foamy with bubbles.
+* Mix milk mixture, **1/3 cup** of melted and cooled butter, **1/2 cup** white sugar, and **2 eggs** (room temperature) in a mixing bowl.
+* Add **1 tsp** of salt, and **4 cups** of bread flour to the mixing bowl.
+* Mix in the flour with the paddle attachment until it is crumbly.
+* Scrape any dough off the paddle, and allow the mixture to sit for **5 minutes**.
+* Switch to a dough hook, and knead on low for **5 minutes**.
+  * Dough should be stretchy and soft.
+* Scrape the dough away from the sides of the bowl, spray with oil or cooking spray so the dough won't stick, and then cover and let rise until doubled (~ **30 minutes**).
+
+### Filling
+
+* Melt **1/2 cup** of butter, allow to cool to room temperature.
+* Mix in **2 Tbsp** of cinnamon and **1 cup** of packed brown sugar.
+
+### Combine Them
+
+* Roll dough out onto a lightly floured surface until it is a large rectangle, roughly **1/4 inch** thick.
+* Spread the filling over the dough (a spatula works well).
+* Roll the dough tightly along the long edge.
+* Cut into 12 rolls.
+* Place the rolls edges up into the 9 x 13 baking dish.
+* Cover and allow them to rise while the oven warms to **375 F**.
+* Pour **1/2 cup** of cream over the buns, **or** melt **2 Tbsp** of butter in **1/3 cup** of whole milk and pour over the buns.
+* Bake buns for **25 minutes**.
+
+Source: LazerMazer on Facebook.
