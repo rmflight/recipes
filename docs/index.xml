@@ -9,8 +9,64 @@
 <link>https://rmflight.github.io/recipes/</link>
 <atom:link href="https://rmflight.github.io/recipes/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.8.17</generator>
-<lastBuildDate>Fri, 18 Jul 2025 04:00:00 GMT</lastBuildDate>
+<generator>quarto-1.9.3</generator>
+<lastBuildDate>Sun, 26 Oct 2025 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Pizza Dough</title>
+  <link>https://rmflight.github.io/recipes/posts/2025-10-26-pizza-dough/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="ingredients" class="level2">
+
+<ul>
+<li>5 cups of bread flour, mix of all-purpose and bread, or just all-purpose flour.</li>
+<li>0.65 the weight of the flour of warm water.</li>
+<li>1 Tbsp white sugar.</li>
+<li>1 Tbsp oil (olive, canola, vegetable).</li>
+<li>Salt.</li>
+<li>1 package of fast rising yeast.</li>
+<li>Corn meal or flour for pressing out the dough.</li>
+</ul>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ul>
+<li>Put a largish bowl on your kitchen scale, turn the scale to grams (g) and zero / tare it so the scale reads zero.</li>
+<li>Measure <strong>5 cups</strong> of bread flour into the bowl. Note the weight!</li>
+<li>Whatever the weight in grams of flour, multiply by <strong>0.65</strong> to get the amount of water you want.
+<ul>
+<li>For example, your flour weight was 600 grams, then you want <img src="https://latex.codecogs.com/png.latex?600g%20%5Ctimes%200.65%20=%20390g"> of warm (100 - 110F) water.</li>
+</ul></li>
+<li>Get another bowl, zero / tare your scale.</li>
+<li>Add the required amount of warm (100 - 110F) water.</li>
+<li>Dump water into mixing bowl.</li>
+<li>Add <strong>1 Tbsp</strong> white sugar, and <strong>1 package</strong> of fast rising yeast.</li>
+<li>Mix together.</li>
+<li>Let sit for <strong>5 minutes</strong>.</li>
+<li>Add <strong>1 Tbsp</strong> oil, a little salt, and previously measured bread flour.</li>
+<li>Using paddle, mix until flour and water are just combined.</li>
+<li>Let sit for <strong>5 minutes</strong>.</li>
+<li>Switch to dough hook, scrape any dough off the paddle, and knead for <strong>5 minutes</strong> on low.</li>
+<li>The dough should not be sticking to the sides at all when it’s done kneading.</li>
+<li>Scrape any remaining dough off the sides of the bowl, lightly grease the mixing bowl, coat the dough slightly, and cover to rise for at least <strong>90 minutes</strong>.</li>
+<li>On a clean surface, put out flour or corn meal.</li>
+<li>Press out your dough to desired shape, either with hands or rolling pin. It will be tough to work (at least in my experience).</li>
+<li>Add pizza toppings.</li>
+<li>Bake at 425F for 12 minutes.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>main-dish</category>
+  <guid>https://rmflight.github.io/recipes/posts/2025-10-26-pizza-dough/</guid>
+  <pubDate>Sun, 26 Oct 2025 04:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Cinnamon Buns</title>
   <link>https://rmflight.github.io/recipes/posts/2025-07-18-cinnamon-buns/</link>
@@ -542,16 +598,16 @@
 <section id="ingredients" class="level2">
 <h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
 <ul>
-<li>1 1/2 cups flour</li>
+<li>2 1/2 cups flour</li>
 <li>1 cup white sugar</li>
-<li>1/2 tsp cinnamon</li>
+<li>1 tsp cinnamon</li>
 <li>1/2 tsp baking soda</li>
-<li>1/2 tsp baking powder</li>
+<li>1 Tbsp baking powder</li>
 <li>3/4 cup vegetable oil</li>
 <li>1/2 cup brown sugar</li>
 <li>2 large eggs - at room temperature</li>
 <li>2 tsp vanilla extract</li>
-<li>2 cups finely grated carrots - not pre-shredded carrots, they should be freshly grated
+<li>2 cups finely grated carrots - not pre-shredded carrots, they should be freshly grated and <strong>dried</strong>.
 <ul>
 <li>Either the smallest holes on a box grater, or small short pieces using a hand grater.</li>
 </ul></li>
@@ -560,13 +616,16 @@
 <section id="instructions" class="level2">
 <h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
 <ul>
-<li>Preheat oven to 350F degrees and line a muffin tin with paper or silicone cupcake liners (or grease well with cooking spray).</li>
-<li>In a medium bowl whisk together <strong>1 1/2 cups</strong> flour, <strong>1 cup</strong> sugar, <strong>1/2 tsp</strong> cinnamon, <strong>1/2 tsp</strong> baking soda, and <strong>1/2 tsp</strong> baking powder.</li>
+<li>Preheat oven to 375F degrees and line a muffin tin with paper or silicone cupcake liners (or grease well with cooking spray).</li>
+<li>In a medium bowl whisk together <strong>2 1/2 cups</strong> flour, <strong>1 cup</strong> sugar, <strong>1 tsp</strong> cinnamon, <strong>1/2 tsp</strong> baking soda, and <strong>1 Tbsp</strong> baking powder.</li>
 <li>In a large bowl combine <strong>1/2 cup</strong> oil, <strong>1/2 cup</strong> brown sugar, <strong>2</strong> eggs, and <strong>2 tsp</strong> vanilla and mix well.</li>
-<li>Stir in <strong>2 cups</strong> finely grated carrots.</li>
-<li>Stir dry ingredients into wet ingredients until completely incorporated.</li>
+<li>Stir in <strong>2 cups</strong> finely grated, dried carrots.</li>
+<li>Stir dry ingredients into wet ingredients with a spoon or otherwise by hand until completely incorporated.
+<ul>
+<li>You will wonder if it will all get incorporated. It will, trust me!</li>
+</ul></li>
 <li>Fill muffin liners 2/3 full.</li>
-<li>Bake in preheated oven for 20-22 minutes until a toothpick inserted in the center of the muffins comes out clean. Cool for 5 minutes before transferring to a cooling rack to continue cooling.</li>
+<li>Bake in preheated oven for 15-20 minutes until a toothpick inserted in the center of the muffins comes out clean. Cool for 5 minutes before transferring to a cooling rack to continue cooling.</li>
 </ul>
 <p>Source: <a href="https://www.lecremedelacrumb.com/carrot-cake-muffins/">CremeDeLaCrumb</a></p>
 
@@ -1120,80 +1179,6 @@
   <category>apple</category>
   <guid>https://rmflight.github.io/recipes/posts/2023-10-17-apple-cider-donuts/</guid>
   <pubDate>Tue, 17 Oct 2023 04:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Grilled Cheese</title>
-  <link>https://rmflight.github.io/recipes/posts/2023-05-21-grilled-cheese/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="ingredients" class="level2">
-<h2 class="anchored" data-anchor-id="ingredients">Ingredients:</h2>
-<section id="cream-cheese-spread-filling" class="level3">
-<h3 class="anchored" data-anchor-id="cream-cheese-spread-filling">Cream Cheese Spread Filling</h3>
-<ul>
-<li>1/2 cup cream cheese</li>
-<li>1/2 cup shredded cheddar</li>
-<li>2 tbsp heavy cream</li>
-</ul>
-</section>
-<section id="garlic-spread" class="level3">
-<h3 class="anchored" data-anchor-id="garlic-spread">Garlic Spread</h3>
-<ul>
-<li>1/2 cup mayonnaise</li>
-<li>3/4 tsp minced garlic</li>
-</ul>
-</section>
-<section id="grilled-three-cheese-sandwich" class="level3">
-<h3 class="anchored" data-anchor-id="grilled-three-cheese-sandwich">Grilled Three-Cheese Sandwich</h3>
-<ul>
-<li>8 slices of sourdough bread</li>
-<li>8 cheddar cheese slices</li>
-<li>8 provolone slices</li>
-</ul>
-</section>
-</section>
-<section id="directions" class="level2">
-<h2 class="anchored" data-anchor-id="directions">Directions</h2>
-<section id="cream-cheese-filling" class="level3">
-<h3 class="anchored" data-anchor-id="cream-cheese-filling">Cream Cheese Filling</h3>
-<ul>
-<li>Combine <strong>1/2 cup</strong> cream cheese, <strong>1/2 cup</strong> shredded cheddar cheese, <strong>2 tbsp</strong> heavy cream.</li>
-<li>Set aside.</li>
-</ul>
-</section>
-<section id="garlic-spread-1" class="level3">
-<h3 class="anchored" data-anchor-id="garlic-spread-1">Garlic Spread</h3>
-<ul>
-<li>Combine <strong>1/2 cup</strong> mayonnaise and <strong>3/4 tsp</strong> minced garlic in a small bowl.</li>
-</ul>
-</section>
-<section id="sandwiches" class="level3">
-<h3 class="anchored" data-anchor-id="sandwiches">Sandwiches</h3>
-<ul>
-<li>Lay out sourdough bread slices a large cutting board.</li>
-<li>Place <strong>2 slices</strong> of cheddar on <strong>4</strong> of the bread slices.</li>
-<li>Place <strong>2 slices</strong> of provolone on remaining bread slices.</li>
-<li>Equally spoon cream cheese spread on slices with provolone. Gently smooth cream cheese spread over each slice.</li>
-<li>Press cheddar side and provolone side together.</li>
-<li>Heat a large skillet over medium heat for 5 minutes, until hot.</li>
-<li>Brush both sides of the sandwiches with garlic spread.</li>
-<li>Grill sandwiches for 2 minutes on each side, until cheese is melted and bread is golden brown.</li>
-</ul>
-<p>Original from: Walt Disney World Resort - <a href="https://disneyparks.disney.go.com/blog/2020/04/cooking-up-the-magic-at-home-celebrate-national-grilled-cheese-day-with-a-grilled-cheese-sandwich-from-toy-story-land/">Grilled Cheese Sandwich from Toy Story Land</a></p>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>sandwich</category>
-  <category>cheese</category>
-  <guid>https://rmflight.github.io/recipes/posts/2023-05-21-grilled-cheese/</guid>
-  <pubDate>Sun, 21 May 2023 04:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

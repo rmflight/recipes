@@ -1,0 +1,42 @@
+---
+title: "Pizza Dough"
+subtitle: |
+  Simple pizza dough. Great for pizza or calzones. Makes enough for a family of 5.
+date: 2025-10-26
+categories: [main-dish]
+editor_options:
+  chunk_output_type: console
+---
+
+## Ingredients
+
+* 5 cups of bread flour, mix of all-purpose and bread, or just all-purpose flour.
+* 0.65 the weight of the flour of warm water.
+* 1 Tbsp white sugar.
+* 1 Tbsp oil (olive, canola, vegetable).
+* Salt.
+* 1 package of fast rising yeast.
+* Corn meal or flour for pressing out the dough.
+
+## Directions
+
+* Put a largish bowl on your kitchen scale, turn the scale to grams (g) and zero / tare it so the scale reads zero.
+* Measure **5 cups** of bread flour into the bowl. Note the weight!
+* Whatever the weight in grams of flour, multiply by **0.65** to get the amount of water you want.
+  * For example, your flour weight was 600 grams, then you want $600g \times 0.65 = 390g$ of warm (100 - 110F) water.
+* Get another bowl, zero / tare your scale.
+* Add the required amount of warm (100 - 110F) water.
+* Dump water into mixing bowl.
+* Add **1 Tbsp** white sugar, and **1 package** of fast rising yeast.
+* Mix together.
+* Let sit for **5 minutes**.
+* Add **1 Tbsp** oil, a little salt, and previously measured bread flour.
+* Using paddle, mix until flour and water are just combined.
+* Let sit for **5 minutes**.
+* Switch to dough hook, scrape any dough off the paddle, and knead for **5 minutes** on low.
+* The dough should not be sticking to the sides at all when it's done kneading.
+* Scrape any remaining dough off the sides of the bowl, lightly grease the mixing bowl, coat the dough slightly, and cover to rise for at least **90 minutes**.
+* On a clean surface, put out flour or corn meal.
+* Press out your dough to desired shape, either with hands or rolling pin. It will be tough to work (at least in my experience).
+* Add pizza toppings.
+* Bake at 425F for 12 minutes.

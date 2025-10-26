@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-04-07">
+<meta name="dcterms.date" content="2025-10-26">
 
-<title>Carrot Cake Muffins – Flight Family Recipes</title>
+<title>Pizza Dough – Flight Family Recipes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,6 +72,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -291,11 +320,10 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Carrot Cake Muffins</h1>
-<p class="subtitle lead"></p><p>Like mini carrot cakes, so tender and delicious.</p><p></p>
+<h1 class="title">Pizza Dough</h1>
+<p class="subtitle lead"></p><p>Simple pizza dough. Great for pizza or calzones. Makes enough for a family of 5.</p><p></p>
   <div class="quarto-categories">
-    <div class="quarto-category">carrot</div>
-    <div class="quarto-category">muffin</div>
+    <div class="quarto-category">main-dish</div>
   </div>
   </div>
 
@@ -307,7 +335,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 7, 2024</p>
+      <p class="date">October 26, 2025</p>
     </div>
   </div>
   
@@ -322,36 +350,41 @@ ul.task-list li input[type="checkbox"] {
 <section id="ingredients" class="level2">
 <h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
 <ul>
-<li>2 1/2 cups flour</li>
-<li>1 cup white sugar</li>
-<li>1 tsp cinnamon</li>
-<li>1/2 tsp baking soda</li>
-<li>1 Tbsp baking powder</li>
-<li>3/4 cup vegetable oil</li>
-<li>1/2 cup brown sugar</li>
-<li>2 large eggs - at room temperature</li>
-<li>2 tsp vanilla extract</li>
-<li>2 cups finely grated carrots - not pre-shredded carrots, they should be freshly grated and <strong>dried</strong>.
-<ul>
-<li>Either the smallest holes on a box grater, or small short pieces using a hand grater.</li>
-</ul></li>
+<li>5 cups of bread flour, mix of all-purpose and bread, or just all-purpose flour.</li>
+<li>0.65 the weight of the flour of warm water.</li>
+<li>1 Tbsp white sugar.</li>
+<li>1 Tbsp oil (olive, canola, vegetable).</li>
+<li>Salt.</li>
+<li>1 package of fast rising yeast.</li>
+<li>Corn meal or flour for pressing out the dough.</li>
 </ul>
 </section>
-<section id="instructions" class="level2">
-<h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
 <ul>
-<li>Preheat oven to 375F degrees and line a muffin tin with paper or silicone cupcake liners (or grease well with cooking spray).</li>
-<li>In a medium bowl whisk together <strong>2 1/2 cups</strong> flour, <strong>1 cup</strong> sugar, <strong>1 tsp</strong> cinnamon, <strong>1/2 tsp</strong> baking soda, and <strong>1 Tbsp</strong> baking powder.</li>
-<li>In a large bowl combine <strong>1/2 cup</strong> oil, <strong>1/2 cup</strong> brown sugar, <strong>2</strong> eggs, and <strong>2 tsp</strong> vanilla and mix well.</li>
-<li>Stir in <strong>2 cups</strong> finely grated, dried carrots.</li>
-<li>Stir dry ingredients into wet ingredients with a spoon or otherwise by hand until completely incorporated.
+<li>Put a largish bowl on your kitchen scale, turn the scale to grams (g) and zero / tare it so the scale reads zero.</li>
+<li>Measure <strong>5 cups</strong> of bread flour into the bowl. Note the weight!</li>
+<li>Whatever the weight in grams of flour, multiply by <strong>0.65</strong> to get the amount of water you want.
 <ul>
-<li>You will wonder if it will all get incorporated. It will, trust me!</li>
+<li>For example, your flour weight was 600 grams, then you want <span class="math inline">\(600g \times 0.65 = 390g\)</span> of warm (100 - 110F) water.</li>
 </ul></li>
-<li>Fill muffin liners 2/3 full.</li>
-<li>Bake in preheated oven for 15-20 minutes until a toothpick inserted in the center of the muffins comes out clean. Cool for 5 minutes before transferring to a cooling rack to continue cooling.</li>
+<li>Get another bowl, zero / tare your scale.</li>
+<li>Add the required amount of warm (100 - 110F) water.</li>
+<li>Dump water into mixing bowl.</li>
+<li>Add <strong>1 Tbsp</strong> white sugar, and <strong>1 package</strong> of fast rising yeast.</li>
+<li>Mix together.</li>
+<li>Let sit for <strong>5 minutes</strong>.</li>
+<li>Add <strong>1 Tbsp</strong> oil, a little salt, and previously measured bread flour.</li>
+<li>Using paddle, mix until flour and water are just combined.</li>
+<li>Let sit for <strong>5 minutes</strong>.</li>
+<li>Switch to dough hook, scrape any dough off the paddle, and knead for <strong>5 minutes</strong> on low.</li>
+<li>The dough should not be sticking to the sides at all when it’s done kneading.</li>
+<li>Scrape any remaining dough off the sides of the bowl, lightly grease the mixing bowl, coat the dough slightly, and cover to rise for at least <strong>90 minutes</strong>.</li>
+<li>On a clean surface, put out flour or corn meal.</li>
+<li>Press out your dough to desired shape, either with hands or rolling pin. It will be tough to work (at least in my experience).</li>
+<li>Add pizza toppings.</li>
+<li>Bake at 425F for 12 minutes.</li>
 </ul>
-<p>Source: <a href="https://www.lecremedelacrumb.com/carrot-cake-muffins/">CremeDeLaCrumb</a></p>
 
 
 </section>

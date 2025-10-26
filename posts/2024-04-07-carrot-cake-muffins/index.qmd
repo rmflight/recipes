@@ -11,26 +11,27 @@ bibliography: refs.bib
 
 ## Ingredients
 
-* 1 1/2 cups flour
+* 2 1/2 cups flour
 * 1 cup white sugar
-* 1/2 tsp cinnamon
+* 1 tsp cinnamon
 * 1/2 tsp baking soda
-* 1/2 tsp baking powder
+* 1 Tbsp baking powder
 * 3/4 cup vegetable oil
 * 1/2 cup brown sugar
 * 2 large eggs - at room temperature
 * 2 tsp vanilla extract
-* 2 cups finely grated carrots - not pre-shredded carrots, they should be freshly grated
+* 2 cups finely grated carrots - not pre-shredded carrots, they should be freshly grated and **dried**.
   * Either the smallest holes on a box grater, or small short pieces using a hand grater.
 
 ## Instructions
 
-* Preheat oven to 350F degrees and line a muffin tin with paper or silicone cupcake liners (or grease well with cooking spray).
-* In a medium bowl whisk together **1 1/2 cups** flour, **1 cup** sugar, **1/2 tsp** cinnamon, **1/2 tsp** baking soda, and **1/2 tsp** baking powder.
+* Preheat oven to 375F degrees and line a muffin tin with paper or silicone cupcake liners (or grease well with cooking spray).
+* In a medium bowl whisk together **2 1/2 cups** flour, **1 cup** sugar, **1 tsp** cinnamon, **1/2 tsp** baking soda, and **1 Tbsp** baking powder.
 * In a large bowl combine **1/2 cup** oil, **1/2 cup** brown sugar, **2** eggs, and **2 tsp** vanilla and mix well. 
-* Stir in **2 cups** finely grated carrots.
-* Stir dry ingredients into wet ingredients until completely incorporated.
+* Stir in **2 cups** finely grated, dried carrots.
+* Stir dry ingredients into wet ingredients with a spoon or otherwise by hand until completely incorporated.
+  * You will wonder if it will all get incorporated. It will, trust me!
 * Fill muffin liners 2/3 full.
-* Bake in preheated oven for 20-22 minutes until a toothpick inserted in the center of the muffins comes out clean. Cool for 5 minutes before transferring to a cooling rack to continue cooling.
+* Bake in preheated oven for 15-20 minutes until a toothpick inserted in the center of the muffins comes out clean. Cool for 5 minutes before transferring to a cooling rack to continue cooling.
 
 Source: [CremeDeLaCrumb](https://www.lecremedelacrumb.com/carrot-cake-muffins/)
