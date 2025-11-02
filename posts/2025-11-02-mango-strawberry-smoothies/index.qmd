@@ -1,0 +1,21 @@
+---
+title: "Mango Strawberry Smoothies"
+subtitle: |
+  Simple, delicious smoothies.
+date: 2025-11-02
+categories: [breakfast, smoothie]
+editor_options:
+  chunk_output_type: console
+---
+
+## Ingredients
+
+* 1 1/2 cups milk
+* 1 cup greek yogurt
+* 1 cup frozen strawberry pieces
+* 1 cup frozen mango pieces
+
+## Directions
+
+* Add all ingredients to a blender, blend.
+* Makes two smoothies.
