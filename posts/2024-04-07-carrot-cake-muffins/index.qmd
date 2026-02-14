@@ -25,12 +25,13 @@ bibliography: refs.bib
 
 ## Instructions
 
-* Preheat oven to 375F degrees and line a muffin tin with paper or silicone cupcake liners (or grease well with cooking spray).
+* Prepare a muffin tin with liners or baking spray.
 * In a medium bowl whisk together **2 1/2 cups** flour, **1 cup** sugar, **1 tsp** cinnamon, **1/2 tsp** baking soda, and **1 Tbsp** baking powder.
 * In a large bowl combine **1/2 cup** oil, **1/2 cup** brown sugar, **2** eggs, and **2 tsp** vanilla and mix well. 
 * Stir in **2 cups** finely grated, dried carrots.
 * Stir dry ingredients into wet ingredients with a spoon or otherwise by hand until completely incorporated.
   * You will wonder if it will all get incorporated. It will, trust me!
+* Allow batter to rest for **15 minutes** while preheating oven to 375F.
 * Fill muffin liners 2/3 full.
 * Bake in preheated oven for 15-20 minutes until a toothpick inserted in the center of the muffins comes out clean. Cool for 5 minutes before transferring to a cooling rack to continue cooling.
 

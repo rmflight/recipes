@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.17">
+<meta name="generator" content="quarto-1.9.3">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -38,12 +38,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-c2d8198b7f72dec16de60f0cb3fab69f.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-e76fc4c0f9ca2daccef45edcbef1a50f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-6172778a27b0bfa6b3b3f65992e46a92.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-a8da2436bdc5181cb83f6cd557cd86c4.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-d5a19eb37fe245594552eaa76693556b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-f198056f30961038dcfad6b8e85e3448.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-ece4b5583a6e81d61d8324e0b8d9357d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-9728461b9aa55212ed34d66241c941be.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -344,13 +344,14 @@ ul.task-list li input[type="checkbox"] {
 <section id="directions" class="level2">
 <h2 class="anchored" data-anchor-id="directions">Directions</h2>
 <ul>
-<li>Preheat your oven to 350F and prepare a 12-cup muffin tin with paper liners or baking spray.</li>
+<li>Prepare a 12-cup muffin tin(s) with paper liners or baking spray.</li>
 <li>In a large bowl, whisk together the <a href="#dry">dry</a> ingredients.</li>
 <li>Into a large liquid measuring cup or bowl, add the <a href="#wet">wet</a> ingredients.</li>
 <li>Whisk together with a fork.</li>
 <li>Add the liquid ingredients into the dry, and mix everything together just until no streaks of flour remain.</li>
+<li>Allow batter to rest for <strong>15 minutes</strong> while preheating oven to 400F.</li>
 <li>Divide the batter evenly between the 12 muffin cups.</li>
-<li>Bake at 350F (175C) for about 23-25 minutes, or until a toothpick inserted into the center of one of the muffins comes out clean.</li>
+<li>Bake at 400F for about 10-12 minutes, or until a toothpick inserted into the center of one of the muffins comes out clean.</li>
 </ul>
 <p>Source: https://thebusybaker.ca/best-ever-double-chocolate-muffins/</p>
 
@@ -422,13 +423,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

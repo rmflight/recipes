@@ -29,11 +29,11 @@ editor_options:
 
 ## Directions
 
-* Preheat oven to 400F.
 * Grease or line a regular sized muffin tin.
 * Mix [wet](#wet) ingredients in a large bowl.
 * Mix [dry](#dry) ingredients in a smaller bowl.
 * Pour dry ingredients into wet, mix until just combined, add **1/2 cup** chocolate chips.
+* Allow batter to rest for **15 minutes** while preheating oven to 400F.
 * Scoop mix into 12 cup muffin tin.
 * Bake at **400F** for 20 - 25 minutes. Tops should spring back when pressed, toothpick should come out clean.
 

@@ -32,9 +32,11 @@ Bake at 400F for 20 - 25 min. Makes 24 muffins.
 
 ## Directions
 
-Mix dry ingredients, and then mix in wet. Fold in chopped apples. Prepare muffin tin with oil, butter, or liners. Spoon batter into muffin tin.
-
-Bake at 400F for 20 - 25 minutes, turning at 10 minutes.
+* Mix [dry](#dry) ingredients, and then mix in [wet](#wet). 
+* Fold in chopped apples. 
+* Allow batter to rest for **15 minutes** while preheating oven to 400F.
+* Prepare muffin tin with oil, butter, or liners. Spoon batter into muffin tin.
+* Bake at 400F for 20 - 25 minutes, turning at 10 minutes.
 
 ```{r}
 #| label: fig-muffins_24

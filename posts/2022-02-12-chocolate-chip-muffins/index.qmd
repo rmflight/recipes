@@ -23,7 +23,6 @@ categories:
 
 ## Directions
 
-* Preheat oven to 400F
 * Grease 12 muffin cups
 * In a large bowl, mix together:
   * **2 cups** flour
@@ -37,6 +36,7 @@ categories:
   * **1 tsp** vanilla
 * Make a well in the center of the dry ingredients, add the wet ingredients and stir until just combined.
 * Stir in chocolate chips.
+* Allow batter to rest for **15 minutes** while preheating oven to 400F.
 * Spoon batter into prepared muffin cups.
 * Bake for 15-20 minutes at 400F until center seems done or tops bounce when lightly touched.
 

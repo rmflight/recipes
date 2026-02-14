@@ -28,12 +28,13 @@ bibliography: refs.bib
 
 ## Directions
 
-* Preheat your oven to 350F and prepare a 12-cup muffin tin with paper liners or baking spray.
+* Prepare a 12-cup muffin tin(s) with paper liners or baking spray.
 * In a large bowl, whisk together the [dry](#dry) ingredients.
 * Into a large liquid measuring cup or bowl, add the [wet](#wet) ingredients.
 * Whisk together with a fork.
 * Add the liquid ingredients into the dry, and mix everything together just until no streaks of flour remain.
+* Allow batter to rest for **15 minutes** while preheating oven to 400F.
 * Divide the batter evenly between the 12 muffin cups.
-* Bake at 350F (175C) for about 23-25 minutes, or until a toothpick inserted into the center of one of the muffins comes out clean.
+* Bake at 400F for about 10-12 minutes, or until a toothpick inserted into the center of one of the muffins comes out clean.
 
 Source: https://thebusybaker.ca/best-ever-double-chocolate-muffins/
