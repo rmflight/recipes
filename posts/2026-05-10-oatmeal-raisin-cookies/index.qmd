@@ -1,0 +1,36 @@
+---
+title: "Oatmeal Raisin Cookies"
+subtitle: |
+  Simple, chewy, tasty cookies.
+date: 2026-05-10
+categories: [cookies]
+editor_options:
+  chunk_output_type: console
+---
+
+## Ingredients
+
+### Wet
+
+* 1 cup of butter (two sticks), room temperature;
+* 1 cup packed brown sugar;
+* 1/2 cup white sugar;
+* 2 eggs, room temperature;
+* 1 tsp vanilla
+
+### Dry
+
+* 1 1/2 cups flour;
+* 1 tsp baking soda;
+* 1 tsp cinnamon;
+* 3 cups oats (quick or old fashioned);
+* 1 cup raisins.
+
+## Directions
+
+* Preheat oven to 350 F;
+* Cream together **1 cup** butter, **1 cup** brown sugar, **1/2 cup** white sugar;
+* Add **2** eggs and **1 tsp** vanilla, beat until combined;
+* In another bowl, combine the **1 1/2 cups** flour, **1 tsp** baking soday, and **1 tsp** cinnamon, and then mix into the wet ingredients;
+* Stir in **3 cups** oats, and then finally the **1 cup** of raisins.
+* Drop onto a lined cookie sheet, and bake at **350 F** for 10 - 12 minutes until golden brown.
