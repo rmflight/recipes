@@ -1,0 +1,24 @@
+---
+title: "BBQ Chicken Nachos"
+subtitle: |
+  Jut a simple set of nachos with some extra protein.
+date: 2026-08-01
+categories: [side-dish]
+editor_options:
+  chunk_output_type: console
+bibliography: refs.bib
+---
+
+## Ingredients
+
+* 1 cup of shredded or chopped chicken breast in your favorite bbq sauce
+* Nacho chips or tortilla chips, enough to cover a pan
+* BBQ sauce
+* Cheddar cheese
+
+## Directions
+
+* Put a layer of chips down on a sheet pan or cookie sheet, probably on parchment paper or aluminum foil
+* Put your chicken over the chips
+* Drizzle BBQ sauce on top of the chicken and chips
+* Finally, shred some cheddar cheese over that. You typically don't want as much cheese as you might use for regular nachos.

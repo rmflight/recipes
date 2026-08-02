@@ -1,0 +1,38 @@
+---
+title: "Red Rice with Corn"
+subtitle: |
+  Easy red rice with corn.
+date: 2026-08-01
+categories: [main-dish, vegetarian]
+editor_options:
+  chunk_output_type: console
+bibliography: refs.bib
+---
+
+## Ingredients
+
+* 2 Tbsp of neutral oil (vegetable, canola, etc)
+* 1 lb of rinsed white rice
+* 1 yellow onion, chopped fine
+* 4 cloves of garlic (4 tsp jarlic)
+* 1 large carrot, diced fine or shredded
+* 8 oz of canned corn (or 1/2 normal sized can of corn (15 oz))
+* 8 oz of tomato sauce
+* 4 cups of vegetable or chicken broth
+* 1 Tbsp of chicken bullion powder
+* cilantro
+
+## Directions
+
+* Finely chop the yellow onion
+* Add the **2 Tbsp** of neutral oil to a warmish pain
+* Add the onion and **4 cloves** of garlic in a pan, until translucent
+* Add **1 lb** of rinsed white rice and toast slightly, 5 to 10 min
+* Add the **8 oz** of tomato sauce
+* Add **3 - 4 cups** of vegetable broth
+* Add **1 Tbsp** chicken bullion powder
+* Add finely diced or shredded carrots and **8 oz** of corn on top
+* Sprinkle with dried or fresh cilantro
+* Cover, allow it to come to a boil, and then cook on low for 20 minutes
+
+Source: [Ian Fujimoto](https://ianfujimoto.substack.com/p/how-to-feed-your-family-on-a-budget)
