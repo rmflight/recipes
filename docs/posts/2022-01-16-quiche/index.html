@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.17">
+<meta name="generator" content="quarto-1.9.3">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -39,12 +39,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-c2d8198b7f72dec16de60f0cb3fab69f.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-e76fc4c0f9ca2daccef45edcbef1a50f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-6172778a27b0bfa6b3b3f65992e46a92.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-a8da2436bdc5181cb83f6cd557cd86c4.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-d5a19eb37fe245594552eaa76693556b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-f198056f30961038dcfad6b8e85e3448.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-ece4b5583a6e81d61d8324e0b8d9357d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-9728461b9aa55212ed34d66241c941be.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -331,8 +331,8 @@ ul.task-list li input[type="checkbox"] {
 <li>3/4 cup of milk</li>
 <li>dash of dried dill</li>
 <li>pepper</li>
-<li>3/4 cup shredded cheddar cheese</li>
-<li>1/2 of a ham steak, cubed</li>
+<li>1/4 cup shredded cheddar cheese</li>
+<li>3 - 4 slices of cooked bacon, chopped small</li>
 </ul>
 </section>
 <section id="directions" class="level2">
@@ -342,17 +342,13 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Break <strong>6</strong> large eggs into a large bowl and scramble well.</p></li>
 <li><p>Add <strong>3/4 cup</strong> milk to eggs and mix thoroughly.</p></li>
 <li><p>Add <strong>dashes</strong> of dried dill and ground black pepper.</p></li>
-<li><p>Shred <strong>3/4</strong> cup of cheddar cheese and add to egg mixture.</p></li>
-<li><p>Cube <strong>1/2</strong> of a ham steak and add to mixture.</p></li>
-<li><p>Put pie crust into a 9” pie dish, pour egg mixture in.</p></li>
-<li><p>Wrap edges of pie crust with aluminum foil to avoid burning.</p></li>
+<li><p>Pour egg mixture into pie crust.</p></li>
+<li><p>Drop your chopped bacon into the egg mixture.</p></li>
+<li><p>Shred <strong>1/4</strong> cup of cheddar cheese and drop into 1/2 of the egg mixture.</p></li>
 <li><p>Bake at 375F for 35 - 45 minutes.</p></li>
 <li><p>Quiche is done when middle is set and stops jiggling.</p></li>
 </ul>
-</section>
-<section id="nutritional-information" class="level2">
-<h2 class="anchored" data-anchor-id="nutritional-information">Nutritional Information</h2>
-<p>2440 kCal for the whole quiche, and we get 10 slices out of it, so 250 kCal / serving.</p>
+<p><strong>Note:</strong> this is how I prepare a quiche in our 2/5 lactose intolerant family, where we add cheese to only 1/2 of the quiche so they can eat the portion with just bacon.</p>
 
 
 </section>
@@ -422,13 +418,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
