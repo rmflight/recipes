@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.17">
+<meta name="generator" content="quarto-1.9.3">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -39,12 +39,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-c2d8198b7f72dec16de60f0cb3fab69f.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-e76fc4c0f9ca2daccef45edcbef1a50f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-6172778a27b0bfa6b3b3f65992e46a92.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-a8da2436bdc5181cb83f6cd557cd86c4.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-d5a19eb37fe245594552eaa76693556b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-f198056f30961038dcfad6b8e85e3448.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-ece4b5583a6e81d61d8324e0b8d9357d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-9728461b9aa55212ed34d66241c941be.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -330,11 +330,11 @@ ul.task-list li input[type="checkbox"] {
 <section id="ingredients" class="level2">
 <h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
 <ul>
+<li>two ripe bananas, mashed (about 1 cup)</li>
 <li>2 1/4 cups oats</li>
 <li>1/2 cup all-purpose flour</li>
 <li>1/2 tsp baking powder</li>
-<li>1/2 tsp cinnamon</li>
-<li>1 cup ripe mashed banana</li>
+<li>1 tsp cinnamon</li>
 <li>1/2 cup honey</li>
 <li>1 cup raisins or chocolate chips</li>
 </ul>
@@ -344,8 +344,10 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><p>Preheat oven to 350 F.</p></li>
 <li><p>Grease a 8x11 or 9x9 baking pan.</p></li>
-<li><p>Whisk together <strong>2 1/4 cups</strong> oats, <strong>1/2 cup</strong> flour, <strong>1/2 tsp</strong> baking powder and <strong>1/2 tsp</strong> cinnamon.</p></li>
-<li><p>Add <strong>1 cup</strong> mashed banana and <strong>1/2 cup</strong> honey to oat mixture and stir until combined, stir in the <strong>1 cup</strong> chocolate chips or raisins.</p></li>
+<li><p>Mash <strong>two</strong> bananas (about 1 cup) with a fork in the bottom of your mixing bowl.</p></li>
+<li><p>Directly on top of the mashed banana, dump in <strong>2 1/4 cups</strong> oats, <strong>1/2 cup</strong> flour, <strong>1/2 tsp</strong> baking powder and <strong>1 tsp</strong> cinnamon.</p></li>
+<li><p>Gently mix the dry ingredients together without mixing them into the banana.</p></li>
+<li><p>Add <strong>1/2 cup</strong> honey to oat mixture and stir until combined, stir in the <strong>1 cup</strong> chocolate chips or raisins.</p></li>
 <li><p>Scoop into the pan, and compress, smoothing out the top.</p></li>
 <li><p>Bake 25-30 minutes, or until top of the bars are firm and golden brown.</p></li>
 <li><p>Let cool, cut into squares. Store in the fridge or freezer.</p></li>
@@ -354,7 +356,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="nutritional-information" class="level2">
 <h2 class="anchored" data-anchor-id="nutritional-information">Nutritional Information</h2>
-<p>3000 kCal for ingredients, and then 15 servings / pan is 200 kCal / serving.</p>
+<p>3000 kCal for ingredients, and then 10 servings / pan is 300 kCal / serving.</p>
 
 
 </section>
@@ -424,13 +426,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
